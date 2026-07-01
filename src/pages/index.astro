@@ -1,8 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import Container from '../components/Container.astro';
-import SiteFooter from '../components/SiteFooter.astro';
 
 const all = await getCollection('projects', ({ data }) => !data.draft);
 
@@ -23,58 +21,77 @@ const years = Object.keys(grouped)
 ---
 
 <Base title="hi · fangs">
-  <main>
-    {/* Hero */}
-    <section class="pt-40 pb-24">
-      <Container>
-        <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 0.5em;">
-          你好。
-        </h1>
-        <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1.5em; animation-delay: 80ms;">
-          我是 fangs。
-        </h1>
-        <p class="fade-up text-ink-muted" style="font-size: var(--text-lg); animation-delay: 160ms;">
-          一个写程序的人，<br />最近在用 AI 做一些项目。
-        </p>
-      </Container>
-    </section>
+  <main class="min-h-[100dvh] flex items-center">
+    <div class="mx-auto w-full max-w-[1080px] px-6 md:px-12 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-x-16 gap-y-12">
 
-    {/* 项目区 */}
-    <section class="pt-12 pb-24">
-      <Container>
-        <div class="label mb-16">— 项目 —</div>
+        {/* 左：介绍 */}
+        <section class="fade-up">
+          <h1 style="font-size: var(--text-2xl); margin-bottom: 0.4em;">
+            你好。
+          </h1>
+          <h1 style="font-size: var(--text-2xl); margin-bottom: 1.2em;">
+            我是 fangs。
+          </h1>
+          <p class="text-ink-muted" style="font-size: var(--text-lg);">
+            一个写程序的人，<br />最近在用 AI 做一些项目。
+          </p>
 
-        {years.map((year, yi) => (
-          <div class="mb-16">
-            <div class="meta mb-8">{year}</div>
-
-            <div class="space-y-12">
-              {grouped[year].map((project, pi) => (
-                <a
-                  href={`/projects/${project.id}/`}
-                  class="project-card fade-up"
-                  style={`animation-delay: ${240 + (yi * 100) + (pi * 60)}ms`}
-                >
-                  <h2
-                    class="project-title"
-                    style="font-size: var(--text-xl); margin-bottom: 0.5rem;"
-                  >
-                    {project.data.title}
-                  </h2>
-                  <p class="text-ink-muted mb-3" style="font-size: var(--text-base);">
-                    {project.data.subtitle}
-                  </p>
-                  <div class="meta">
-                    {project.data.stack.join(' · ')} · {project.data.status}
-                  </div>
-                </a>
-              ))}
-            </div>
+          <div class="mt-12 flex gap-6 meta">
+            <a
+              href="https://github.com/imfangs"
+              class="hover:text-accent transition-colors duration-200"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github
+            </a>
+            <a
+              href="mailto:mafangshuai@126.com"
+              class="hover:text-accent transition-colors duration-200"
+            >
+              email
+            </a>
           </div>
-        ))}
-      </Container>
-    </section>
+        </section>
 
-    <SiteFooter />
+        {/* 右：项目列表 */}
+        <section class="fade-up" style="animation-delay: 120ms;">
+          <div class="label mb-6">项目</div>
+
+          {years.map((year) => (
+            <div class="mb-6">
+              <div class="meta mb-3">{year}</div>
+              <ul class="space-y-4">
+                {grouped[year].map((project) => (
+                  <li>
+                    <a
+                      href={`/projects/${project.id}/`}
+                      class="project-card block"
+                    >
+                      <div class="flex items-baseline gap-3">
+                        <span
+                          class="project-title shrink-0"
+                          style="font-size: var(--text-lg); font-weight: 600;"
+                        >
+                          {project.data.title}
+                        </span>
+                        <span class="text-ink-muted truncate" style="font-size: var(--text-sm);">
+                          {project.data.subtitle}
+                        </span>
+                      </div>
+                      <div class="meta mt-1">
+                        {project.data.stack.slice(0, 3).join(' · ')} · {project.data.status}
+                      </div>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+
+      </div>
+    </div>
   </main>
 </Base>
