@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="儿童英语合成游戏，让孩子在拖拽中学会拼词。"><meta name="generator" content="Astro v5.18.2"><link rel="canonical" href="https://hi.fangs.cc/projects/lehh/"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>lehh · hi · fangs</title><meta property="og:type" content="website"><meta property="og:title" content="lehh · hi · fangs"><meta property="og:description" content="儿童英语合成游戏，让孩子在拖拽中学会拼词。"><meta property="og:url" content="https://hi.fangs.cc/projects/lehh/"><script>
+      // 暗色模式：跟系统，无切换按钮，纯粹响应 prefers-color-scheme
+      const setTheme = () => {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      };
+      setTheme();
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
+    </script><link rel="stylesheet" href="/_astro/index.D5x7Zw-z.css"></head> <body>  <main> <article class="pt-16 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <a href="/" class="meta hover:text-accent transition-colors duration-200 inline-block mb-24">
+← 返回
+</a> <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1rem;"> lehh </h1> <p class="fade-up text-ink-muted" style="font-size: var(--text-lg); margin-bottom: 3rem; animation-delay: 80ms;"> 儿童英语合成游戏，让孩子在拖拽中学会拼词。 </p> <hr class="border-rule fade-up" style="animation-delay: 160ms; margin: 0 0 1.5rem;"> <div class="fade-up meta flex flex-wrap gap-x-4 gap-y-2 mb-6" style="animation-delay: 200ms;"> <span>2026</span> <span class="text-ink-muted">生产中</span> <span>Next.js 16 · Framer Motion · Vercel</span> </div> <div class="prose fade-up" style="animation-delay: 320ms;"> <h2 id="为什么做">为什么做</h2>
+<p>市面上的儿童英语 App 大多是闪卡和点读，孩子点几下就走神。我想试试另一种路径：把单词变成可以「合成」的零件，让孩子在拖拽过程中把字母和音节的关系内化下来。</p>
+<h2 id="怎么实现">怎么实现</h2>
+<ul>
+<li>用 Framer Motion 做拖拽和合成动画，物理感比 CSS transition 强一个量级</li>
+<li>Next.js 16 的 App Router + Cache Components，关卡数据走静态生成</li>
+<li>音频用 Web Audio API 而不是 <code>&lt;audio&gt;</code>，能精确触发音节高亮</li>
+</ul>
+<h2 id="学到了什么">学到了什么</h2>
+<p>孩子对「失败」的反馈比对「成功」更敏感。早期版本拖错位置直接 shake + 红色提示，测试时孩子第二次就不玩了。改成「零件温柔地飘回原位 + 没有任何负面反馈」之后留存翻倍。</p>
+<p>设计要服从用户的情绪曲线，不是技术上的「正确」。</p> </div>  </div> </article> <footer class="pt-40 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <div class="text-ink-faint mb-6">—</div> <div class="flex gap-6 meta"> <a href="https://github.com/fangs" class="hover:text-accent transition-colors duration-200" target="_blank" rel="noopener noreferrer">
+github
+</a> <a href="mailto:hi@fangs.cc" class="hover:text-accent transition-colors duration-200">
+email
+</a> </div>  </div> </footer> </main>  </body></html>

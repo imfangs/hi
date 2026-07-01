@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="酒店运营 AI 数字员工，自动处理 OTA 后台的重复工作。"><meta name="generator" content="Astro v5.18.2"><link rel="canonical" href="https://hi.fangs.cc/projects/qiyuclone/"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>qiyuclone · hi · fangs</title><meta property="og:type" content="website"><meta property="og:title" content="qiyuclone · hi · fangs"><meta property="og:description" content="酒店运营 AI 数字员工，自动处理 OTA 后台的重复工作。"><meta property="og:url" content="https://hi.fangs.cc/projects/qiyuclone/"><script>
+      // 暗色模式：跟系统，无切换按钮，纯粹响应 prefers-color-scheme
+      const setTheme = () => {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      };
+      setTheme();
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
+    </script><link rel="stylesheet" href="/_astro/index.D5x7Zw-z.css"></head> <body>  <main> <article class="pt-16 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <a href="/" class="meta hover:text-accent transition-colors duration-200 inline-block mb-24">
+← 返回
+</a> <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1rem;"> qiyuclone </h1> <p class="fade-up text-ink-muted" style="font-size: var(--text-lg); margin-bottom: 3rem; animation-delay: 80ms;"> 酒店运营 AI 数字员工，自动处理 OTA 后台的重复工作。 </p> <hr class="border-rule fade-up" style="animation-delay: 160ms; margin: 0 0 1.5rem;"> <div class="fade-up meta flex flex-wrap gap-x-4 gap-y-2 mb-6" style="animation-delay: 200ms;"> <span>2026</span> <span class="text-ink-muted">内测中</span> <span>Next.js · Mastra · Supabase · Chrome Extension</span> </div> <div class="prose fade-up" style="animation-delay: 320ms;"> <h2 id="为什么做">为什么做</h2>
+<p>和合伙人聊出来的方向。酒店运营人员每天有大量时间花在切换 OTA 后台、回复差评、调价、改房态上。这些工作不复杂，但碎、烦、易错。AI Agent 可以把这一层接过去。</p>
+<h2 id="怎么实现">怎么实现</h2>
+<ul>
+<li>Mastra 编排 agent workflow，单个员工拆成「巡检 → 决策 → 执行」三段</li>
+<li>Chrome Extension 注入 OTA 后台页面，让 agent 用真实浏览器操作而不是 API（很多 OTA 没开放 API）</li>
+<li>Supabase 存运营 SOP，让客户自己能配置「遇到 X 情况做 Y」</li>
+<li>Next.js 后台给运营经理看 agent 工作日志</li>
+</ul>
+<h2 id="学到了什么">学到了什么</h2>
+<p>「数字员工」这个比喻不只是营销话术，是产品设计的核心。当客户把 agent 当员工而不是工具时，他们愿意付的钱、容忍的错误率、给的反馈深度都不一样。</p>
+<p>把 AI 包装成员工，比包装成 SaaS 工具更接近真实价值。</p> </div>  </div> </article> <footer class="pt-40 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <div class="text-ink-faint mb-6">—</div> <div class="flex gap-6 meta"> <a href="https://github.com/fangs" class="hover:text-accent transition-colors duration-200" target="_blank" rel="noopener noreferrer">
+github
+</a> <a href="mailto:hi@fangs.cc" class="hover:text-accent transition-colors duration-200">
+email
+</a> </div>  </div> </footer> </main>  </body></html>
