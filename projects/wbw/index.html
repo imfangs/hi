@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Wait But Why 中译站，把 Tim Urban 的长文抓下来翻成中文，自用阅读。"><meta name="generator" content="Astro v5.18.2"><link rel="canonical" href="https://hi.fangs.cc/projects/wbw/"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>wbw · hi · fangs</title><meta property="og:type" content="website"><meta property="og:title" content="wbw · hi · fangs"><meta property="og:description" content="Wait But Why 中译站，把 Tim Urban 的长文抓下来翻成中文，自用阅读。"><meta property="og:url" content="https://hi.fangs.cc/projects/wbw/"><script>
+      // 暗色模式：跟系统，无切换按钮，纯粹响应 prefers-color-scheme
+      const setTheme = () => {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      };
+      setTheme();
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
+    </script><link rel="stylesheet" href="/_astro/index.DZPlo-_s.css"></head> <body>  <main> <article class="pt-16 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <a href="/" class="meta hover:text-accent transition-colors duration-200 inline-block mb-24">
+← 返回
+</a> <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1rem;"> wbw </h1> <p class="fade-up text-ink-muted" style="font-size: var(--text-lg); margin-bottom: 3rem; animation-delay: 80ms;"> Wait But Why 中译站，把 Tim Urban 的长文抓下来翻成中文，自用阅读。 </p> <hr class="border-rule fade-up" style="animation-delay: 160ms; margin: 0 0 1.5rem;"> <div class="fade-up meta flex flex-wrap gap-x-4 gap-y-2 mb-6" style="animation-delay: 200ms;"> <span>2026</span> <span class="text-ink-muted">生产中</span> <span>VitePress · TypeScript · cheerio · Claude Opus 4.7</span> </div> <div class="fade-up flex gap-4 mb-12" style="animation-delay: 240ms;"> <a href="https://wbw.fangs.cc" target="_blank" rel="noopener noreferrer" class="text-ink hover:text-accent transition-colors duration-200" style="text-decoration: underline; text-underline-offset: 6px; text-decoration-color: var(--color-ink-faint);"> 访问 → </a> </div><div class="prose fade-up" style="animation-delay: 320ms;"> <h2 id="为什么做">为什么做</h2>
+<p>Tim Urban 的长文是我最喜欢的英文写作之一，但每次读完一篇要花两小时，中间还得停下来查词、切窗口。市面上零散的中译版本要么翻得像论文、要么只翻了热门几篇。想给自己攒一个能沉浸阅读的中文版本，顺便看看 Claude 4.7 能把这种带口语、破折号、括号吐槽的风格翻到什么程度。</p>
+<h2 id="怎么实现">怎么实现</h2>
+<ul>
+<li><code>scrape.ts</code>：cheerio 解析 WBW 页面，turndown 转 Markdown，图片下到本地</li>
+<li><code>translate.ts</code>：分块喂给 Claude Opus 4.7，system prompt 里锁死”保 Tim 的语气 / 段落数对齐 / 专有名词首次出现带英文原文”</li>
+<li><code>build-post.ts</code> 一条命令编排：抓 → 翻 → 写 md → 重建 sidebar</li>
+<li>英文原文和 meta 缓存在 <code>.cache/</code>，改 prompt 重翻不用重新抓页面和图</li>
+<li>VitePress 静态输出，深色阅读器风格，橙色 accent</li>
+</ul>
+<h2 id="学到了什么">学到了什么</h2>
+<p>翻译的瓶颈不在模型能力，在 prompt 的约束密度。早期版本让 Claude “自然翻译”，出来的东西全是”综上所述”、“值得注意的是”这种学术腔，Tim 的碎嘴子全没了。改成显式列 7 条硬约束（结构 1:1 / 保口语 / 段落数对齐 / ……）之后风格立刻回来了。</p>
+<p>另一个反直觉的点：翻译长文不要一次性喂完。分块之后每块单独翻，反而比整篇喂给大 context 的效果更稳定 —— 大概是因为每块都能拿到”完整的注意力预算”。</p> </div>  </div> </article> <footer class="pt-40 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <div class="text-ink-faint mb-6">—</div> <div class="flex gap-6 meta"> <a href="https://github.com/fangs" class="hover:text-accent transition-colors duration-200" target="_blank" rel="noopener noreferrer">
+github
+</a> <a href="mailto:hi@fangs.cc" class="hover:text-accent transition-colors duration-200">
+email
+</a> </div>  </div> </footer> </main>  </body></html>
