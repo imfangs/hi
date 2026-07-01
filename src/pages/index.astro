@@ -1,0 +1,80 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Container from '../components/Container.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+const all = await getCollection('projects', ({ data }) => !data.draft);
+
+// 按年份倒序、年份内按 order 升序
+const sorted = all.sort((a, b) => {
+  if (b.data.year !== a.data.year) return b.data.year - a.data.year;
+  return (a.data.order ?? 999) - (b.data.order ?? 999);
+});
+
+const grouped = sorted.reduce<Record<number, typeof sorted>>((acc, p) => {
+  (acc[p.data.year] ??= []).push(p);
+  return acc;
+}, {});
+
+const years = Object.keys(grouped)
+  .map(Number)
+  .sort((a, b) => b - a);
+---
+
+<Base title="hi · fangs">
+  <main>
+    {/* Hero */}
+    <section class="pt-40 pb-24">
+      <Container>
+        <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 0.5em;">
+          你好。
+        </h1>
+        <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1.5em; animation-delay: 80ms;">
+          我是 fangs。
+        </h1>
+        <p class="fade-up text-ink-muted" style="font-size: var(--text-lg); animation-delay: 160ms;">
+          一个写程序的人，<br />最近在用 AI 做一些项目。
+        </p>
+      </Container>
+    </section>
+
+    {/* 项目区 */}
+    <section class="pt-12 pb-24">
+      <Container>
+        <div class="label mb-16">— 项目 —</div>
+
+        {years.map((year, yi) => (
+          <div class="mb-16">
+            <div class="meta mb-8">{year}</div>
+
+            <div class="space-y-12">
+              {grouped[year].map((project, pi) => (
+                <a
+                  href={`/projects/${project.id}/`}
+                  class="project-card fade-up"
+                  style={`animation-delay: ${240 + (yi * 100) + (pi * 60)}ms`}
+                >
+                  <h2
+                    class="project-title"
+                    style="font-size: var(--text-xl); margin-bottom: 0.5rem;"
+                  >
+                    {project.data.title}
+                  </h2>
+                  <p class="text-ink-muted mb-3" style="font-size: var(--text-base);">
+                    {project.data.subtitle}
+                  </p>
+                  <div class="meta">
+                    {project.data.stack.join(' · ')} · {project.data.status}
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </Container>
+    </section>
+
+    <SiteFooter />
+  </main>
+</Base>

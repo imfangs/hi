@@ -1,0 +1,73 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Container from '../../components/Container.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects', ({ data }) => !data.draft);
+  return projects.map((project) => ({
+    params: { slug: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+---
+
+<Base title={`${project.data.title} · hi · fangs`} description={project.data.subtitle}>
+  <main>
+    <article class="pt-16 pb-24">
+      <Container>
+        <a
+          href="/"
+          class="meta hover:text-accent transition-colors duration-200 inline-block mb-24"
+        >
+          ← 返回
+        </a>
+
+        <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1rem;">
+          {project.data.title}
+        </h1>
+
+        <p
+          class="fade-up text-ink-muted"
+          style="font-size: var(--text-lg); margin-bottom: 3rem; animation-delay: 80ms;"
+        >
+          {project.data.subtitle}
+        </p>
+
+        <hr class="border-rule fade-up" style="animation-delay: 160ms; margin: 0 0 1.5rem;" />
+
+        <div class="fade-up meta flex flex-wrap gap-x-4 gap-y-2 mb-6" style="animation-delay: 200ms;">
+          <span>{project.data.year}</span>
+          <span class="text-ink-muted">{project.data.status}</span>
+          <span>{project.data.stack.join(' · ')}</span>
+        </div>
+
+        {project.data.links && project.data.links.length > 0 && (
+          <div class="fade-up flex gap-4 mb-12" style="animation-delay: 240ms;">
+            {project.data.links.map((link, i) => (
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-ink hover:text-accent transition-colors duration-200"
+                style="text-decoration: underline; text-underline-offset: 6px; text-decoration-color: var(--color-ink-faint);"
+              >
+                {link.label} {i === 0 ? '→' : ''}
+              </a>
+            ))}
+          </div>
+        )}
+
+        <div class="prose fade-up" style="animation-delay: 320ms;">
+          <Content />
+        </div>
+      </Container>
+    </article>
+
+    <SiteFooter />
+  </main>
+</Base>

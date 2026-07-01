@@ -1,0 +1,252 @@
+/* ============================================================
+   字体
+   思源宋体（中文衬线）+ Geist / Geist Mono（英文 + 等宽）
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+/* ============================================================
+   设计 token — Tailwind 4 用 @theme 暴露成 utility
+   ============================================================ */
+@theme {
+  --font-serif: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', serif;
+  --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 17px;
+  --text-lg: 20px;
+  --text-xl: 28px;
+  --text-2xl: 40px;
+  --text-3xl: 64px;
+
+  /* 浅色（默认） */
+  --color-bg: #FAFAF7;
+  --color-surface: #F2F1EC;
+  --color-ink: #1A1A1A;
+  --color-ink-muted: #6B6B6B;
+  --color-ink-faint: #B5B5B0;
+  --color-accent: #B8451F;
+  --color-rule: #E8E7E2;
+}
+
+/* 暗色模式 — 用 .dark 类切换 */
+.dark {
+  --color-bg: #131312;
+  --color-surface: #1C1C1A;
+  --color-ink: #E8E7E2;
+  --color-ink-muted: #8A8A85;
+  --color-ink-faint: #3F3F3C;
+  --color-accent: #D97757;
+  --color-rule: #2A2A28;
+}
+
+/* ============================================================
+   全局基础样式
+   ============================================================ */
+@layer base {
+  html {
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    font-size: 17px;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    min-height: 100dvh;
+  }
+
+  /* 标题：思源宋体 + 加粗 + 紧凑行高 */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.04em;
+    color: var(--color-ink);
+  }
+
+  /* MDX 详情页正文样式 */
+  .prose h2 {
+    font-size: var(--text-xl);
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .prose h3 {
+    font-size: var(--text-lg);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .prose p {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: var(--color-ink);
+  }
+
+  .prose ul, .prose ol {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .prose ul {
+    list-style: none;
+  }
+
+  .prose ul li {
+    position: relative;
+  }
+
+  .prose ul li::before {
+    content: '—';
+    position: absolute;
+    left: -1.5rem;
+    color: var(--color-ink-faint);
+  }
+
+  .prose ol {
+    list-style: decimal;
+  }
+
+  .prose li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .prose a {
+    color: var(--color-ink);
+    text-decoration: underline;
+    text-decoration-color: var(--color-ink-faint);
+    text-underline-offset: 4px;
+    transition: color 200ms ease, text-decoration-color 200ms ease;
+  }
+
+  .prose a:hover {
+    color: var(--color-accent);
+    text-decoration-color: var(--color-accent);
+  }
+
+  .prose code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background: var(--color-surface);
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  .prose pre {
+    font-family: var(--font-mono);
+    background: var(--color-surface);
+    padding: 1.25rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .prose pre code {
+    background: transparent;
+    padding: 0;
+  }
+
+  .prose blockquote {
+    border-left: 2px solid var(--color-rule);
+    padding-left: 1.25rem;
+    margin: 1.5rem 0;
+    color: var(--color-ink-muted);
+    font-style: italic;
+  }
+
+  .prose hr {
+    border: none;
+    border-top: 1px solid var(--color-rule);
+    margin: 3rem 0;
+  }
+
+  .prose strong {
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+
+  /* 英文段落用 Geist */
+  .prose :lang(en) {
+    font-family: var(--font-sans);
+  }
+}
+
+/* ============================================================
+   可复用 utility
+   ============================================================ */
+.text-ink { color: var(--color-ink); }
+.text-ink-muted { color: var(--color-ink-muted); }
+.text-ink-faint { color: var(--color-ink-faint); }
+.text-accent { color: var(--color-accent); }
+.bg-bg { background: var(--color-bg); }
+.bg-surface { background: var(--color-surface); }
+.border-rule { border-color: var(--color-rule); }
+
+/* 全大写英文标签 */
+.label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+}
+
+/* 等宽元数据 */
+.meta {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--color-ink-faint);
+}
+
+/* 项目卡 hover 动效 */
+.project-card {
+  display: block;
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-card:hover {
+  transform: translateX(4px);
+}
+
+.project-card:hover .project-title {
+  color: var(--color-accent);
+}
+
+.project-title {
+  transition: color 200ms ease;
+}
+
+/* 入场动画 */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 400ms cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+/* 选区颜色 */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}

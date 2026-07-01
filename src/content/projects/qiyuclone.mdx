@@ -1,0 +1,29 @@
+---
+title: qiyuclone
+subtitle: 酒店运营 AI 数字员工，自动处理 OTA 后台的重复工作。
+year: 2026
+status: 内测中
+stack:
+  - Next.js
+  - Mastra
+  - Supabase
+  - Chrome Extension
+order: 2
+---
+
+## 为什么做
+
+和合伙人聊出来的方向。酒店运营人员每天有大量时间花在切换 OTA 后台、回复差评、调价、改房态上。这些工作不复杂，但碎、烦、易错。AI Agent 可以把这一层接过去。
+
+## 怎么实现
+
+- Mastra 编排 agent workflow，单个员工拆成「巡检 → 决策 → 执行」三段
+- Chrome Extension 注入 OTA 后台页面，让 agent 用真实浏览器操作而不是 API（很多 OTA 没开放 API）
+- Supabase 存运营 SOP，让客户自己能配置「遇到 X 情况做 Y」
+- Next.js 后台给运营经理看 agent 工作日志
+
+## 学到了什么
+
+「数字员工」这个比喻不只是营销话术，是产品设计的核心。当客户把 agent 当员工而不是工具时，他们愿意付的钱、容忍的错误率、给的反馈深度都不一样。
+
+把 AI 包装成员工，比包装成 SaaS 工具更接近真实价值。
