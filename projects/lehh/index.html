@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="儿童英语合成游戏，让孩子在拖拽中学会拼词。"><meta name="generator" content="Astro v5.18.2"><link rel="canonical" href="https://hi.fangs.cc/projects/lehh/"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>lehh · hi · fangs</title><meta property="og:type" content="website"><meta property="og:title" content="lehh · hi · fangs"><meta property="og:description" content="儿童英语合成游戏，让孩子在拖拽中学会拼词。"><meta property="og:url" content="https://hi.fangs.cc/projects/lehh/"><script>
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="把两个单词放在一起，发现一个新词。"><meta name="generator" content="Astro v5.18.2"><link rel="canonical" href="https://hi.fangs.cc/projects/lehh/"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>单词合合乐 · hi · fangs</title><meta property="og:type" content="website"><meta property="og:title" content="单词合合乐 · hi · fangs"><meta property="og:description" content="把两个单词放在一起，发现一个新词。"><meta property="og:url" content="https://hi.fangs.cc/projects/lehh/"><meta property="og:image" content="https://hi.fangs.cc/images/projects/lehh.webp"><meta property="og:image:alt" content="单词合合乐的合成发现与词汇图鉴界面"><meta name="twitter:card" content="summary_large_image"><script>
       // 暗色模式：跟系统，无切换按钮，纯粹响应 prefers-color-scheme
       const setTheme = () => {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -9,20 +9,17 @@
       };
       setTheme();
       window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
-    </script><link rel="stylesheet" href="/_astro/index.DZPlo-_s.css"></head> <body>  <main> <article class="pt-16 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <a href="/" class="meta hover:text-accent transition-colors duration-200 inline-block mb-24">
-← 返回
-</a> <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1rem;"> lehh </h1> <p class="fade-up text-ink-muted" style="font-size: var(--text-lg); margin-bottom: 3rem; animation-delay: 80ms;"> 儿童英语合成游戏，让孩子在拖拽中学会拼词。 </p> <hr class="border-rule fade-up" style="animation-delay: 160ms; margin: 0 0 1.5rem;"> <div class="fade-up meta flex flex-wrap gap-x-4 gap-y-2 mb-6" style="animation-delay: 200ms;"> <span>2026</span> <span class="text-ink-muted">生产中</span> <span>Next.js 16 · Framer Motion · Vercel</span> </div> <div class="prose fade-up" style="animation-delay: 320ms;"> <h2 id="为什么做">为什么做</h2>
-<p>市面上的儿童英语 App 大多是闪卡和点读，孩子点几下就走神。我想试试另一种路径：把单词变成可以「合成」的零件，让孩子在拖拽过程中把字母和音节的关系内化下来。</p>
-<h2 id="怎么实现">怎么实现</h2>
+    </script><link rel="stylesheet" href="/_astro/index.BZrWFjJy.css"></head> <body> <a class="skip-link" href="#main">跳转到内容</a>  <main id="main" class="project-detail"> <a href="/" class="back-link"> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6"></path></svg>
+全部作品
+</a> <article> <header class="detail-heading fade-up"> <div class="work-meta">iPhone / iPad · 已上架</div> <h1>单词合合乐</h1> <p>把两个单词放在一起，发现一个新词。</p> <div class="project-actions"> <a class="project-action primary" href="https://apps.apple.com/cn/app/id6785151750" target="_blank" rel="noopener noreferrer"> 在 App Store 下载<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"></path></svg> </a> </div> </header> <figure class="detail-cover"><img src="/images/projects/lehh.webp" alt="单词合合乐的合成发现与词汇图鉴界面" width="1200" height="750" fetchpriority="high"></figure> <div class="prose detail-body"><h2 id="从好奇心出发">从好奇心出发</h2>
+<p>Water 和 Fire 放在一起，会变成什么？在单词合合乐里，英语单词是一块块可以拖动、组合的积木。一次尝试带来一个新发现，也带来它的中文含义、发音和例句。</p>
+<p>这是一个给已经认识一些基础英语单词的孩子做的探索游戏。希望学习从“我想再试一个”开始，而不是从背完一页词表开始。</p>
+<h2 id="可以怎么玩">可以怎么玩</h2>
 <ul>
-<li>用 Framer Motion 做拖拽和合成动画，物理感比 CSS transition 强一个量级</li>
-<li>Next.js 16 的 App Router + Cache Components，关卡数据走静态生成</li>
-<li>音频用 Web Audio API 而不是 <code>&lt;audio&gt;</code>，能精确触发音节高亮</li>
+<li>在画布上点击或拖拽两个词，试着合成新的词。</li>
+<li>点开新发现，听发音、看词义和例句，再继续探索。</li>
+<li>卡住时查看分层提示，回到图鉴看看已经收集的词。</li>
+<li>用可跳过的小小回忆挑战，再次遇见之前发现的单词。</li>
 </ul>
-<h2 id="学到了什么">学到了什么</h2>
-<p>孩子对「失败」的反馈比对「成功」更敏感。早期版本拖错位置直接 shake + 红色提示，测试时孩子第二次就不玩了。改成「零件温柔地飘回原位 + 没有任何负面反馈」之后留存翻倍。</p>
-<p>设计要服从用户的情绪曲线，不是技术上的「正确」。</p> </div>  </div> </article> <footer class="pt-40 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <div class="text-ink-faint mb-6">—</div> <div class="flex gap-6 meta"> <a href="https://github.com/fangs" class="hover:text-accent transition-colors duration-200" target="_blank" rel="noopener noreferrer">
-github
-</a> <a href="mailto:hi@fangs.cc" class="hover:text-accent transition-colors duration-200">
-email
-</a> </div>  </div> </footer> </main>  </body></html>
+<h2 id="关于这件作品">关于这件作品</h2>
+<p>目前是原生 iOS App，支持 iPhone 和 iPad。配方以联想和探索为主，不把所有组合解释成科学规律。它想创造一个愿意多待一会儿的英语小世界；长期学习效果，还要由孩子们的实际使用来回答。</p></div> <div class="detail-end"><a href="/">回到全部作品</a></div> </article> </main> <footer class="site-footer"> <a href="/" aria-label="返回 fangs 作品集首页">hi · fangs</a> <span>慢慢做，认真玩。</span> <a href="https://github.com/imfangs" target="_blank" rel="noopener noreferrer">GitHub</a> </footer>  </body></html>

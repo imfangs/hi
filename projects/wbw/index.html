@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Wait But Why 中译站，把 Tim Urban 的长文抓下来翻成中文，自用阅读。"><meta name="generator" content="Astro v5.18.2"><link rel="canonical" href="https://hi.fangs.cc/projects/wbw/"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>wbw · hi · fangs</title><meta property="og:type" content="website"><meta property="og:title" content="wbw · hi · fangs"><meta property="og:description" content="Wait But Why 中译站，把 Tim Urban 的长文抓下来翻成中文，自用阅读。"><meta property="og:url" content="https://hi.fangs.cc/projects/wbw/"><script>
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="把 Tim Urban 的长文，放进一个安静的中文阅读角落。"><meta name="generator" content="Astro v5.18.2"><link rel="canonical" href="https://hi.fangs.cc/projects/wbw/"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>Wait But Why 中译 · hi · fangs</title><meta property="og:type" content="website"><meta property="og:title" content="Wait But Why 中译 · hi · fangs"><meta property="og:description" content="把 Tim Urban 的长文，放进一个安静的中文阅读角落。"><meta property="og:url" content="https://hi.fangs.cc/projects/wbw/"><meta property="og:image" content="https://hi.fangs.cc/images/projects/wbw.webp"><meta property="og:image:alt" content="Wait But Why 中译阅读站的首页"><meta name="twitter:card" content="summary_large_image"><script>
       // 暗色模式：跟系统，无切换按钮，纯粹响应 prefers-color-scheme
       const setTheme = () => {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -9,22 +9,13 @@
       };
       setTheme();
       window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
-    </script><link rel="stylesheet" href="/_astro/index.DZPlo-_s.css"></head> <body>  <main> <article class="pt-16 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <a href="/" class="meta hover:text-accent transition-colors duration-200 inline-block mb-24">
-← 返回
-</a> <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1rem;"> wbw </h1> <p class="fade-up text-ink-muted" style="font-size: var(--text-lg); margin-bottom: 3rem; animation-delay: 80ms;"> Wait But Why 中译站，把 Tim Urban 的长文抓下来翻成中文，自用阅读。 </p> <hr class="border-rule fade-up" style="animation-delay: 160ms; margin: 0 0 1.5rem;"> <div class="fade-up meta flex flex-wrap gap-x-4 gap-y-2 mb-6" style="animation-delay: 200ms;"> <span>2026</span> <span class="text-ink-muted">生产中</span> <span>VitePress · TypeScript · cheerio · Claude Opus 4.7</span> </div> <div class="fade-up flex gap-4 mb-12" style="animation-delay: 240ms;"> <a href="https://wbw.fangs.cc" target="_blank" rel="noopener noreferrer" class="text-ink hover:text-accent transition-colors duration-200" style="text-decoration: underline; text-underline-offset: 6px; text-decoration-color: var(--color-ink-faint);"> 访问 → </a> </div><div class="prose fade-up" style="animation-delay: 320ms;"> <h2 id="为什么做">为什么做</h2>
-<p>Tim Urban 的长文是我最喜欢的英文写作之一，但每次读完一篇要花两小时，中间还得停下来查词、切窗口。市面上零散的中译版本要么翻得像论文、要么只翻了热门几篇。想给自己攒一个能沉浸阅读的中文版本，顺便看看 Claude 4.7 能把这种带口语、破折号、括号吐槽的风格翻到什么程度。</p>
-<h2 id="怎么实现">怎么实现</h2>
-<ul>
-<li><code>scrape.ts</code>：cheerio 解析 WBW 页面，turndown 转 Markdown，图片下到本地</li>
-<li><code>translate.ts</code>：分块喂给 Claude Opus 4.7，system prompt 里锁死”保 Tim 的语气 / 段落数对齐 / 专有名词首次出现带英文原文”</li>
-<li><code>build-post.ts</code> 一条命令编排：抓 → 翻 → 写 md → 重建 sidebar</li>
-<li>英文原文和 meta 缓存在 <code>.cache/</code>，改 prompt 重翻不用重新抓页面和图</li>
-<li>VitePress 静态输出，深色阅读器风格，橙色 accent</li>
-</ul>
-<h2 id="学到了什么">学到了什么</h2>
-<p>翻译的瓶颈不在模型能力，在 prompt 的约束密度。早期版本让 Claude “自然翻译”，出来的东西全是”综上所述”、“值得注意的是”这种学术腔，Tim 的碎嘴子全没了。改成显式列 7 条硬约束（结构 1:1 / 保口语 / 段落数对齐 / ……）之后风格立刻回来了。</p>
-<p>另一个反直觉的点：翻译长文不要一次性喂完。分块之后每块单独翻，反而比整篇喂给大 context 的效果更稳定 —— 大概是因为每块都能拿到”完整的注意力预算”。</p> </div>  </div> </article> <footer class="pt-40 pb-24"> <div class="mx-auto w-full max-w-[640px] px-6 md:px-12 ">  <div class="text-ink-faint mb-6">—</div> <div class="flex gap-6 meta"> <a href="https://github.com/fangs" class="hover:text-accent transition-colors duration-200" target="_blank" rel="noopener noreferrer">
-github
-</a> <a href="mailto:hi@fangs.cc" class="hover:text-accent transition-colors duration-200">
-email
-</a> </div>  </div> </footer> </main>  </body></html>
+    </script><link rel="stylesheet" href="/_astro/index.BZrWFjJy.css"></head> <body> <a class="skip-link" href="#main">跳转到内容</a>  <main id="main" class="project-detail"> <a href="/" class="back-link"> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6"></path></svg>
+全部作品
+</a> <article> <header class="detail-heading fade-up"> <div class="work-meta">网页 · 阅读 · 可阅读</div> <h1>Wait But Why 中译</h1> <p>把 Tim Urban 的长文，放进一个安静的中文阅读角落。</p> <div class="project-actions"> <a class="project-action primary" href="https://wbw.fangs.cc/" target="_blank" rel="noopener noreferrer"> 打开中译阅读站<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"></path></svg> </a><a class="project-action" href="https://waitbutwhy.com/" target="_blank" rel="noopener noreferrer"> 访问原作者网站<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"></path></svg> </a> </div> </header> <figure class="detail-cover"><img src="/images/projects/wbw.webp" alt="Wait But Why 中译阅读站的首页" width="1200" height="750" fetchpriority="high"></figure> <div class="prose detail-body"><h2 id="给长文留一个地方">给长文留一个地方</h2>
+<p>Wait But Why 是 Tim Urban 的写作网站。从拖延、人生选择，到科学、技术与社会，他常常用很长的文章，把一个问题慢慢拆开。</p>
+<p>这个项目把公开文章整理成中文阅读站，方便自己在有空的时候读上一段，再接着上次的地方继续。</p>
+<h2 id="这里做了什么">这里做了什么</h2>
+<p>整理文章、中文翻译和站点导航，保留原文链接，让长文有一个简单的阅读入口。</p>
+<h2 id="关于来源">关于来源</h2>
+<p>这是非官方、个人学习用途的中译整理。原作与插图的版权归 Tim Urban、Wait But Why 及相应权利人所有。中文翻译可能有偏差，重要表述请对照原文。</p>
+<p>这里展示的是阅读站的构建与整理工作，不把原作者的写作当作自己的作品。</p></div> <div class="detail-end"><a href="/">回到全部作品</a></div> </article> </main> <footer class="site-footer"> <a href="/" aria-label="返回 fangs 作品集首页">hi · fangs</a> <span>慢慢做，认真玩。</span> <a href="https://github.com/imfangs" target="_blank" rel="noopener noreferrer">GitHub</a> </footer>  </body></html>
