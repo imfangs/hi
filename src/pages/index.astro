@@ -6,7 +6,6 @@ import SiteFooter from '../components/SiteFooter.astro';
 const all = await getCollection('projects', ({ data }) => !data.draft);
 const sorted = all.sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 const featured = sorted.filter(({ data }) => data.featured);
-const earlier = sorted.filter(({ data }) => !data.featured);
 ---
 <Base title="hi · fangs" image="/images/projects/junlugu.webp">
   <main id="main" class="portfolio">
@@ -27,12 +26,6 @@ const earlier = sorted.filter(({ data }) => !data.featured);
         {featured.map((project, index) => <ProjectRow project={project} eager={index < 2} />)}
       </ul>
     </section>
-    {earlier.length > 0 && <section class="earlier-work" aria-labelledby="earlier-title">
-      <h2 id="earlier-title">早期探索</h2>
-      <ul>{earlier.map((project) => <li><a href={`/projects/${project.id}/`}>
-        <span>{project.data.title}</span><span>{project.data.subtitle}</span>
-      </a></li>)}</ul>
-    </section>}
   </main>
   <SiteFooter />
 </Base>

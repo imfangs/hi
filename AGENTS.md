@@ -7,7 +7,7 @@
 - 当前交付和核验见 `CURRENT.md`；运行与新增作品见 `README.md`。
 - Astro 5 + MDX + Tailwind 4，纯静态输出，pnpm 管理依赖。
 - `src/content/projects/*.mdx` 是作品内容源；`src/content.config.ts` 校验 frontmatter；主页与详情均从同一 collection 构建。
-- `featured: true` 的项目在主列表展示，必须有真实封面；其他非 draft 条目在“早期探索”保留，既有详情 URL 保持兼容。
+- `featured: true` 的项目在主列表展示，必须有真实封面；未精选且非 draft 的条目仅生成详情。2026-09-26 按方帅要求从本站移除 qiyuclone、fastvideo 的内容与详情路由，独立项目仓库不变。
 - 公开文案按产品事实源核对：App 公开版本看 Apple 商店与项目发布记录；网页看正式 URL 与项目 CURRENT。截图、模拟器通过、目录存在不证明学习效果或用户增长。
 
 ## 内容与图片

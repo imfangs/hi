@@ -261,7 +261,7 @@
 .contact-links a, .back-link, .site-footer a { transition: color 180ms; }
 .contact-links a:hover, .back-link:hover, .site-footer a:hover { color: var(--color-accent); }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 18px; border-bottom: 1px solid var(--color-rule); }
-.section-heading h2, .earlier-work h2 { font-size: 20px; }
+.section-heading h2 { font-size: 20px; }
 .section-heading > span { font: 12px/1.5 var(--font-sans); color: var(--color-ink-muted); }
 .work-list { list-style: none; margin: 0; padding: 0; }
 .work-list > li { border-bottom: 1px solid var(--color-rule); }
@@ -275,11 +275,6 @@
 .work-row:hover h3, .work-row:hover .work-arrow { color: var(--color-accent); }
 .work-row:hover .work-arrow { transform: translateX(4px); }
 .work-row:hover .work-image img { transform: scale(1.025); }
-.earlier-work { margin-top: 58px; }
-.earlier-work ul { list-style: none; padding: 0; margin-top: 18px; }
-.earlier-work li a { display: grid; grid-template-columns: 140px 1fr; gap: 20px; padding: 12px 0; font-size: 14px; }
-.earlier-work li a span:last-child { color: var(--color-ink-muted); }
-.earlier-work li a:hover span:first-child { color: var(--color-accent); }
 .site-footer { display: flex; gap: 24px; justify-content: space-between; padding: 32px 0; margin-top: 70px; border-top: 1px solid var(--color-rule); color: var(--color-ink-muted); font: 12px/1.8 var(--font-sans); }
 .site-footer > span { margin-right: auto; }
 .project-detail { padding-top: 42px; }
@@ -312,8 +307,7 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 5px; b
   .work-copy p { font-size: 13px; margin-top: 5px; line-height: 1.8; }
   .work-meta { font-size: 10px; }
   .work-arrow { display: none; }
-  .section-heading h2, .earlier-work h2 { font-size: 18px; }
-  .earlier-work li a { grid-template-columns: 1fr; gap: 2px; }
+  .section-heading h2 { font-size: 18px; }
   .site-footer { gap: 16px; margin-top: 48px; }
   .site-footer > span { margin-right: 0; }
   .project-detail { padding-top: 22px; }
