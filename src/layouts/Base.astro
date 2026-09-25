@@ -4,9 +4,11 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  imageAlt?: string;
 }
 
-const { title, description = 'fangs 的项目集 — 一个写程序的人，在用 AI 做一些项目。' } = Astro.props;
+const { title, description = 'fangs 的作品集：原生 App、网页游戏与中文阅读站。', image, imageAlt } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
@@ -25,6 +27,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
+    {image && <><meta property="og:image" content={new URL(image, Astro.site)} /><meta property="og:image:alt" content={imageAlt ?? title} /><meta name="twitter:card" content="summary_large_image" /></>}
 
     <script is:inline>
       // 暗色模式：跟系统，无切换按钮，纯粹响应 prefers-color-scheme
@@ -40,6 +43,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     </script>
   </head>
   <body>
+    <a class="skip-link" href="#main">跳转到内容</a>
     <slot />
   </body>
 </html>

@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props { project: CollectionEntry<'projects'>; eager?: boolean }
+const { project, eager = false } = Astro.props;
+const { title, subtitle, cover, category, status } = project.data;
+if (!cover) throw new Error(`Featured project ${project.id} needs a cover`);
+---
+<li>
+  <a class="work-row" href={`/projects/${project.id}/`}>
+    <div class="work-image">
+      <img src={cover.src} alt="" width="1200" height="750" loading={eager ? 'eager' : 'lazy'} decoding="async" />
+    </div>
+    <div class="work-copy">
+      <span class="work-meta">{category} · {status}</span>
+      <h3>{title}</h3>
+      <p>{subtitle}</p>
+    </div>
+    <svg class="work-arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" /></svg>
+  </a>
+</li>

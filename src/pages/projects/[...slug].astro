@@ -1,73 +1,36 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import Container from '../../components/Container.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
-
 export async function getStaticPaths() {
   const projects = await getCollection('projects', ({ data }) => !data.draft);
-  return projects.map((project) => ({
-    params: { slug: project.id },
-    props: { project },
-  }));
+  return projects.map((project) => ({ params: { slug: project.id }, props: { project } }));
 }
-
 const { project } = Astro.props;
 const { Content } = await render(project);
+const { title, subtitle, cover, category, status, links } = project.data;
 ---
-
-<Base title={`${project.data.title} · hi · fangs`} description={project.data.subtitle}>
-  <main>
-    <article class="pt-16 pb-24">
-      <Container>
-        <a
-          href="/"
-          class="meta hover:text-accent transition-colors duration-200 inline-block mb-24"
-        >
-          ← 返回
-        </a>
-
-        <h1 class="fade-up" style="font-size: var(--text-3xl); margin-bottom: 1rem;">
-          {project.data.title}
-        </h1>
-
-        <p
-          class="fade-up text-ink-muted"
-          style="font-size: var(--text-lg); margin-bottom: 3rem; animation-delay: 80ms;"
-        >
-          {project.data.subtitle}
-        </p>
-
-        <hr class="border-rule fade-up" style="animation-delay: 160ms; margin: 0 0 1.5rem;" />
-
-        <div class="fade-up meta flex flex-wrap gap-x-4 gap-y-2 mb-6" style="animation-delay: 200ms;">
-          <span>{project.data.year}</span>
-          <span class="text-ink-muted">{project.data.status}</span>
-          <span>{project.data.stack.join(' · ')}</span>
-        </div>
-
-        {project.data.links && project.data.links.length > 0 && (
-          <div class="fade-up flex gap-4 mb-12" style="animation-delay: 240ms;">
-            {project.data.links.map((link, i) => (
-              <a
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-ink hover:text-accent transition-colors duration-200"
-                style="text-decoration: underline; text-underline-offset: 6px; text-decoration-color: var(--color-ink-faint);"
-              >
-                {link.label} {i === 0 ? '→' : ''}
-              </a>
-            ))}
-          </div>
-        )}
-
-        <div class="prose fade-up" style="animation-delay: 320ms;">
-          <Content />
-        </div>
-      </Container>
+<Base title={`${title} · hi · fangs`} description={subtitle} image={cover?.src} imageAlt={cover?.alt}>
+  <main id="main" class="project-detail">
+    <a href="/" class="back-link">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6" /></svg>
+      全部作品
+    </a>
+    <article>
+      <header class="detail-heading fade-up">
+        <div class="work-meta">{category ?? project.data.year} · {status}</div>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
+        {links && links.length > 0 && <div class="project-actions">
+          {links.map((link, index) => <a class={index === 0 ? 'project-action primary' : 'project-action'} href={link.href} target="_blank" rel="noopener noreferrer">
+            {link.label}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg>
+          </a>)}
+        </div>}
+      </header>
+      {cover && <figure class="detail-cover"><img src={cover.src} alt={cover.alt} width="1200" height="750" fetchpriority="high" /></figure>}
+      <div class="prose detail-body"><Content /></div>
+      <div class="detail-end"><a href="/">回到全部作品</a></div>
     </article>
-
-    <SiteFooter />
   </main>
+  <SiteFooter />
 </Base>
