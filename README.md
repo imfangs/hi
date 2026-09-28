@@ -1,6 +1,6 @@
 # hi.fangs.cc
 
-fangs 的作品集：原生 App、网页游戏与中文阅读站。首页是带真实界面封面的作品列表，点击进入介绍页，再从详情页打开作品。
+fangs 的作品集：原生 App、网页游戏、艺术阅读与双语学习站。首页是带真实界面封面的作品列表，点击进入介绍页，再从详情页打开作品。
 
 - 网站：[hi.fangs.cc](https://hi.fangs.cc)
 - 接续入口：[AGENTS.md](AGENTS.md)
@@ -44,7 +44,7 @@ order: 1
 ---
 ```
 
-正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。八个主要项目按 `order` 排序。
+正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。项目按 `order` 排序。
 
 封面统一为 1200×750 WebP，保存到 `public/images/projects/`，并补资产来源。网页截图完整缩放留边，App 截图组合展示，不裁掉关键界面或混入私人资料。
 
