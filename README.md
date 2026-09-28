@@ -9,6 +9,8 @@ fangs 的作品集：原生 App、网页游戏与中文阅读站。首页是带�
 
 ## 本地开发
 
+项目依赖使用 `package.json` 固定的 pnpm 10.19.0。若运行环境忽略该字段并注入其他版本，先把已安装的 10.19.0 可执行目录放到 PATH 首位，再运行构建与发布；不要因此强制重装依赖。
+
 ```bash
 pnpm install --frozen-lockfile
 pnpm dev

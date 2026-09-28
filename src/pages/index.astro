@@ -7,11 +7,12 @@ const all = await getCollection('projects', ({ data }) => !data.draft);
 const sorted = all.sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 const featured = sorted.filter(({ data }) => data.featured);
 ---
-<Base title="hi · fangs" image="/images/projects/junlugu.webp">
+<Base title="hi · fangs" description="Taste. Build. Sell. 判断什么值得做，把它做出来，让真实的人愿意用。" image="/images/projects/junlugu.webp">
   <main id="main" class="portfolio">
     <header class="intro fade-up">
       <h1>你好，我是 fangs。</h1>
-      <p>写程序，也用 AI 做一些想用、想玩的东西。</p>
+      <p class="intro-slogan" lang="en">Taste<span>.</span> Build<span>.</span> Sell<span>.</span></p>
+      <p class="intro-belief">判断什么值得做，把它做出来，让真实的人愿意用。</p>
       <nav class="contact-links" aria-label="联系我">
         <a href="https://github.com/imfangs" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="mailto:mafangshuai@126.com">Email</a>

@@ -257,6 +257,9 @@
 .intro { margin-bottom: 76px; }
 .intro h1 { font-size: clamp(28px, 4vw, 42px); letter-spacing: .015em; }
 .intro p { color: var(--color-ink-muted); margin-top: 18px; font-size: 17px; }
+.intro .intro-slogan { margin-top: 24px; font: 600 clamp(28px, 5vw, 44px)/1.2 var(--font-sans); letter-spacing: -.035em; color: var(--color-ink); }
+.intro-slogan span { color: var(--color-accent); }
+.intro .intro-belief { margin-top: 16px; max-width: 32em; text-wrap: pretty; }
 .contact-links { display: flex; gap: 24px; margin-top: 22px; font: 13px/1.5 var(--font-sans); }
 .contact-links a, .back-link, .site-footer a { transition: color 180ms; }
 .contact-links a:hover, .back-link:hover, .site-footer a:hover { color: var(--color-accent); }
