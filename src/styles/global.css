@@ -278,7 +278,7 @@
 .work-row:hover h3, .work-row:hover .work-arrow { color: var(--color-accent); }
 .work-row:hover .work-arrow { transform: translateX(4px); }
 .work-row:hover .work-image img { transform: scale(1.025); }
-.site-footer { display: flex; gap: 24px; justify-content: space-between; padding: 32px 0; margin-top: 70px; border-top: 1px solid var(--color-rule); color: var(--color-ink-muted); font: 12px/1.8 var(--font-sans); }
+.site-footer { display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; padding: 32px 0; margin-top: 70px; border-top: 1px solid var(--color-rule); color: var(--color-ink-muted); font: 12px/1.8 var(--font-sans); }
 .site-footer > span { margin-right: auto; }
 .project-detail { padding-top: 42px; }
 .back-link { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; font-size: 14px; color: var(--color-ink-muted); }
