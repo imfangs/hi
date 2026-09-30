@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "complete": true,
+  "identity": {
+    "url": "https://hi.fangs.cc/",
+    "build_sha256": "ec5e3163b7093c23a21103d482ad99009c96841f67454f5eadd236b16a2cfd4d",
+    "deployment_id": "044134840e4ea26be667df8bcd222babe77d748a",
+    "config": {
+      "transport": "curl",
+      "timeout": 20000,
+      "retries": 2,
+      "concurrency": 4,
+      "exclusions": [],
+      "playwright_root": null,
+      "policy": "sha256-normal-dns-tls-v2"
+    }
+  },
+  "url": "https://hi.fangs.cc/",
+  "anonymous": true,
+  "file_count": 30,
+  "matched_count": 30,
+  "failed_count": 0,
+  "updated_at": "2026-09-30T03:30:07.079Z"
+}
