@@ -1,0 +1,352 @@
+{
+  "site": "https://hi.fangs.cc/",
+  "source": "73ef079992ea8317b8ac259a33935edcc4b65426",
+  "pages_commit": "2c7cae3e84b627db0a70e930665b5fcb256ed9ec",
+  "github_pages_status": "built",
+  "verified_at": "2026-09-30T04:03:42.664Z",
+  "integrity": {
+    "identity": {
+      "url": "https://hi.fangs.cc/",
+      "build_sha256": "6189a8c35359f9aee3eeebb4f025e7e1d269b18da40cd5e8e7e3aa1418324cdd",
+      "deployment_id": "2c7cae3",
+      "config": {
+        "transport": "curl",
+        "timeout": 20000,
+        "retries": 2,
+        "concurrency": 4,
+        "exclusions": [],
+        "playwright_root": null,
+        "policy": "sha256-normal-dns-tls-v2"
+      }
+    },
+    "anonymous": true,
+    "file_count": 33,
+    "matched_count": 33,
+    "failed_count": 0,
+    "transport": "curl"
+  },
+  "local_routes": [
+    {
+      "actionCount": 1,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/lehh/",
+      "title": "单词合合乐"
+    },
+    {
+      "actionCount": 3,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/taste/",
+      "title": "你品 · 艺术与思想"
+    },
+    {
+      "actionCount": 2,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/little-pause/",
+      "title": "歇会鸭"
+    },
+    {
+      "actionCount": 1,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/snow-duel/",
+      "title": "雪仗／夜雪俱乐部"
+    },
+    {
+      "actionCount": 1,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/pocofocus/",
+      "title": "PocoFocus"
+    },
+    {
+      "actionCount": 1,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/junlugu/",
+      "title": "菌露谷物语"
+    },
+    {
+      "actionCount": 1,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/qiya-herbarium/",
+      "title": "奇芽药草铺"
+    },
+    {
+      "actionCount": 2,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/hyrule/",
+      "title": "海拉鲁 · 蓝焰余响"
+    },
+    {
+      "actionCount": 2,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/aiedu/",
+      "title": "AI 教育 · 中英双语"
+    },
+    {
+      "actionCount": 2,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/wbw/",
+      "title": "Wait But Why 中译"
+    },
+    {
+      "actionCount": 3,
+      "cover": true,
+      "overflow": false,
+      "path": "/projects/dankoe/",
+      "title": "Dan Koe 中文阅读站"
+    }
+  ],
+  "filters": [
+    {
+      "active": "应用3",
+      "count": 3,
+      "query": "?view=apps"
+    },
+    {
+      "active": "游戏4",
+      "count": 4,
+      "query": "?view=games"
+    },
+    {
+      "active": "阅读4",
+      "count": 4,
+      "query": "?view=reading"
+    },
+    {
+      "active": "全部11",
+      "count": 11,
+      "query": ""
+    }
+  ],
+  "mobile_routes": [
+    {
+      "image": 1200,
+      "overflow": false,
+      "path": "/projects/taste/"
+    },
+    {
+      "image": 1200,
+      "overflow": false,
+      "path": "/projects/qiya-herbarium/"
+    },
+    {
+      "image": 1200,
+      "overflow": false,
+      "path": "/projects/hyrule/"
+    }
+  ],
+  "public_flows": [
+    "reading filter -> Taste -> AI education -> return preserves reading",
+    "theme dark persists after reload",
+    "390px no overflow and first cover decoded",
+    "Hi -> Ged -> Hi reciprocal links"
+  ],
+  "files": [
+    {
+      "file": "CNAME",
+      "sha256": "95205daf873f10367592f4d04dcee10375eb5a3554ea6234dd1cf9e3132386f1",
+      "remote_sha256": "95205daf873f10367592f4d04dcee10375eb5a3554ea6234dd1cf9e3132386f1",
+      "matches": true
+    },
+    {
+      "file": "_astro/index.BBuqt_Bg.css",
+      "sha256": "a4058c676d155cc13fe8321e9e170dfb9375d8b610b3411ddf3e86df0753044f",
+      "remote_sha256": "a4058c676d155cc13fe8321e9e170dfb9375d8b610b3411ddf3e86df0753044f",
+      "matches": true
+    },
+    {
+      "file": "favicon.svg",
+      "sha256": "7d9c95f2f9f8d89bab38dc81a3977b2238fdba802039ff8055a5b6186d1ebbd0",
+      "remote_sha256": "7d9c95f2f9f8d89bab38dc81a3977b2238fdba802039ff8055a5b6186d1ebbd0",
+      "matches": true
+    },
+    {
+      "file": "fonts/geist-OFL.txt",
+      "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+      "remote_sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+      "matches": true
+    },
+    {
+      "file": "fonts/geist-latin.woff2",
+      "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608",
+      "remote_sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608",
+      "matches": true
+    },
+    {
+      "file": "fonts/noto-serif-sc-subset.woff2",
+      "sha256": "505b730bf55db722328394d7404586c1058cbaaac99ac51bca28b1316345200d",
+      "remote_sha256": "505b730bf55db722328394d7404586c1058cbaaac99ac51bca28b1316345200d",
+      "matches": true
+    },
+    {
+      "file": "fonts/notoserifsc-OFL.txt",
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "remote_sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "matches": true
+    },
+    {
+      "file": "images/projects/aiedu.webp",
+      "sha256": "9592729850098b83cf79f8d56b4e13acefc9c8a7b2a493ddb941837fe0624fdb",
+      "remote_sha256": "9592729850098b83cf79f8d56b4e13acefc9c8a7b2a493ddb941837fe0624fdb",
+      "matches": true
+    },
+    {
+      "file": "images/projects/dankoe.webp",
+      "sha256": "8498862722b912eec138afabb475210d531860911b3815bce83ac4aec3f48112",
+      "remote_sha256": "8498862722b912eec138afabb475210d531860911b3815bce83ac4aec3f48112",
+      "matches": true
+    },
+    {
+      "file": "images/projects/hyrule.webp",
+      "sha256": "780f19198d1693a52562b81a3fe3dc791dc6c6139cf68b96a26178cd4db36aea",
+      "remote_sha256": "780f19198d1693a52562b81a3fe3dc791dc6c6139cf68b96a26178cd4db36aea",
+      "matches": true
+    },
+    {
+      "file": "images/projects/junlugu.webp",
+      "sha256": "43ec0004ca61a64c757b23450ab239b4393f8b6aeae7def8284a9fa91b11a919",
+      "remote_sha256": "43ec0004ca61a64c757b23450ab239b4393f8b6aeae7def8284a9fa91b11a919",
+      "matches": true
+    },
+    {
+      "file": "images/projects/lehh.webp",
+      "sha256": "eb080e6c77b60c234e7fc9cfc86c1ec31cb2cfa20986d9989835fdd8f9cf3da9",
+      "remote_sha256": "eb080e6c77b60c234e7fc9cfc86c1ec31cb2cfa20986d9989835fdd8f9cf3da9",
+      "matches": true
+    },
+    {
+      "file": "images/projects/little-pause.webp",
+      "sha256": "964506eed550941fae0a7949b21db366abf21b07642aa25a9fb1ae4dc7df9121",
+      "remote_sha256": "964506eed550941fae0a7949b21db366abf21b07642aa25a9fb1ae4dc7df9121",
+      "matches": true
+    },
+    {
+      "file": "images/projects/pocofocus.webp",
+      "sha256": "c8d86312a8753b8a9367fd7bc1f7eeb70846e72d5674e33835e46cf97dcdb5ae",
+      "remote_sha256": "c8d86312a8753b8a9367fd7bc1f7eeb70846e72d5674e33835e46cf97dcdb5ae",
+      "matches": true
+    },
+    {
+      "file": "images/projects/qiya-herbarium.webp",
+      "sha256": "8597b167a149055fcb3555b8f71eb67327eb973887faaa02395f5fe994862bde",
+      "remote_sha256": "8597b167a149055fcb3555b8f71eb67327eb973887faaa02395f5fe994862bde",
+      "matches": true
+    },
+    {
+      "file": "images/projects/snow-duel.webp",
+      "sha256": "64c49be35bbc76eecb5c1f12a7ead25ca9688caef7bf18f6681ae5a0aff04cc5",
+      "remote_sha256": "64c49be35bbc76eecb5c1f12a7ead25ca9688caef7bf18f6681ae5a0aff04cc5",
+      "matches": true
+    },
+    {
+      "file": "images/projects/taste.webp",
+      "sha256": "8201020c16bc4ed7fd57105a6fbac23e53c64879373a8a8341a72f7f8678c685",
+      "remote_sha256": "8201020c16bc4ed7fd57105a6fbac23e53c64879373a8a8341a72f7f8678c685",
+      "matches": true
+    },
+    {
+      "file": "images/projects/wbw.webp",
+      "sha256": "2e31a7c58153d6a21e21c95005cda33a3494fd056f3253822a0d1e7dad61410c",
+      "remote_sha256": "2e31a7c58153d6a21e21c95005cda33a3494fd056f3253822a0d1e7dad61410c",
+      "matches": true
+    },
+    {
+      "file": "index.html",
+      "sha256": "3fec025295d535066533a90281bf9ead4bcb7a801b2cb244a51647a535732f68",
+      "remote_sha256": "3fec025295d535066533a90281bf9ead4bcb7a801b2cb244a51647a535732f68",
+      "matches": true
+    },
+    {
+      "file": "projects/aiedu/index.html",
+      "sha256": "47fe1b8632486abd2562be15765c5a9bfe1d3d5a8f660bb8e98991fa630356c1",
+      "remote_sha256": "47fe1b8632486abd2562be15765c5a9bfe1d3d5a8f660bb8e98991fa630356c1",
+      "matches": true
+    },
+    {
+      "file": "projects/dankoe/index.html",
+      "sha256": "d1ef740491d65ec0d3f28a6a73d5f96c20a229fb3e3753e0b0210ad462a70098",
+      "remote_sha256": "d1ef740491d65ec0d3f28a6a73d5f96c20a229fb3e3753e0b0210ad462a70098",
+      "matches": true
+    },
+    {
+      "file": "projects/hyrule/index.html",
+      "sha256": "f00f8e76a3519efc527dbbd71fae9a55a3ebd513b584e5f6d185aa26e19b65bd",
+      "remote_sha256": "f00f8e76a3519efc527dbbd71fae9a55a3ebd513b584e5f6d185aa26e19b65bd",
+      "matches": true
+    },
+    {
+      "file": "projects/junlugu/index.html",
+      "sha256": "9be8ca1d81b4861fbbe2abcdfe93f818a85054937c9841ba7121f754590b6bf3",
+      "remote_sha256": "9be8ca1d81b4861fbbe2abcdfe93f818a85054937c9841ba7121f754590b6bf3",
+      "matches": true
+    },
+    {
+      "file": "projects/lehh/index.html",
+      "sha256": "43156303a81cc806cb6e99e629d571e0cea0422d3414f0a74a57951e9075c674",
+      "remote_sha256": "43156303a81cc806cb6e99e629d571e0cea0422d3414f0a74a57951e9075c674",
+      "matches": true
+    },
+    {
+      "file": "projects/little-pause/index.html",
+      "sha256": "990cba337ff31cc6f5ab744ed876980612e46e298a058d763f792adb56d0ec56",
+      "remote_sha256": "990cba337ff31cc6f5ab744ed876980612e46e298a058d763f792adb56d0ec56",
+      "matches": true
+    },
+    {
+      "file": "projects/pocofocus/index.html",
+      "sha256": "6c8eb031a1e9ea49ee04f09573a0d4c67ecc54e6b4d2c021fc87953f07b685a7",
+      "remote_sha256": "6c8eb031a1e9ea49ee04f09573a0d4c67ecc54e6b4d2c021fc87953f07b685a7",
+      "matches": true
+    },
+    {
+      "file": "projects/qiya-herbarium/index.html",
+      "sha256": "55c1d7ebedb78054b285ba58d5da042d21bc544a24a9aff602dd5a975c161108",
+      "remote_sha256": "55c1d7ebedb78054b285ba58d5da042d21bc544a24a9aff602dd5a975c161108",
+      "matches": true
+    },
+    {
+      "file": "projects/snow-duel/index.html",
+      "sha256": "e1f70e5c55a9d02014ae163563a1f2b650cade5a1d5d5b6332a5a9e03c75e9f1",
+      "remote_sha256": "e1f70e5c55a9d02014ae163563a1f2b650cade5a1d5d5b6332a5a9e03c75e9f1",
+      "matches": true
+    },
+    {
+      "file": "projects/taste/index.html",
+      "sha256": "b965b57dd3608a9e91bebbb91ed2cce35694a62d4cf7750b0ee0b83a3bae3675",
+      "remote_sha256": "b965b57dd3608a9e91bebbb91ed2cce35694a62d4cf7750b0ee0b83a3bae3675",
+      "matches": true
+    },
+    {
+      "file": "projects/wbw/index.html",
+      "sha256": "7635735de25750616ff66697561ac642ad53891378b12a012a36e03f39debd11",
+      "remote_sha256": "7635735de25750616ff66697561ac642ad53891378b12a012a36e03f39debd11",
+      "matches": true
+    },
+    {
+      "file": "release.json",
+      "sha256": "96b24f686edfbd94adc7c89b396b79f4ce9893f3ca311f4646633950ef67e876",
+      "remote_sha256": "96b24f686edfbd94adc7c89b396b79f4ce9893f3ca311f4646633950ef67e876",
+      "matches": true
+    },
+    {
+      "file": "sitemap-0.xml",
+      "sha256": "7527b435ba97e880a156bdd7279e2b5ddf9fb79be6e0c548ded66accd0d5addc",
+      "remote_sha256": "7527b435ba97e880a156bdd7279e2b5ddf9fb79be6e0c548ded66accd0d5addc",
+      "matches": true
+    },
+    {
+      "file": "sitemap-index.xml",
+      "sha256": "f69b1720b93494076dc40483db3ab16f4eba9c14d84dd739f95de5e8f44a6261",
+      "remote_sha256": "f69b1720b93494076dc40483db3ab16f4eba9c14d84dd739f95de5e8f44a6261",
+      "matches": true
+    }
+  ]
+}
