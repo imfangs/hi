@@ -32,3 +32,7 @@
 | hyrule.webp | https://zelda.fangs.cc/ | Chrome 真实游戏入口，1280×800；等待场景加载完成与开始按钮可用，保留标题、场景与控制提示 |
 
 两图等比缩放为 1200×750 WebP、quality 88，未改写页面或游戏画面。海拉鲁为个人非官方 Demo，素材归属继续以作品的「制作与素材」入口为准。原始截图与核验记录位于 `/tmp/hi-refresh-20260930/`；成品纳入本仓库。
+
+## 2026-09-30 · 作品集画廊优化
+
+11张既有作品封面全部保留原文件与画面，首页增大显示尺寸，比例仍为8:5；生成概念中的重绘封面不进入生产。新增 `public/fonts/geist-latin.woff2`（29288 bytes）与 `noto-serif-sc-subset.woff2`（114052 bytes），来自 Google Fonts 的 Geist / Noto Serif SC。中文子集覆盖站点标题与导航；其余文字有系统宋体回退。两份 SIL Open Font License 同目录保留。浏览器不再请求 Google Fonts。设计概念、提示与来源说明见 `design/2026-09-30/`。

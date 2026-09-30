@@ -32,6 +32,7 @@ year: 2026
 category: 网页 · 游戏
 status: 可体验
 featured: true
+group: apps # apps / games / reading
 cover:
   src: /images/projects/example.webp
   alt: 真实界面的说明
@@ -44,7 +45,7 @@ order: 1
 ---
 ```
 
-正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。项目按 `order` 排序。
+正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。项目按 `order` 排序；`group` 定义应用、游戏或阅读分类。筛选与详情返回使用 `?view=`，浏览器可恢复选择。当前画廊设计与交互约定见 `docs/design/2026-09-30/DIRECTION.md`。
 
 封面统一为 1200×750 WebP，保存到 `public/images/projects/`，并补资产来源。网页截图完整缩放留边，App 截图组合展示，不裁掉关键界面或混入私人资料。
 

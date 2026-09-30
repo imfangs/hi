@@ -29,17 +29,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:url" content={canonicalURL} />
     {image && <><meta property="og:image" content={new URL(image, Astro.site)} /><meta property="og:image:alt" content={imageAlt ?? title} /><meta name="twitter:card" content="summary_large_image" /></>}
 
+    <meta name="theme-color" content="#fafaf7" />
+    <link rel="preload" href="/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin />
     <script is:inline>
-      // 暗色模式：跟系统，无切换按钮，纯粹响应 prefers-color-scheme
-      const setTheme = () => {
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          document.documentElement.classList.add('dark');
-        } else {
-          document.documentElement.classList.remove('dark');
-        }
-      };
-      setTheme();
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
+      let preference = 'system';
+      try { const saved = localStorage.getItem('hi-theme'); if (['system','light','dark'].includes(saved)) preference = saved; } catch {}
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.classList.toggle('dark', preference === 'dark' || (preference === 'system' && matchMedia('(prefers-color-scheme: dark)').matches));
     </script>
   </head>
   <body>

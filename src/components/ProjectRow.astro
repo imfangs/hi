@@ -2,19 +2,18 @@
 import type { CollectionEntry } from 'astro:content';
 interface Props { project: CollectionEntry<'projects'>; eager?: boolean }
 const { project, eager = false } = Astro.props;
-const { title, subtitle, cover, category, status } = project.data;
+const { title, subtitle, cover, category, status, group } = project.data;
 if (!cover) throw new Error(`Featured project ${project.id} needs a cover`);
 ---
-<li>
-  <a class="work-row" href={`/projects/${project.id}/`}>
+<li class="work-item" data-group={group}>
+  <a class="work-card" href={`/projects/${project.id}/`} data-project={project.id}>
     <div class="work-image">
       <img src={cover.src} alt="" width="1200" height="750" loading={eager ? 'eager' : 'lazy'} decoding="async" />
     </div>
     <div class="work-copy">
       <span class="work-meta">{category} · {status}</span>
-      <h3>{title}</h3>
+      <div class="work-title-line"><h3>{title}</h3><svg class="work-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></div>
       <p>{subtitle}</p>
     </div>
-    <svg class="work-arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" /></svg>
   </a>
 </li>
