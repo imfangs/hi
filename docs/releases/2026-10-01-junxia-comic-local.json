@@ -1,0 +1,264 @@
+{
+  "base": "http://127.0.0.1:4326",
+  "checkedAt": "2026-10-01T08:53:03.523Z",
+  "results": [
+    {
+      "name": "desktop",
+      "group": "reading",
+      "playback": [
+        {
+          "duration": 8.08,
+          "width": 834,
+          "height": 1112,
+          "currentTime": 0.160064,
+          "ended": true,
+          "mode": "full-playback"
+        },
+        {
+          "duration": 29.302,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.15315,
+          "ended": true,
+          "mode": "full-playback"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.155358,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.15537,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.156805,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.160962,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.158732,
+          "ended": true,
+          "mode": "seek-to-end"
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "phone",
+      "group": "reading",
+      "playback": [
+        {
+          "duration": 8.08,
+          "width": 834,
+          "height": 1112,
+          "currentTime": 0.157527,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 29.302,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.160339,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.157138,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.160884,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.155037,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.16319,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.156376,
+          "ended": true,
+          "mode": "seek-to-end"
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "narrow-dark",
+      "group": "reading",
+      "playback": [
+        {
+          "duration": 8.08,
+          "width": 834,
+          "height": 1112,
+          "currentTime": 0.15764,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 29.302,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.158276,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.158325,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.155929,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.16085,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.1561,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.160009,
+          "ended": true,
+          "mode": "seek-to-end"
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "webkit-phone",
+      "group": "reading",
+      "playback": [
+        {
+          "duration": 8.055328798185942,
+          "width": 834,
+          "height": 1112,
+          "currentTime": 0.1620932500026962,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 29.292,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.18487512466485556,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.15758275066708327,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.1665303743252482,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.16905408366652264,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.1714411246630022,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.17066916666073167,
+          "ended": true,
+          "mode": "seek-to-end"
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "noJsFallback": true
+}
