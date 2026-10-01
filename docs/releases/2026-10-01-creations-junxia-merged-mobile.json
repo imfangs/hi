@@ -1,0 +1,200 @@
+{
+  "base": "http://127.0.0.1:4283",
+  "checkedAt": "2026-10-01T09:04:42.299Z",
+  "results": [
+    {
+      "name": "phone",
+      "group": "creations",
+      "playback": [
+        {
+          "duration": 8.08,
+          "width": 834,
+          "height": 1112,
+          "currentTime": 0.154936,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 29.302,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.162548,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.162788,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.163634,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.155108,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.159238,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.158514,
+          "ended": true,
+          "mode": "seek-to-end"
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "narrow-dark",
+      "group": "creations",
+      "playback": [
+        {
+          "duration": 8.08,
+          "width": 834,
+          "height": 1112,
+          "currentTime": 0.178399,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 29.302,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.158971,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.15983,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.156599,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.160038,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.164019,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.06,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.198865,
+          "ended": true,
+          "mode": "seek-to-end"
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "webkit-phone",
+      "group": "creations",
+      "playback": [
+        {
+          "duration": 8.055328798185942,
+          "width": 834,
+          "height": 1112,
+          "currentTime": 0.16381295800048706,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 29.292,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.16405295767227726,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.15966399999263603,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.16082441633846647,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.16017016700648387,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.15592433367602399,
+          "ended": true,
+          "mode": "seek-to-end"
+        },
+        {
+          "duration": 6.042,
+          "width": 1112,
+          "height": 834,
+          "currentTime": 0.1642564586671168,
+          "ended": true,
+          "mode": "seek-to-end"
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "noJsFallback": true
+}
