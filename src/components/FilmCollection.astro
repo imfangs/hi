@@ -1,0 +1,39 @@
+---
+interface Film {
+  id: string;
+  title: string;
+  duration: string;
+  description: string;
+  src: string;
+  poster: string;
+}
+interface Props { films: Film[]; label: string }
+const { films, label } = Astro.props;
+---
+<div class="film-collection" role="group" aria-label={label}>
+  {films.map(film => <figure class="film" id={film.id}>
+    <video controls playsinline preload="none" width="720" height="1280" poster={film.poster}
+      aria-label={film.title} aria-describedby={`${film.id}-caption`}>
+      <source src={film.src} type="video/mp4" />
+      <p>浏览器无法播放，可以<a href={film.src}>打开{film.title}</a>。</p>
+    </video>
+    <figcaption id={`${film.id}-caption`}>
+      <span class="film-duration">{film.duration}</span>
+      <h3>{film.title}</h3>
+      <p>{film.description}</p>
+      <a class="film-file" href={film.src}>单独打开视频 ↗</a>
+    </figcaption>
+  </figure>)}
+</div>
+<style>
+  .film-collection { display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 28px 20px; margin: 30px 0 42px; }
+  .film { min-width: 0; margin: 0; }
+  .film video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: contain; background: #181d19; border-radius: 6px; }
+  .film video:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
+  .film figcaption { margin-top: 15px; }
+  .film-duration { font: 12px/1.5 var(--font-sans); color: var(--color-ink-muted); }
+  .film h3 { font: 500 21px/1.55 var(--font-serif); margin: 7px 0; }
+  .film p { font-size: 15px; line-height: 1.85; margin: 8px 0; }
+  .film-file { font: 13px/1.7 var(--font-sans); }
+  @media (max-width: 600px) { .film-collection { grid-template-columns: minmax(0,1fr); gap: 36px; } .film { width: 100%; max-width: 360px; margin-inline: auto; } }
+</style>

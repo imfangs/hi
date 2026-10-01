@@ -1,5 +1,12 @@
 # 作品封面来源
 
+## 2026-10-01 · 爱养蘑菇的小学生
+
+- 展示范围：三支概念短片（夜光伞、火凤菇、异常材料收集）与两个后续镜头实验（操场捡石、教室收纳）。原 MP4 从 `../short-drama-studio/productions/school-secret-lab/` 复制，未重剪、未转码、未新增配乐。每支源路径、文件大小、时长和 SHA-256 见 `school-secret-lab-media.json`。
+- `public/images/projects/school-secret-lab.webp`：前三集成片中4.0、18.5、12.0秒的完整9:16画面并排排版，1200×750，WebP quality 88。各片独立 poster 同样来自真实成片，保留720×1280完整画幅。
+- 公开媒体位于 `public/videos/projects/school-secret-lab/`，只含五支作品与 `credits.txt`。原素材、生产日志、任务回执和私人路径不进入公开目录。
+- `scripts/prepare-school-lab-assets.py` 提供带源哈希检查的复制和封面派生入口。该项目为虚构校园奇幻的 AI 创作探索；“地牢酒馆”只保留形式灵感链接，没有复制其视频画面。
+
 2026-09-26。以下封面用于 hi.fangs.cc 的作品展示，全部来自真实产品界面；未生成虚构 UI，也未将原图批量放入公开目录。输出为 `public/images/projects/<slug>.webp`，1200×750，WebP quality 88。
 
 | 文件 | 原始来源 | 加工 |

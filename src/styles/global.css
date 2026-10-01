@@ -72,7 +72,7 @@
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding-bottom: 18px; border-bottom: 1px solid var(--color-rule); }
 .section-heading h2 { font-size: 36px; line-height: 1.4; }
 .section-heading > span { font: 14px/1.5 var(--font-sans); color: var(--color-ink-muted); letter-spacing: .02em; }
-.filter-bar { display: flex; align-items: center; gap: 36px; border-bottom: 1px solid var(--color-rule); margin-bottom: 24px; }
+.filter-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0 36px; border-bottom: 1px solid var(--color-rule); margin-bottom: 24px; }
 .filter-bar button { position: relative; border: 0; background: none; padding: 19px 3px 18px; font-size: 16px; line-height: 1.5; color: var(--color-ink-muted); }
 .filter-bar button span { margin-left: 9px; font: 12px/1 var(--font-sans); font-variant-numeric: tabular-nums; }
 .filter-bar button[aria-pressed=true] { color: var(--color-ink); }
@@ -172,7 +172,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--color-accent); 
   .section-heading { padding-bottom: 14px; }
   .section-heading h2 { font-size: 28px; }
   .section-heading > span { font-size: 11px; }
-  .filter-bar { gap: 28px; margin-bottom: 22px; }
+  .filter-bar { gap: 0 20px; margin-bottom: 22px; }
   .filter-bar button { font-size: 14px; padding: 17px 1px; }
   .filter-bar button span { font-size: 10px; margin-left: 6px; }
   .work-list { grid-template-columns: minmax(0,1fr); gap: 36px; margin-top: 22px; }
@@ -207,7 +207,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--color-accent); 
 }
 @media(max-width:360px) {
   .site-header nav { gap: 17px; }
-  .filter-bar { gap: 23px; }
+  .filter-bar { gap: 0 16px; }
   .site-footer nav { gap: 12px 18px; }
   .site-footer .back-top { margin-left: 0; }
 }

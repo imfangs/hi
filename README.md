@@ -1,6 +1,6 @@
 # hi.fangs.cc
 
-fangs 的作品集：原生 App、网页游戏、艺术阅读与双语学习站。首页是带真实界面封面的作品列表，点击进入介绍页，再从详情页打开作品。
+fangs 的作品集：原生 App、网页游戏、艺术阅读、双语学习与创作。首页是带真实画面封面的作品列表，点击进入介绍页，再体验作品。
 
 - 网站：[hi.fangs.cc](https://hi.fangs.cc)
 - 接续入口：[AGENTS.md](AGENTS.md)
@@ -32,7 +32,7 @@ year: 2026
 category: 网页 · 游戏
 status: 可体验
 featured: true
-group: apps # apps / games / reading
+group: apps # apps / games / reading / creations
 cover:
   src: /images/projects/example.webp
   alt: 真实界面的说明
@@ -45,11 +45,13 @@ order: 1
 ---
 ```
 
-正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。项目按 `order` 排序；`group` 定义应用、游戏或阅读分类。筛选与详情返回使用 `?view=`，浏览器可恢复选择。当前画廊设计与交互约定见 `docs/design/2026-09-30/DIRECTION.md`。
+正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。项目按 `order` 排序；`group` 定义应用、游戏、阅读或创作分类。筛选与详情返回使用 `?view=`，浏览器可恢复选择。当前画廊设计与交互约定见 `docs/design/2026-09-30/DIRECTION.md`。
 
 封面统一为 1200×750 WebP，保存到 `public/images/projects/`，并补资产来源。网页截图完整缩放留边，App 截图组合展示，不裁掉关键界面或混入私人资料。
 
 有宣传片的作品可添加可选 `video: { src, poster, caption, credits }`：MP4与公开素材署名放 `public/videos/projects/`，poster放 `public/images/projects/`。详情主画面改为原生视频播放器，首页仍使用cover；不自动播放或预下载视频。例子见 `junlugu.mdx`。发布前检查桌面/手机播放、拖动、完整画幅和素材入口。
+
+竖屏短片合集可在 MDX 正文中使用 `FilmCollection.astro`，每条定义名称、时长说明、视频与封面，完整示例见 `school-secret-lab.mdx`。片集保持9:16，不套用宣传片的16:9布局。用 `scripts/verify-film-collection.mjs --url <origin> --out <临时目录> --playwright-root <已安装Playwright的项目>` 检查五支短片、分类往返与移动版布局。
 
 批量验收使用 `scripts/verify-promos.mjs`，从作品 frontmatter 读取媒体、片注、来源和CTA，支持原生播放器的主动播放、完整片尾、前后跳转及桌面/390/320px布局。它只证明记录范围内的功能，完整公开MP4哈希仍用FBT public-preview核对。使用已安装Playwright的绝对项目路径，不自动安装依赖：
 

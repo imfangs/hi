@@ -1,9 +1,9 @@
-export {};
+import { groups } from '../lib/projects';
 const bar = document.querySelector<HTMLElement>('.filter-bar');
 const items = [...document.querySelectorAll<HTMLElement>('.work-item')];
 const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
 const status = document.querySelector<HTMLElement>('#filter-status');
-const allowed = ['all','apps','games','reading'];
+const allowed: string[] = groups.map(group => group.id);
 function apply(value:string,announce=false) {
   const filter=allowed.includes(value)?value:'all';
   for(const item of items) item.hidden=filter!=='all'&&item.dataset.group!==filter;

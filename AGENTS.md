@@ -22,7 +22,8 @@
 
 - 颜色与文字样式统一在 `src/styles/global.css`。沿用纸白、宋体中文、Geist 英文与少量朱砂红；字体自托管在 `public/fonts/`。主题支持跟随系统/浅色/深色，偏好保存在本机。
 - 2026-09-30 从880px图文列表改为最大1320px的开放双栏画廊，手机单栏大图，使真实作品封面更易看清。原口号保留；依据与对照见 `docs/design/2026-09-30/DIRECTION.md`。详情正文仍为680px。
-- 画廊入口在 `ProjectRow.astro`，整件进入详情，主按钮去实际产品或App Store。`group` 必须为 apps/games/reading；`order` 决定精选展示顺序。分类参数 `?view=` 保留返回状态，详情下一件在有分类时沿同类接续。
+- 画廊入口在 `ProjectRow.astro`，整件进入详情，主按钮去实际产品或App Store。`group` 为 apps/games/reading/creations，类别名称统一从 `src/lib/projects.ts` 读取；`order` 决定精选展示顺序。分类参数 `?view=` 保留返回状态，详情下一件在有分类时沿同类接续；仅一个作品的分类不链接回自身。
+- 短剧片集用 `FilmCollection.astro`，保留9:16原画幅、原生控制、playsinline、preload=none。作品名称、概念片/镜头实验的区分与未完成资产，依据 `docs/school-secret-lab-overview.md`；不要把媒体文件可播放写成整季或完整资产库完成。
 - 检查筛选数量与前进/后退、类别内下一件、主题系统变化与Escape、键盘焦点、移动无横溢和reduced-motion。JS禁用时全部作品可见，动态控件隐藏。
 - `pnpm build` 后用实际浏览器检查首页 → 全部作品详情 → 返回，核对图片和按钮；覆盖桌面、390px 手机与深色模式。构建通过不能替代界面和导航核验。
 - 截图使用 FBT Safe Image View；临时 QA 图、日志留 `/tmp` 等构建目录之外，正式作品封面按资产记录保留。

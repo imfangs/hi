@@ -7,7 +7,7 @@ import SiteFooter from '../components/SiteFooter.astro';
 import { groups, sortProjects } from '../lib/projects';
 const featured = sortProjects(await getCollection('projects', ({ data }) => !data.draft && data.featured));
 ---
-<Base title="hi · fangs — Taste. Build. Sell." description="Taste. Build. Sell. 判断什么值得做，把它做出来，让真实的人愿意用。fangs 的原生 App、网页游戏与阅读作品。" image="/images/projects/lehh.webp">
+<Base title="hi · fangs — Taste. Build. Sell." description="Taste. Build. Sell. 判断什么值得做，把它做出来，让真实的人愿意用。fangs 的原生 App、网页游戏、阅读与创作。" image="/images/projects/lehh.webp">
   <SiteHeader />
   <main id="main" class="portfolio shell">
     <header class="intro">
