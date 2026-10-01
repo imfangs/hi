@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-01",
+  "scope": "Native video embed; local static build",
+  "results": [
+    {
+      "name": "desktop",
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "inline": true,
+        "width": 1100,
+        "height": 618.75
+      },
+      "playback": {
+        "duration": 30.8,
+        "currentTime": 30.8,
+        "ended": true,
+        "error": null,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "currentSrc": "http://127.0.0.1:4198/videos/projects/junlugu-promo-20261001.mp4"
+      },
+      "requestsAfterPlay": 2,
+      "credits": true,
+      "returnedWithFilter": true,
+      "errors": []
+    },
+    {
+      "allDetails": 11,
+      "staticCoverRegression": true
+    },
+    {
+      "name": "phone",
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "inline": true,
+        "width": 350,
+        "height": 196.875
+      },
+      "playback": {
+        "duration": 30.8,
+        "currentTime": 30.8,
+        "ended": true,
+        "error": null,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "currentSrc": "http://127.0.0.1:4198/videos/projects/junlugu-promo-20261001.mp4"
+      },
+      "requestsAfterPlay": 2,
+      "credits": true,
+      "returnedWithFilter": true,
+      "errors": []
+    },
+    {
+      "name": "narrow-dark",
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "inline": true,
+        "width": 280,
+        "height": 157.5
+      },
+      "playback": {
+        "duration": 30.8,
+        "currentTime": 30.8,
+        "ended": true,
+        "error": null,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "currentSrc": "http://127.0.0.1:4198/videos/projects/junlugu-promo-20261001.mp4"
+      },
+      "requestsAfterPlay": 2,
+      "credits": true,
+      "returnedWithFilter": true,
+      "errors": []
+    },
+    {
+      "name": "webkit-phone",
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "inline": true,
+        "width": 350,
+        "height": 196.875
+      },
+      "playback": {
+        "duration": 30.8,
+        "currentTime": 30.8,
+        "ended": true,
+        "error": null,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "currentSrc": "http://127.0.0.1:4198/videos/projects/junlugu-promo-20261001.mp4"
+      },
+      "requestsAfterPlay": 2,
+      "credits": true,
+      "returnedWithFilter": true,
+      "errors": []
+    }
+  ],
+  "staticVisualReview": "Desktop and 390/320 dark screenshots: full 16:9 poster retained, controls reachable, caption wraps without overflow; original gallery covers retained",
+  "testHarnessCorrection": "Chromium play is the lower control row; WebKit starts from the central play button. Initial coordinate/keyboard misses were corrected; product code unchanged.",
+  "limits": [
+    "Browser viewport checks, not physical-phone validation"
+  ]
+}

@@ -49,6 +49,8 @@ order: 1
 
 封面统一为 1200×750 WebP，保存到 `public/images/projects/`，并补资产来源。网页截图完整缩放留边，App 截图组合展示，不裁掉关键界面或混入私人资料。
 
+有宣传片的作品可添加可选 `video: { src, poster, caption, credits }`：MP4与公开素材署名放 `public/videos/projects/`，poster放 `public/images/projects/`。详情主画面改为原生视频播放器，首页仍使用cover；不自动播放或预下载视频。例子见 `junlugu.mdx`。发布前检查桌面/手机播放、拖动、完整画幅和素材入口。
+
 ## 发布
 
 当前使用 **本地构建 + GitHub Pages 的 gh-pages 分支**，不是 GitHub Actions。

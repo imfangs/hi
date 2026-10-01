@@ -15,6 +15,12 @@ const projects = defineCollection({
       src: z.string().startsWith('/images/projects/'),
       alt: z.string(),
     }).optional(),
+    video: z.object({
+      src: z.string().startsWith('/videos/projects/'),
+      poster: z.string().startsWith('/images/projects/'),
+      caption: z.string(),
+      credits: z.string().startsWith('/videos/projects/'),
+    }).optional(),
     stack: z.array(z.string()),
     links: z
       .array(

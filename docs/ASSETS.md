@@ -36,3 +36,10 @@
 ## 2026-09-30 · 作品集画廊优化
 
 11张既有作品封面全部保留原文件与画面，首页增大显示尺寸，比例仍为8:5；生成概念中的重绘封面不进入生产。新增 `public/fonts/geist-latin.woff2`（29288 bytes）与 `noto-serif-sc-subset.woff2`（114052 bytes），来自 Google Fonts 的 Geist / Noto Serif SC。中文子集覆盖站点标题与导航；其余文字有系统宋体回退。两份 SIL Open Font License 同目录保留。浏览器不再请求 Google Fonts。设计概念、提示与来源说明见 `design/2026-09-30/`。
+
+## 2026-10-01 · 菌露谷宣传片
+
+- `public/videos/projects/junlugu-promo-20261001.mp4`：直接复制菌露谷项目 `videos/promo-2026-10-01/final.mp4`，30.8秒、1920×1080、25fps、H.264/AAC，22,339,312字节；SHA-256 `36954752bd2172a5e471583c8f3468dd4b175ad62b5f635590f85a7bda7552c2`，未重剪或转码。
+- `public/images/projects/junlugu-promo-20261001.webp`：同次成片的 `cover.png` 转WebP quality 88，保留完整1920×1080画面。用于播放器poster；首页原封面保留。
+- 画面为生产范围的真实游戏操作，不含mire开发稿；片内配乐和动作音为Juhani Junkala/SubspaceAudio CC0资源。画面中的Kenney素材及Diarandor/Solarus黄蝶分别保留原许可。公开署名见同视频目录的 `junlugu-promo-20261001-credits.txt`，播放器下方有入口。完整制作与许可记录留原作品工程，内部日志不发布。
+- 详情用浏览器原生控制、`playsinline`、`preload="none"`，不自动播放，保持16:9完整画面；只有主动播放才请求MP4。

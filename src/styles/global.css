@@ -113,6 +113,11 @@
 .project-action:hover { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-bg); }
 .detail-cover { margin: 42px 0 60px; }
 .detail-cover img { width: 100%; height: auto; border-radius: 6px; }
+.detail-video { margin: 42px 0 60px; }
+.detail-video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; background: #142e24; border-radius: 6px; }
+.detail-video figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; margin-top: 14px; font: 14px/1.7 var(--font-sans); color: var(--color-ink-muted); }
+.detail-video figcaption a { text-decoration: underline; text-underline-offset: 4px; }
+.detail-video video:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 5px; }
 .detail-body, .detail-end { max-width: 680px; margin-inline: auto; }
 .prose { font-size: 18px; line-height: 2; letter-spacing: .015em; overflow-wrap: anywhere; }
 .prose h2 { font-size: 29px; line-height: 1.5; margin: 42px 0 18px; }
