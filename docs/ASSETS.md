@@ -50,3 +50,10 @@
 - `public/images/projects/pocofocus-promo-20261001.webp`：同次 `poster.jpg` 转 WebP quality 88，保留完整1920×1080画面。用于播放器 poster；首页原封面保留。
 - 画面为正式版本真实界面和演示操作，专注与培育等待已压缩。后期配乐《Zona》由 Lena Selyanina 创作，CC BY 3.0，已剪辑与淡入淡出；界面 OpenMoji 图标为 CC BY-SA 4.0。来源、许可和改动声明见播放器下方的 `pocofocus-promo-20261001-credits.txt`。
 - 复用现有原生播放器：controls、playsinline、preload=none，保留完整16:9画面。仅成片、poster 与必要公开署名进入 public；捕获、演示状态与工具日志留在制作工程。
+
+## 2026-10-01 · 海拉鲁宣传片
+
+- `public/videos/projects/hyrule-promo-20261001.mp4`：直接复制海拉鲁项目 `videos/promo-2026-10-01/final.mp4`，29.28秒、1920×1080、25fps、H.264/AAC，21,238,164字节；SHA-256 `a0f518bedee8b4a9b70b1aa9233009ea901a4a416ad838e4700f9c2ac78392aa`，未重剪或转码。
+- `public/images/projects/hyrule-promo-20261001.webp`：直接复制同次 `cover.webp`，完整1920×1080画面，126,258字节；SHA-256 `fd0420818646744f4566a7ddbdff377dde0221c11ed33309d6c9edb1c473074b`。用于播放器 poster；首页原封面保留。
+- 画面来自当前个人非官方 Demo 的独立 QA 存档与真实输入，展示蓝焰收集、磁力机关和跃崖滑翔。画面中的 Kenney Castle Kit、Zelda UI Kit 与相关角色/名称归属按原作品说明；新增字幕与素材加工均保留出处。
+- 配乐《Town3 - Sunshine Coast》由 Juhani Junkala / SubspaceAudio 创作，CC0；风声为确定性合成。两者为后期重建声轨，并非现场录音。片注与公开 `hyrule-promo-20261001-credits.html` 说明此边界、许可链接和加工方式；仅视频、封面和必要署名入站，完整工程及内部日志留在游戏项目。

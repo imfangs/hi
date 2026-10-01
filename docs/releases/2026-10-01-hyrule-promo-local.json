@@ -1,0 +1,666 @@
+{
+  "verifiedAt": "2026-10-01T07:07:40.873Z",
+  "base": "http://127.0.0.1:4206",
+  "tag": "local",
+  "finalSha256": "a0f518bedee8b4a9b70b1aa9233009ea901a4a416ad838e4700f9c2ac78392aa",
+  "expectedDuration": 29.28,
+  "results": [
+    {
+      "name": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "errors": [],
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "playsInline": true,
+        "controls": true,
+        "poster": "http://127.0.0.1:4206/images/projects/hyrule-promo-20261001.webp",
+        "width": 1100,
+        "height": 618.75,
+        "objectFit": "contain"
+      },
+      "videoRequestsBeforeInteraction": 0,
+      "seek": {
+        "method": "mouse drag on native media timeline",
+        "before": 1.335416,
+        "after": 23.79
+      },
+      "playbackAfterSeek": {
+        "duration": 29.28,
+        "currentTime": 29.28,
+        "ended": true,
+        "paused": true,
+        "error": null,
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "muted": false,
+        "volume": 1,
+        "currentSrc": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001.mp4",
+        "quality": {
+          "totalVideoFrames": 532,
+          "droppedVideoFrames": 0
+        }
+      },
+      "volumeControl": {
+        "nativeMuteToggled": true,
+        "before": false,
+        "after": true
+      },
+      "fullscreenControl": {
+        "nativeEnter": true,
+        "cleanup": "document.exitFullscreen in headless harness"
+      },
+      "requestsAfterPlay": 20,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "at": 860
+        },
+        {
+          "type": "playing",
+          "time": 0.000855,
+          "at": 1258.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 1.931377,
+          "at": 2676.5
+        },
+        {
+          "type": "seeking",
+          "time": 1.931377,
+          "at": 2676.5
+        },
+        {
+          "type": "seeking",
+          "time": 3.918643,
+          "at": 2692
+        },
+        {
+          "type": "seeking",
+          "time": 5.905909,
+          "at": 2707.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 7.892741,
+          "at": 2724.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 9.880007,
+          "at": 2741.7000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 11.867272,
+          "at": 2759.7000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 13.854105,
+          "at": 2775.6000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 15.84137,
+          "at": 2791.7999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 15.84137,
+          "at": 2797.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 17.828636,
+          "at": 2808.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 19.815468,
+          "at": 2825.1000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 21.802734,
+          "at": 2841.2999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 21.802734,
+          "at": 2855.2999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 23.79,
+          "at": 2860.1000000089407
+        },
+        {
+          "type": "play",
+          "time": 23.79,
+          "at": 2874.4000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 23.79,
+          "at": 2890.2999999970198
+        },
+        {
+          "type": "playing",
+          "time": 23.79,
+          "at": 2890.2999999970198
+        },
+        {
+          "type": "ended",
+          "time": 29.28,
+          "at": 8470.10000000894
+        }
+      ],
+      "credits": {
+        "url": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001-credits.html",
+        "status": 200,
+        "bytes": 2048
+      },
+      "cta": {
+        "hrefVerified": true
+      },
+      "returnedWithFilter": true,
+      "detailRegression": [
+        {
+          "link": "/projects/lehh/?view=games",
+          "tag": "IMG",
+          "source": "http://127.0.0.1:4206/images/projects/lehh.webp",
+          "loaded": true
+        },
+        {
+          "link": "/projects/taste/?view=games",
+          "tag": "IMG",
+          "source": "http://127.0.0.1:4206/images/projects/taste.webp",
+          "loaded": true
+        },
+        {
+          "link": "/projects/little-pause/?view=games",
+          "tag": "IMG",
+          "source": "http://127.0.0.1:4206/images/projects/little-pause.webp",
+          "loaded": true
+        },
+        {
+          "link": "/projects/snow-duel/?view=games",
+          "tag": "IMG",
+          "source": "http://127.0.0.1:4206/images/projects/snow-duel.webp",
+          "loaded": true
+        },
+        {
+          "link": "/projects/pocofocus/?view=games",
+          "tag": "VIDEO",
+          "source": "http://127.0.0.1:4206/videos/projects/pocofocus-promo-20261001.mp4",
+          "loaded": true
+        },
+        {
+          "link": "/projects/junlugu/?view=games",
+          "tag": "VIDEO",
+          "source": "http://127.0.0.1:4206/videos/projects/junlugu-promo-20261001.mp4",
+          "loaded": true
+        },
+        {
+          "link": "/projects/qiya-herbarium/?view=games",
+          "tag": "IMG",
+          "source": "http://127.0.0.1:4206/images/projects/qiya-herbarium.webp",
+          "loaded": true
+        },
+        {
+          "link": "/projects/hyrule/?view=games",
+          "tag": "VIDEO",
+          "source": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001.mp4",
+          "loaded": true
+        },
+        {
+          "link": "/projects/aiedu/?view=games",
+          "tag": "IMG",
+          "source": "http://127.0.0.1:4206/images/projects/aiedu.webp",
+          "loaded": true
+        },
+        {
+          "link": "/projects/wbw/?view=games",
+          "tag": "IMG",
+          "source": "http://127.0.0.1:4206/images/projects/wbw.webp",
+          "loaded": true
+        },
+        {
+          "link": "/projects/dankoe/?view=games",
+          "tag": "IMG",
+          "source": "http://127.0.0.1:4206/images/projects/dankoe.webp",
+          "loaded": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "errors": [],
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "playsInline": true,
+        "controls": true,
+        "poster": "http://127.0.0.1:4206/images/projects/hyrule-promo-20261001.webp",
+        "width": 350,
+        "height": 196.875,
+        "objectFit": "contain"
+      },
+      "videoRequestsBeforeInteraction": 0,
+      "seek": {
+        "method": "mouse drag on native media timeline",
+        "before": 1.245108,
+        "after": 24.687058
+      },
+      "playbackAfterSeek": {
+        "duration": 29.28,
+        "currentTime": 29.28,
+        "ended": true,
+        "paused": true,
+        "error": null,
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "muted": false,
+        "volume": 1,
+        "currentSrc": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001.mp4",
+        "quality": {
+          "totalVideoFrames": 426,
+          "droppedVideoFrames": 3
+        }
+      },
+      "requestsAfterPlay": 21,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "at": 682.8999999910593
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "at": 1022.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 1.880833,
+          "at": 2364.8999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 1.880833,
+          "at": 2364.8999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 3.954534,
+          "at": 2382.3999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 6.028235,
+          "at": 2399.0999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 8.100441,
+          "at": 2415.8999999910593
+        },
+        {
+          "type": "seeked",
+          "time": 8.100441,
+          "at": 2423.5
+        },
+        {
+          "type": "seeking",
+          "time": 10.174142,
+          "at": 2432.5
+        },
+        {
+          "type": "seeking",
+          "time": 12.247843,
+          "at": 2449
+        },
+        {
+          "type": "seeked",
+          "time": 12.247843,
+          "at": 2453.3999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 14.320049,
+          "at": 2466
+        },
+        {
+          "type": "seeking",
+          "time": 16.39375,
+          "at": 2482.2999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 16.39375,
+          "at": 2492.5999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 18.46745,
+          "at": 2499.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 20.539656,
+          "at": 2516.5999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 22.613357,
+          "at": 2532.5999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 24.687058,
+          "at": 2549.2999999970198
+        },
+        {
+          "type": "play",
+          "time": 24.687058,
+          "at": 2566.5999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 24.687058,
+          "at": 2577.3999999910593
+        },
+        {
+          "type": "playing",
+          "time": 24.687058,
+          "at": 2577.3999999910593
+        },
+        {
+          "type": "ended",
+          "time": 29.28,
+          "at": 7266.20000000298
+        }
+      ],
+      "credits": {
+        "url": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001-credits.html",
+        "status": 200,
+        "bytes": 2048
+      },
+      "cta": {
+        "hrefVerified": true
+      },
+      "returnedWithFilter": true,
+      "passed": true
+    },
+    {
+      "name": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "errors": [],
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "playsInline": true,
+        "controls": true,
+        "poster": "http://127.0.0.1:4206/images/projects/hyrule-promo-20261001.webp",
+        "width": 280,
+        "height": 157.5,
+        "objectFit": "contain"
+      },
+      "videoRequestsBeforeInteraction": 0,
+      "seek": {
+        "method": "mouse drag on native media timeline",
+        "before": 1.253729,
+        "after": 25.061694
+      },
+      "playbackAfterSeek": {
+        "duration": 29.28,
+        "currentTime": 29.28,
+        "ended": true,
+        "paused": true,
+        "error": null,
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "muted": false,
+        "volume": 1,
+        "currentSrc": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001.mp4",
+        "quality": {
+          "totalVideoFrames": 449,
+          "droppedVideoFrames": 0
+        }
+      },
+      "requestsAfterPlay": 24,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "at": 913.6999999880791
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "at": 1216.699999988079
+        },
+        {
+          "type": "seeking",
+          "time": 1.861016,
+          "at": 2564.0999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 1.861016,
+          "at": 2564.0999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 3.970169,
+          "at": 2581
+        },
+        {
+          "type": "seeking",
+          "time": 6.079322,
+          "at": 2597
+        },
+        {
+          "type": "seeking",
+          "time": 8.188474,
+          "at": 2613.3999999910593
+        },
+        {
+          "type": "seeked",
+          "time": 8.188473,
+          "at": 2621.699999988079
+        },
+        {
+          "type": "seeking",
+          "time": 10.297627,
+          "at": 2630.699999988079
+        },
+        {
+          "type": "seeking",
+          "time": 12.406779,
+          "at": 2646.699999988079
+        },
+        {
+          "type": "seeked",
+          "time": 12.406779,
+          "at": 2653.8999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 14.515932,
+          "at": 2664
+        },
+        {
+          "type": "seeking",
+          "time": 16.625084,
+          "at": 2681.7999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 16.625084,
+          "at": 2693.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 18.734237,
+          "at": 2697.0999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 20.843389,
+          "at": 2713.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 22.952542,
+          "at": 2730.199999988079
+        },
+        {
+          "type": "seeking",
+          "time": 25.061694,
+          "at": 2746.8999999910593
+        },
+        {
+          "type": "play",
+          "time": 25.061694,
+          "at": 2765.699999988079
+        },
+        {
+          "type": "seeked",
+          "time": 25.061694,
+          "at": 2772
+        },
+        {
+          "type": "playing",
+          "time": 25.061694,
+          "at": 2772
+        },
+        {
+          "type": "ended",
+          "time": 29.28,
+          "at": 7066.29999999702
+        }
+      ],
+      "credits": {
+        "url": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001-credits.html",
+        "status": 200,
+        "bytes": 2048
+      },
+      "cta": {
+        "hrefVerified": true
+      },
+      "returnedWithFilter": true,
+      "passed": true
+    },
+    {
+      "name": "webkit-phone",
+      "browser": "26.6",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "errors": [],
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "playsInline": true,
+        "controls": true,
+        "poster": "http://127.0.0.1:4206/images/projects/hyrule-promo-20261001.webp",
+        "width": 350,
+        "height": 196.875,
+        "objectFit": "contain"
+      },
+      "videoRequestsBeforeInteraction": 0,
+      "seek": {
+        "method": "HTMLMediaElement.currentTime seek; native drag not claimed for WebKit",
+        "before": 1.2445308336758294,
+        "after": 24.28
+      },
+      "playbackAfterSeek": {
+        "duration": 29.28,
+        "currentTime": 29.28,
+        "ended": true,
+        "paused": false,
+        "error": null,
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "muted": false,
+        "volume": 1,
+        "currentSrc": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001.mp4",
+        "quality": {
+          "totalVideoFrames": 154,
+          "droppedVideoFrames": 37
+        }
+      },
+      "requestsAfterPlay": 2,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "at": 720
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "at": 1094
+        },
+        {
+          "type": "seeking",
+          "time": 24.28,
+          "at": 2657
+        },
+        {
+          "type": "seeked",
+          "time": 24.280409708343797,
+          "at": 2785
+        }
+      ],
+      "credits": {
+        "url": "http://127.0.0.1:4206/videos/projects/hyrule-promo-20261001-credits.html",
+        "status": 200,
+        "bytes": 2048
+      },
+      "cta": {
+        "hrefVerified": true
+      },
+      "returnedWithFilter": true,
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Synthetic browser viewports; no physical phone test",
+    "No claim of audio listening, continuous human visual viewing, or promotion effectiveness"
+  ],
+  "complete": true,
+  "visualReview": "Desktop and 390px light / 320px dark screenshots: complete 16:9 poster and running frame, no cropping or horizontal overflow; heading and CTA remain separate from player, caption wraps and credits entry is visible.",
+  "harnessSha256": "cb34a97f0a02c9b7a6bc93de968ff0b98a016d192de14682ca5c8c478288c814"
+}
