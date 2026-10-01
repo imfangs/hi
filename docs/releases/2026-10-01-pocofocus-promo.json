@@ -1,0 +1,183 @@
+{
+  "verifiedAt": "2026-10-01T07:04:40.258409+00:00",
+  "url": "https://hi.fangs.cc/projects/pocofocus/",
+  "videoUrl": "https://hi.fangs.cc/videos/projects/pocofocus-promo-20261001.mp4",
+  "posterUrl": "https://hi.fangs.cc/images/projects/pocofocus-promo-20261001.webp",
+  "source": "f96a1c642f1434baa410532c2b6c3c9a1be9ef4c",
+  "pagesCommit": "ab4e6ae7ebe9a67a1c8dea9443c3a935c101e96a",
+  "pagesStatus": "built",
+  "videoSha256": "9b07d35b09c0d74d75c8e86eab951d659e46008819610da714c1726f9a98aa74",
+  "posterSha256": "c566eda686b5a6aac7868cf8946dc68b075b23e076eb8ec4ef07ce8f0962a045",
+  "videoBytes": 7639226,
+  "posterBytes": 118600,
+  "fileIntegrity": {
+    "matched": 39,
+    "total": 39,
+    "receipt": "2026-10-01-pocofocus-promo-integrity.json"
+  },
+  "rangeRequest": {
+    "status": 206,
+    "contentRange": "bytes 0-1023/7639226",
+    "bytes": 1024
+  },
+  "browser": [
+    {
+      "name": "desktop",
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "inline": true,
+        "width": 1100,
+        "height": 618.75,
+        "objectFit": "contain",
+        "poster": "https://hi.fangs.cc/images/projects/pocofocus-promo-20261001.webp"
+      },
+      "playback": {
+        "duration": 30,
+        "currentTime": 30,
+        "ended": true,
+        "error": null,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "currentSrc": "https://hi.fangs.cc/videos/projects/pocofocus-promo-20261001.mp4"
+      },
+      "seek": null,
+      "requestsAfterPlay": 1,
+      "credits": true,
+      "returnedWithFilter": true,
+      "cta": {
+        "url": "https://pocofocus.fangs.cc/",
+        "title": "专注 · 柚子的专注世界",
+        "bodyTextLength": 475
+      },
+      "errors": []
+    },
+    {
+      "allDetails": 11,
+      "staticCovers": 9,
+      "existingJunluguVideo": true
+    },
+    {
+      "name": "phone",
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "inline": true,
+        "width": 350,
+        "height": 196.875,
+        "objectFit": "contain",
+        "poster": "https://hi.fangs.cc/images/projects/pocofocus-promo-20261001.webp"
+      },
+      "playback": {
+        "duration": 30,
+        "currentTime": 30,
+        "ended": true,
+        "error": null,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "currentSrc": "https://hi.fangs.cc/videos/projects/pocofocus-promo-20261001.mp4"
+      },
+      "seek": {
+        "forward": true,
+        "backward": true,
+        "lastTarget": 27
+      },
+      "requestsAfterPlay": 1,
+      "credits": true,
+      "returnedWithFilter": true,
+      "cta": true,
+      "errors": []
+    },
+    {
+      "name": "narrow-dark",
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "inline": true,
+        "width": 280,
+        "height": 157.5,
+        "objectFit": "contain",
+        "poster": "https://hi.fangs.cc/images/projects/pocofocus-promo-20261001.webp"
+      },
+      "playback": {
+        "duration": 30,
+        "currentTime": 30,
+        "ended": true,
+        "error": null,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "currentSrc": "https://hi.fangs.cc/videos/projects/pocofocus-promo-20261001.mp4"
+      },
+      "seek": {
+        "forward": true,
+        "backward": true,
+        "lastTarget": 27
+      },
+      "requestsAfterPlay": 4,
+      "credits": true,
+      "returnedWithFilter": true,
+      "cta": true,
+      "errors": []
+    },
+    {
+      "name": "webkit-phone",
+      "initial": {
+        "paused": true,
+        "time": 0,
+        "preload": "none",
+        "autoplay": false,
+        "inline": true,
+        "width": 350,
+        "height": 196.875,
+        "objectFit": "contain",
+        "poster": "https://hi.fangs.cc/images/projects/pocofocus-promo-20261001.webp"
+      },
+      "playback": {
+        "duration": 30,
+        "currentTime": 30,
+        "ended": true,
+        "error": null,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "currentSrc": "https://hi.fangs.cc/videos/projects/pocofocus-promo-20261001.mp4"
+      },
+      "seek": {
+        "forward": true,
+        "backward": true,
+        "lastTarget": 27
+      },
+      "requestsAfterPlay": 2,
+      "credits": true,
+      "returnedWithFilter": true,
+      "cta": true,
+      "errors": []
+    }
+  ],
+  "visualReview": "Live 390px light and 320px dark screenshots: complete 16:9 end frame, primary CTA remains visible, caption wraps, materials link fits; no horizontal overflow.",
+  "playbackScope": "Live desktop uninterrupted from time 0 through ended at 30 seconds. Chromium 390px and 320px dark plus WebKit 390px start with native playback, seek forward and backward, then seek to 27 seconds and play to ended. No autoplay or MP4 request before user interaction.",
+  "limits": [
+    "Emulated browser viewports, not physical-phone validation",
+    "Audio listening and promotional effectiveness not assessed by page QA"
+  ],
+  "temporaryEvidence": "/private/tmp/hi-pocofocus-promo-20261001",
+  "cleanup": {
+    "temporaryPreview": "stopped",
+    "previewPort": 4208,
+    "browserContexts": "closed",
+    "deploymentWorktree": "removed by deploy.sh"
+  }
+}
