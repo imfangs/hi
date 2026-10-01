@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-01",
+  "status": "verified",
+  "source": "5de9e63cb9cb2b19900b339f6aff71741dad364b",
+  "pages": "86d39a1f154b38ff23f40b7feba819024e0efcca",
+  "pagesApiStatus": "built",
+  "release": {"source": "5de9e63cb9cb2b19900b339f6aff71741dad364b", "builtAt": "2026-10-01T09:15:36.388Z"},
+  "urls": ["https://hi.fangs.cc/projects/school-secret-lab/", "https://hi.fangs.cc/projects/junxia-comic/", "https://hi.fangs.cc/?view=creations#works"],
+  "portfolio": {"projects": 13, "pages": 14, "creationProjects": 2, "existingProjectVideosPreserved": 11},
+  "shortFilms": {"conceptEpisodes": 3, "additionalShotStudies": 2, "unchangedCopies": true, "assetLibraryDescribedAsInProgress": true},
+  "verification": {
+    "buildAndTypes": "passed",
+    "publicFiles": {"matched": 98, "total": 98, "receipt": "2026-10-01-creations-integrity.json"},
+    "rangeProbe": {"path": "/videos/projects/school-secret-lab/ep02-fire-phoenix.mp4", "status": 206, "contentRange": "bytes 0-1023/18141051", "bytesMatchLocal": true},
+    "shortFilmBrowser": {"passed": true, "environments": ["Chromium desktop 1280x900", "Chromium 390x844", "Chromium 320x740 dark"], "desktopFullPlaybackCount": 5, "mobileSeeking": true, "noPrefetch": true, "singleActivePlayer": true, "noJsFallback": true, "allDetailRegression": 13, "receipt": "2026-10-01-school-secret-lab-live.json"},
+    "comicIndependentBrowser": {"passed": true, "receipt": "2026-10-01-junxia-comic-live.json"}
+  },
+  "limits": ["Phone checks use browser viewports; no physical device assertion.", "No new subjective audio or artistic-quality claim.", "Existing movie bytes published unchanged; no new image or video generation.", "Metadata-only commits after this source do not change the deployed release."],
+  "coordination": {"preservedPromoSource": "c9c46221e0a2f5fcc1f09e62c93502b3ca9e591c", "comicSource": "fc79ff9", "promoQueueCompletionMergedAfterDeploy": "51a635d9e95143cb27f7e3f05ef4414f2c82193b"}
+}

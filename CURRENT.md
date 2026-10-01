@@ -1,12 +1,14 @@
 # 当前状态
 
-## 爱养蘑菇的小学生与创作分类（2026-10-01，待正式站回读）
+## 爱养蘑菇的小学生与创作分类（2026-10-01，已发布并回读）
 
 - 新增 `/projects/school-secret-lab/`，以《爱养蘑菇的小学生》介绍校园奇幻世界、与柚子的共创、三支概念短片及两个后续镜头实验；如实保留完整资产库尚未完成的进度。内容回源见 `docs/school-secret-lab-overview.md`。
 - 五支原MP4逐字节复制；真实成片抽帧作为poster和三联封面。播放器保持9:16、按需加载、原生控制；播放下一支会暂停上一支。来源与字节见 `docs/school-secret-lab-media.json`。
 - 新增creations「创作」类别，合并菌侠任务的 `fc79ff9` 并将菌侠漫画归入同类；保留 `c9c4622` 的8项宣传片及 `26f088c` 的发布记录。首页共13件作品、14个静态页面。分类可返回恢复，两件创作可沿下一件互相浏览。
 - Astro构建与TypeScript检查通过。五支短片桌面正常速度完整播放，390/320px播放及前后跳转、片尾、互斥播放、无预下载、无JS原生播放器与13详情回归通过。菌侠合并后桌面与390/320/WebKit390的阅读器、7视频、分类返回回归通过。手机指合成视口，未做实体设备或主观听感评价。
 - 本地证据：`docs/releases/2026-10-01-school-secret-lab-local.json`、`2026-10-01-school-secret-lab-merged-local.json`、`2026-10-01-creations-junxia-merged-desktop.json`、`2026-10-01-creations-junxia-merged-mobile.json`。首次菌侠手机回归因立即读取分类按钮状态导致脚本竞态，补等待后通过；初次整站重建期间的poster请求失败未作为成片缺陷。
+- **正式站已发布**：源码 `5de9e63cb9cb2b19900b339f6aff71741dad364b`，Pages `86d39a1f154b38ff23f40b7feba819024e0efcca`；API built，公开release.json匹配。匿名逐文件回读98/98字节与SHA一致。火凤菇视频Range206且前1024字节匹配；五支短剧桌面完整播放、390/320px播放与跳转/片尾、互斥播放、分类返回和13详情回归通过。菌侠独立公网Chromium三视口、WebKit390及无JS回退通过。
+- 发布证据见 [总回执](docs/releases/2026-10-01-creations-publish.json)、[文件校验](docs/releases/2026-10-01-creations-integrity.json)、[短剧在线播放](docs/releases/2026-10-01-school-secret-lab-live.json)、[菌侠独立复验](docs/releases/2026-10-01-junxia-comic-live.json)。后续记录性提交（含promo queue完结）不代表再次部署；公开源码版本以上述release.json为准。
 
 ## 宣传片批次（2026-10-01，已发布并回读）
 
@@ -17,7 +19,7 @@
 - 本轮通过固定c9提交的隔离worktree发布，保留同期菌侠/短剧任务的本地新增；它们由独立任务后续接入。后续记录性提交不代表再次发布。3个制作任务已按方帅要求归档，旧串行heartbeat保持暂停。
 
 
-## 菌侠漫画与动画实验（2026-10-01，本地完成，待合并发布）
+## 菌侠漫画与动画实验（2026-10-01，随创作分类发布）
 
 - 新增 `/projects/junxia-comic/`，五页原画依上传顺序展示，保留手写对白与完整纸张；支持点开放大、原尺寸滚动、前后翻页、Escape关闭、页码直达。
 - 收录既有8.08秒《我来啦》、29.302秒五幕合成片和五段6.06秒独立分镜，共7个视频，未重新生成或修改；均与本机原件哈希一致。页面标注动画实验与原画的差异，不新增原作剧情解读。公开署名与来源见ASSETS，技术回执见 `docs/releases/2026-10-01-junxia-comic-assets.json`。
