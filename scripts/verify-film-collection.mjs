@@ -70,7 +70,7 @@ try {
       const metadata = await video.evaluate(v => ({ duration: v.duration, width: v.videoWidth, height: v.videoHeight, error: v.error?.code ?? null }));
       assert(Math.abs(metadata.duration - film.duration) < 0.12);
       assert.equal(metadata.width, 720); assert.equal(metadata.height, 1280); assert.equal(metadata.error, null);
-      if (env.name === 'desktop') {
+      if (env.name === 'desktop' && args.playback !== 'quick') {
         await page.waitForFunction(i => document.querySelectorAll('.film video')[i].ended, index, { timeout: film.duration * 1000 + 15000 });
       }
       await video.evaluate(v => { v.pause(); v.currentTime = v.duration * 0.7; });
@@ -79,9 +79,14 @@ try {
       await page.waitForFunction(i => { const v = document.querySelectorAll('.film video')[i]; return !v.seeking && v.currentTime <= v.duration * 0.25; }, index);
       await video.evaluate(v => { v.currentTime = v.duration - 0.3; return v.play(); });
       await page.waitForFunction(i => document.querySelectorAll('.film video')[i].ended, index, { timeout: 15000 });
-      result.clips.push({ name: film.name, layout, metadata, fullPlayback: env.name === 'desktop', seekForwardBackwardAndEnd: true });
+      result.clips.push({ name: film.name, layout, metadata, fullPlayback: env.name === 'desktop' && args.playback !== 'quick', seekForwardBackwardAndEnd: true });
       save();
     }
+    await page.locator('.film video').nth(0).evaluate(v => { v.currentTime = 0; return v.play(); });
+    await page.locator('.film video').nth(1).evaluate(v => { v.currentTime = 0; return v.play(); });
+    assert.equal(await page.locator('.film video').nth(0).evaluate(v => v.paused), true, 'Previous film kept playing');
+    await page.locator('.film video').nth(1).evaluate(v => v.pause());
+    result.singleActivePlayer = true;
     const credits = page.locator('a[href="/videos/projects/school-secret-lab/credits.txt"]');
     assert.equal(await credits.count(), 1);
     const creditsResponse = await context.request.get(new URL(await credits.getAttribute('href'), base).href);
@@ -99,7 +104,8 @@ try {
     for (const link of links) {
       assert((await page.goto(new URL(link.href, base).href)).ok());
       assert.equal(await page.locator('h1').count(), 1);
-      assert.equal(await page.locator('img').evaluateAll(images => images.filter(i => i.complete && !i.naturalWidth).length), 0);
+      const brokenImages = await page.locator('img[src]:visible').evaluateAll(images => images.filter(i => i.complete && !i.naturalWidth).map(i => i.src));
+      assert.deepEqual(brokenImages, [], `Visible image failed on ${link.slug}`);
       await overflow();
     }
     assert.deepEqual(errors, []);
