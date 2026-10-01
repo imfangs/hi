@@ -43,3 +43,10 @@
 - `public/images/projects/junlugu-promo-20261001.webp`：同次成片的 `cover.png` 转WebP quality 88，保留完整1920×1080画面。用于播放器poster；首页原封面保留。
 - 画面为生产范围的真实游戏操作，不含mire开发稿；片内配乐和动作音为Juhani Junkala/SubspaceAudio CC0资源。画面中的Kenney素材及Diarandor/Solarus黄蝶分别保留原许可。公开署名见同视频目录的 `junlugu-promo-20261001-credits.txt`，播放器下方有入口。完整制作与许可记录留原作品工程，内部日志不发布。
 - 详情用浏览器原生控制、`playsinline`、`preload="none"`，不自动播放，保持16:9完整画面；只有主动播放才请求MP4。
+
+## 2026-10-01 · PocoFocus 宣传片
+
+- `public/videos/projects/pocofocus-promo-20261001.mp4`：直接复制 PocoFocus 项目 `videos/promo-2026-10-01/final.mp4`，30 秒、1920×1080、25fps、H.264/AAC 双声道；SHA-256 `9b07d35b09c0d74d75c8e86eab951d659e46008819610da714c1726f9a98aa74`，未重剪或转码。
+- `public/images/projects/pocofocus-promo-20261001.webp`：同次 `poster.jpg` 转 WebP quality 88，保留完整1920×1080画面。用于播放器 poster；首页原封面保留。
+- 画面为正式版本真实界面和演示操作，专注与培育等待已压缩。后期配乐《Zona》由 Lena Selyanina 创作，CC BY 3.0，已剪辑与淡入淡出；界面 OpenMoji 图标为 CC BY-SA 4.0。来源、许可和改动声明见播放器下方的 `pocofocus-promo-20261001-credits.txt`。
+- 复用现有原生播放器：controls、playsinline、preload=none，保留完整16:9画面。仅成片、poster 与必要公开署名进入 public；捕获、演示状态与工具日志留在制作工程。
