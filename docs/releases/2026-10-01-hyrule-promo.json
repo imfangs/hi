@@ -1,0 +1,134 @@
+{
+  "verifiedAt": "2026-10-01T07:37:50.761522+00:00",
+  "url": "https://hi.fangs.cc/projects/hyrule/",
+  "videoUrl": "https://hi.fangs.cc/videos/projects/hyrule-promo-20261001.mp4",
+  "posterUrl": "https://hi.fangs.cc/images/projects/hyrule-promo-20261001.webp",
+  "creditsUrl": "https://hi.fangs.cc/videos/projects/hyrule-promo-20261001-credits.html",
+  "source": "b5b080062aae6005dc40710417cf7caccb4e0bae",
+  "pagesCommit": "0103e4b099f97258dce9895e5459ae9eac469080",
+  "pagesStatus": "built",
+  "videoSha256": "a0f518bedee8b4a9b70b1aa9233009ea901a4a416ad838e4700f9c2ac78392aa",
+  "posterSha256": "fd0420818646744f4566a7ddbdff377dde0221c11ed33309d6c9edb1c473074b",
+  "videoBytes": 21238164,
+  "releaseReadback": {
+    "defaultSource": "b5b080062aae6005dc40710417cf7caccb4e0bae",
+    "uniqueQuerySource": "b5b080062aae6005dc40710417cf7caccb4e0bae",
+    "builtAt": "2026-10-01T07:14:59.669Z",
+    "identical": true
+  },
+  "fileIntegrity": {
+    "matched": 42,
+    "total": 42,
+    "receipt": "2026-10-01-hyrule-promo-integrity.json"
+  },
+  "rangeRequest": {
+    "url": "https://hi.fangs.cc/videos/projects/hyrule-promo-20261001.mp4",
+    "status": 206,
+    "contentRange": "bytes 0-1023/21238164",
+    "bytes": 1024,
+    "prefixMatchesFinal": true
+  },
+  "browserReceipt": "2026-10-01-hyrule-promo-browser.json",
+  "desktopCompletePlayback": {
+    "duration": 29.28,
+    "currentTime": 29.28,
+    "ended": true,
+    "paused": true,
+    "error": null,
+    "videoWidth": 1920,
+    "videoHeight": 1080,
+    "muted": false,
+    "volume": 1,
+    "currentSrc": "https://hi.fangs.cc/videos/projects/hyrule-promo-20261001.mp4",
+    "quality": {
+      "totalVideoFrames": 732,
+      "droppedVideoFrames": 0
+    }
+  },
+  "browserScope": {
+    "chromeDesktop": "Full start-to-ended playback; then real native timeline drag, replay to ended, mute toggle, fullscreen entry; actual CTA popup to game landing page; all 11 details.",
+    "chrome390And320": "User click, real native timeline drag to about 24.7/25.1 seconds, then ended; caption/materials/return flow and full-frame layout.",
+    "webkit390": "User click, HTMLMediaElement.currentTime seek to24.28 seconds then ended; separate complete headless and headed playbacks. Native drag not claimed for WebKit."
+  },
+  "visualReview": "Live 390px light, 320px dark and WebKit390 screenshots retain complete 16:9 frames. Heading, CTA, caption and credits do not overlap; no horizontal overflow. Native controls overlay only the video while shown.",
+  "webkitPerformance": {
+    "receipt": "2026-10-01-hyrule-promo-webkit.json",
+    "headlessComplete": {
+      "totalVideoFrames": 700,
+      "droppedVideoFrames": 238
+    },
+    "headedComplete": {
+      "totalVideoFrames": 700,
+      "droppedVideoFrames": 148
+    },
+    "mediaError": null,
+    "cause": "unresolved in WebKit test environment"
+  },
+  "transportObservation": {
+    "sourceFirstAttempt": {
+      "command": "git push origin main",
+      "terminal": "non-TTY",
+      "observation": "No stdout/stderr during upload; remote ref still previous revision when inspected. A delayed nettop sample showed bytes had been sent.",
+      "nettop": {
+        "bytesIn": 41346,
+        "bytesOut": 13945418
+      },
+      "result": "Manually interrupted with SIGINT; exit 130; no transport error had been returned."
+    },
+    "sourceRetry": {
+      "command": "git -c http.version=HTTP/1.1 push --progress origin main",
+      "observedPackMiB": 20.37,
+      "observedRate": "around 100 KiB/s initially, later around 1 MiB/s",
+      "result": "Completed; remote main independently read as b5b080062aae6005dc40710417cf7caccb4e0bae"
+    },
+    "pagesPush": {
+      "command": "git push origin HEAD:gh-pages (deploy.sh detached worktree)",
+      "protocolOverride": false,
+      "observation": "Default command emitted no upload progress; completed normally after roughly 3 minutes 40 seconds.",
+      "result": "Remote gh-pages independently read as 0103e4b099f97258dce9895e5459ae9eac469080"
+    },
+    "rootCauseBoundary": "Evidence supports missing progress visibility during slow transfer, not a confirmed HTTP/2 defect or a verified hung process.",
+    "change": "Add --progress to Hi README source push and deploy.sh artifact push; no permanent protocol change.",
+    "verification": [
+      "Actual source retry visibly reported transferred bytes and rate",
+      "bash -n deploy.sh passed",
+      "git diff --check passed"
+    ]
+  },
+  "pagesBuildRecovery": {
+    "firstObservedAt": "2026-10-01T07:29:24.632844+00:00",
+    "first": {
+      "status": "building",
+      "commit": "0103e4b099f97258dce9895e5459ae9eac469080",
+      "created_at": "2026-10-01T07:18:39Z",
+      "updated_at": "2026-10-01T07:18:39Z"
+    },
+    "firstWorkflowRunCount": 0,
+    "action": "One POST /repos/imfangs/hi/pages/builds for the existing gh-pages commit; no new artifact or upload.",
+    "requestReceipt": {
+      "status": "queued",
+      "url": "https://api.github.com/repositories/1285605056/pages/builds/latest"
+    },
+    "completed": {
+      "status": "built",
+      "commit": "0103e4b099f97258dce9895e5459ae9eac469080",
+      "created_at": "2026-10-01T07:29:44Z",
+      "updated_at": "2026-10-01T07:30:12Z"
+    },
+    "workflowRun": {
+      "id": 36830644916,
+      "conclusion": "success"
+    },
+    "boundary": "Recovery is observed; original delayed dispatch root cause is unknown."
+  },
+  "limits": [
+    "Browser viewport checks are not physical-phone/Safari tests",
+    "WebKit dropped-frame counters remain; no all-browser smoothness claim",
+    "No audio listening or promotional-effect claim"
+  ],
+  "cleanup": {
+    "temporaryPreview4206": "stopped",
+    "browserContexts": "closed"
+  },
+  "temporaryEvidence": "/tmp/hyrule-hi-promo-20261001"
+}

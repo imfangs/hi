@@ -1,0 +1,88 @@
+{
+  "videoSha256": "a0f518bedee8b4a9b70b1aa9233009ea901a4a416ad838e4700f9c2ac78392aa",
+  "headless": {
+    "at": "2026-10-01T07:33:55.534Z",
+    "browser": "26.6",
+    "sha256": "a0f518bedee8b4a9b70b1aa9233009ea901a4a416ad838e4700f9c2ac78392aa",
+    "seek": {
+      "before": {
+        "time": 1.2083269586807792,
+        "duration": 29.28,
+        "ended": false,
+        "seeking": false,
+        "error": null,
+        "totalVideoFrames": 9,
+        "droppedVideoFrames": 0
+      },
+      "afterSeek": {
+        "time": 24.288742916659686,
+        "duration": 29.28,
+        "ended": false,
+        "seeking": false,
+        "error": null,
+        "totalVideoFrames": 55,
+        "droppedVideoFrames": 19
+      },
+      "end": {
+        "time": 29.28,
+        "duration": 29.28,
+        "ended": true,
+        "seeking": false,
+        "error": null,
+        "totalVideoFrames": 185,
+        "droppedVideoFrames": 54
+      },
+      "deltaAfterSeek": {
+        "total": 130,
+        "dropped": 35
+      }
+    },
+    "complete": {
+      "before": {
+        "time": 1.2095439163344701,
+        "duration": 29.28,
+        "ended": false,
+        "seeking": false,
+        "error": null,
+        "totalVideoFrames": 10,
+        "droppedVideoFrames": 0
+      },
+      "end": {
+        "time": 29.28,
+        "duration": 29.28,
+        "ended": true,
+        "seeking": false,
+        "error": null,
+        "totalVideoFrames": 700,
+        "droppedVideoFrames": 238
+      }
+    }
+  },
+  "headed": {
+    "at": "2026-10-01T07:35:39.779Z",
+    "browser": "26.6",
+    "sha256": "a0f518bedee8b4a9b70b1aa9233009ea901a4a416ad838e4700f9c2ac78392aa",
+    "complete": {
+      "before": {
+        "time": 1.2157206243375138,
+        "duration": 29.28,
+        "ended": false,
+        "seeking": false,
+        "error": null,
+        "totalVideoFrames": 10,
+        "droppedVideoFrames": 0
+      },
+      "end": {
+        "time": 29.28,
+        "duration": 29.28,
+        "ended": true,
+        "seeking": false,
+        "error": null,
+        "totalVideoFrames": 700,
+        "droppedVideoFrames": 148
+      }
+    },
+    "headless": false
+  },
+  "interpretation": "Both modes completed the same public MP4 without media errors. Headless complete playback reported 238/700 dropped frames; headed 148/700. The cause is unresolved. These test-environment counters do not establish a corrupt MP4, and ended does not prove smooth playback. Physical Safari/iOS remains unverified."
+}

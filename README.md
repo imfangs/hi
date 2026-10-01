@@ -56,8 +56,10 @@ order: 1
 当前使用 **本地构建 + GitHub Pages 的 gh-pages 分支**，不是 GitHub Actions。
 
 1. 检查 diff，完成构建与浏览器验证，只提交本任务文件。
-2. `git push origin main` 保存源码。
+2. `git push --progress origin main` 保存源码。
 3. `./deploy.sh 'Publish portfolio update'` 在隔离 worktree 构建发布；源码工作区保持原样。
 4. 等待 Pages 完成，核对 [release.json](https://hi.fangs.cc/release.json) 的 `source` SHA；浏览器检查首页、详情和图片，更新 CURRENT。
+
+源代码与产物 push 显式启用 `--progress`，使非交互终端中的视频大文件上传也有传输进度；耗时较长时结合远端分支 SHA 回读判断状态。
 
 Pages 设置为 `gh-pages` / root。域名 `hi.fangs.cc` CNAME 指向 `imfangs.github.io`；`public/CNAME` 随构建保留。发布脚本不会自动提交脏源码，也不会修改其他仓库。

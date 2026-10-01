@@ -35,5 +35,5 @@ if git -C "$DEPLOY_DIR" diff --cached --quiet; then
   echo 'Build unchanged.'; exit 0
 fi
 git -C "$DEPLOY_DIR" commit -m "${1:-Publish portfolio update}"
-git -C "$DEPLOY_DIR" push origin HEAD:gh-pages
+git -C "$DEPLOY_DIR" push --progress origin HEAD:gh-pages
 printf 'Published source %s. Verify https://hi.fangs.cc/release.json and public pages.\n' "$SOURCE_SHA"
