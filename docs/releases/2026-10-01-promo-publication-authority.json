@@ -6,9 +6,9 @@
     "source": "c9c46221e0a2f5fcc1f09e62c93502b3ca9e591c",
     "builtAt": "2026-10-01T08:55:47.471Z"
   },
-  "integrity": "/tmp/hi-promo-public-integrity.json",
-  "range": "/tmp/hi-promo-range.json",
-  "browserGamesApps": "/tmp/hi-promo-live-games-apps/qa.json",
-  "browserReading": "/tmp/hi-promo-live-reading/qa.json",
-  "browserWebkit": "/tmp/hi-promo-live-webkit/qa.json"
+  "integrity": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-integrity.json",
+  "range": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-range.json",
+  "browserGamesApps": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-live-games-apps.json",
+  "browserReading": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-live-reading.json",
+  "browserWebkit": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-live-webkit.json"
 }
