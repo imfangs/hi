@@ -1,0 +1,5917 @@
+{
+  "schemaVersion": 2,
+  "startedAt": "2026-10-01T09:01:41.903Z",
+  "root": "/private/tmp/hi-promo-release-c9c4622",
+  "base": "https://hi.fangs.cc",
+  "options": {
+    "url": "https://hi.fangs.cc",
+    "engines": [
+      "chromium"
+    ],
+    "full": true,
+    "slugs": "taste,aiedu,wbw,dankoe",
+    "out": "/tmp/hi-promo-live-reading",
+    "playwright-root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01"
+  },
+  "contentInventory": [
+    {
+      "slug": "aiedu",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "dankoe",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "hyrule",
+      "contentSha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "junlugu",
+      "contentSha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "lehh",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "little-pause",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "pocofocus",
+      "contentSha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "qiya-herbarium",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "snow-duel",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "taste",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "wbw",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "hasVideo": true,
+      "draft": false
+    }
+  ],
+  "assets": [
+    {
+      "slug": "taste",
+      "title": "你品 · 艺术与思想",
+      "group": "reading",
+      "contentFile": "/private/tmp/hi-promo-release-c9c4622/src/content/projects/taste.mdx",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "caption": "31 秒正式站实录：从广重原作进入局部细读、随手翻翻与出处。配乐为后期制作，无旁白。",
+      "links": [
+        {
+          "label": "打开你品",
+          "href": "https://taste.fangs.cc/"
+        },
+        {
+          "label": "读文章",
+          "href": "https://taste.fangs.cc/articles/"
+        },
+        {
+          "label": "看开发者视频",
+          "href": "https://taste.fangs.cc/videos/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/taste-promo-2026-10-01.mp4",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/taste-promo-2026-10-01.mp4",
+          "bytes": 5777872,
+          "sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245"
+        },
+        "poster": {
+          "publicPath": "/images/projects/taste-promo-2026-10-01.webp",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/images/projects/taste-promo-2026-10-01.webp",
+          "bytes": 91886,
+          "sha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/taste-promo-2026-10-01-credits.html",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/taste-promo-2026-10-01-credits.html",
+          "bytes": 1089,
+          "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "aiedu",
+      "title": "AI 教育 · 中英双语",
+      "group": "reading",
+      "contentFile": "/private/tmp/hi-promo-release-c9c4622/src/content/projects/aiedu.mdx",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "caption": "30 秒真实阅读演示：同一课在中文与英文间切换，浏览课程与教案。Khan Academy 原课程的非官方双语译本；配乐为后期制作。",
+      "links": [
+        {
+          "label": "开始学习",
+          "href": "https://aiedu.fangs.cc/"
+        },
+        {
+          "label": "访问原课程",
+          "href": "https://www.khanacademy.org/college-careers-more/ai-for-education"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "bytes": 2672279,
+          "sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2"
+        },
+        "poster": {
+          "publicPath": "/images/projects/aiedu-promo-2026-10-01.webp",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/images/projects/aiedu-promo-2026-10-01.webp",
+          "bytes": 107160,
+          "sha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/aiedu-promo-2026-10-01-credits.html",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/aiedu-promo-2026-10-01-credits.html",
+          "bytes": 1177,
+          "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23"
+        },
+        "media": {
+          "duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "wbw",
+      "title": "Wait But Why 中译",
+      "group": "reading",
+      "contentFile": "/private/tmp/hi-promo-release-c9c4622/src/content/projects/wbw.mdx",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "caption": "31 秒真实图文阅读：从拖延与脑内猴子的图解，进入中文长文及原文入口。非官方中文整理；原作与插图归 Tim Urban / Wait But Why 及相应权利人，配乐为后期制作。",
+      "links": [
+        {
+          "label": "打开中译阅读站",
+          "href": "https://wbw.fangs.cc/"
+        },
+        {
+          "label": "访问原作者网站",
+          "href": "https://waitbutwhy.com/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/wbw-promo-2026-10-01.mp4",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/wbw-promo-2026-10-01.mp4",
+          "bytes": 3817979,
+          "sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe"
+        },
+        "poster": {
+          "publicPath": "/images/projects/wbw-promo-2026-10-01.webp",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/images/projects/wbw-promo-2026-10-01.webp",
+          "bytes": 141470,
+          "sha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/wbw-promo-2026-10-01-credits.html",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/wbw-promo-2026-10-01-credits.html",
+          "bytes": 1181,
+          "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "dankoe",
+      "title": "Dan Koe 中文阅读站",
+      "group": "reading",
+      "contentFile": "/private/tmp/hi-promo-release-c9c4622/src/content/projects/dankoe.mdx",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "caption": "30 秒正式站实录：按主题寻找文章，搜索“深思”，从同篇导读进入正文。非官方中文译站；原作归 Dan Koe 及相应权利人，配乐为后期制作。",
+      "links": [
+        {
+          "label": "开始阅读",
+          "href": "https://dankoe.fangs.cc/"
+        },
+        {
+          "label": "看看格得精选",
+          "href": "https://dankoe.fangs.cc/picks"
+        },
+        {
+          "label": "访问原作者网站",
+          "href": "https://thedankoe.com/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "bytes": 2205633,
+          "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84"
+        },
+        "poster": {
+          "publicPath": "/images/projects/dankoe-promo-2026-10-01.webp",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/images/projects/dankoe-promo-2026-10-01.webp",
+          "bytes": 74938,
+          "sha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/dankoe-promo-2026-10-01-credits.html",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/dankoe-promo-2026-10-01-credits.html",
+          "bytes": 1282,
+          "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+        },
+        "media": {
+          "duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    }
+  ],
+  "results": [
+    {
+      "slug": "taste",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/taste/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.237721,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 775,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3939.300000011921
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 5043
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 36141.80000001192
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 36141.90000000596
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.107777,
+              "after": 22.332313,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 36461.90000000596
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 36475.40000000596
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 36475.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.335646,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 36500.80000001192
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 36591.30000001192
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 36591.30000001192
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.583013,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 36616.40000000596
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 36680.30000001192
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 36680.30000001192
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1162,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+            "observedURL": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "5777872",
+              "content-range": "bytes 0-5777871/5777872",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-5829d0\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 5777872,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1089,
+            "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "httpURL": "https://taste.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "httpURL": "https://taste.fangs.cc/articles/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "httpURL": "https://taste.fangs.cc/videos/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "openedURL": "https://taste.fangs.cc/",
+              "title": "你品 · 艺术与思想",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "openedURL": "https://taste.fangs.cc/articles/",
+              "title": "文章｜艺术、思想与创造 · 你品",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/articles/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/articles/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "openedURL": "https://taste.fangs.cc/videos/",
+              "title": "游戏是怎么做出来的｜开发者看片单 · 你品",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/videos/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/videos/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "5777872",
+            "content-range": "bytes 0-5777871/5777872",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-5829d0\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "91886",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-166ee\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 91886,
+          "bodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3939.300000011921
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 5043
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 36141.80000001192
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 36141.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 36271.20000000298
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 36271.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 36271.30000001192
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 36271.30000001192
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 36461.90000000596
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 36475.40000000596
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 36475.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 36500.80000001192
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 36591.30000001192
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 36591.30000001192
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 36616.40000000596
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 36680.30000001192
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 36680.30000001192
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 39873.80000001192
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 39873.80000001192
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 40006.20000000298
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 40088.60000000894
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:02:31.581Z"
+    },
+    {
+      "slug": "taste",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/taste/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.220119,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.258104,
+              "after": 22.323708,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 5290.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 5300.4000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 5300.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32579,
+              "after": 5.580189,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5322.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5380.29999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5380.29999999702
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.582603,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5404.9000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5465.79999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5465.79999999702
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 416,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+            "observedURL": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "5777872",
+              "content-range": "bytes 0-5777871/5777872",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-5829d0\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 5777872,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1089,
+            "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "httpURL": "https://taste.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "httpURL": "https://taste.fangs.cc/articles/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "httpURL": "https://taste.fangs.cc/videos/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "openedURL": "https://taste.fangs.cc/",
+              "title": "你品 · 艺术与思想",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "openedURL": "https://taste.fangs.cc/articles/",
+              "title": "文章｜艺术、思想与创造 · 你品",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/articles/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/articles/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "openedURL": "https://taste.fangs.cc/videos/",
+              "title": "游戏是怎么做出来的｜开发者看片单 · 你品",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/videos/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/videos/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        },
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=5242880-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "5777872",
+            "content-range": "bytes 0-5777871/5777872",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-5829d0\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "534992",
+            "content-range": "bytes 5242880-5777871/5777872",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-5829d0\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "91886",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-166ee\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 91886,
+          "bodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3879.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3961
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 5290.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 5300.4000000059605
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 5300.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5322.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5380.29999999702
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5380.29999999702
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5404.9000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5465.79999999702
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5465.79999999702
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8663.29999999702
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8663.29999999702
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:02:44.587Z"
+    },
+    {
+      "slug": "taste",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/taste/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.218959,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.252932,
+              "after": 22.321995,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4969.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 4980
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 4980
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.325986,
+              "after": 5.581594,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5007.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5066.9000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5066.9000000059605
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.586855,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5094.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5154.5
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5154.5
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 416,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+            "observedURL": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "5777872",
+              "content-range": "bytes 0-5777871/5777872",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-5829d0\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 5777872,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1089,
+            "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "httpURL": "https://taste.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "httpURL": "https://taste.fangs.cc/articles/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "httpURL": "https://taste.fangs.cc/videos/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "openedURL": "https://taste.fangs.cc/",
+              "title": "你品 · 艺术与思想",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "openedURL": "https://taste.fangs.cc/articles/",
+              "title": "文章｜艺术、思想与创造 · 你品",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/articles/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/articles/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "openedURL": "https://taste.fangs.cc/videos/",
+              "title": "游戏是怎么做出来的｜开发者看片单 · 你品",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://taste.fangs.cc/videos/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://taste.fangs.cc/videos/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        },
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=5242880-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "5777872",
+            "content-range": "bytes 0-5777871/5777872",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-5829d0\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "534992",
+            "content-range": "bytes 5242880-5777871/5777872",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-5829d0\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/taste-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "91886",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-166ee\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 91886,
+          "bodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3541.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3636.6000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4969.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 4980
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 4980
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5007.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5066.9000000059605
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5066.9000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5094.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5154.5
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5154.5
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8347.20000000298
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8347.20000000298
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:02:58.186Z"
+    },
+    {
+      "slug": "aiedu",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/aiedu/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.20355,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 30,
+            "currentTime": 30,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 750,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 4080.7000000029802
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 4193.4000000059605
+              },
+              {
+                "type": "pause",
+                "time": 30,
+                "atMs": 34281.20000000298
+              },
+              {
+                "type": "ended",
+                "time": 30,
+                "atMs": 34281.20000000298
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.115386,
+              "after": 21.613226,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 34565.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 34598.90000000596
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 34598.90000000596
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.613226,
+              "after": 5.410819,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 34630.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 34684.5
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 34684.5
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.412473,
+              "after": 27.002162,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 34701.60000000894
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 34724.5
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 34724.60000000894
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1102,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+            "observedURL": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2672279",
+              "content-range": "bytes 0-2672278/2672279",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-28c697\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 2672279,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1177,
+            "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "httpURL": "https://aiedu.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "httpURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "openedURL": "https://aiedu.fangs.cc/",
+              "title": "教育中的 AI | Khan Academy · 中文译本",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://aiedu.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://aiedu.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "openedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "title": "Client Challenge",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://www.khanacademy.org/college-careers-more/ai-for-education"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2672279",
+            "content-range": "bytes 0-2672278/2672279",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-28c697\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "107160",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-1a298\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 107160,
+          "bodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 4080.7000000029802
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 4193.4000000059605
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 34281.20000000298
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 34281.20000000298
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 34377.29999999702
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 34377.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 34377.29999999702
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 34377.29999999702
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 34565.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 34598.90000000596
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 34598.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 34630.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 34684.5
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 34684.5
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 34701.60000000894
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 34724.5
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 34724.60000000894
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 37801.10000000894
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 37801.20000000298
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 37877.60000000894
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 37911.29999999702
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:03:42.906Z"
+    },
+    {
+      "slug": "aiedu",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/aiedu/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.209705,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.245447,
+              "after": 21.608883,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 5344.600000008941
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 5376.9000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 5376.9000000059605
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.610941,
+              "after": 5.399999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 5393.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 5448.5
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 5448.5
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.399999,
+              "after": 27.002045,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 5459.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 5483.100000008941
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 5483.20000000298
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 380,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+            "observedURL": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2672279",
+              "content-range": "bytes 0-2672278/2672279",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-28c697\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 2672279,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1177,
+            "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "httpURL": "https://aiedu.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "httpURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "openedURL": "https://aiedu.fangs.cc/",
+              "title": "教育中的 AI | Khan Academy · 中文译本",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://aiedu.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://aiedu.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "openedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "title": "Client Challenge",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://www.khanacademy.org/college-careers-more/ai-for-education"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2672279",
+            "content-range": "bytes 0-2672278/2672279",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-28c697\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "107160",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-1a298\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 107160,
+          "bodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3919.4000000059605
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 4006.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 5344.600000008941
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 5376.9000000059605
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 5376.9000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 5393.5
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 5448.5
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 5448.5
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 5459.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 5483.100000008941
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 5483.20000000298
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 8559.20000000298
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 8559.20000000298
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:03:55.537Z"
+    },
+    {
+      "slug": "aiedu",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/aiedu/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.21254,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.240728,
+              "after": 21.612697,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 5306.5999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 5341.0999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 5341.199999988079
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.614692,
+              "after": 5.399999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 5364.29999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 5417.699999988079
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 5417.699999988079
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.399999,
+              "after": 27,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 5432.0999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 5455.399999991059
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 5455.399999991059
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 380,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+            "observedURL": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2672279",
+              "content-range": "bytes 0-2672278/2672279",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-28c697\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 2672279,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1177,
+            "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "httpURL": "https://aiedu.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "httpURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "openedURL": "https://aiedu.fangs.cc/",
+              "title": "教育中的 AI | Khan Academy · 中文译本",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://aiedu.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://aiedu.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "openedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "title": "Client Challenge",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://www.khanacademy.org/college-careers-more/ai-for-education"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2672279",
+            "content-range": "bytes 0-2672278/2672279",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-28c697\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/aiedu-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "107160",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-1a298\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 107160,
+          "bodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3624.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3980.699999988079
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 5306.5999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 5341.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 5341.199999988079
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 5364.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 5417.699999988079
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 5417.699999988079
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 5432.0999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 5455.399999991059
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 5455.399999991059
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 8547.89999999106
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 8548
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:04:07.398Z"
+    },
+    {
+      "slug": "wbw",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/wbw/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.221616,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 775,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3863.9000000059605
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 4244.4000000059605
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 35317.59999999404
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 35317.59999999404
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.113374,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 35620.29999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 35657.70000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 35657.70000000298
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.587288,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 35671.09999999404
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 35729.59999999404
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 35729.59999999404
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.590596,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 35756.59999999404
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 35769.5
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 35769.5
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1112,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+            "observedURL": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "3817979",
+              "content-range": "bytes 0-3817978/3817979",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-3a41fb\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 3817979,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1181,
+            "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "httpURL": "https://wbw.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "httpURL": "https://waitbutwhy.com/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "openedURL": "https://wbw.fangs.cc/",
+              "title": "首页 | Wait But Why · 中译",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://wbw.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://wbw.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "openedURL": "https://waitbutwhy.com/",
+              "title": "Wait But Why",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://waitbutwhy.com/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://waitbutwhy.com/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "3817979",
+            "content-range": "bytes 0-3817978/3817979",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-3a41fb\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "141470",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-2289e\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 141470,
+          "bodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3863.9000000059605
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 4244.4000000059605
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 35317.59999999404
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 35317.59999999404
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 35445.29999999702
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 35445.40000000596
+        },
+        {
+          "type": "seeked",
+          "time": 0.001463,
+          "atMs": 35445.5
+        },
+        {
+          "type": "playing",
+          "time": 0.001485,
+          "atMs": 35445.5
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 35620.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 35657.70000000298
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 35657.70000000298
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 35671.09999999404
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 35729.59999999404
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 35729.59999999404
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 35756.59999999404
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 35769.5
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 35769.5
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 38964.70000000298
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 38964.79999999702
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39095.79999999702
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39146.29999999702
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:04:54.426Z"
+    },
+    {
+      "slug": "wbw",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/wbw/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.20596,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.237011,
+              "after": 22.325471,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 5421.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 5457.29999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 5457.399999991059
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.327851,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5475.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5532.0999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5532.0999999940395
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.581676,
+              "after": 27.91555,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5557.899999991059
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5570.5
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5570.5
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 366,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+            "observedURL": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "3817979",
+              "content-range": "bytes 0-3817978/3817979",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-3a41fb\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 3817979,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1181,
+            "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "httpURL": "https://wbw.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "httpURL": "https://waitbutwhy.com/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "openedURL": "https://wbw.fangs.cc/",
+              "title": "首页 | Wait But Why · 中译",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://wbw.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://wbw.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "openedURL": "https://waitbutwhy.com/",
+              "title": "Wait But Why",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://waitbutwhy.com/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://waitbutwhy.com/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "3817979",
+            "content-range": "bytes 0-3817978/3817979",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-3a41fb\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "141470",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-2289e\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 141470,
+          "bodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 4001.199999988079
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 4117.79999999702
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 5421.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 5457.29999999702
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 5457.399999991059
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5475.5
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5532.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5532.0999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5557.899999991059
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5570.5
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5570.5
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8751.39999999106
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8751.39999999106
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:05:08.162Z"
+    },
+    {
+      "slug": "wbw",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/wbw/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.207592,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.237098,
+              "after": 22.328396,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4927.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 4963.300000011921
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 4963.300000011921
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.331306,
+              "after": 5.584489,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 4985.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5040.600000008941
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5040.600000008941
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.586694,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5066.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5078.20000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5078.20000000298
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 365,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+            "observedURL": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "3817979",
+              "content-range": "bytes 0-3817978/3817979",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-3a41fb\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 3817979,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1181,
+            "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "httpURL": "https://wbw.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "httpURL": "https://waitbutwhy.com/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "openedURL": "https://wbw.fangs.cc/",
+              "title": "首页 | Wait But Why · 中译",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://wbw.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://wbw.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "openedURL": "https://waitbutwhy.com/",
+              "title": "Wait But Why",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://waitbutwhy.com/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://waitbutwhy.com/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "3817979",
+            "content-range": "bytes 0-3817978/3817979",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-3a41fb\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/wbw-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "141470",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-2289e\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 141470,
+          "bodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3508.7000000029802
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3598.4000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4927.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 4963.300000011921
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 4963.300000011921
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 4985.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5040.600000008941
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5040.600000008941
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5066.5
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5078.20000000298
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5078.20000000298
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8278.5
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8278.5
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:05:21.544Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.247247,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 30,
+            "currentTime": 30,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 750,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3892
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 4238.800000011921
+              },
+              {
+                "type": "pause",
+                "time": 30,
+                "atMs": 34328.70000000298
+              },
+              {
+                "type": "ended",
+                "time": 30,
+                "atMs": 34328.70000000298
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.115224,
+              "after": 21.601613,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 34613.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 34676.30000001192
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 34676.40000000596
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.60338,
+              "after": 5.399999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 34696.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 34713
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 34713
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.399999,
+              "after": 27.000747,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 34731.10000000894
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 34771.70000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 34771.70000000298
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1138,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2205633",
+              "content-range": "bytes 0-2205632/2205633",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-21a7c1\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://dankoe.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://dankoe.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://dankoe.fangs.cc/picks",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://dankoe.fangs.cc/picks"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://thedankoe.com/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://thedankoe.com/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-21a7c1\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-124ba\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3892
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 4238.800000011921
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 34328.70000000298
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 34328.70000000298
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 34423.30000001192
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 34423.40000000596
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 34423.5
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 34423.5
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 34613.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 34676.30000001192
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 34676.40000000596
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 34696.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 34713
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 34713
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 34731.10000000894
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 34771.70000000298
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 34771.70000000298
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 37848.60000000894
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 37848.60000000894
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 37923.10000000894
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 37957
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:06:05.192Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.208522,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.23564,
+              "after": 21.615134,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 6361.399999991059
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 8194.59999999404
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 8194.59999999404
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.616813,
+              "after": 5.406017,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 8218.59999999404
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 8234.699999988079
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 8234.699999988079
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.408131,
+              "after": 27.00618,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 8252.39999999106
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 9156.39999999106
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 9156.39999999106
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 416,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2205633",
+              "content-range": "bytes 0-2205632/2205633",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-21a7c1\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://dankoe.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://dankoe.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://dankoe.fangs.cc/picks",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://dankoe.fangs.cc/picks"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://thedankoe.com/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://thedankoe.com/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        },
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=950272-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-21a7c1\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1255361",
+            "content-range": "bytes 950272-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-21a7c1\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-124ba\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 4362.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 5058
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 6361.399999991059
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 8194.59999999404
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 8194.59999999404
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 8218.59999999404
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 8234.699999988079
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 8234.699999988079
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 8252.39999999106
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 9156.39999999106
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 9156.39999999106
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 12231.79999999702
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 12231.79999999702
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:06:21.195Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.21935,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.245896,
+              "after": 21.599999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 4912.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 4976.4000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 4976.4000000059605
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.599999,
+              "after": 5.405773,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 4988.29999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 5004.5
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 5004.5999999940395
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.407702,
+              "after": 27,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 5021.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 5062.5999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 5062.5999999940395
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 416,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2205633",
+              "content-range": "bytes 0-2205632/2205633",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-21a7c1\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://dankoe.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://dankoe.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://dankoe.fangs.cc/picks",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://dankoe.fangs.cc/picks"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://thedankoe.com/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://thedankoe.com/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-21a7c1\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-124ba\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3497.7000000029802
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3576.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 4912.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 4976.4000000059605
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 4976.4000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 4988.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 5004.5
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 5004.5999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 5021.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 5062.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 5062.5999999940395
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 8148.5999999940395
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 8148.5999999940395
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:06:32.527Z"
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "limits": [
+    "Synthetic browser viewports; no physical phone or Safari application test.",
+    "No human audio listening, continuous human visual review, or promotion-effectiveness claim.",
+    "Local public MP4 SHA-256 identifies the reference file only. Browser URLs/headers/duration do not establish whole remote-file identity; run FBT public-preview verify_static separately.",
+    "--full means uninterrupted normal-speed desktop playback to ended; phone/narrow runs use documented seeks before reaching ended.",
+    "Product CTA checks cover link opening and HTTP reachability only; product business flows are outside this script.",
+    "A WebKit App Store link click with no observable browser navigation can be PARTIAL only after an unprevented trusted click, successful HTTP check and a separate direct browser navigation. This does not verify the click opened a browser page or native App Store."
+  ],
+  "playwright": {
+    "root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "version": "1.62.1"
+  },
+  "expectedResults": 12,
+  "finishedAt": "2026-10-01T09:06:32.741Z",
+  "failures": 0,
+  "partialResults": 0,
+  "status": "passed"
+}

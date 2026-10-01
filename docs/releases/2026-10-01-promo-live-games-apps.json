@@ -1,0 +1,5435 @@
+{
+  "schemaVersion": 2,
+  "startedAt": "2026-10-01T09:01:41.874Z",
+  "root": "/private/tmp/hi-promo-release-c9c4622",
+  "base": "https://hi.fangs.cc",
+  "options": {
+    "url": "https://hi.fangs.cc",
+    "engines": [
+      "chromium"
+    ],
+    "full": true,
+    "slugs": "snow-duel,qiya-herbarium,lehh,little-pause",
+    "out": "/tmp/hi-promo-live-games-apps",
+    "playwright-root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01"
+  },
+  "contentInventory": [
+    {
+      "slug": "aiedu",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "dankoe",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "hyrule",
+      "contentSha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "junlugu",
+      "contentSha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "lehh",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "little-pause",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "pocofocus",
+      "contentSha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "qiya-herbarium",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "snow-duel",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "taste",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "wbw",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "hasVideo": true,
+      "draft": false
+    }
+  ],
+  "assets": [
+    {
+      "slug": "snow-duel",
+      "title": "雪仗／夜雪俱乐部",
+      "group": "games",
+      "contentFile": "/private/tmp/hi-promo-release-c9c4622/src/content/projects/snow-duel.mdx",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "caption": "31 秒真实电脑练习对局：选弹、瞄准、锁定与同时出手。保留完整画面，省略部分等待和中间回合；音乐与效果为重建声轨。",
+      "links": [
+        {
+          "label": "进入夜雪俱乐部",
+          "href": "https://snow-duel.fangs.cc/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "bytes": 6107020,
+          "sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430"
+        },
+        "poster": {
+          "publicPath": "/images/projects/snow-duel-promo-2026-10-01.webp",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/images/projects/snow-duel-promo-2026-10-01.webp",
+          "bytes": 95958,
+          "sha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+          "bytes": 1582,
+          "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "qiya-herbarium",
+      "title": "奇芽药草铺",
+      "group": "games",
+      "contentFile": "/private/tmp/hi-promo-release-c9c4622/src/content/projects/qiya-herbarium.mdx",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "caption": "28 秒真实交互演示：采集、选择材料、布置植物与出售。使用独立演示存档和既有生成插画，非实时生成；配乐为后期制作。",
+      "links": [
+        {
+          "label": "推开温室的门",
+          "href": "https://qiya.fangs.cc/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "bytes": 6422675,
+          "sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be"
+        },
+        "poster": {
+          "publicPath": "/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "bytes": 284384,
+          "sha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+          "bytes": 1233,
+          "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+        },
+        "media": {
+          "duration": 28,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "lehh",
+      "title": "单词合合乐",
+      "group": "apps",
+      "contentFile": "/private/tmp/hi-promo-release-c9c4622/src/content/projects/lehh.mdx",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "caption": "31 秒应用操作演示：Water 与 Fire 合成 Steam，再看发音、例句和图鉴。1.1.0 版模拟器实录；配乐与英文示范发音为后期重建。",
+      "links": [
+        {
+          "label": "在 App Store 下载",
+          "href": "https://apps.apple.com/cn/app/id6785151750"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/lehh-promo-2026-10-01.mp4",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/lehh-promo-2026-10-01.mp4",
+          "bytes": 1426116,
+          "sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17"
+        },
+        "poster": {
+          "publicPath": "/images/projects/lehh-promo-2026-10-01.webp",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/images/projects/lehh-promo-2026-10-01.webp",
+          "bytes": 55556,
+          "sha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/lehh-promo-2026-10-01-credits.html",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/lehh-promo-2026-10-01-credits.html",
+          "bytes": 991,
+          "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "little-pause",
+      "title": "歇会鸭",
+      "group": "apps",
+      "contentFile": "/private/tmp/hi-promo-release-c9c4622/src/content/projects/little-pause.mdx",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "caption": "31 秒应用与系统卡演示：15 秒提醒试用、10 分钟规则和自定义提醒话。1.1 版模拟器实录，配乐为后期制作。",
+      "links": [
+        {
+          "label": "在 App Store 下载",
+          "href": "https://apps.apple.com/cn/app/id6814516567"
+        },
+        {
+          "label": "使用帮助",
+          "href": "https://imfangs.github.io/xiehuiya-support/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "bytes": 1475860,
+          "sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9"
+        },
+        "poster": {
+          "publicPath": "/images/projects/little-pause-promo-2026-10-01.webp",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/images/projects/little-pause-promo-2026-10-01.webp",
+          "bytes": 61514,
+          "sha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/little-pause-promo-2026-10-01-credits.html",
+          "localPath": "/private/tmp/hi-promo-release-c9c4622/public/videos/projects/little-pause-promo-2026-10-01-credits.html",
+          "bytes": 1086,
+          "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    }
+  ],
+  "results": [
+    {
+      "slug": "snow-duel",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.211774,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 775,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3944.5
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 5029.5999999940395
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 36142.90000000596
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 36142.90000000596
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.11272,
+              "after": 22.326337,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 36450.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 36505
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 36505
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.329709,
+              "after": 5.58864,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 36521.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 36571.29999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 36571.40000000596
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.591819,
+              "after": 27.915575,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 36587.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 36611.20000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 36611.20000000298
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1052,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6107020",
+              "content-range": "bytes 0-6107019/6107020",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-5d2f8c\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://snow-duel.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://snow-duel.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-5d2f8c\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-176d6\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3944.5
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 5029.5999999940395
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 36142.90000000596
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 36142.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 36275.90000000596
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 36275.90000000596
+        },
+        {
+          "type": "seeked",
+          "time": 0.002245,
+          "atMs": 36276
+        },
+        {
+          "type": "playing",
+          "time": 0.002262,
+          "atMs": 36276
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 36450.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 36505
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 36505
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 36521.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 36571.29999999702
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 36571.40000000596
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 36587.5
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 36611.20000000298
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 36611.20000000298
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 39794.5
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 39794.5
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39960.29999999702
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 40076.70000000298
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:02:29.371Z"
+    },
+    {
+      "slug": "snow-duel",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.21374,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.249629,
+              "after": 22.330968,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 5370.5999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 5412.399999991059
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 5412.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.334404,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5441.199999988079
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5468.5999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5468.699999988079
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.581491,
+              "after": 27.902518,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5491.899999991059
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5518.699999988079
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5518.699999988079
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 306,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6107020",
+              "content-range": "bytes 0-6107019/6107020",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-5d2f8c\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://snow-duel.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://snow-duel.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-5d2f8c\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-176d6\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3830.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3947.2999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 5370.5999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 5412.399999991059
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 5412.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5441.199999988079
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5468.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5468.699999988079
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5491.899999991059
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5518.699999988079
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5518.699999988079
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8708.79999999702
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8708.79999999702
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:02:41.063Z"
+    },
+    {
+      "slug": "snow-duel",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.217973,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.248377,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 5010.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 5052.20000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 5052.4000000059605
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.582892,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5064
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5091.300000011921
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5091.300000011921
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.585083,
+              "after": 27.900453,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5115.800000011921
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5145.100000008941
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5145.100000008941
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 306,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6107020",
+              "content-range": "bytes 0-6107019/6107020",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-5d2f8c\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://snow-duel.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://snow-duel.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-5d2f8c\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-176d6\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3523.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3620.4000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 5010.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 5052.20000000298
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 5052.4000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5064
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5091.300000011921
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5091.300000011921
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5115.800000011921
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5145.100000008941
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5145.100000008941
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8330.300000011921
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8330.300000011921
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:02:52.396Z"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.215166,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 28,
+            "currentTime": 28,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 700,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3980.7999999970198
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 4210.699999988079
+              },
+              {
+                "type": "pause",
+                "time": 28,
+                "atMs": 32304.89999999106
+              },
+              {
+                "type": "ended",
+                "time": 28,
+                "atMs": 32304.89999999106
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.114666,
+              "after": 20.16,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 32566.29999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.16,
+                  "atMs": 32588
+                },
+                {
+                  "type": "playing",
+                  "time": 20.16,
+                  "atMs": 32588
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.16,
+              "after": 5.04,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 32602.09999999404
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.04,
+                  "atMs": 32654.5
+                },
+                {
+                  "type": "playing",
+                  "time": 5.04,
+                  "atMs": 32654.5
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.04,
+              "after": 25.209508,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 32668.19999998808
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.2,
+                  "atMs": 32682.69999998808
+                },
+                {
+                  "type": "playing",
+                  "time": 25.2,
+                  "atMs": 32682.69999998808
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 959,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6422675",
+              "content-range": "bytes 0-6422674/6422675",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-620093\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://qiya.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://qiya.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-620093\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-456e0\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3980.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 4210.699999988079
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 32304.89999999106
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 32304.89999999106
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 32394.79999999702
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 32394.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 0.005743,
+          "atMs": 32394.89999999106
+        },
+        {
+          "type": "playing",
+          "time": 0.005763,
+          "atMs": 32394.89999999106
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 32566.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 20.16,
+          "atMs": 32588
+        },
+        {
+          "type": "playing",
+          "time": 20.16,
+          "atMs": 32588
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 32602.09999999404
+        },
+        {
+          "type": "seeked",
+          "time": 5.04,
+          "atMs": 32654.5
+        },
+        {
+          "type": "playing",
+          "time": 5.04,
+          "atMs": 32654.5
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 32668.19999998808
+        },
+        {
+          "type": "seeked",
+          "time": 25.2,
+          "atMs": 32682.69999998808
+        },
+        {
+          "type": "playing",
+          "time": 25.2,
+          "atMs": 32682.69999998808
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 35568.19999998808
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 35568.19999998808
+        },
+        {
+          "type": "volumechange",
+          "time": 28,
+          "atMs": 35644.59999999404
+        },
+        {
+          "type": "volumechange",
+          "time": 28,
+          "atMs": 35678.19999998808
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:03:31.515Z"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.208388,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.244719,
+              "after": 20.172697,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 4874.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.16,
+                  "atMs": 4900.4000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 20.16,
+                  "atMs": 4900.4000000059605
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.172697,
+              "after": 5.052311,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 4992.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.04,
+                  "atMs": 5052.5
+                },
+                {
+                  "type": "playing",
+                  "time": 5.04,
+                  "atMs": 5052.5
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.052311,
+              "after": 25.211601,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 5088.9000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.2,
+                  "atMs": 5104.0999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 25.2,
+                  "atMs": 5104.0999999940395
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 289,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6422675",
+              "content-range": "bytes 0-6422674/6422675",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-620093\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://qiya.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://qiya.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-620093\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-456e0\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3480
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3558.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 4874.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 20.16,
+          "atMs": 4900.4000000059605
+        },
+        {
+          "type": "playing",
+          "time": 20.16,
+          "atMs": 4900.4000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 4992.5
+        },
+        {
+          "type": "seeked",
+          "time": 5.04,
+          "atMs": 5052.5
+        },
+        {
+          "type": "playing",
+          "time": 5.04,
+          "atMs": 5052.5
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 5088.9000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 25.2,
+          "atMs": 5104.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 25.2,
+          "atMs": 5104.0999999940395
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 8005.29999999702
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 8005.29999999702
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:03:42.011Z"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.204831,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.233228,
+              "after": 20.170922,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 5060.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.16,
+                  "atMs": 5083.399999991059
+                },
+                {
+                  "type": "playing",
+                  "time": 20.16,
+                  "atMs": 5083.399999991059
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.173813,
+              "after": 5.04,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 5104.0999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.04,
+                  "atMs": 5158
+                },
+                {
+                  "type": "playing",
+                  "time": 5.04,
+                  "atMs": 5158
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.04,
+              "after": 25.204047,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 5168.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.2,
+                  "atMs": 5186.399999991059
+                },
+                {
+                  "type": "playing",
+                  "time": 25.2,
+                  "atMs": 5186.399999991059
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 287,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6422675",
+              "content-range": "bytes 0-6422674/6422675",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-620093\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://qiya.fangs.cc/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://qiya.fangs.cc/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-620093\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-456e0\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3643.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3730.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 5060.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 20.16,
+          "atMs": 5083.399999991059
+        },
+        {
+          "type": "playing",
+          "time": 20.16,
+          "atMs": 5083.399999991059
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 5104.0999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 5.04,
+          "atMs": 5158
+        },
+        {
+          "type": "playing",
+          "time": 5.04,
+          "atMs": 5158
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 5168.5
+        },
+        {
+          "type": "seeked",
+          "time": 25.2,
+          "atMs": 5186.399999991059
+        },
+        {
+          "type": "playing",
+          "time": 25.2,
+          "atMs": 5186.399999991059
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 8074.5999999940395
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 8074.5999999940395
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:03:53.952Z"
+    },
+    {
+      "slug": "lehh",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.211002,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 930,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3863.0999999940395
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 4307.0999999940395
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 35430.70000000298
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 35430.79999999702
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.117474,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 35716.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 35756
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 35756
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 35775.59999999404
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 35838.70000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 35838.79999999702
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.58,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 35853.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 35888.40000000596
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 35888.40000000596
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1393,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1426116",
+              "content-range": "bytes 0-1426115/1426116",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-15c2c4\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "httpURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "openedURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "title": "‎单词合合乐 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6785151750",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6785151750",
+                "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-15c2c4\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-d904\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3863.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 4307.0999999940395
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 35430.70000000298
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 35430.79999999702
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 35528
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 35528
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 35528.09999999404
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 35528.09999999404
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 35716.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 35756
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 35756
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 35775.59999999404
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 35838.70000000298
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 35838.79999999702
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 35853.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 35888.40000000596
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 35888.40000000596
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 39078.59999999404
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 39078.59999999404
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39162.20000000298
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39195
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:04:37.350Z"
+    },
+    {
+      "slug": "lehh",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.25273,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 43,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.311601,
+              "after": 22.336381,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 5371.9000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 5472.5999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 5472.5999999940395
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.339331,
+              "after": 5.586853,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5533.29999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5599.0999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5599.0999999940395
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.591265,
+              "after": 27.903815,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5634.29999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5674.5999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5674.5999999940395
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 500,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1426116",
+              "content-range": "bytes 0-1426115/1426116",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-15c2c4\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "httpURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "openedURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "title": "‎单词合合乐 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6785151750",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6785151750",
+                "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-15c2c4\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-d904\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3896.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3973.5999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 5371.9000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 5472.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 5472.5999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5533.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5599.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5599.0999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5634.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5674.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5674.5999999940395
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8860.79999999702
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8860.79999999702
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:04:48.028Z"
+    },
+    {
+      "slug": "lehh",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.218028,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.247139,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4932.4000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 4972
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 4972
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 4990.4000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5053.70000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5053.70000000298
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.58,
+              "after": 27.901677,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5073.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5108.70000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5108.70000000298
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 497,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1426116",
+              "content-range": "bytes 0-1426115/1426116",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-15c2c4\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "httpURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "openedURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "title": "‎单词合合乐 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6785151750",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6785151750",
+                "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-15c2c4\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-d904\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3530.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3615.5
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4932.4000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 4972
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 4972
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 4990.4000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5053.70000000298
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5053.70000000298
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5073.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5108.70000000298
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5108.70000000298
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8294.90000000596
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8294.90000000596
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:05:00.057Z"
+    },
+    {
+      "slug": "little-pause",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/little-pause/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.220321,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 930,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3964.7999999970198
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 4369.5
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 35463.29999999702
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 35463.29999999702
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.115765,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 35884.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 35923.29999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 35923.29999999702
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 35940.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 36006.20000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 36006.20000000298
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.58,
+              "after": 27.901024,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 36020.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 36057.29999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 36057.29999999702
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1393,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+            "observedURL": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1475860",
+              "content-range": "bytes 0-1475859/1475860",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-168514\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 1475860,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1086,
+            "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "httpURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "httpURL": "https://imfangs.github.io/xiehuiya-support/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "openedURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "title": "‎歇会鸭 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6814516567",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6814516567",
+                "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "openedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "title": "歇会鸭 · 使用帮助",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://imfangs.github.io/xiehuiya-support/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://imfangs.github.io/xiehuiya-support/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1475860",
+            "content-range": "bytes 0-1475859/1475860",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-168514\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "61514",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-f04a\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 61514,
+          "bodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3964.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 4369.5
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 35463.29999999702
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 35463.29999999702
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 35679.20000000298
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 35679.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 35694.79999999702
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 35694.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 35884.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 35923.29999999702
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 35923.29999999702
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 35940.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 36006.20000000298
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 36006.20000000298
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 36020.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 36057.29999999702
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 36057.29999999702
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 39248.90000000596
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 39248.90000000596
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39415.29999999702
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39564.40000000596
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:05:42.822Z"
+    },
+    {
+      "slug": "little-pause",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/little-pause/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.218622,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 41,
+              "droppedVideoFrames": 4
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.259882,
+              "after": 22.326496,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 5283.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 5323.5
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 5323.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.328556,
+              "after": 5.584669,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5336.5999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5402.399999991059
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5402.399999991059
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.5869,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5420.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5455.0999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5455.0999999940395
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 497,
+                "droppedVideoFrames": 4
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+            "observedURL": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1475860",
+              "content-range": "bytes 0-1475859/1475860",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-168514\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 1475860,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1086,
+            "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "httpURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "httpURL": "https://imfangs.github.io/xiehuiya-support/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "openedURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "title": "‎歇会鸭 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6814516567",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6814516567",
+                "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "openedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "title": "歇会鸭 · 使用帮助",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://imfangs.github.io/xiehuiya-support/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://imfangs.github.io/xiehuiya-support/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1475860",
+            "content-range": "bytes 0-1475859/1475860",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-168514\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "61514",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-f04a\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 61514,
+          "bodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3846.7000000029802
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3947.5
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 5283.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 5323.5
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 5323.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5336.5999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5402.399999991059
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5402.399999991059
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5420.5
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5455.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5455.0999999940395
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8654.59999999404
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8654.59999999404
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:05:53.973Z"
+    },
+    {
+      "slug": "little-pause",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "expectedMediaURL": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+      "expectedPosterURL": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/projects/little-pause/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+            "source": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.20968,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.237953,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4915.5999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 4957.399999991059
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 4957.399999991059
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.586574,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 4969.70000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 5033.70000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 5033.70000000298
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.588982,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 5053.0999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 5087.899999991059
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 5088
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 497,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+            "observedURL": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1475860",
+              "content-range": "bytes 0-1475859/1475860",
+              "accept-ranges": "bytes",
+              "etag": "\"6abe2147-168514\"",
+              "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+              "cache-control": "max-age=600"
+            },
+            "localByteLength": 1475860,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1086,
+            "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "httpURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "httpURL": "https://imfangs.github.io/xiehuiya-support/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "openedURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "title": "‎歇会鸭 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6814516567",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6814516567",
+                "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "openedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "title": "歇会鸭 · 使用帮助",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://imfangs.github.io/xiehuiya-support/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://imfangs.github.io/xiehuiya-support/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "https://hi.fangs.cc/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1475860",
+            "content-range": "bytes 0-1475859/1475860",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-168514\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "https://hi.fangs.cc/images/projects/little-pause-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "61514",
+            "accept-ranges": "bytes",
+            "etag": "\"6abe2147-f04a\"",
+            "last-modified": "Thu, 01 Oct 2026 09:00:55 GMT",
+            "cache-control": "max-age=600"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 61514,
+          "bodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3494.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3580.2999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4915.5999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 4957.399999991059
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 4957.399999991059
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 4969.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 5033.70000000298
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 5033.70000000298
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 5053.0999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 5087.899999991059
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 5088
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8284.5
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8284.59999999404
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T09:06:04.205Z"
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "limits": [
+    "Synthetic browser viewports; no physical phone or Safari application test.",
+    "No human audio listening, continuous human visual review, or promotion-effectiveness claim.",
+    "Local public MP4 SHA-256 identifies the reference file only. Browser URLs/headers/duration do not establish whole remote-file identity; run FBT public-preview verify_static separately.",
+    "--full means uninterrupted normal-speed desktop playback to ended; phone/narrow runs use documented seeks before reaching ended.",
+    "Product CTA checks cover link opening and HTTP reachability only; product business flows are outside this script.",
+    "A WebKit App Store link click with no observable browser navigation can be PARTIAL only after an unprevented trusted click, successful HTTP check and a separate direct browser navigation. This does not verify the click opened a browser page or native App Store."
+  ],
+  "playwright": {
+    "root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "version": "1.62.1"
+  },
+  "expectedResults": 12,
+  "finishedAt": "2026-10-01T09:06:04.335Z",
+  "failures": 0,
+  "partialResults": 0,
+  "status": "passed"
+}

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "batchId": "hi-promos-2026-10-01",
-  "updatedAt": "2026-10-01T08:11:23.477642+00:00",
+  "updatedAt": "2026-10-01T09:07:50.891867+00:00",
   "scope": "Hi现有还没有宣传片的8件作品；若用户扩大范围，再追加已核实项目。",
-  "status": "ready-for-publication",
+  "status": "published-closeout",
   "controller": {
     "threadId": "01a0f679-38c4-7c32-8ee5-4583df6145b8",
     "previousThreadId": "01a0f4a4-d7f6-7a20-8ead-d9255dba01b3",
@@ -25,20 +25,23 @@
       "outputDir": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
       "focus": "瞄准、选弹种、同回合出手与胜负反馈",
       "learningTarget": "多人场景、弹道与快速动作的取景",
-      "status": "ready-for-hi",
+      "status": "published",
       "worker": {
         "kind": "thread",
-        "id": "01a0f679-38c4-7c32-8ee5-4583df6145b8"
+        "id": "01a0f679-38c4-7c32-8ee5-4583df6145b8",
+        "archived": false
       },
       "evidence": {
         "finalSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
         "projectCommit": "8c606a4790df938dd432595f53323d39085f14a6",
         "localPageReceipt": "docs/releases/2026-10-01-snow-duel-promo-local.json",
         "fbtCommit": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
-        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json"
+        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json",
+        "publicationReceipt": "docs/releases/2026-10-01-promo-batch.json",
+        "fbtFeedbackCommit": "882a91a0ee705bc760bf038e760fb30c06352c85"
       },
       "blocker": null,
-      "stage": "local-site-verified"
+      "stage": "published-verified"
     },
     {
       "id": "qiya-herbarium",
@@ -49,10 +52,11 @@
       "outputDir": "/Users/fangs/workspace/side/qiya-herbarium/videos/promo-2026-10-01",
       "focus": "探险带回材料、培育植物、摆进自己的角落",
       "learningTarget": "异步生成、资源就绪和已有素材复用",
-      "status": "ready-for-hi",
+      "status": "published",
       "worker": {
         "kind": "thread",
-        "id": "01a0f67c-b216-7cf2-9671-3ac22f58ce5a"
+        "id": "01a0f67c-b216-7cf2-9671-3ac22f58ce5a",
+        "archived": true
       },
       "evidence": {
         "finalSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
@@ -61,10 +65,12 @@
         "review": "/Users/fangs/workspace/side/qiya-herbarium/videos/promo-2026-10-01/review.md",
         "feedback": "/Users/fangs/workspace/side/qiya-herbarium/videos/promo-2026-10-01/practice-feedback.md",
         "fbtCommit": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
-        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json"
+        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json",
+        "publicationReceipt": "docs/releases/2026-10-01-promo-batch.json",
+        "fbtFeedbackCommit": "882a91a0ee705bc760bf038e760fb30c06352c85"
       },
       "blocker": null,
-      "stage": "local-site-verified"
+      "stage": "published-verified"
     },
     {
       "id": "lehh",
@@ -75,10 +81,11 @@
       "outputDir": "/Users/fangs/workspace/side/lehh/videos/promo-2026-10-01",
       "focus": "拖动两个词、新发现、发音与图鉴",
       "learningTarget": "原生App操作、词汇细节与画幅",
-      "status": "ready-for-hi",
+      "status": "published",
       "worker": {
         "kind": "thread",
-        "id": "01a0f67c-b84d-7cf3-913b-87cc1ff1c439"
+        "id": "01a0f67c-b84d-7cf3-913b-87cc1ff1c439",
+        "archived": true
       },
       "evidence": {
         "finalSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
@@ -87,10 +94,12 @@
         "feedback": "/Users/fangs/workspace/side/lehh/videos/promo-2026-10-01/practice-feedback.md",
         "projectCommit": "f96a12a49b049ccc4a91ea38d3d881eea6404c68",
         "fbtCommit": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
-        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json"
+        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json",
+        "publicationReceipt": "docs/releases/2026-10-01-promo-batch.json",
+        "fbtFeedbackCommit": "882a91a0ee705bc760bf038e760fb30c06352c85"
       },
       "blocker": null,
-      "stage": "local-site-verified"
+      "stage": "published-verified"
     },
     {
       "id": "little-pause",
@@ -101,10 +110,11 @@
       "outputDir": "/Users/fangs/workspace/side/little-pause/videos/promo-2026-10-01",
       "focus": "设置值班人与提醒、系统实时活动",
       "learningTarget": "原生系统表面与实际功能证明",
-      "status": "ready-for-hi",
+      "status": "published",
       "worker": {
         "kind": "thread",
-        "id": "01a0f67c-b84d-7cf3-913b-87cc1ff1c439"
+        "id": "01a0f67c-b84d-7cf3-913b-87cc1ff1c439",
+        "archived": true
       },
       "evidence": {
         "finalSha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
@@ -113,10 +123,12 @@
         "review": "/Users/fangs/workspace/side/little-pause/videos/promo-2026-10-01/review.md",
         "feedback": "/Users/fangs/workspace/side/little-pause/videos/promo-2026-10-01/practice-feedback.md",
         "fbtCommit": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
-        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json"
+        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json",
+        "publicationReceipt": "docs/releases/2026-10-01-promo-batch.json",
+        "fbtFeedbackCommit": "882a91a0ee705bc760bf038e760fb30c06352c85"
       },
       "blocker": null,
-      "stage": "local-site-verified"
+      "stage": "published-verified"
     },
     {
       "id": "taste",
@@ -127,10 +139,11 @@
       "outputDir": "/Users/fangs/workspace/side/taste-blog/videos/promo-2026-10-01",
       "focus": "从一件作品进入细读、收藏式浏览与原作入口",
       "learningTarget": "阅读节奏与图像信息层级",
-      "status": "ready-for-hi",
+      "status": "published",
       "worker": {
         "kind": "thread",
-        "id": "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd"
+        "id": "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd",
+        "archived": true
       },
       "evidence": {
         "finalSha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
@@ -139,10 +152,12 @@
         "feedback": "/Users/fangs/workspace/side/taste-blog/videos/promo-2026-10-01/practice-feedback.md",
         "projectCommit": "a7456d6e461ef3643e417f7f479fe558bd4d96bd",
         "fbtCommit": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
-        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json"
+        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json",
+        "publicationReceipt": "docs/releases/2026-10-01-promo-batch.json",
+        "fbtFeedbackCommit": "882a91a0ee705bc760bf038e760fb30c06352c85"
       },
       "blocker": null,
-      "stage": "local-site-verified"
+      "stage": "published-verified"
     },
     {
       "id": "aiedu",
@@ -153,10 +168,11 @@
       "outputDir": "/Users/fangs/workspace/side/ai-for-education-zh/videos/promo-2026-10-01",
       "focus": "选课、中文理解、同课切回英文",
       "learningTarget": "双语阅读与课程导航",
-      "status": "ready-for-hi",
+      "status": "published",
       "worker": {
         "kind": "thread",
-        "id": "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd"
+        "id": "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd",
+        "archived": true
       },
       "evidence": {
         "finalSha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
@@ -165,10 +181,12 @@
         "feedback": "/Users/fangs/workspace/side/ai-for-education-zh/videos/promo-2026-10-01/practice-feedback.md",
         "projectCommit": "7de1b987786d03f4baca935a554b8a2fccf2ddd9",
         "fbtCommit": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
-        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json"
+        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json",
+        "publicationReceipt": "docs/releases/2026-10-01-promo-batch.json",
+        "fbtFeedbackCommit": "882a91a0ee705bc760bf038e760fb30c06352c85"
       },
       "blocker": null,
-      "stage": "local-site-verified"
+      "stage": "published-verified"
     },
     {
       "id": "wbw",
@@ -179,10 +197,11 @@
       "outputDir": "/Users/fangs/workspace/side/wbw/videos/promo-2026-10-01",
       "focus": "选择主题、进入长文、跟随图文与原作入口",
       "learningTarget": "长文阅读宣传与原文归属",
-      "status": "ready-for-hi",
+      "status": "published",
       "worker": {
         "kind": "thread",
-        "id": "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd"
+        "id": "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd",
+        "archived": true
       },
       "evidence": {
         "finalSha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
@@ -191,10 +210,12 @@
         "feedback": "/Users/fangs/workspace/side/wbw/videos/promo-2026-10-01/practice-feedback.md",
         "projectCommit": "191974d38fc9326cc296c718fabcf86e6ca3c67b",
         "fbtCommit": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
-        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json"
+        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json",
+        "publicationReceipt": "docs/releases/2026-10-01-promo-batch.json",
+        "fbtFeedbackCommit": "882a91a0ee705bc760bf038e760fb30c06352c85"
       },
       "blocker": null,
-      "stage": "local-site-verified"
+      "stage": "published-verified"
     },
     {
       "id": "dankoe",
@@ -205,10 +226,11 @@
       "outputDir": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01",
       "focus": "从精选导读进入正文与主题搜索",
       "learningTarget": "阅读产品差异化，避免重复套片",
-      "status": "ready-for-hi",
+      "status": "published",
       "worker": {
         "kind": "thread",
-        "id": "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd"
+        "id": "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd",
+        "archived": true
       },
       "evidence": {
         "finalSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
@@ -217,14 +239,21 @@
         "review": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/review.md",
         "feedback": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/practice-feedback.md",
         "fbtCommit": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
-        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json"
+        "localSummary": "docs/releases/2026-10-01-promo-local-summary.json",
+        "publicationReceipt": "docs/releases/2026-10-01-promo-batch.json",
+        "fbtFeedbackCommit": "882a91a0ee705bc760bf038e760fb30c06352c85"
       },
       "blocker": null,
-      "stage": "local-site-verified"
+      "stage": "published-verified"
     }
   ],
   "executionMode": "parallel-production-serial-integration",
   "activeItems": [],
   "concurrentProductionGroups": 3,
-  "assignedItems": []
+  "assignedItems": [],
+  "publication": {
+    "source": "c9c46221e0a2f5fcc1f09e62c93502b3ca9e591c",
+    "pages": "f28f5d98742925803ac7c6172fa5d980b9282fa2",
+    "receipt": "docs/releases/2026-10-01-promo-batch.json"
+  }
 }
