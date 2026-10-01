@@ -1,0 +1,415 @@
+{
+  "verifiedAt": "2026-10-01T09:07:50.891867+00:00",
+  "source": "c9c46221e0a2f5fcc1f09e62c93502b3ca9e591c",
+  "pages": "f28f5d98742925803ac7c6172fa5d980b9282fa2",
+  "pagesStatus": "built",
+  "release": {
+    "source": "c9c46221e0a2f5fcc1f09e62c93502b3ca9e591c",
+    "builtAt": "2026-10-01T08:55:47.471Z"
+  },
+  "scope": "8 new promos for the original 11-project portfolio; concurrent new projects excluded from this pinned release",
+  "publicFiles": {
+    "matched": 66,
+    "total": 66,
+    "receipt": "2026-10-01-promo-integrity.json"
+  },
+  "range": {
+    "passed": 8,
+    "total": 8,
+    "receipt": "2026-10-01-promo-range.json"
+  },
+  "chromium": {
+    "passed": 24,
+    "total": 24,
+    "viewports": [
+      1280,
+      390,
+      320
+    ],
+    "desktopFullPlayback": [
+      {
+        "id": "snow-duel",
+        "sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+        "playback": {
+          "method": "from initial pointer play to ended, no seek or speed changes",
+          "duration": 31,
+          "currentTime": 31,
+          "paused": true,
+          "ended": true,
+          "playbackRate": 1,
+          "readyState": 4,
+          "videoWidth": 1920,
+          "videoHeight": 1080,
+          "currentSrc": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "muted": false,
+          "volume": 1,
+          "error": null,
+          "quality": {
+            "totalVideoFrames": 775,
+            "droppedVideoFrames": 0
+          },
+          "events": [
+            {
+              "type": "play",
+              "time": 0,
+              "atMs": 3944.5
+            },
+            {
+              "type": "playing",
+              "time": 0,
+              "atMs": 5029.5999999940395
+            },
+            {
+              "type": "pause",
+              "time": 31,
+              "atMs": 36142.90000000596
+            },
+            {
+              "type": "ended",
+              "time": 31,
+              "atMs": 36142.90000000596
+            }
+          ]
+        }
+      },
+      {
+        "id": "qiya-herbarium",
+        "sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+        "playback": {
+          "method": "from initial pointer play to ended, no seek or speed changes",
+          "duration": 28,
+          "currentTime": 28,
+          "paused": true,
+          "ended": true,
+          "playbackRate": 1,
+          "readyState": 4,
+          "videoWidth": 1920,
+          "videoHeight": 1080,
+          "currentSrc": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "muted": false,
+          "volume": 1,
+          "error": null,
+          "quality": {
+            "totalVideoFrames": 700,
+            "droppedVideoFrames": 0
+          },
+          "events": [
+            {
+              "type": "play",
+              "time": 0,
+              "atMs": 3980.7999999970198
+            },
+            {
+              "type": "playing",
+              "time": 0,
+              "atMs": 4210.699999988079
+            },
+            {
+              "type": "pause",
+              "time": 28,
+              "atMs": 32304.89999999106
+            },
+            {
+              "type": "ended",
+              "time": 28,
+              "atMs": 32304.89999999106
+            }
+          ]
+        }
+      },
+      {
+        "id": "lehh",
+        "sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+        "playback": {
+          "method": "from initial pointer play to ended, no seek or speed changes",
+          "duration": 31,
+          "currentTime": 31,
+          "paused": true,
+          "ended": true,
+          "playbackRate": 1,
+          "readyState": 4,
+          "videoWidth": 1920,
+          "videoHeight": 1080,
+          "currentSrc": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+          "muted": false,
+          "volume": 1,
+          "error": null,
+          "quality": {
+            "totalVideoFrames": 930,
+            "droppedVideoFrames": 0
+          },
+          "events": [
+            {
+              "type": "play",
+              "time": 0,
+              "atMs": 3863.0999999940395
+            },
+            {
+              "type": "playing",
+              "time": 0,
+              "atMs": 4307.0999999940395
+            },
+            {
+              "type": "pause",
+              "time": 31,
+              "atMs": 35430.70000000298
+            },
+            {
+              "type": "ended",
+              "time": 31,
+              "atMs": 35430.79999999702
+            }
+          ]
+        }
+      },
+      {
+        "id": "little-pause",
+        "sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+        "playback": {
+          "method": "from initial pointer play to ended, no seek or speed changes",
+          "duration": 31,
+          "currentTime": 31,
+          "paused": true,
+          "ended": true,
+          "playbackRate": 1,
+          "readyState": 4,
+          "videoWidth": 1920,
+          "videoHeight": 1080,
+          "currentSrc": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "muted": false,
+          "volume": 1,
+          "error": null,
+          "quality": {
+            "totalVideoFrames": 930,
+            "droppedVideoFrames": 0
+          },
+          "events": [
+            {
+              "type": "play",
+              "time": 0,
+              "atMs": 3964.7999999970198
+            },
+            {
+              "type": "playing",
+              "time": 0,
+              "atMs": 4369.5
+            },
+            {
+              "type": "pause",
+              "time": 31,
+              "atMs": 35463.29999999702
+            },
+            {
+              "type": "ended",
+              "time": 31,
+              "atMs": 35463.29999999702
+            }
+          ]
+        }
+      },
+      {
+        "id": "taste",
+        "sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+        "playback": {
+          "method": "from initial pointer play to ended, no seek or speed changes",
+          "duration": 31,
+          "currentTime": 31,
+          "paused": true,
+          "ended": true,
+          "playbackRate": 1,
+          "readyState": 4,
+          "videoWidth": 1920,
+          "videoHeight": 1080,
+          "currentSrc": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+          "muted": false,
+          "volume": 1,
+          "error": null,
+          "quality": {
+            "totalVideoFrames": 775,
+            "droppedVideoFrames": 0
+          },
+          "events": [
+            {
+              "type": "play",
+              "time": 0,
+              "atMs": 3939.300000011921
+            },
+            {
+              "type": "playing",
+              "time": 0,
+              "atMs": 5043
+            },
+            {
+              "type": "pause",
+              "time": 31,
+              "atMs": 36141.80000001192
+            },
+            {
+              "type": "ended",
+              "time": 31,
+              "atMs": 36141.90000000596
+            }
+          ]
+        }
+      },
+      {
+        "id": "aiedu",
+        "sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+        "playback": {
+          "method": "from initial pointer play to ended, no seek or speed changes",
+          "duration": 30,
+          "currentTime": 30,
+          "paused": true,
+          "ended": true,
+          "playbackRate": 1,
+          "readyState": 4,
+          "videoWidth": 1920,
+          "videoHeight": 1080,
+          "currentSrc": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "muted": false,
+          "volume": 1,
+          "error": null,
+          "quality": {
+            "totalVideoFrames": 750,
+            "droppedVideoFrames": 0
+          },
+          "events": [
+            {
+              "type": "play",
+              "time": 0,
+              "atMs": 4080.7000000029802
+            },
+            {
+              "type": "playing",
+              "time": 0,
+              "atMs": 4193.4000000059605
+            },
+            {
+              "type": "pause",
+              "time": 30,
+              "atMs": 34281.20000000298
+            },
+            {
+              "type": "ended",
+              "time": 30,
+              "atMs": 34281.20000000298
+            }
+          ]
+        }
+      },
+      {
+        "id": "wbw",
+        "sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+        "playback": {
+          "method": "from initial pointer play to ended, no seek or speed changes",
+          "duration": 31,
+          "currentTime": 31,
+          "paused": true,
+          "ended": true,
+          "playbackRate": 1,
+          "readyState": 4,
+          "videoWidth": 1920,
+          "videoHeight": 1080,
+          "currentSrc": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+          "muted": false,
+          "volume": 1,
+          "error": null,
+          "quality": {
+            "totalVideoFrames": 775,
+            "droppedVideoFrames": 0
+          },
+          "events": [
+            {
+              "type": "play",
+              "time": 0,
+              "atMs": 3863.9000000059605
+            },
+            {
+              "type": "playing",
+              "time": 0,
+              "atMs": 4244.4000000059605
+            },
+            {
+              "type": "pause",
+              "time": 31,
+              "atMs": 35317.59999999404
+            },
+            {
+              "type": "ended",
+              "time": 31,
+              "atMs": 35317.59999999404
+            }
+          ]
+        }
+      },
+      {
+        "id": "dankoe",
+        "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+        "playback": {
+          "method": "from initial pointer play to ended, no seek or speed changes",
+          "duration": 30,
+          "currentTime": 30,
+          "paused": true,
+          "ended": true,
+          "playbackRate": 1,
+          "readyState": 4,
+          "videoWidth": 1920,
+          "videoHeight": 1080,
+          "currentSrc": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "muted": false,
+          "volume": 1,
+          "error": null,
+          "quality": {
+            "totalVideoFrames": 750,
+            "droppedVideoFrames": 0
+          },
+          "events": [
+            {
+              "type": "play",
+              "time": 0,
+              "atMs": 3892
+            },
+            {
+              "type": "playing",
+              "time": 0,
+              "atMs": 4238.800000011921
+            },
+            {
+              "type": "pause",
+              "time": 30,
+              "atMs": 34328.70000000298
+            },
+            {
+              "type": "ended",
+              "time": 30,
+              "atMs": 34328.70000000298
+            }
+          ]
+        }
+      }
+    ],
+    "receipts": [
+      "2026-10-01-promo-live-games-apps.json",
+      "2026-10-01-promo-live-reading.json"
+    ]
+  },
+  "webkit": {
+    "receipt": "2026-10-01-promo-live-webkit.json",
+    "status": "partial",
+    "mediaChecksPassed": true,
+    "remaining": "App Store click/native handoff unverified in WebKit; local comparative full-playback tests also recorded frame drops"
+  },
+  "limits": [
+    "No physical phone/Safari app testing",
+    "No actual auditory review or promotional-effect measurement"
+  ],
+  "fbt": {
+    "implementation": "b09efc09138d7c8aeee38d1b08c085b37a7a57b5",
+    "feedback": "882a91a0ee705bc760bf038e760fb30c06352c85"
+  },
+  "archivedProductionThreads": [
+    "01a0f67c-b216-7cf2-9671-3ac22f58ce5a",
+    "01a0f67c-b84d-7cf3-913b-87cc1ff1c439",
+    "01a0f67c-bc98-7723-b2c3-1b6ab9cb36bd"
+  ]
+}

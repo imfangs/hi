@@ -1,0 +1,111 @@
+{
+  "verifiedAt": "2026-10-01T09:07:50.891867+00:00",
+  "source": "c9c46221e0a2f5fcc1f09e62c93502b3ca9e591c",
+  "pages": "f28f5d98742925803ac7c6172fa5d980b9282fa2",
+  "projects": [
+    {
+      "id": "aiedu",
+      "title": "AI 教育 · 中英双语",
+      "url": "https://hi.fangs.cc/projects/aiedu/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/aiedu-promo-2026-10-01.mp4"
+      ]
+    },
+    {
+      "id": "dankoe",
+      "title": "Dan Koe 中文阅读站",
+      "url": "https://hi.fangs.cc/projects/dankoe/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/dankoe-promo-2026-10-01.mp4"
+      ]
+    },
+    {
+      "id": "hyrule",
+      "title": "海拉鲁 · 蓝焰余响",
+      "url": "https://hi.fangs.cc/projects/hyrule/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/hyrule-promo-20261001.mp4"
+      ]
+    },
+    {
+      "id": "junlugu",
+      "title": "菌露谷物语",
+      "url": "https://hi.fangs.cc/projects/junlugu/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/junlugu-promo-20261001.mp4"
+      ]
+    },
+    {
+      "id": "lehh",
+      "title": "单词合合乐",
+      "url": "https://hi.fangs.cc/projects/lehh/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/lehh-promo-2026-10-01.mp4"
+      ]
+    },
+    {
+      "id": "little-pause",
+      "title": "歇会鸭",
+      "url": "https://hi.fangs.cc/projects/little-pause/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/little-pause-promo-2026-10-01.mp4"
+      ]
+    },
+    {
+      "id": "pocofocus",
+      "title": "PocoFocus",
+      "url": "https://hi.fangs.cc/projects/pocofocus/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/pocofocus-promo-20261001.mp4"
+      ]
+    },
+    {
+      "id": "qiya-herbarium",
+      "title": "奇芽药草铺",
+      "url": "https://hi.fangs.cc/projects/qiya-herbarium/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/qiya-herbarium-promo-2026-10-01.mp4"
+      ]
+    },
+    {
+      "id": "snow-duel",
+      "title": "雪仗／夜雪俱乐部",
+      "url": "https://hi.fangs.cc/projects/snow-duel/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/snow-duel-promo-2026-10-01.mp4"
+      ]
+    },
+    {
+      "id": "taste",
+      "title": "你品 · 艺术与思想",
+      "url": "https://hi.fangs.cc/projects/taste/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/taste-promo-2026-10-01.mp4"
+      ]
+    },
+    {
+      "id": "wbw",
+      "title": "Wait But Why 中译",
+      "url": "https://hi.fangs.cc/projects/wbw/",
+      "httpStatus": 200,
+      "videoSources": [
+        "/videos/projects/wbw-promo-2026-10-01.mp4"
+      ]
+    }
+  ],
+  "counts": {
+    "originalProjects": 11,
+    "onlineVideos": 11,
+    "newPromos": 8
+  }
+}

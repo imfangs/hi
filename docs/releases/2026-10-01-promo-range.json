@@ -1,0 +1,94 @@
+{
+  "verifiedAt": "2026-10-01T09:02:17.917579+00:00",
+  "ok": true,
+  "results": [
+    {
+      "id": "snow-duel",
+      "url": "https://hi.fangs.cc/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/6107020",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "3a443e144279fbe10ee0a4ecaf06c53e4483e82c7c311ed53717586b98583540",
+      "matchesLocalPrefix": true,
+      "ok": true
+    },
+    {
+      "id": "qiya-herbarium",
+      "url": "https://hi.fangs.cc/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/6422675",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "d22c7c4f2a51f5273722f490828b8646c7a4ab51b453a345ac4633a59b9bb7c2",
+      "matchesLocalPrefix": true,
+      "ok": true
+    },
+    {
+      "id": "lehh",
+      "url": "https://hi.fangs.cc/videos/projects/lehh-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/1426116",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "b989051ccbce4f1fdcb84633621a4869baa498e80f65cbf04b969e1d72e77775",
+      "matchesLocalPrefix": true,
+      "ok": true
+    },
+    {
+      "id": "little-pause",
+      "url": "https://hi.fangs.cc/videos/projects/little-pause-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/1475860",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "3d42d0677ac22c8f8e1d6df699aa008df21011b2acceb27e7959c3350945781a",
+      "matchesLocalPrefix": true,
+      "ok": true
+    },
+    {
+      "id": "taste",
+      "url": "https://hi.fangs.cc/videos/projects/taste-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/5777872",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "0578d591b70d66e7a4c62c052cc4605656d30a94ca74808b0e4eb2e2c2a0a859",
+      "matchesLocalPrefix": true,
+      "ok": true
+    },
+    {
+      "id": "aiedu",
+      "url": "https://hi.fangs.cc/videos/projects/aiedu-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/2672279",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "30af5b2df5149e7408004f7ba268e9d3b6e3ac5c506a6393e840d48cdbe5d004",
+      "matchesLocalPrefix": true,
+      "ok": true
+    },
+    {
+      "id": "wbw",
+      "url": "https://hi.fangs.cc/videos/projects/wbw-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/3817979",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "1f26ffef50b56a3bf439092828215084d90db38705f39dae75589a782a88d55a",
+      "matchesLocalPrefix": true,
+      "ok": true
+    },
+    {
+      "id": "dankoe",
+      "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/2205633",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "864c77c21fa93696614ffc3573292352294558fc560d01463dc6875c432a33de",
+      "matchesLocalPrefix": true,
+      "ok": true
+    }
+  ]
+}
