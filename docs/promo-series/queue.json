@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "batchId": "hi-promos-2026-10-01",
+  "updatedAt": "2026-10-01",
+  "scope": "Hi现有还没有宣传片的8件作品；若用户扩大范围，再追加已核实项目。",
+  "status": "active",
+  "maxActive": 1,
+  "activeItem": "snow-duel",
+  "controller": {
+    "threadId": "01a0f4a4-d7f6-7a20-8ead-d9255dba01b3",
+    "automationId": "automation-13"
+  },
+  "completedBeforeBatch": [
+    "junlugu",
+    "pocofocus",
+    "hyrule"
+  ],
+  "items": [
+    {
+      "id": "snow-duel",
+      "title": "雪仗／夜雪俱乐部",
+      "projectRoot": "/Users/fangs/workspace/side/snow-duel",
+      "hiContent": "src/content/projects/snow-duel.mdx",
+      "publicPage": "https://hi.fangs.cc/projects/snow-duel/",
+      "outputDir": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+      "focus": "瞄准、选弹种、同回合出手与胜负反馈",
+      "learningTarget": "多人场景、弹道与快速动作的取景",
+      "status": "active",
+      "worker": {
+        "kind": "subagent",
+        "id": "/root/produce_snow"
+      },
+      "evidence": {},
+      "blocker": null
+    },
+    {
+      "id": "qiya-herbarium",
+      "title": "奇芽药草铺",
+      "projectRoot": "/Users/fangs/workspace/side/qiya-herbarium",
+      "hiContent": "src/content/projects/qiya-herbarium.mdx",
+      "publicPage": "https://hi.fangs.cc/projects/qiya-herbarium/",
+      "outputDir": "/Users/fangs/workspace/side/qiya-herbarium/videos/promo-2026-10-01",
+      "focus": "探险带回材料、培育植物、摆进自己的角落",
+      "learningTarget": "异步生成、资源就绪和已有素材复用",
+      "status": "pending",
+      "worker": null,
+      "evidence": {},
+      "blocker": null
+    },
+    {
+      "id": "lehh",
+      "title": "单词合合乐",
+      "projectRoot": "/Users/fangs/workspace/side/lehh",
+      "hiContent": "src/content/projects/lehh.mdx",
+      "publicPage": "https://hi.fangs.cc/projects/lehh/",
+      "outputDir": "/Users/fangs/workspace/side/lehh/videos/promo-2026-10-01",
+      "focus": "拖动两个词、新发现、发音与图鉴",
+      "learningTarget": "原生App操作、词汇细节与画幅",
+      "status": "pending",
+      "worker": null,
+      "evidence": {},
+      "blocker": null
+    },
+    {
+      "id": "little-pause",
+      "title": "歇会鸭",
+      "projectRoot": "/Users/fangs/workspace/side/little-pause",
+      "hiContent": "src/content/projects/little-pause.mdx",
+      "publicPage": "https://hi.fangs.cc/projects/little-pause/",
+      "outputDir": "/Users/fangs/workspace/side/little-pause/videos/promo-2026-10-01",
+      "focus": "设置值班人与提醒、系统实时活动",
+      "learningTarget": "原生系统表面与实际功能证明",
+      "status": "pending",
+      "worker": null,
+      "evidence": {},
+      "blocker": null
+    },
+    {
+      "id": "taste",
+      "title": "你品 · 艺术与思想",
+      "projectRoot": "/Users/fangs/workspace/side/taste-blog",
+      "hiContent": "src/content/projects/taste.mdx",
+      "publicPage": "https://hi.fangs.cc/projects/taste/",
+      "outputDir": "/Users/fangs/workspace/side/taste-blog/videos/promo-2026-10-01",
+      "focus": "从一件作品进入细读、收藏式浏览与原作入口",
+      "learningTarget": "阅读节奏与图像信息层级",
+      "status": "pending",
+      "worker": null,
+      "evidence": {},
+      "blocker": null
+    },
+    {
+      "id": "aiedu",
+      "title": "AI 教育 · 中英双语",
+      "projectRoot": "/Users/fangs/workspace/side/ai-for-education-zh",
+      "hiContent": "src/content/projects/aiedu.mdx",
+      "publicPage": "https://hi.fangs.cc/projects/aiedu/",
+      "outputDir": "/Users/fangs/workspace/side/ai-for-education-zh/videos/promo-2026-10-01",
+      "focus": "选课、中文理解、同课切回英文",
+      "learningTarget": "双语阅读与课程导航",
+      "status": "pending",
+      "worker": null,
+      "evidence": {},
+      "blocker": null
+    },
+    {
+      "id": "wbw",
+      "title": "Wait But Why 中译",
+      "projectRoot": "/Users/fangs/workspace/side/wbw",
+      "hiContent": "src/content/projects/wbw.mdx",
+      "publicPage": "https://hi.fangs.cc/projects/wbw/",
+      "outputDir": "/Users/fangs/workspace/side/wbw/videos/promo-2026-10-01",
+      "focus": "选择主题、进入长文、跟随图文与原作入口",
+      "learningTarget": "长文阅读宣传与原文归属",
+      "status": "pending",
+      "worker": null,
+      "evidence": {},
+      "blocker": null
+    },
+    {
+      "id": "dankoe",
+      "title": "Dan Koe 中文阅读站",
+      "projectRoot": "/Users/fangs/workspace/side/dankoe",
+      "hiContent": "src/content/projects/dankoe.mdx",
+      "publicPage": "https://hi.fangs.cc/projects/dankoe/",
+      "outputDir": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01",
+      "focus": "从精选导读进入正文与主题搜索",
+      "learningTarget": "阅读产品差异化，避免重复套片",
+      "status": "pending",
+      "worker": null,
+      "evidence": {},
+      "blocker": null
+    }
+  ]
+}

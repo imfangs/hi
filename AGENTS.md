@@ -5,6 +5,7 @@
 ## 接续
 
 - 当前交付和核验见 `CURRENT.md`；运行与新增作品见 `README.md`。
+- 逐项宣传片批次从 `docs/promo-series/README.md` 与 `docs/promo-series/queue.json` 接续；单项制作、发布和FBT回流完成后才启动下一项，协调者独占队列状态。
 - Astro 5 + MDX + Tailwind 4，纯静态输出，pnpm 管理依赖。
 - `src/content/projects/*.mdx` 是作品内容源；`src/content.config.ts` 校验 frontmatter；主页与详情均从同一 collection 构建。
 - `featured: true` 的项目在主列表展示，必须有真实封面；未精选且非 draft 的条目仅生成详情；增删记录与当前主列表见 CURRENT。
