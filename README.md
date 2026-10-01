@@ -51,6 +51,16 @@ order: 1
 
 有宣传片的作品可添加可选 `video: { src, poster, caption, credits }`：MP4与公开素材署名放 `public/videos/projects/`，poster放 `public/images/projects/`。详情主画面改为原生视频播放器，首页仍使用cover；不自动播放或预下载视频。例子见 `junlugu.mdx`。发布前检查桌面/手机播放、拖动、完整画幅和素材入口。
 
+批量验收使用 `scripts/verify-promos.mjs`，从作品 frontmatter 读取媒体、片注、来源和CTA，支持原生播放器的主动播放、完整片尾、前后跳转及桌面/390/320px布局。它只证明记录范围内的功能，完整公开MP4哈希仍用FBT public-preview核对。使用已安装Playwright的绝对项目路径，不自动安装依赖：
+
+```bash
+node scripts/verify-promos.mjs --url http://127.0.0.1:4218 \
+  --slugs snow-duel --out /tmp/hi-promo-qa \
+  --playwright-root /absolute/project-with-playwright --full
+```
+
+本地先构建并使用 Astro preview；临时服务器需支持 Range。`--engines chromium,webkit` 可增加WebKit对照；帧统计和真实设备/听验边界在回执中保留。`--views phone` 可做局部复验。退出码0为全部通过，1为失败，2为已明确记录的未验证边界（例如WebKit商店链接接管），不能把2当作完整通过。完整批次入口见 `docs/promo-series/README.md`。
+
 ## 发布
 
 当前使用 **本地构建 + GitHub Pages 的 gh-pages 分支**，不是 GitHub Actions。

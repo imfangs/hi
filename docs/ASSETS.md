@@ -57,3 +57,46 @@
 - `public/images/projects/hyrule-promo-20261001.webp`：直接复制同次 `cover.webp`，完整1920×1080画面，126,258字节；SHA-256 `fd0420818646744f4566a7ddbdff377dde0221c11ed33309d6c9edb1c473074b`。用于播放器 poster；首页原封面保留。
 - 画面来自当前个人非官方 Demo 的独立 QA 存档与真实输入，展示蓝焰收集、磁力机关和跃崖滑翔。画面中的 Kenney Castle Kit、Zelda UI Kit 与相关角色/名称归属按原作品说明；新增字幕与素材加工均保留出处。
 - 配乐《Town3 - Sunshine Coast》由 Juhani Junkala / SubspaceAudio 创作，CC0；风声为确定性合成。两者为后期重建声轨，并非现场录音。片注与公开 `hyrule-promo-20261001-credits.html` 说明此边界、许可链接和加工方式；仅视频、封面和必要署名入站，完整工程及内部日志留在游戏项目。
+
+## 夜雪俱乐部宣传片（2026-10-01）
+
+- 详情采用31秒1920×1080/25fps真实v0.5.0电脑练习宣传片。正式站新匿名对局，无日常数据；原游戏速度不变，剪去部分等待及中间回合。
+- MP4：`public/videos/projects/snow-duel-promo-2026-10-01.mp4`；同次封面：`public/images/projects/snow-duel-promo-2026-10-01.webp`。首页原封面保留。
+- 源工程：`../snow-duel/videos/promo-2026-10-01/`。音乐Moon Mischief为项目程序合成，Kenney CC0音效用于重建；录像本身无音轨。公开说明在同目录`-credits.html`。
+- 成片SHA-256：`0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430`。真实观看吸引力与听感仍待反馈。
+
+## 你品宣传片（2026-10-01）
+
+- 源工程：`../taste-blog/videos/promo-2026-10-01/`；31秒正式站实录，1920×1080/25fps，无旁白。MP4直接复制，SHA-256 `88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245`。
+- 成片 `public/videos/projects/taste-promo-2026-10-01.mp4`，封面由同次 `poster.jpg` 转为WebP（quality90），保留完整16:9；首页原封面保留。
+- 广重原作与局部来自Met JP2522，CC0；文字导览格得，原创程序合成配乐为后期声轨。公开署名见 `public/videos/projects/taste-promo-2026-10-01-credits.html`。
+
+## AI 教育 · 中英双语宣传片（2026-10-01）
+
+- 源工程：`../ai-for-education-zh/videos/promo-2026-10-01/`；30秒正式站实录，1920×1080/25fps。MP4直接复制，SHA-256 `7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2`。
+- 成片 `public/videos/projects/aiedu-promo-2026-10-01.mp4`，同次poster.jpg转WebP（quality90），保留16:9；首页原封面保留。原作者、非官方身份和后期配乐来源见 `public/videos/projects/aiedu-promo-2026-10-01-credits.html`；完整工程与日志不公开。
+
+## Wait But Why 中译宣传片（2026-10-01）
+
+- 源工程：`../wbw/videos/promo-2026-10-01/`；31秒正式站实录，1920×1080/25fps。MP4直接复制，SHA-256 `44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe`。
+- 成片 `public/videos/projects/wbw-promo-2026-10-01.mp4`，同次poster.jpg转WebP（quality90），保留16:9；首页原封面保留。原作者、非官方身份和后期配乐来源见 `public/videos/projects/wbw-promo-2026-10-01-credits.html`；完整工程与日志不公开。
+
+## Dan Koe 中文阅读站宣传片（2026-10-01）
+
+- 源工程：`../dankoe/videos/promo-2026-10-01/`；30秒正式站实录，1920×1080/25fps、SAR1:1。MP4直接复制，SHA-256 `686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84`。
+- 成片 `public/videos/projects/dankoe-promo-2026-10-01.mp4`；同次poster.jpg转WebP（quality90），保留16:9；首页原封面保留。原作者、非官方身份与后期原创配乐见同前缀credits.html；完整工程留消费项目。
+
+## 奇芽药草铺宣传片（2026-10-01）
+
+- 源工程：`../qiya-herbarium/videos/promo-2026-10-01/`；28秒v0.9.3界面实录，独立演示存档与既有生成图，非实时生成。1920×1080/25fps；MP4直接复制，SHA-256 `a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be`。
+- 成片 `public/videos/projects/qiya-herbarium-promo-2026-10-01.mp4`；同次poster.jpg转WebP（quality90），保留16:9；首页原封面保留。项目生成美术、场景准备和后期原创配乐见同前缀credits.html；完整工程留消费项目。
+
+## 单词合合乐宣传片（2026-10-01）
+
+- 源工程：`../lehh/videos/promo-2026-10-01/`；31秒1.1.0独立模拟器实录，1920×1080/30fps、930帧。MP4直接复制，SHA-256 `4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17`。
+- 成片 `public/videos/projects/lehh-promo-2026-10-01.mp4`；同次poster.jpg转WebP（quality90），保留16:9；首页原封面保留。后期原创配乐、系统示范语音与阅读停留见同前缀credits.html；完整工程留消费项目。
+
+## 歇会鸭宣传片（2026-10-01）
+
+- 源工程：`../little-pause/videos/promo-2026-10-01/`；31秒1.1独立模拟器与系统卡实录，1920×1080/30fps、930帧。MP4直接复制，SHA-256 `b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9`。
+- 成片 `public/videos/projects/little-pause-promo-2026-10-01.mp4`；同次poster.jpg转WebP（quality90），保留16:9；首页原封面保留。15秒提醒试用、后期原创配乐与静态停留见同前缀credits.html；完整工程留消费项目。

@@ -1,0 +1,48 @@
+[
+  {
+    "atMs": 709,
+    "attributes": [
+      "pseudo",
+      "-internal-media-controls-loading-panel",
+      "role",
+      "group",
+      "aria-label",
+      "buffering",
+      "aria-live",
+      "polite",
+      "style",
+      ""
+    ],
+    "styles": {
+      "animation-duration": "0s",
+      "animation-name": "none",
+      "display": "block",
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "children": []
+  },
+  {
+    "atMs": 3006,
+    "attributes": [
+      "pseudo",
+      "-internal-media-controls-loading-panel",
+      "role",
+      "group",
+      "aria-label",
+      "buffering",
+      "aria-live",
+      "polite",
+      "style",
+      "display: none;"
+    ],
+    "styles": {
+      "animation-duration": "0s",
+      "animation-name": "none",
+      "display": "none",
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "children": []
+  }
+]

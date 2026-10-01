@@ -1,0 +1,3794 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-01T08:19:31.199Z",
+  "root": "/Users/fangs/workspace/side/hi",
+  "base": "http://127.0.0.1:4218",
+  "options": {
+    "url": "http://127.0.0.1:4218",
+    "engines": [
+      "chromium"
+    ],
+    "full": true,
+    "slugs": "taste,aiedu,wbw",
+    "out": "/tmp/hi-promo-batch-local-reading-a",
+    "playwright-root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01"
+  },
+  "contentInventory": [
+    {
+      "slug": "aiedu",
+      "contentSha256": "575797d5574cab363c935d9099bf2b88ef90acb23dafd2390c5e93fe19433c45",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "dankoe",
+      "contentSha256": "e398428dea631465f7105dad386dd94714ad9c28e581dac43dcbdc2bcb1ec1b1",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "hyrule",
+      "contentSha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "junlugu",
+      "contentSha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "lehh",
+      "contentSha256": "4f70533178cf819410ef355e4cb26ddffcda45af7c0e599e3c0e6045bff250b5",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "little-pause",
+      "contentSha256": "d850c5bcb512d140bfbfa9dfab1121642098e36ca273199fca560b47880908d4",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "pocofocus",
+      "contentSha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "qiya-herbarium",
+      "contentSha256": "b5da0110529d73895a647daf213cf147be617c5287b0cd8a42e8b279f2c5b8da",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "snow-duel",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "taste",
+      "contentSha256": "0773280f0f1e84723344d4fa9f557e139c4bf68688531e6eea2f6be152ad17f6",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "wbw",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "hasVideo": true,
+      "draft": false
+    }
+  ],
+  "assets": [
+    {
+      "slug": "taste",
+      "title": "你品 · 艺术与思想",
+      "group": "reading",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/taste.mdx",
+      "contentSha256": "0773280f0f1e84723344d4fa9f557e139c4bf68688531e6eea2f6be152ad17f6",
+      "caption": "31 秒正式站实录：从广重原作进入局部细读、随手翻翻与出处。配乐为后期制作，无旁白。",
+      "links": [
+        {
+          "label": "打开你品",
+          "href": "https://taste.fangs.cc/"
+        },
+        {
+          "label": "读文章",
+          "href": "https://taste.fangs.cc/articles/"
+        },
+        {
+          "label": "看开发者视频",
+          "href": "https://taste.fangs.cc/videos/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/taste-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/taste-promo-2026-10-01.mp4",
+          "bytes": 5777872,
+          "sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245"
+        },
+        "poster": {
+          "publicPath": "/images/projects/taste-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/taste-promo-2026-10-01.webp",
+          "bytes": 91886,
+          "sha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/taste-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/taste-promo-2026-10-01-credits.html",
+          "bytes": 1089,
+          "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "aiedu",
+      "title": "AI 教育 · 中英双语",
+      "group": "reading",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/aiedu.mdx",
+      "contentSha256": "575797d5574cab363c935d9099bf2b88ef90acb23dafd2390c5e93fe19433c45",
+      "caption": "30 秒真实阅读演示：同一课在中文与英文间切换，浏览课程与教案。Khan Academy 原课程的非官方双语译本；配乐为后期制作。",
+      "links": [
+        {
+          "label": "开始学习",
+          "href": "https://aiedu.fangs.cc/"
+        },
+        {
+          "label": "访问原课程",
+          "href": "https://www.khanacademy.org/college-careers-more/ai-for-education"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "bytes": 2672279,
+          "sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2"
+        },
+        "poster": {
+          "publicPath": "/images/projects/aiedu-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/aiedu-promo-2026-10-01.webp",
+          "bytes": 107160,
+          "sha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/aiedu-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/aiedu-promo-2026-10-01-credits.html",
+          "bytes": 1177,
+          "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23"
+        },
+        "media": {
+          "duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "wbw",
+      "title": "Wait But Why 中译",
+      "group": "reading",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/wbw.mdx",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "caption": "31 秒真实图文阅读：从拖延与脑内猴子的图解，进入中文长文及原文入口。非官方中文整理；原作与插图归 Tim Urban / Wait But Why 及相应权利人，配乐为后期制作。",
+      "links": [
+        {
+          "label": "打开中译阅读站",
+          "href": "https://wbw.fangs.cc/"
+        },
+        {
+          "label": "访问原作者网站",
+          "href": "https://waitbutwhy.com/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/wbw-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/wbw-promo-2026-10-01.mp4",
+          "bytes": 3817979,
+          "sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe"
+        },
+        "poster": {
+          "publicPath": "/images/projects/wbw-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/wbw-promo-2026-10-01.webp",
+          "bytes": 141470,
+          "sha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/wbw-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/wbw-promo-2026-10-01-credits.html",
+          "bytes": 1181,
+          "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    }
+  ],
+  "results": [
+    {
+      "slug": "taste",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "contentSha256": "0773280f0f1e84723344d4fa9f557e139c4bf68688531e6eea2f6be152ad17f6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/taste/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.20921,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 775,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 973.1999999880791
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 1353.5
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 32426.89999999106
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 32427.09999999404
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.108902,
+              "after": 22.335496,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 33298
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 33306.89999999106
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 33306.89999999106
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.341015,
+              "after": 5.585529,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 33342.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 33401.69999998808
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 33401.69999998808
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.588386,
+              "after": 27.903572,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 33414.09999999404
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 33475.29999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 33475.29999999702
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1162,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "5777872",
+              "content-range": "bytes 0-5777871/5777872",
+              "accept-ranges": "bytes",
+              "etag": "W/\"5777872-1790842718460\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 5777872,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1089,
+            "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "openedURL": "https://taste.fangs.cc/",
+              "title": "你品 · 艺术与思想",
+              "httpURL": "https://taste.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "openedURL": "https://taste.fangs.cc/articles/",
+              "title": "文章｜艺术、思想与创造 · 你品",
+              "httpURL": "https://taste.fangs.cc/articles/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "openedURL": "https://taste.fangs.cc/videos/",
+              "title": "游戏是怎么做出来的｜开发者看片单 · 你品",
+              "httpURL": "https://taste.fangs.cc/videos/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "5777872",
+            "content-range": "bytes 0-5777871/5777872",
+            "accept-ranges": "bytes",
+            "etag": "W/\"5777872-1790842718460\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "91886",
+            "etag": "W/\"91886-1790842717656\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 91886,
+          "bodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 973.1999999880791
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1353.5
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 32426.89999999106
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 32427.09999999404
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 33121.59999999404
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 33121.69999998808
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 33121.79999999702
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 33121.79999999702
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 33298
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 33306.89999999106
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 33306.89999999106
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 33342.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 33401.69999998808
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 33401.69999998808
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 33414.09999999404
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 33475.29999999702
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 33475.29999999702
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 36666.29999999702
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 36666.29999999702
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 36737.79999999702
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 36788.79999999702
+        }
+      ],
+      "finishedAt": "2026-10-01T08:20:15.891Z"
+    },
+    {
+      "slug": "taste",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "contentSha256": "0773280f0f1e84723344d4fa9f557e139c4bf68688531e6eea2f6be152ad17f6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/taste/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.220531,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.251887,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 2347.0999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 2357
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 2357
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.585413,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 2367.3999999910593
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 2425.5999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 2425.699999988079
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.587895,
+              "after": 27.906897,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 2451.2999999970198
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 2512.7999999970198
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 2512.7999999970198
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 415,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "5777872",
+              "content-range": "bytes 0-5777871/5777872",
+              "accept-ranges": "bytes",
+              "etag": "W/\"5777872-1790842718460\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 5777872,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1089,
+            "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "openedURL": "https://taste.fangs.cc/",
+              "title": "你品 · 艺术与思想",
+              "httpURL": "https://taste.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "openedURL": "https://taste.fangs.cc/articles/",
+              "title": "文章｜艺术、思想与创造 · 你品",
+              "httpURL": "https://taste.fangs.cc/articles/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "openedURL": "https://taste.fangs.cc/videos/",
+              "title": "游戏是怎么做出来的｜开发者看片单 · 你品",
+              "httpURL": "https://taste.fangs.cc/videos/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=5242880-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "5777872",
+            "content-range": "bytes 0-5777871/5777872",
+            "accept-ranges": "bytes",
+            "etag": "W/\"5777872-1790842718460\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {},
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "91886",
+            "etag": "W/\"91886-1790842717656\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 91886,
+          "bodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 977.3999999910593
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1020.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 2347.0999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 2357
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 2357
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 2367.3999999910593
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 2425.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 2425.699999988079
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 2451.2999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 2512.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 2512.7999999970198
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 5706.5999999940395
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 5706.699999988079
+        }
+      ],
+      "finishedAt": "2026-10-01T08:20:26.186Z"
+    },
+    {
+      "slug": "taste",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "contentSha256": "0773280f0f1e84723344d4fa9f557e139c4bf68688531e6eea2f6be152ad17f6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/taste/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.221237,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.248897,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 2264.300000011921
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 2275.800000011921
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 2275.800000011921
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.585775,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 2287.6000000089407
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 2345.800000011921
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 2345.800000011921
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.587436,
+              "after": 27.903117,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 2369.300000011921
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 2429.9000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 2430
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 416,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "5777872",
+              "content-range": "bytes 0-5777871/5777872",
+              "accept-ranges": "bytes",
+              "etag": "W/\"5777872-1790842718460\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 5777872,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1089,
+            "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开你品",
+              "expectedURL": "https://taste.fangs.cc/",
+              "openedURL": "https://taste.fangs.cc/",
+              "title": "你品 · 艺术与思想",
+              "httpURL": "https://taste.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "读文章",
+              "expectedURL": "https://taste.fangs.cc/articles/",
+              "openedURL": "https://taste.fangs.cc/articles/",
+              "title": "文章｜艺术、思想与创造 · 你品",
+              "httpURL": "https://taste.fangs.cc/articles/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看开发者视频",
+              "expectedURL": "https://taste.fangs.cc/videos/",
+              "openedURL": "https://taste.fangs.cc/videos/",
+              "title": "游戏是怎么做出来的｜开发者看片单 · 你品",
+              "httpURL": "https://taste.fangs.cc/videos/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=5242880-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "5777872",
+            "content-range": "bytes 0-5777871/5777872",
+            "accept-ranges": "bytes",
+            "etag": "W/\"5777872-1790842718460\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {},
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/taste-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "91886",
+            "etag": "W/\"91886-1790842717656\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 91886,
+          "bodySha256": "37cabb98c4a86cd67ef13b6a6a4243b7299f302c33ea7a67253beaa854a2990c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/taste-promo-2026-10-01.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 897.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 947.5
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 2264.300000011921
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 2275.800000011921
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 2275.800000011921
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 2287.6000000089407
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 2345.800000011921
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 2345.800000011921
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 2369.300000011921
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 2429.9000000059605
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 2430
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 5624.5
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 5624.600000008941
+        }
+      ],
+      "finishedAt": "2026-10-01T08:20:35.769Z"
+    },
+    {
+      "slug": "aiedu",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "contentSha256": "575797d5574cab363c935d9099bf2b88ef90acb23dafd2390c5e93fe19433c45",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/aiedu/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.238984,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 30,
+            "currentTime": 30,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 750,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 1001.2000000029802
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 1039.5
+              },
+              {
+                "type": "pause",
+                "time": 30,
+                "atMs": 31123.40000000596
+              },
+              {
+                "type": "ended",
+                "time": 30,
+                "atMs": 31123.5
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.105224,
+              "after": 21.602384,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 31418.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 31452.5
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 31452.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.604676,
+              "after": 5.404886,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 31470.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 31525.40000000596
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 31525.40000000596
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.407235,
+              "after": 27.0123,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 31537.29999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 31562.90000000596
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 31562.90000000596
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1102,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2672279",
+              "content-range": "bytes 0-2672278/2672279",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2672279-1790842717674\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2672279,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1177,
+            "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "openedURL": "https://aiedu.fangs.cc/",
+              "title": "教育中的 AI | Khan Academy · 中文译本",
+              "httpURL": "https://aiedu.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "openedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "title": "Client Challenge",
+              "httpURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2672279",
+            "content-range": "bytes 0-2672278/2672279",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2672279-1790842717674\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "107160",
+            "etag": "W/\"107160-1790842717638\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 107160,
+          "bodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 1001.2000000029802
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1039.5
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 31123.40000000596
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 31123.5
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 31244.79999999702
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 31244.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 31244.90000000596
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 31244.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 31418.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 31452.5
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 31452.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 31470.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 31525.40000000596
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 31525.40000000596
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 31537.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 31562.90000000596
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 31562.90000000596
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 34642.5
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 34642.5
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 34729.29999999702
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 34762.79999999702
+        }
+      ],
+      "finishedAt": "2026-10-01T08:21:15.554Z"
+    },
+    {
+      "slug": "aiedu",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "contentSha256": "575797d5574cab363c935d9099bf2b88ef90acb23dafd2390c5e93fe19433c45",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/aiedu/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.2176,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.247341,
+              "after": 21.61576,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 2184.1000000089407
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 2216.1000000089407
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 2216.1000000089407
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.617449,
+              "after": 5.399999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 2237.4000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 2290.1000000089407
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 2290.1000000089407
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.399999,
+              "after": 27,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 2302
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 2326
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 2326
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 381,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2672279",
+              "content-range": "bytes 0-2672278/2672279",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2672279-1790842717674\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2672279,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1177,
+            "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "openedURL": "https://aiedu.fangs.cc/",
+              "title": "教育中的 AI | Khan Academy · 中文译本",
+              "httpURL": "https://aiedu.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "openedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "title": "Client Challenge",
+              "httpURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2672279",
+            "content-range": "bytes 0-2672278/2672279",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2672279-1790842717674\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "107160",
+            "etag": "W/\"107160-1790842717638\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 107160,
+          "bodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 848.8000000119209
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 862.5
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 2184.1000000089407
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 2216.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 2216.1000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 2237.4000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 2290.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 2290.1000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 2302
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 2326
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 2326
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 5418.300000011921
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 5418.300000011921
+        }
+      ],
+      "finishedAt": "2026-10-01T08:21:23.796Z"
+    },
+    {
+      "slug": "aiedu",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "contentSha256": "575797d5574cab363c935d9099bf2b88ef90acb23dafd2390c5e93fe19433c45",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/aiedu/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.216341,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.242866,
+              "after": 21.616115,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 2178.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 2213.7999999970198
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 2213.7999999970198
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.61816,
+              "after": 5.399999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 2237.5999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 2292.8999999910593
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 2292.8999999910593
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.399999,
+              "after": 27,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 2303.3999999910593
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 2325.8999999910593
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 2325.8999999910593
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 380,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2672279",
+              "content-range": "bytes 0-2672278/2672279",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2672279-1790842717674\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2672279,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1177,
+            "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始学习",
+              "expectedURL": "https://aiedu.fangs.cc/",
+              "openedURL": "https://aiedu.fangs.cc/",
+              "title": "教育中的 AI | Khan Academy · 中文译本",
+              "httpURL": "https://aiedu.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原课程",
+              "expectedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "openedURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "title": "Client Challenge",
+              "httpURL": "https://www.khanacademy.org/college-careers-more/ai-for-education",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/aiedu-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2672279",
+            "content-range": "bytes 0-2672278/2672279",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2672279-1790842717674\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/aiedu-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "107160",
+            "etag": "W/\"107160-1790842717638\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 107160,
+          "bodySha256": "db4365393668f51d1df686d16c855f26ad965a7a3b9170844d2b3e530fbfbf52",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 848.5
+        },
+        {
+          "type": "playing",
+          "time": 0.019909,
+          "atMs": 896.2999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 2178.5
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 2213.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 2213.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 2237.5999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 2292.8999999910593
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 2292.8999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 2303.3999999910593
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 2325.8999999910593
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 2325.8999999910593
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 5417.79999999702
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 5417.899999991059
+        }
+      ],
+      "finishedAt": "2026-10-01T08:21:31.990Z"
+    },
+    {
+      "slug": "wbw",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/wbw/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.215158,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 775,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 930.2000000029802
+              },
+              {
+                "type": "playing",
+                "time": 0.006201,
+                "atMs": 983.6000000089407
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 32039.20000000298
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 32039.20000000298
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.113778,
+              "after": 22.330909,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 32300.40000000596
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 32336.30000001192
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 32336.30000001192
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.333631,
+              "after": 5.588961,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 32353.60000000894
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 32414
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 32414.10000000894
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.590482,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 32435.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 32449.80000001192
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 32449.80000001192
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1112,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "3817979",
+              "content-range": "bytes 0-3817978/3817979",
+              "accept-ranges": "bytes",
+              "etag": "W/\"3817979-1790842718493\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 3817979,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1181,
+            "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "openedURL": "https://wbw.fangs.cc/",
+              "title": "首页 | Wait But Why · 中译",
+              "httpURL": "https://wbw.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "openedURL": "https://waitbutwhy.com/",
+              "title": "Wait But Why",
+              "httpURL": "https://waitbutwhy.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "3817979",
+            "content-range": "bytes 0-3817978/3817979",
+            "accept-ranges": "bytes",
+            "etag": "W/\"3817979-1790842718493\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "141470",
+            "etag": "W/\"141470-1790842717658\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 141470,
+          "bodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 930.2000000029802
+        },
+        {
+          "type": "playing",
+          "time": 0.006201,
+          "atMs": 983.6000000089407
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 32039.20000000298
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 32039.20000000298
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 32128.5
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 32128.5
+        },
+        {
+          "type": "seeked",
+          "time": 0.004698,
+          "atMs": 32128.60000000894
+        },
+        {
+          "type": "playing",
+          "time": 0.00471,
+          "atMs": 32128.60000000894
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 32300.40000000596
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 32336.30000001192
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 32336.30000001192
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 32353.60000000894
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 32414
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 32414.10000000894
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 32435.5
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 32449.80000001192
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 32449.80000001192
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 35644.40000000596
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 35644.40000000596
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 35712.10000000894
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 35745.30000001192
+        }
+      ],
+      "finishedAt": "2026-10-01T08:22:14.393Z"
+    },
+    {
+      "slug": "wbw",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/wbw/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.22502,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2726,
+              "after": 22.325563,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 2244.9000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 2288.4000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 2288.4000000059605
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.327731,
+              "after": 5.583593,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 2305.7999999970198
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 2364.1000000089407
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 2364.1000000089407
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.585212,
+              "after": 27.915993,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 2388.2999999970198
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 2400.4000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 2400.4000000059605
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 366,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "3817979",
+              "content-range": "bytes 0-3817978/3817979",
+              "accept-ranges": "bytes",
+              "etag": "W/\"3817979-1790842718493\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 3817979,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1181,
+            "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "openedURL": "https://wbw.fangs.cc/",
+              "title": "首页 | Wait But Why · 中译",
+              "httpURL": "https://wbw.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "openedURL": "https://waitbutwhy.com/",
+              "title": "Wait But Why",
+              "httpURL": "https://waitbutwhy.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=2293760-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "3817979",
+            "content-range": "bytes 0-3817978/3817979",
+            "accept-ranges": "bytes",
+            "etag": "W/\"3817979-1790842718493\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {},
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "141470",
+            "etag": "W/\"141470-1790842717658\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 141470,
+          "bodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 883.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 0.00464,
+          "atMs": 935.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 2244.9000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 2288.4000000059605
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 2288.4000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 2305.7999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 2364.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 2364.1000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 2388.2999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 2400.4000000059605
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 2400.4000000059605
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 5581.29999999702
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 5581.29999999702
+        }
+      ],
+      "finishedAt": "2026-10-01T08:22:24.920Z"
+    },
+    {
+      "slug": "wbw",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/wbw/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.20383,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 34,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.231536,
+              "after": 22.324253,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 2277.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 2313.9000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 2313.9000000059605
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.325782,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 2335.4000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 2393.1000000089407
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 2393.2000000029802
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.58,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 2403.2999999970198
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 2414.7999999970198
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 2414.7999999970198
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 365,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "3817979",
+              "content-range": "bytes 0-3817978/3817979",
+              "accept-ranges": "bytes",
+              "etag": "W/\"3817979-1790842718493\"",
+              "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 3817979,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1181,
+            "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "打开中译阅读站",
+              "expectedURL": "https://wbw.fangs.cc/",
+              "openedURL": "https://wbw.fangs.cc/",
+              "title": "首页 | Wait But Why · 中译",
+              "httpURL": "https://wbw.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://waitbutwhy.com/",
+              "openedURL": "https://waitbutwhy.com/",
+              "title": "Wait But Why",
+              "httpURL": "https://waitbutwhy.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/wbw-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "3817979",
+            "content-range": "bytes 0-3817978/3817979",
+            "accept-ranges": "bytes",
+            "etag": "W/\"3817979-1790842718493\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:38 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/wbw-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "141470",
+            "etag": "W/\"141470-1790842717658\"",
+            "last-modified": "Thu, 01 Oct 2026 08:18:37 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 141470,
+          "bodySha256": "c3a501a26c86e6b5d7075bc4c7067b3340e752e1df8a9f471e4abc4d270a9434",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 899.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 0.00688,
+          "atMs": 1012.2999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 2277.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 2313.9000000059605
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 2313.9000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 2335.4000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 2393.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 2393.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 2403.2999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 2414.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 2414.7999999970198
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 5613.600000008941
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 5613.600000008941
+        }
+      ],
+      "finishedAt": "2026-10-01T08:22:35.681Z"
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "limits": [
+    "Synthetic browser viewports; no physical phone or Safari application test.",
+    "No human audio listening, continuous human visual review, or promotion-effectiveness claim.",
+    "Local public MP4 SHA-256 identifies the reference file only. Browser URLs/headers/duration do not establish whole remote-file identity; run FBT public-preview verify_static separately.",
+    "--full means uninterrupted normal-speed desktop playback to ended; phone/narrow runs use documented seeks before reaching ended.",
+    "Product CTA checks cover link opening and HTTP reachability only; product business flows are outside this script."
+  ],
+  "playwright": {
+    "root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "version": "1.62.1"
+  },
+  "expectedResults": 9,
+  "finishedAt": "2026-10-01T08:22:36.098Z"
+}

@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 2,
+  "startedAt": "2026-10-01T08:44:27.239Z",
+  "root": "/Users/fangs/workspace/side/hi",
+  "base": "http://127.0.0.1:4218",
+  "options": {
+    "url": "http://127.0.0.1:4218",
+    "engines": [
+      "webkit"
+    ],
+    "full": false,
+    "slugs": "lehh",
+    "out": "/tmp/hi-appstore-webkit-partial",
+    "playwright-root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "views": "phone"
+  },
+  "contentInventory": [
+    {
+      "slug": "aiedu",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "dankoe",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "hyrule",
+      "contentSha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "junlugu",
+      "contentSha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "lehh",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "little-pause",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "pocofocus",
+      "contentSha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "qiya-herbarium",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "snow-duel",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "taste",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "wbw",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "hasVideo": true,
+      "draft": false
+    }
+  ],
+  "assets": [
+    {
+      "slug": "lehh",
+      "title": "单词合合乐",
+      "group": "apps",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/lehh.mdx",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "caption": "31 秒应用操作演示：Water 与 Fire 合成 Steam，再看发音、例句和图鉴。1.1.0 版模拟器实录；配乐与英文示范发音为后期重建。",
+      "links": [
+        {
+          "label": "在 App Store 下载",
+          "href": "https://apps.apple.com/cn/app/id6785151750"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/lehh-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/lehh-promo-2026-10-01.mp4",
+          "bytes": 1426116,
+          "sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17"
+        },
+        "poster": {
+          "publicPath": "/images/projects/lehh-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/lehh-promo-2026-10-01.webp",
+          "bytes": 55556,
+          "sha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/lehh-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/lehh-promo-2026-10-01-credits.html",
+          "bytes": 991,
+          "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    }
+  ],
+  "results": [
+    {
+      "slug": "lehh",
+      "engine": "webkit",
+      "environment": "phone",
+      "browser": "26.5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.2227481256630506,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 12,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2650854173333153,
+              "after": 22.3384442083264,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 5322
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.320394958333345,
+                  "atMs": 5453
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.340192041658447,
+              "after": 5.585591125009232,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5475
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.580214041676372,
+                  "atMs": 5650
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.58749812500726,
+              "after": 27.915144208329732,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.900000000000002,
+                  "atMs": 5660
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.900199333328057,
+                  "atMs": 5790
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 487,
+                "droppedVideoFrames": 32
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/1426116",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1426116-1790844106207\"",
+              "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "httpURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": null,
+          "status": "unverified",
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6785151750",
+                "target": "_blank"
+              },
+              "navigationRequests": [],
+              "popupObserved": false,
+              "openedByClick": false,
+              "nativeAppStoreHandoffVerified": false,
+              "popupError": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================",
+              "directBrowserNavigation": {
+                "verified": true,
+                "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+                "status": 200,
+                "title": "‎单词合合乐 App - App Store",
+                "method": "separate harness-initiated page.goto; not the CTA click result"
+              },
+              "status": "unverified-external-app-navigation",
+              "method": "trusted unprevented App Store link click had no browser navigation; separate direct listing navigation succeeded; native handoff unknown"
+            }
+          ],
+          "reason": "App Store click/native-app handoff was not observable in WebKit; link, HTTP and separate direct browser navigation were verified"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1426115"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790844106207\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790844106207\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "etag": "W/\"55556-1790844105889\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [
+        {
+          "check": "cta-links-open",
+          "reason": "App Store click/native-app handoff was not observable in WebKit; link, HTTP and separate direct browser navigation were verified",
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6785151750",
+                "target": "_blank"
+              },
+              "navigationRequests": [],
+              "popupObserved": false,
+              "openedByClick": false,
+              "nativeAppStoreHandoffVerified": false,
+              "popupError": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================",
+              "directBrowserNavigation": {
+                "verified": true,
+                "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+                "status": 200,
+                "title": "‎单词合合乐 App - App Store",
+                "method": "separate harness-initiated page.goto; not the CTA click result"
+              },
+              "status": "unverified-external-app-navigation",
+              "method": "trusted unprevented App Store link click had no browser navigation; separate direct listing navigation succeeded; native handoff unknown"
+            }
+          ]
+        }
+      ],
+      "passed": false,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3445
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3764
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 5322
+        },
+        {
+          "type": "seeked",
+          "time": 22.320394958333345,
+          "atMs": 5453
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5475
+        },
+        {
+          "type": "seeked",
+          "time": 5.580214041676372,
+          "atMs": 5650
+        },
+        {
+          "type": "seeking",
+          "time": 27.900000000000002,
+          "atMs": 5660
+        },
+        {
+          "type": "seeked",
+          "time": 27.900199333328057,
+          "atMs": 5790
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 9203
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 9203
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "partial",
+      "finishedAt": "2026-10-01T08:44:54.532Z"
+    }
+  ],
+  "complete": true,
+  "passed": false,
+  "limits": [
+    "Synthetic browser viewports; no physical phone or Safari application test.",
+    "No human audio listening, continuous human visual review, or promotion-effectiveness claim.",
+    "Local public MP4 SHA-256 identifies the reference file only. Browser URLs/headers/duration do not establish whole remote-file identity; run FBT public-preview verify_static separately.",
+    "--full means uninterrupted normal-speed desktop playback to ended; phone/narrow runs use documented seeks before reaching ended.",
+    "Product CTA checks cover link opening and HTTP reachability only; product business flows are outside this script.",
+    "A WebKit App Store link click with no observable browser navigation can be PARTIAL only after an unprevented trusted click, successful HTTP check and a separate direct browser navigation. This does not verify the click opened a browser page or native App Store."
+  ],
+  "playwright": {
+    "root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "version": "1.62.1"
+  },
+  "expectedResults": 1,
+  "finishedAt": "2026-10-01T08:44:54.543Z",
+  "failures": 0,
+  "partialResults": 1,
+  "status": "partial"
+}

@@ -1,0 +1,1499 @@
+{
+  "schemaVersion": 2,
+  "startedAt": "2026-10-01T08:44:05.670Z",
+  "root": "/Users/fangs/workspace/side/hi",
+  "base": "http://127.0.0.1:4218",
+  "options": {
+    "url": "http://127.0.0.1:4218",
+    "engines": [
+      "chromium"
+    ],
+    "full": true,
+    "slugs": "little-pause",
+    "out": "/tmp/hi-promo-batch-local-pause",
+    "playwright-root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01"
+  },
+  "contentInventory": [
+    {
+      "slug": "aiedu",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "dankoe",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "hyrule",
+      "contentSha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "junlugu",
+      "contentSha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "lehh",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "little-pause",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "pocofocus",
+      "contentSha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "qiya-herbarium",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "snow-duel",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "taste",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "wbw",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "hasVideo": true,
+      "draft": false
+    }
+  ],
+  "assets": [
+    {
+      "slug": "little-pause",
+      "title": "歇会鸭",
+      "group": "apps",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/little-pause.mdx",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "caption": "31 秒应用与系统卡演示：15 秒提醒试用、10 分钟规则和自定义提醒话。1.1 版模拟器实录，配乐为后期制作。",
+      "links": [
+        {
+          "label": "在 App Store 下载",
+          "href": "https://apps.apple.com/cn/app/id6814516567"
+        },
+        {
+          "label": "使用帮助",
+          "href": "https://imfangs.github.io/xiehuiya-support/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "bytes": 1475860,
+          "sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9"
+        },
+        "poster": {
+          "publicPath": "/images/projects/little-pause-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/little-pause-promo-2026-10-01.webp",
+          "bytes": 61514,
+          "sha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/little-pause-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/little-pause-promo-2026-10-01-credits.html",
+          "bytes": 1086,
+          "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    }
+  ],
+  "results": [
+    {
+      "slug": "little-pause",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/little-pause/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.225093,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 930,
+              "droppedVideoFrames": 3
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3435.9000000059605
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 3744.2000000029802
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 34817.40000000596
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 34817.40000000596
+              }
+            ]
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.118124,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 35083
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 35121.79999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 35121.90000000596
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 35135.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 35201.60000000894
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 35201.60000000894
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.58,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 35217
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 35251
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 35251
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1393,
+                "droppedVideoFrames": 3
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1475860",
+              "content-range": "bytes 0-1475859/1475860",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1475860-1790844106212\"",
+              "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1475860,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1086,
+            "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "httpURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "httpURL": "https://imfangs.github.io/xiehuiya-support/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "openedURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "title": "‎歇会鸭 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6814516567",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6814516567",
+                "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "openedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "title": "歇会鸭 · 使用帮助",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://imfangs.github.io/xiehuiya-support/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://imfangs.github.io/xiehuiya-support/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1475860",
+            "content-range": "bytes 0-1475859/1475860",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1475860-1790844106212\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "61514",
+            "etag": "W/\"61514-1790844105891\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 61514,
+          "bodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3435.9000000059605
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3744.2000000029802
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 34817.40000000596
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 34817.40000000596
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 34910.40000000596
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 34910.40000000596
+        },
+        {
+          "type": "seeked",
+          "time": 0.008669,
+          "atMs": 34910.40000000596
+        },
+        {
+          "type": "playing",
+          "time": 0.008687,
+          "atMs": 34910.40000000596
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 35083
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 35121.79999999702
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 35121.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 35135.5
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 35201.60000000894
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 35201.60000000894
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 35217
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 35251
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 35251
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 38443.5
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 38443.5
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 38510.79999999702
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 38544
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity",
+          "desktop-volume-and-fullscreen",
+          "uninterrupted-full-playback"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T08:44:50.352Z"
+    },
+    {
+      "slug": "little-pause",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/little-pause/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.211327,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.24154,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4732.4000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 4773.9000000059605
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 4773.9000000059605
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.588692,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 4788.600000008941
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 4854.20000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 4854.20000000298
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.590563,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 4870.600000008941
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 4904.600000008941
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 4904.600000008941
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 497,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1475860",
+              "content-range": "bytes 0-1475859/1475860",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1475860-1790844106212\"",
+              "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1475860,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1086,
+            "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "httpURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "httpURL": "https://imfangs.github.io/xiehuiya-support/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "openedURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "title": "‎歇会鸭 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6814516567",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6814516567",
+                "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "openedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "title": "歇会鸭 · 使用帮助",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://imfangs.github.io/xiehuiya-support/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://imfangs.github.io/xiehuiya-support/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1475860",
+            "content-range": "bytes 0-1475859/1475860",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1475860-1790844106212\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "61514",
+            "etag": "W/\"61514-1790844105891\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 61514,
+          "bodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3374.2999999970198
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3394.2999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4732.4000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 4773.9000000059605
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 4773.9000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 4788.600000008941
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 4854.20000000298
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 4854.20000000298
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 4870.600000008941
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 4904.600000008941
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 4904.600000008941
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8100.9000000059605
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8100.9000000059605
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T08:45:00.462Z"
+    },
+    {
+      "slug": "little-pause",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "contentSha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/little-pause/?view=apps",
+            "method": "clicked filtered gallery card"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.207148,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.237192,
+              "after": 22.32547,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4751.199999988079
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 4793.5
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 4793.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.327426,
+              "after": 5.583391,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 4804.79999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 4870.899999991059
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 4870.899999991059
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.585095,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 4887.0999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 4924
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 4924
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 498,
+                "droppedVideoFrames": 0
+              }
+            }
+          },
+          "status": "passed"
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1475860",
+              "content-range": "bytes 0-1475859/1475860",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1475860-1790844106212\"",
+              "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1475860,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1086,
+            "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3"
+          },
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-and-http",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "httpURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "httpURL": "https://imfangs.github.io/xiehuiya-support/",
+              "status": 200,
+              "method": "verified actual anchor label/href/target and separate HTTP GET; does not claim browser opening"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6814516567",
+              "openedURL": "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567",
+              "title": "‎歇会鸭 App - App Store",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://apps.apple.com/cn/app/id6814516567",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://apps.apple.com/cn/app/id6814516567",
+                "https://apps.apple.com/cn/app/%E6%AD%87%E4%BC%9A%E9%B8%AD/id6814516567"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            },
+            {
+              "label": "使用帮助",
+              "expectedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "openedURL": "https://imfangs.github.io/xiehuiya-support/",
+              "title": "歇会鸭 · 使用帮助",
+              "click": {
+                "trusted": true,
+                "defaultPrevented": false,
+                "href": "https://imfangs.github.io/xiehuiya-support/",
+                "target": "_blank"
+              },
+              "navigationRequests": [
+                "https://imfangs.github.io/xiehuiya-support/"
+              ],
+              "popupObserved": true,
+              "openedByClick": true,
+              "status": "passed",
+              "method": "clicked CTA into anonymous popup; HTTP verification recorded separately"
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          },
+          "status": "passed"
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          },
+          "status": "passed"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/little-pause-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1475860",
+            "content-range": "bytes 0-1475859/1475860",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1475860-1790844106212\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:46 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/little-pause-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "61514",
+            "etag": "W/\"61514-1790844105891\"",
+            "last-modified": "Thu, 01 Oct 2026 08:41:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 61514,
+          "bodySha256": "6c369fb556636bc671bf423dd2f6c3f8d50d904c330cd76b9060a143dd829de1",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "boundaries": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3398
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3421.8999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4751.199999988079
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 4793.5
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 4793.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 4804.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 4870.899999991059
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 4870.899999991059
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 4887.0999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 4924
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 4924
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8123.199999988079
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8123.199999988079
+        }
+      ],
+      "mediaVerification": {
+        "passed": true,
+        "checks": [
+          "initial-player-layout-and-no-prefetch",
+          "active-click-play-and-metadata",
+          "seek-forward-back-and-ended",
+          "browser-media-response-identity"
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-10-01T08:45:10.145Z"
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "limits": [
+    "Synthetic browser viewports; no physical phone or Safari application test.",
+    "No human audio listening, continuous human visual review, or promotion-effectiveness claim.",
+    "Local public MP4 SHA-256 identifies the reference file only. Browser URLs/headers/duration do not establish whole remote-file identity; run FBT public-preview verify_static separately.",
+    "--full means uninterrupted normal-speed desktop playback to ended; phone/narrow runs use documented seeks before reaching ended.",
+    "Product CTA checks cover link opening and HTTP reachability only; product business flows are outside this script.",
+    "A WebKit App Store link click with no observable browser navigation can be PARTIAL only after an unprevented trusted click, successful HTTP check and a separate direct browser navigation. This does not verify the click opened a browser page or native App Store."
+  ],
+  "playwright": {
+    "root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "version": "1.62.1"
+  },
+  "expectedResults": 3,
+  "finishedAt": "2026-10-01T08:45:10.245Z",
+  "failures": 0,
+  "partialResults": 0,
+  "status": "passed"
+}

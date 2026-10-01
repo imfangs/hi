@@ -1,0 +1,179 @@
+{
+  "verifiedAt": "2026-10-01T08:45:54.017686+00:00",
+  "scope": "Chromium on local Hi pages, 8 new promos x desktop/390px/320px; each desktop complete playback; no physical-device or listening claim",
+  "passed": true,
+  "results": [
+    {
+      "slug": "snow-duel",
+      "environment": "desktop",
+      "passed": true,
+      "sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "receipt": "2026-10-01-snow-duel-promo-local.json"
+    },
+    {
+      "slug": "snow-duel",
+      "environment": "phone",
+      "passed": true,
+      "sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "receipt": "2026-10-01-snow-duel-promo-local.json"
+    },
+    {
+      "slug": "snow-duel",
+      "environment": "narrow-dark",
+      "passed": true,
+      "sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "receipt": "2026-10-01-snow-duel-promo-local.json"
+    },
+    {
+      "slug": "taste",
+      "environment": "desktop",
+      "passed": true,
+      "sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "taste",
+      "environment": "phone",
+      "passed": true,
+      "sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "taste",
+      "environment": "narrow-dark",
+      "passed": true,
+      "sha256": "88e70ebfbd66048950cb589527f00d8472a1c725024ab6850a2e671ee883a245",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "aiedu",
+      "environment": "desktop",
+      "passed": true,
+      "sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "aiedu",
+      "environment": "phone",
+      "passed": true,
+      "sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "aiedu",
+      "environment": "narrow-dark",
+      "passed": true,
+      "sha256": "7b615231c55861f534c89be10cf9e032b93a93ae24ce9723a12024c6c70f42b2",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "wbw",
+      "environment": "desktop",
+      "passed": true,
+      "sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "wbw",
+      "environment": "phone",
+      "passed": true,
+      "sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "wbw",
+      "environment": "narrow-dark",
+      "passed": true,
+      "sha256": "44697f390a483b764d94b24d32f85a0767f9325aa113561ae679a479704dfebe",
+      "receipt": "2026-10-01-promo-reading-local.json"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "environment": "desktop",
+      "passed": true,
+      "sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "receipt": "2026-10-01-promo-qiya-dankoe-local.json"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "environment": "phone",
+      "passed": true,
+      "sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "receipt": "2026-10-01-promo-qiya-dankoe-local.json"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "environment": "narrow-dark",
+      "passed": true,
+      "sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "receipt": "2026-10-01-promo-qiya-dankoe-local.json"
+    },
+    {
+      "slug": "dankoe",
+      "environment": "desktop",
+      "passed": true,
+      "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "receipt": "2026-10-01-promo-qiya-dankoe-local.json"
+    },
+    {
+      "slug": "dankoe",
+      "environment": "phone",
+      "passed": true,
+      "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "receipt": "2026-10-01-promo-qiya-dankoe-local.json"
+    },
+    {
+      "slug": "dankoe",
+      "environment": "narrow-dark",
+      "passed": true,
+      "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "receipt": "2026-10-01-promo-qiya-dankoe-local.json"
+    },
+    {
+      "slug": "lehh",
+      "environment": "desktop",
+      "passed": true,
+      "sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "receipt": "2026-10-01-promo-lehh-local-initial.json"
+    },
+    {
+      "slug": "lehh",
+      "environment": "phone",
+      "passed": true,
+      "sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "receipt": "2026-10-01-promo-lehh-local-initial.json"
+    },
+    {
+      "slug": "lehh",
+      "environment": "narrow-dark",
+      "passed": true,
+      "sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "receipt": "2026-10-01-promo-lehh-local-initial.json"
+    },
+    {
+      "slug": "little-pause",
+      "environment": "desktop",
+      "passed": true,
+      "sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "receipt": "2026-10-01-promo-pause-local.json"
+    },
+    {
+      "slug": "little-pause",
+      "environment": "phone",
+      "passed": true,
+      "sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "receipt": "2026-10-01-promo-pause-local.json"
+    },
+    {
+      "slug": "little-pause",
+      "environment": "narrow-dark",
+      "passed": true,
+      "sha256": "b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9",
+      "receipt": "2026-10-01-promo-pause-local.json"
+    }
+  ],
+  "comparativeLimits": [
+    "Some WebKit full-playback runs report dropped frames; no claim of universal smoothness.",
+    "Initial WebKit App Store popup checks failed; external-link handling is independently diagnosed, while media tests passed. See dedicated boundary receipt."
+  ]
+}

@@ -1,0 +1,2330 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-01T08:36:10.588Z",
+  "root": "/Users/fangs/workspace/side/hi",
+  "base": "http://127.0.0.1:4218",
+  "options": {
+    "url": "http://127.0.0.1:4218",
+    "engines": [
+      "chromium",
+      "webkit"
+    ],
+    "full": true,
+    "slugs": "lehh",
+    "out": "/tmp/hi-promo-batch-local-lehh",
+    "playwright-root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01"
+  },
+  "contentInventory": [
+    {
+      "slug": "aiedu",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "dankoe",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "hyrule",
+      "contentSha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "junlugu",
+      "contentSha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "lehh",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "little-pause",
+      "contentSha256": "d850c5bcb512d140bfbfa9dfab1121642098e36ca273199fca560b47880908d4",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "pocofocus",
+      "contentSha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "qiya-herbarium",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "snow-duel",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "taste",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "wbw",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "hasVideo": true,
+      "draft": false
+    }
+  ],
+  "assets": [
+    {
+      "slug": "lehh",
+      "title": "单词合合乐",
+      "group": "apps",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/lehh.mdx",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "caption": "31 秒应用操作演示：Water 与 Fire 合成 Steam，再看发音、例句和图鉴。1.1.0 版模拟器实录；配乐与英文示范发音为后期重建。",
+      "links": [
+        {
+          "label": "在 App Store 下载",
+          "href": "https://apps.apple.com/cn/app/id6785151750"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/lehh-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/lehh-promo-2026-10-01.mp4",
+          "bytes": 1426116,
+          "sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17"
+        },
+        "poster": {
+          "publicPath": "/images/projects/lehh-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/lehh-promo-2026-10-01.webp",
+          "bytes": 55556,
+          "sha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/lehh-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/lehh-promo-2026-10-01-credits.html",
+          "bytes": 991,
+          "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    }
+  ],
+  "results": [
+    {
+      "slug": "lehh",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.214561,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 930,
+              "droppedVideoFrames": 44
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 6380.20000000298
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 6711.70000000298
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 37787.90000000596
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 37787.90000000596
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.11532,
+              "after": 22.326815,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 38052.10000000894
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 38095
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 38095
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32879,
+              "after": 5.584544,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 38118.90000000596
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 38184.40000000596
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 38184.5
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.586762,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 38202.20000000298
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 38237.10000000894
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 38237.10000000894
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1394,
+                "droppedVideoFrames": 44
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1426116",
+              "content-range": "bytes 0-1426115/1426116",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1426116-1790843745071\"",
+              "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "openedURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "title": "‎单词合合乐 App - App Store",
+              "httpURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "etag": "W/\"55556-1790843744586\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:44 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 6380.20000000298
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 6711.70000000298
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 37787.90000000596
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 37787.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 37876.79999999702
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 37876.79999999702
+        },
+        {
+          "type": "seeked",
+          "time": 0.003904,
+          "atMs": 37876.79999999702
+        },
+        {
+          "type": "playing",
+          "time": 0.003923,
+          "atMs": 37876.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 38052.10000000894
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 38095
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 38095
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 38118.90000000596
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 38184.40000000596
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 38184.5
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 38202.20000000298
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 38237.10000000894
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 38237.10000000894
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 41435.90000000596
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 41435.90000000596
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 41544.20000000298
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 41577.79999999702
+        }
+      ],
+      "finishedAt": "2026-10-01T08:36:55.979Z"
+    },
+    {
+      "slug": "lehh",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.218269,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.254378,
+              "after": 22.328985,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4810.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 4854.5
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 4854.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.331245,
+              "after": 5.585902,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 4871.899999991059
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 4938.20000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 4938.29999999702
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.587503,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 4953
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 4991
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 4991
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 498,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1426116",
+              "content-range": "bytes 0-1426115/1426116",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1426116-1790843745071\"",
+              "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "openedURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "title": "‎单词合合乐 App - App Store",
+              "httpURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "etag": "W/\"55556-1790843744586\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:44 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3438.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3455.5
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4810.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 4854.5
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 4854.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 4871.899999991059
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 4938.20000000298
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 4938.29999999702
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 4953
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 4991
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 4991
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8186.29999999702
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8186.29999999702
+        }
+      ],
+      "finishedAt": "2026-10-01T08:37:05.900Z"
+    },
+    {
+      "slug": "lehh",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.224862,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 42,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.244425,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4760.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 4799.100000008941
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 4799.100000008941
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 4820.800000011921
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 4885.800000011921
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 4885.9000000059605
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.58,
+              "after": 27.901917,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 4905.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 4940.600000008941
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 4940.600000008941
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 496,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "1426116",
+              "content-range": "bytes 0-1426115/1426116",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1426116-1790843745071\"",
+              "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "在 App Store 下载",
+              "expectedURL": "https://apps.apple.com/cn/app/id6785151750",
+              "openedURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "title": "‎单词合合乐 App - App Store",
+              "httpURL": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=apps#works",
+            "selectedGroup": "apps",
+            "visibleItems": 3
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "etag": "W/\"55556-1790843744586\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:44 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3404.5
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3419
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4760.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 4799.100000008941
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 4799.100000008941
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 4820.800000011921
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 4885.800000011921
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 4885.9000000059605
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 4905.5
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 4940.600000008941
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 4940.600000008941
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8126.5
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8126.600000008941
+        }
+      ],
+      "finishedAt": "2026-10-01T08:37:15.296Z"
+    },
+    {
+      "slug": "lehh",
+      "engine": "webkit",
+      "environment": "desktop",
+      "browser": "26.5",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.216825375662502,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 13,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 895,
+              "droppedVideoFrames": 317
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 3444
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 3691
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 35010
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 35010
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.1209648750082124,
+              "after": 22.338358916669968,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 35261
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.320186083329027,
+                  "atMs": 35368
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.340321833333583,
+              "after": 5.587041541670333,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 35391
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.580178916670848,
+                  "atMs": 35563
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.589128958336078,
+              "after": 27.912994624994464,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.900000000000002,
+                  "atMs": 35574
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.90017270832905,
+                  "atMs": 35790
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1414,
+                "droppedVideoFrames": 364
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "WebKit media volume/mute API and requestFullscreen under trusted click; native buttons not claimed",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "changed": {
+              "muted": true,
+              "volume": 0.4
+            },
+            "exitedFullscreen": true
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/1426116",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1426116-1790843745071\"",
+              "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": false,
+          "error": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1426115"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "etag": "W/\"55556-1790843744586\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:44 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": false,
+      "remoteWholeMp4IntegrityVerified": false,
+      "error": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================",
+      "failedURL": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3444
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3691
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 35010
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 35010
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 35089
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 35089
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 35089
+        },
+        {
+          "type": "seeked",
+          "time": 0.00013299999409355223,
+          "atMs": 35102
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 35261
+        },
+        {
+          "type": "seeked",
+          "time": 22.320186083329027,
+          "atMs": 35368
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 35391
+        },
+        {
+          "type": "seeked",
+          "time": 5.580178916670848,
+          "atMs": 35563
+        },
+        {
+          "type": "seeking",
+          "time": 27.900000000000002,
+          "atMs": 35574
+        },
+        {
+          "type": "seeked",
+          "time": 27.90017270832905,
+          "atMs": 35790
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 39195
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 39195
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39211
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39211
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39214
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 39214
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 39322
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 39323
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 39323
+        },
+        {
+          "type": "seeked",
+          "time": 0.005172375007532537,
+          "atMs": 39349
+        }
+      ],
+      "finishedAt": "2026-10-01T08:38:13.895Z"
+    },
+    {
+      "slug": "lehh",
+      "engine": "webkit",
+      "environment": "phone",
+      "browser": "26.5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.2076400836586585,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 12,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2403637086600396,
+              "after": 22.32546233332716,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 4976
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.320294375000522,
+                  "atMs": 5136
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.327014291666565,
+              "after": 5.584018000006909,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5145
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.580181958326721,
+                  "atMs": 5330
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.585869750006241,
+              "after": 27.917621083330598,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.900000000000002,
+                  "atMs": 5345
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.90020299998869,
+                  "atMs": 5474
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 487,
+                "droppedVideoFrames": 33
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/1426116",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1426116-1790843745071\"",
+              "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": false,
+          "error": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1426115"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "etag": "W/\"55556-1790843744586\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:44 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": false,
+      "remoteWholeMp4IntegrityVerified": false,
+      "error": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================",
+      "failedURL": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3381
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3415
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 4976
+        },
+        {
+          "type": "seeked",
+          "time": 22.320294375000522,
+          "atMs": 5136
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5145
+        },
+        {
+          "type": "seeked",
+          "time": 5.580181958326721,
+          "atMs": 5330
+        },
+        {
+          "type": "seeking",
+          "time": 27.900000000000002,
+          "atMs": 5345
+        },
+        {
+          "type": "seeked",
+          "time": 27.90020299998869,
+          "atMs": 5474
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8883
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8883
+        }
+      ],
+      "finishedAt": "2026-10-01T08:38:38.183Z"
+    },
+    {
+      "slug": "lehh",
+      "engine": "webkit",
+      "environment": "narrow-dark",
+      "browser": "26.5",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+      "contentSha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.2260152086629212,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 1,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2573934170023684,
+              "after": 22.334077500003623,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 5011
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32023233333195,
+                  "atMs": 5152
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.3359277083294,
+              "after": 5.59259091666725,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 5170
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.580177125009941,
+                  "atMs": 5348
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.594496416668408,
+              "after": 27.910609500008288,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.900000000000002,
+                  "atMs": 5370
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.900177666675884,
+                  "atMs": 5489
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 488,
+                "droppedVideoFrames": 32
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "4f81f3de349380911cb43439d21bb313b79bc3039f4c1e1a61a3e93272307a17",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/1426116",
+              "accept-ranges": "bytes",
+              "etag": "W/\"1426116-1790843745071\"",
+              "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 1426116,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 991,
+            "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": false,
+          "error": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================"
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1426115"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/lehh-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "1426116",
+            "content-range": "bytes 0-1426115/1426116",
+            "accept-ranges": "bytes",
+            "etag": "W/\"1426116-1790843745071\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:45 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/lehh-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "55556",
+            "etag": "W/\"55556-1790843744586\"",
+            "last-modified": "Thu, 01 Oct 2026 08:35:44 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 55556,
+          "bodySha256": "26b2119fd7a69e19b23fbb224c3343ccab89468fff30e6e6fd4c75f2d6400fa9",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": false,
+      "remoteWholeMp4IntegrityVerified": false,
+      "error": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================",
+      "failedURL": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 3390
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 3433
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 5011
+        },
+        {
+          "type": "seeked",
+          "time": 22.32023233333195,
+          "atMs": 5152
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 5170
+        },
+        {
+          "type": "seeked",
+          "time": 5.580177125009941,
+          "atMs": 5348
+        },
+        {
+          "type": "seeking",
+          "time": 27.900000000000002,
+          "atMs": 5370
+        },
+        {
+          "type": "seeked",
+          "time": 27.900177666675884,
+          "atMs": 5489
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 8898
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 8898
+        }
+      ],
+      "finishedAt": "2026-10-01T08:39:02.542Z"
+    }
+  ],
+  "complete": true,
+  "passed": false,
+  "limits": [
+    "Synthetic browser viewports; no physical phone or Safari application test.",
+    "No human audio listening, continuous human visual review, or promotion-effectiveness claim.",
+    "Local public MP4 SHA-256 identifies the reference file only. Browser URLs/headers/duration do not establish whole remote-file identity; run FBT public-preview verify_static separately.",
+    "--full means uninterrupted normal-speed desktop playback to ended; phone/narrow runs use documented seeks before reaching ended.",
+    "Product CTA checks cover link opening and HTTP reachability only; product business flows are outside this script."
+  ],
+  "playwright": {
+    "root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "version": "1.62.1"
+  },
+  "expectedResults": 6,
+  "finishedAt": "2026-10-01T08:39:02.553Z"
+}

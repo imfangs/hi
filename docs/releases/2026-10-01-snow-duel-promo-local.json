@@ -1,0 +1,2405 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-01T08:13:14.354Z",
+  "root": "/Users/fangs/workspace/side/hi",
+  "base": "http://127.0.0.1:4218",
+  "options": {
+    "url": "http://127.0.0.1:4218",
+    "engines": [
+      "chromium",
+      "webkit"
+    ],
+    "full": true,
+    "slugs": "snow-duel",
+    "out": "/tmp/hi-promo-batch-qa-snow-range",
+    "playwright-root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01"
+  },
+  "contentInventory": [
+    {
+      "slug": "aiedu",
+      "contentSha256": "86537e78507f34a16e712f61253d913cc4fa725d3a70dfe082a862d6ff7f97e1",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "dankoe",
+      "contentSha256": "e398428dea631465f7105dad386dd94714ad9c28e581dac43dcbdc2bcb1ec1b1",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "hyrule",
+      "contentSha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "junlugu",
+      "contentSha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "lehh",
+      "contentSha256": "4f70533178cf819410ef355e4cb26ddffcda45af7c0e599e3c0e6045bff250b5",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "little-pause",
+      "contentSha256": "d850c5bcb512d140bfbfa9dfab1121642098e36ca273199fca560b47880908d4",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "pocofocus",
+      "contentSha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "qiya-herbarium",
+      "contentSha256": "b5da0110529d73895a647daf213cf147be617c5287b0cd8a42e8b279f2c5b8da",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "snow-duel",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "taste",
+      "contentSha256": "dc623539966fba1cc682c6b87b7879ed848f19323b9eb8c386fdc450a9323570",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "wbw",
+      "contentSha256": "795fe265e68917c42bcf461f7ed05949151ccddae5cb979ab29004d2fc812b55",
+      "hasVideo": false,
+      "draft": false
+    }
+  ],
+  "assets": [
+    {
+      "slug": "snow-duel",
+      "title": "雪仗／夜雪俱乐部",
+      "group": "games",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/snow-duel.mdx",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "caption": "31 秒真实电脑练习对局：选弹、瞄准、锁定与同时出手。保留完整画面，省略部分等待和中间回合；音乐与效果为重建声轨。",
+      "links": [
+        {
+          "label": "进入夜雪俱乐部",
+          "href": "https://snow-duel.fangs.cc/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "bytes": 6107020,
+          "sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430"
+        },
+        "poster": {
+          "publicPath": "/images/projects/snow-duel-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/snow-duel-promo-2026-10-01.webp",
+          "bytes": 95958,
+          "sha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+          "bytes": 1582,
+          "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+        },
+        "media": {
+          "duration": 31,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    }
+  ],
+  "results": [
+    {
+      "slug": "snow-duel",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.221275,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 775,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 1011.2999999970198
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 1635.2000000029802
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 32712.90000000596
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 32712.90000000596
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.109704,
+              "after": 22.320007,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 33037.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 33079.09999999404
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 33079.09999999404
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.321902,
+              "after": 5.587551,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 33101
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 33128.70000000298
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 33128.79999999702
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.589482,
+              "after": 27.914843,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 33152.40000000596
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 33175
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 33175
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1052,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6107020",
+              "content-range": "bytes 0-6107019/6107020",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6107020-1790841994478\"",
+              "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "etag": "W/\"95958-1790841994303\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 1011.2999999970198
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1635.2000000029802
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 32712.90000000596
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 32712.90000000596
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 32859.5
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 32859.70000000298
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 32859.79999999702
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 32859.79999999702
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 33037.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 33079.09999999404
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 33079.09999999404
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 33101
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 33128.70000000298
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 33128.79999999702
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 33152.40000000596
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 33175
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 33175
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 36361
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 36361.09999999404
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 36463.40000000596
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 36544
+        }
+      ],
+      "finishedAt": "2026-10-01T08:13:59.453Z"
+    },
+    {
+      "slug": "snow-duel",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.214747,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.246786,
+              "after": 22.32,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 2283.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 2324.8999999910593
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 2324.8999999910593
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.32,
+              "after": 5.58,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 2335.2000000029802
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 2365.2999999970198
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 2365.2999999970198
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.580244,
+              "after": 27.9,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 2384.8999999910593
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.9,
+                  "atMs": 2411.5
+                },
+                {
+                  "type": "playing",
+                  "time": 27.9,
+                  "atMs": 2411.5
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 306,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6107020",
+              "content-range": "bytes 0-6107019/6107020",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6107020-1790841994478\"",
+              "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "etag": "W/\"95958-1790841994303\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 928
+        },
+        {
+          "type": "playing",
+          "time": 0.013593,
+          "atMs": 1009.3999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 2283.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 2324.8999999910593
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 2324.8999999910593
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 2335.2000000029802
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 2365.2999999970198
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 2365.2999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 2384.8999999910593
+        },
+        {
+          "type": "seeked",
+          "time": 27.9,
+          "atMs": 2411.5
+        },
+        {
+          "type": "playing",
+          "time": 27.9,
+          "atMs": 2411.5
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 5604.79999999702
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 5604.79999999702
+        }
+      ],
+      "finishedAt": "2026-10-01T08:14:10.152Z"
+    },
+    {
+      "slug": "snow-duel",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.22157,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.273698,
+              "after": 22.32697,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 2279.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32,
+                  "atMs": 2323.5
+                },
+                {
+                  "type": "playing",
+                  "time": 22.32,
+                  "atMs": 2323.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.328896,
+              "after": 5.592557,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 2337.4000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.58,
+                  "atMs": 2365.1000000089407
+                },
+                {
+                  "type": "playing",
+                  "time": 5.58,
+                  "atMs": 2365.1000000089407
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.595192,
+              "after": 27.909975,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.9,
+                  "atMs": 2386.6000000089407
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.903149,
+                  "atMs": 2414.6000000089407
+                },
+                {
+                  "type": "playing",
+                  "time": 27.903223,
+                  "atMs": 2414.7000000029802
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 306,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6107020",
+              "content-range": "bytes 0-6107019/6107020",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6107020-1790841994478\"",
+              "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "etag": "W/\"95958-1790841994303\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 894.6000000089407
+        },
+        {
+          "type": "playing",
+          "time": 0.018341,
+          "atMs": 979.1000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 2279.5
+        },
+        {
+          "type": "seeked",
+          "time": 22.32,
+          "atMs": 2323.5
+        },
+        {
+          "type": "playing",
+          "time": 22.32,
+          "atMs": 2323.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 2337.4000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 5.58,
+          "atMs": 2365.1000000089407
+        },
+        {
+          "type": "playing",
+          "time": 5.58,
+          "atMs": 2365.1000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 27.9,
+          "atMs": 2386.6000000089407
+        },
+        {
+          "type": "seeked",
+          "time": 27.903149,
+          "atMs": 2414.6000000089407
+        },
+        {
+          "type": "playing",
+          "time": 27.903223,
+          "atMs": 2414.7000000029802
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 5593.5
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 5593.5
+        }
+      ],
+      "finishedAt": "2026-10-01T08:14:19.105Z"
+    },
+    {
+      "slug": "snow-duel",
+      "engine": "webkit",
+      "environment": "desktop",
+      "browser": "26.5",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.2207334580091502,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 11,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 31,
+            "currentTime": 31,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 775,
+              "droppedVideoFrames": 239
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 1199
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 1562
+              },
+              {
+                "type": "pause",
+                "time": 31,
+                "atMs": 33018
+              },
+              {
+                "type": "ended",
+                "time": 31,
+                "atMs": 33040
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.14490745832154062,
+              "after": 22.339841291665216,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 34263
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.320327249988914,
+                  "atMs": 34409
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.342139583321405,
+              "after": 5.595377666655695,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 34434
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.580850874988828,
+                  "atMs": 34565
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.598397916661343,
+              "after": 27.934408208332027,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.900000000000002,
+                  "atMs": 34586
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.90050237499818,
+                  "atMs": 34725
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1071,
+                "droppedVideoFrames": 267
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "WebKit media volume/mute API and requestFullscreen under trusted click; native buttons not claimed",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "changed": {
+              "muted": true,
+              "volume": 0.4
+            },
+            "exitedFullscreen": true
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/6107020",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6107020-1790841994478\"",
+              "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-6107019"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "etag": "W/\"95958-1790841994303\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 1199
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1562
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 33018
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 33040
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 34056
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 34057
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 34057
+        },
+        {
+          "type": "seeked",
+          "time": 0.001747291666106321,
+          "atMs": 34109
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 34263
+        },
+        {
+          "type": "seeked",
+          "time": 22.320327249988914,
+          "atMs": 34409
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 34434
+        },
+        {
+          "type": "seeked",
+          "time": 5.580850874988828,
+          "atMs": 34565
+        },
+        {
+          "type": "seeking",
+          "time": 27.900000000000002,
+          "atMs": 34586
+        },
+        {
+          "type": "seeked",
+          "time": 27.90050237499818,
+          "atMs": 34725
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 38153
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 38153
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 38208
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 38208
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 38274
+        },
+        {
+          "type": "volumechange",
+          "time": 31,
+          "atMs": 38274
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 38368
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 38368
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 38368
+        },
+        {
+          "type": "seeked",
+          "time": 0.04004995833383873,
+          "atMs": 38480
+        }
+      ],
+      "finishedAt": "2026-10-01T08:15:06.533Z"
+    },
+    {
+      "slug": "snow-duel",
+      "engine": "webkit",
+      "environment": "phone",
+      "browser": "26.5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.2086880720036741,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 10,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2435482803286457,
+              "after": 22.327498499995563,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 2634
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32030291665462,
+                  "atMs": 2785
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.329735541665578,
+              "after": 5.59586299999326,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 2797
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.580238749998971,
+                  "atMs": 2944
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.597949125001906,
+              "after": 27.918986333336218,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.900000000000002,
+                  "atMs": 2964
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.900299208331855,
+                  "atMs": 3109
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 301,
+                "droppedVideoFrames": 28
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/6107020",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6107020-1790841994478\"",
+              "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-6107019"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "etag": "W/\"95958-1790841994303\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 1005
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1108
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 2634
+        },
+        {
+          "type": "seeked",
+          "time": 22.32030291665462,
+          "atMs": 2785
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 2797
+        },
+        {
+          "type": "seeked",
+          "time": 5.580238749998971,
+          "atMs": 2944
+        },
+        {
+          "type": "seeking",
+          "time": 27.900000000000002,
+          "atMs": 2964
+        },
+        {
+          "type": "seeked",
+          "time": 27.900299208331855,
+          "atMs": 3109
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 6534
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 6534
+        }
+      ],
+      "finishedAt": "2026-10-01T08:15:15.772Z"
+    },
+    {
+      "slug": "snow-duel",
+      "engine": "webkit",
+      "environment": "narrow-dark",
+      "browser": "26.5",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/snow-duel/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 31,
+            "currentTime": 1.208680167664198,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 10,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2377353343336208,
+              "after": 22.32792212500528,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 22.32,
+                  "atMs": 2399
+                },
+                {
+                  "type": "seeked",
+                  "time": 22.32030858333048,
+                  "atMs": 2559
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 22.329444833325688,
+              "after": 5.584026333321235,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.58,
+                  "atMs": 2570
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.580455833331216,
+                  "atMs": 2714
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.5856931666622405,
+              "after": 27.920730000003825,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27.900000000000002,
+                  "atMs": 2721
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.90022458333115,
+                  "atMs": 2880
+                }
+              ]
+            },
+            "final": {
+              "duration": 31,
+              "currentTime": 31,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 302,
+                "droppedVideoFrames": 28
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/6107020",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6107020-1790841994478\"",
+              "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6107020,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1582,
+            "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "进入夜雪俱乐部",
+              "expectedURL": "https://snow-duel.fangs.cc/",
+              "openedURL": "https://snow-duel.fangs.cc/",
+              "title": "夜雪俱乐部 · Snow Duel",
+              "httpURL": "https://snow-duel.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-6107019"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/snow-duel-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6107020",
+            "content-range": "bytes 0-6107019/6107020",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6107020-1790841994478\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/snow-duel-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "95958",
+            "etag": "W/\"95958-1790841994303\"",
+            "last-modified": "Thu, 01 Oct 2026 08:06:34 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 95958,
+          "bodySha256": "b23d32b05cadb4ca460131f8b4c91fefba1b0df6a57e9335e5aeb9d36131fd9a",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 857
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 905
+        },
+        {
+          "type": "seeking",
+          "time": 22.32,
+          "atMs": 2399
+        },
+        {
+          "type": "seeked",
+          "time": 22.32030858333048,
+          "atMs": 2559
+        },
+        {
+          "type": "seeking",
+          "time": 5.58,
+          "atMs": 2570
+        },
+        {
+          "type": "seeked",
+          "time": 5.580455833331216,
+          "atMs": 2714
+        },
+        {
+          "type": "seeking",
+          "time": 27.900000000000002,
+          "atMs": 2721
+        },
+        {
+          "type": "seeked",
+          "time": 27.90022458333115,
+          "atMs": 2880
+        },
+        {
+          "type": "pause",
+          "time": 31,
+          "atMs": 6308
+        },
+        {
+          "type": "ended",
+          "time": 31,
+          "atMs": 6308
+        }
+      ],
+      "finishedAt": "2026-10-01T08:15:24.352Z"
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "limits": [
+    "Synthetic browser viewports; no physical phone or Safari application test.",
+    "No human audio listening, continuous human visual review, or promotion-effectiveness claim.",
+    "Local public MP4 SHA-256 identifies the reference file only. Browser URLs/headers/duration do not establish whole remote-file identity; run FBT public-preview verify_static separately.",
+    "--full means uninterrupted normal-speed desktop playback to ended; phone/narrow runs use documented seeks before reaching ended.",
+    "Product CTA checks cover link opening and HTTP reachability only; product business flows are outside this script."
+  ],
+  "playwright": {
+    "root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "version": "1.62.1"
+  },
+  "expectedResults": 6,
+  "finishedAt": "2026-10-01T08:15:24.394Z"
+}

@@ -1,0 +1,127 @@
+{
+  "verifiedAt": "2026-10-01T08:08:25.931885+00:00",
+  "purpose": "Before new batch integration; local files may be in progress",
+  "projects": [
+    {
+      "slug": "aiedu",
+      "title": "AI 教育 · 中英双语",
+      "group": "reading",
+      "url": "https://hi.fangs.cc/projects/aiedu/",
+      "status": 200,
+      "onlineVideoSources": [],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "dankoe",
+      "title": "Dan Koe 中文阅读站",
+      "group": "reading",
+      "url": "https://hi.fangs.cc/projects/dankoe/",
+      "status": 200,
+      "onlineVideoSources": [],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "hyrule",
+      "title": "海拉鲁 · 蓝焰余响",
+      "group": "games",
+      "url": "https://hi.fangs.cc/projects/hyrule/",
+      "status": 200,
+      "onlineVideoSources": [
+        "/videos/projects/hyrule-promo-20261001.mp4"
+      ],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "junlugu",
+      "title": "菌露谷物语",
+      "group": "games",
+      "url": "https://hi.fangs.cc/projects/junlugu/",
+      "status": 200,
+      "onlineVideoSources": [
+        "/videos/projects/junlugu-promo-20261001.mp4"
+      ],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "lehh",
+      "title": "单词合合乐",
+      "group": "apps",
+      "url": "https://hi.fangs.cc/projects/lehh/",
+      "status": 200,
+      "onlineVideoSources": [],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "little-pause",
+      "title": "歇会鸭",
+      "group": "apps",
+      "url": "https://hi.fangs.cc/projects/little-pause/",
+      "status": 200,
+      "onlineVideoSources": [],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "pocofocus",
+      "title": "PocoFocus",
+      "group": "apps",
+      "url": "https://hi.fangs.cc/projects/pocofocus/",
+      "status": 200,
+      "onlineVideoSources": [
+        "/videos/projects/pocofocus-promo-20261001.mp4"
+      ],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "qiya-herbarium",
+      "title": "奇芽药草铺",
+      "group": "games",
+      "url": "https://hi.fangs.cc/projects/qiya-herbarium/",
+      "status": 200,
+      "onlineVideoSources": [],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "snow-duel",
+      "title": "雪仗／夜雪俱乐部",
+      "group": "games",
+      "url": "https://hi.fangs.cc/projects/snow-duel/",
+      "status": 200,
+      "onlineVideoSources": [],
+      "localFinalAtAudit": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01/final.mp4",
+      "localFinalSha256AtAudit": "0ae249f54ff5e56bf35cd04c628e5a00a55db08c22d4e39f0bd2a8cf3c572430"
+    },
+    {
+      "slug": "taste",
+      "title": "你品 · 艺术与思想",
+      "group": "reading",
+      "url": "https://hi.fangs.cc/projects/taste/",
+      "status": 200,
+      "onlineVideoSources": [],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    },
+    {
+      "slug": "wbw",
+      "title": "Wait But Why 中译",
+      "group": "reading",
+      "url": "https://hi.fangs.cc/projects/wbw/",
+      "status": 200,
+      "onlineVideoSources": [],
+      "localFinalAtAudit": null,
+      "localFinalSha256AtAudit": null
+    }
+  ],
+  "counts": {
+    "projects": 11,
+    "onlineVideos": 3,
+    "missingOnlineVideos": 8
+  }
+}

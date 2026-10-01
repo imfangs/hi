@@ -1,0 +1,4822 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-01T08:25:51.514Z",
+  "root": "/Users/fangs/workspace/side/hi",
+  "base": "http://127.0.0.1:4218",
+  "options": {
+    "url": "http://127.0.0.1:4218",
+    "engines": [
+      "chromium",
+      "webkit"
+    ],
+    "full": true,
+    "slugs": "qiya-herbarium,dankoe",
+    "out": "/tmp/hi-promo-batch-local-phase-b",
+    "playwright-root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01"
+  },
+  "contentInventory": [
+    {
+      "slug": "aiedu",
+      "contentSha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "dankoe",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "hyrule",
+      "contentSha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "junlugu",
+      "contentSha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "lehh",
+      "contentSha256": "4f70533178cf819410ef355e4cb26ddffcda45af7c0e599e3c0e6045bff250b5",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "little-pause",
+      "contentSha256": "d850c5bcb512d140bfbfa9dfab1121642098e36ca273199fca560b47880908d4",
+      "hasVideo": false,
+      "draft": false
+    },
+    {
+      "slug": "pocofocus",
+      "contentSha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "qiya-herbarium",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "snow-duel",
+      "contentSha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "taste",
+      "contentSha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265",
+      "hasVideo": true,
+      "draft": false
+    },
+    {
+      "slug": "wbw",
+      "contentSha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5",
+      "hasVideo": true,
+      "draft": false
+    }
+  ],
+  "assets": [
+    {
+      "slug": "qiya-herbarium",
+      "title": "奇芽药草铺",
+      "group": "games",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/qiya-herbarium.mdx",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "caption": "28 秒真实交互演示：采集、选择材料、布置植物与出售。使用独立演示存档和既有生成插画，非实时生成；配乐为后期制作。",
+      "links": [
+        {
+          "label": "推开温室的门",
+          "href": "https://qiya.fangs.cc/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "bytes": 6422675,
+          "sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be"
+        },
+        "poster": {
+          "publicPath": "/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "bytes": 284384,
+          "sha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+          "bytes": 1233,
+          "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+        },
+        "media": {
+          "duration": 28,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    },
+    {
+      "slug": "dankoe",
+      "title": "Dan Koe 中文阅读站",
+      "group": "reading",
+      "contentFile": "/Users/fangs/workspace/side/hi/src/content/projects/dankoe.mdx",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "caption": "30 秒正式站实录：按主题寻找文章，搜索“深思”，从同篇导读进入正文。非官方中文译站；原作归 Dan Koe 及相应权利人，配乐为后期制作。",
+      "links": [
+        {
+          "label": "开始阅读",
+          "href": "https://dankoe.fangs.cc/"
+        },
+        {
+          "label": "看看格得精选",
+          "href": "https://dankoe.fangs.cc/picks"
+        },
+        {
+          "label": "访问原作者网站",
+          "href": "https://thedankoe.com/"
+        }
+      ],
+      "localReference": {
+        "mp4": {
+          "publicPath": "/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "bytes": 2205633,
+          "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84"
+        },
+        "poster": {
+          "publicPath": "/images/projects/dankoe-promo-2026-10-01.webp",
+          "localPath": "/Users/fangs/workspace/side/hi/public/images/projects/dankoe-promo-2026-10-01.webp",
+          "bytes": 74938,
+          "sha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+        },
+        "credits": {
+          "publicPath": "/videos/projects/dankoe-promo-2026-10-01-credits.html",
+          "localPath": "/Users/fangs/workspace/side/hi/public/videos/projects/dankoe-promo-2026-10-01-credits.html",
+          "bytes": 1282,
+          "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+        },
+        "media": {
+          "duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264",
+          "audioStreams": 1
+        }
+      },
+      "remoteWholeMp4Integrity": {
+        "verified": false,
+        "method": null,
+        "requiredSeparateCheck": "FBT public-preview verify_static"
+      }
+    }
+  ],
+  "results": [
+    {
+      "slug": "qiya-herbarium",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.219407,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 28,
+            "currentTime": 28,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 700,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 969.0999999940395
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 1375.199999988079
+              },
+              {
+                "type": "pause",
+                "time": 28,
+                "atMs": 29473.5
+              },
+              {
+                "type": "ended",
+                "time": 28,
+                "atMs": 29473.59999999404
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.11111,
+              "after": 20.166783,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 29792.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.16,
+                  "atMs": 29818
+                },
+                {
+                  "type": "playing",
+                  "time": 20.16,
+                  "atMs": 29818
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.170088,
+              "after": 5.044558,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 29844.59999999404
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.04,
+                  "atMs": 29899.69999998808
+                },
+                {
+                  "type": "playing",
+                  "time": 5.04,
+                  "atMs": 29899.69999998808
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.048463,
+              "after": 25.2,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 29927.69999998808
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.2,
+                  "atMs": 29941.89999999106
+                },
+                {
+                  "type": "playing",
+                  "time": 25.2,
+                  "atMs": 29941.89999999106
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 959,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6422675",
+              "content-range": "bytes 0-6422674/6422675",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6422675-1790843102091\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "etag": "W/\"284384-1790843101428\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 969.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1375.199999988079
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 29473.5
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 29473.59999999404
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 29599.69999998808
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 29599.69999998808
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 29602.19999998808
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 29602.29999999702
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 29792.5
+        },
+        {
+          "type": "seeked",
+          "time": 20.16,
+          "atMs": 29818
+        },
+        {
+          "type": "playing",
+          "time": 20.16,
+          "atMs": 29818
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 29844.59999999404
+        },
+        {
+          "type": "seeked",
+          "time": 5.04,
+          "atMs": 29899.69999998808
+        },
+        {
+          "type": "playing",
+          "time": 5.04,
+          "atMs": 29899.69999998808
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 29927.69999998808
+        },
+        {
+          "type": "seeked",
+          "time": 25.2,
+          "atMs": 29941.89999999106
+        },
+        {
+          "type": "playing",
+          "time": 25.2,
+          "atMs": 29941.89999999106
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 32839.59999999404
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 32839.59999999404
+        },
+        {
+          "type": "volumechange",
+          "time": 28,
+          "atMs": 32917.19999998808
+        },
+        {
+          "type": "volumechange",
+          "time": 28,
+          "atMs": 32949.5
+        }
+      ],
+      "finishedAt": "2026-10-01T08:26:28.951Z"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.219156,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.247342,
+              "after": 20.161221,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 2311.2000000029802
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.16,
+                  "atMs": 2336.2999999970198
+                },
+                {
+                  "type": "playing",
+                  "time": 20.16,
+                  "atMs": 2336.2999999970198
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.162981,
+              "after": 5.042806,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 2350.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.04,
+                  "atMs": 2405.0999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 5.04,
+                  "atMs": 2405.2000000029802
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.04474,
+              "after": 25.2,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 2416.3999999910593
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.2,
+                  "atMs": 2431.3999999910593
+                },
+                {
+                  "type": "playing",
+                  "time": 25.2,
+                  "atMs": 2431.3999999910593
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 288,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6422675",
+              "content-range": "bytes 0-6422674/6422675",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6422675-1790843102091\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "etag": "W/\"284384-1790843101428\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 909.8999999910593
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 991.5
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 2311.2000000029802
+        },
+        {
+          "type": "seeked",
+          "time": 20.16,
+          "atMs": 2336.2999999970198
+        },
+        {
+          "type": "playing",
+          "time": 20.16,
+          "atMs": 2336.2999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 2350.5
+        },
+        {
+          "type": "seeked",
+          "time": 5.04,
+          "atMs": 2405.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 5.04,
+          "atMs": 2405.2000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 2416.3999999910593
+        },
+        {
+          "type": "seeked",
+          "time": 25.2,
+          "atMs": 2431.3999999910593
+        },
+        {
+          "type": "playing",
+          "time": 25.2,
+          "atMs": 2431.3999999910593
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 5332.399999991059
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 5332.399999991059
+        }
+      ],
+      "finishedAt": "2026-10-01T08:26:36.674Z"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.215942,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.241889,
+              "after": 20.16,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 2328.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.16,
+                  "atMs": 2353.0999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 20.16,
+                  "atMs": 2353.199999988079
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.16,
+              "after": 5.04,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 2369.8999999910593
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.04,
+                  "atMs": 2424
+                },
+                {
+                  "type": "playing",
+                  "time": 5.04,
+                  "atMs": 2424.0999999940395
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.040899,
+              "after": 25.212504,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 2435.5999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.2,
+                  "atMs": 2450.5999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 25.2,
+                  "atMs": 2450.5999999940395
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 287,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "6422675",
+              "content-range": "bytes 0-6422674/6422675",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6422675-1790843102091\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "etag": "W/\"284384-1790843101428\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 998.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 0.002922,
+          "atMs": 1049.0999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 2328.5
+        },
+        {
+          "type": "seeked",
+          "time": 20.16,
+          "atMs": 2353.0999999940395
+        },
+        {
+          "type": "playing",
+          "time": 20.16,
+          "atMs": 2353.199999988079
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 2369.8999999910593
+        },
+        {
+          "type": "seeked",
+          "time": 5.04,
+          "atMs": 2424
+        },
+        {
+          "type": "playing",
+          "time": 5.04,
+          "atMs": 2424.0999999940395
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 2435.5999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 25.2,
+          "atMs": 2450.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 25.2,
+          "atMs": 2450.5999999940395
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 5334.29999999702
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 5334.29999999702
+        }
+      ],
+      "finishedAt": "2026-10-01T08:26:44.462Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "chromium",
+      "environment": "desktop",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.215042,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 30,
+            "currentTime": 30,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 750,
+              "droppedVideoFrames": 0
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 882.6999999880791
+              },
+              {
+                "type": "playing",
+                "time": 0.006606,
+                "atMs": 937.3999999910593
+              },
+              {
+                "type": "pause",
+                "time": 30,
+                "atMs": 30989.59999999404
+              },
+              {
+                "type": "ended",
+                "time": 30,
+                "atMs": 30989.59999999404
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.116921,
+              "after": 21.60131,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 31254.19999998808
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 31319.59999999404
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 31319.59999999404
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.602936,
+              "after": 5.399999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 31340.29999999702
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 31356.29999999702
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 31356.29999999702
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.399999,
+              "after": 27,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 31370.39999999106
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 31410.69999998808
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 31410.69999998808
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1138,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "native Chromium mute/unmute and fullscreen buttons",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "mutedDuringCheck": true,
+            "exitedFullscreen": true,
+            "exitMethod": "document.exitFullscreen for harness cleanup"
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2205633",
+              "content-range": "bytes 0-2205632/2205633",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2205633-1790843101513\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "etag": "W/\"74938-1790843101413\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 882.6999999880791
+        },
+        {
+          "type": "playing",
+          "time": 0.006606,
+          "atMs": 937.3999999910593
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 30989.59999999404
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 30989.59999999404
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 31080.5
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 31080.59999999404
+        },
+        {
+          "type": "seeked",
+          "time": 0.005908,
+          "atMs": 31080.59999999404
+        },
+        {
+          "type": "playing",
+          "time": 0.005919,
+          "atMs": 31080.59999999404
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 31254.19999998808
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 31319.59999999404
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 31319.59999999404
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 31340.29999999702
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 31356.29999999702
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 31356.29999999702
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 31370.39999999106
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 31410.69999998808
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 31410.69999998808
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 34488.19999998808
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 34488.19999998808
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 34563.09999999404
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 34597.19999998808
+        }
+      ],
+      "finishedAt": "2026-10-01T08:27:24.226Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "chromium",
+      "environment": "phone",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.208672,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.235345,
+              "after": 21.60311,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 2195.7999999970198
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 2258.5
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 2258.5
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.605023,
+              "after": 5.399999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 2271.5999999940395
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 2287.7999999970198
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 2287.7999999970198
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.399999,
+              "after": 27.017738,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 2304.5
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 2347.5999999940395
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 2347.5999999940395
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 416,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2205633",
+              "content-range": "bytes 0-2205632/2205633",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2205633-1790843101513\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "etag": "W/\"74938-1790843101413\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 864.8999999910593
+        },
+        {
+          "type": "playing",
+          "time": 0.020882,
+          "atMs": 917
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 2195.7999999970198
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 2258.5
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 2258.5
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 2271.5999999940395
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 2287.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 2287.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 2304.5
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 2347.5999999940395
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 2347.5999999940395
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 5423.699999988079
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 5423.699999988079
+        }
+      ],
+      "finishedAt": "2026-10-01T08:27:32.515Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "chromium",
+      "environment": "narrow-dark",
+      "browser": "154.0.8037.58",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.216724,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 35,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.553518,
+              "after": 21.608035,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999,
+                  "atMs": 2491.2000000029802
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.599999,
+                  "atMs": 2555.7999999970198
+                },
+                {
+                  "type": "playing",
+                  "time": 21.599999,
+                  "atMs": 2555.7999999970198
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.611147,
+              "after": 5.399999,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.399999,
+                  "atMs": 2574.4000000059605
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.399999,
+                  "atMs": 2590.6000000089407
+                },
+                {
+                  "type": "playing",
+                  "time": 5.399999,
+                  "atMs": 2590.6000000089407
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.400401,
+              "after": 27.002044,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 2606.2000000029802
+                },
+                {
+                  "type": "seeked",
+                  "time": 27,
+                  "atMs": 2649.7000000029802
+                },
+                {
+                  "type": "playing",
+                  "time": 27,
+                  "atMs": 2649.7000000029802
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 424,
+                "droppedVideoFrames": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2205633",
+              "content-range": "bytes 0-2205632/2205633",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2205633-1790843101513\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "etag": "W/\"74938-1790843101413\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 849.6000000089407
+        },
+        {
+          "type": "playing",
+          "time": 0.011818,
+          "atMs": 908.7000000029802
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999,
+          "atMs": 2491.2000000029802
+        },
+        {
+          "type": "seeked",
+          "time": 21.599999,
+          "atMs": 2555.7999999970198
+        },
+        {
+          "type": "playing",
+          "time": 21.599999,
+          "atMs": 2555.7999999970198
+        },
+        {
+          "type": "seeking",
+          "time": 5.399999,
+          "atMs": 2574.4000000059605
+        },
+        {
+          "type": "seeked",
+          "time": 5.399999,
+          "atMs": 2590.6000000089407
+        },
+        {
+          "type": "playing",
+          "time": 5.399999,
+          "atMs": 2590.6000000089407
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 2606.2000000029802
+        },
+        {
+          "type": "seeked",
+          "time": 27,
+          "atMs": 2649.7000000029802
+        },
+        {
+          "type": "playing",
+          "time": 27,
+          "atMs": 2649.7000000029802
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 5739.70000000298
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 5739.70000000298
+        }
+      ],
+      "finishedAt": "2026-10-01T08:27:41.459Z"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "engine": "webkit",
+      "environment": "desktop",
+      "browser": "26.5",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.2073562510063265,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 11,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 28,
+            "currentTime": 28,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 700,
+              "droppedVideoFrames": 239
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 1040
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 1457
+              },
+              {
+                "type": "pause",
+                "time": 28,
+                "atMs": 29759
+              },
+              {
+                "type": "ended",
+                "time": 28,
+                "atMs": 29760
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.10448420833563432,
+              "after": 20.167194833335234,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 30097
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.160275250000414,
+                  "atMs": 30188
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.169358166673337,
+              "after": 5.0557913333387114,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 30200
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.04073633332795,
+                  "atMs": 30387
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.0604842499952065,
+              "after": 25.207979916670592,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 30421
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.20065695833473,
+                  "atMs": 30519
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 943,
+                "droppedVideoFrames": 250
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "WebKit media volume/mute API and requestFullscreen under trusted click; native buttons not claimed",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "changed": {
+              "muted": true,
+              "volume": 0.4
+            },
+            "exitedFullscreen": true
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/6422675",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6422675-1790843102091\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-6422674"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "etag": "W/\"284384-1790843101428\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 1040
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1457
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 29759
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 29760
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 29878
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 29878
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 29878
+        },
+        {
+          "type": "seeked",
+          "time": 0.00032625001040287316,
+          "atMs": 29987
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 30097
+        },
+        {
+          "type": "seeked",
+          "time": 20.160275250000414,
+          "atMs": 30188
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 30200
+        },
+        {
+          "type": "seeked",
+          "time": 5.04073633332795,
+          "atMs": 30387
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 30421
+        },
+        {
+          "type": "seeked",
+          "time": 25.20065695833473,
+          "atMs": 30519
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 33654
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 33654
+        },
+        {
+          "type": "volumechange",
+          "time": 28,
+          "atMs": 33694
+        },
+        {
+          "type": "volumechange",
+          "time": 28,
+          "atMs": 33694
+        },
+        {
+          "type": "volumechange",
+          "time": 28,
+          "atMs": 33698
+        },
+        {
+          "type": "volumechange",
+          "time": 28,
+          "atMs": 33698
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 33739
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 33739
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 33739
+        },
+        {
+          "type": "seeked",
+          "time": 0.00022654166969005018,
+          "atMs": 33864
+        }
+      ],
+      "finishedAt": "2026-10-01T08:28:20.159Z"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "engine": "webkit",
+      "environment": "phone",
+      "browser": "26.5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.2205861366669464,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 11,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2757155116555563,
+              "after": 20.175983291668818,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 2567
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.160320583334542,
+                  "atMs": 2675
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.177459666662035,
+              "after": 5.056824666672619,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 2694
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.0401961666712305,
+                  "atMs": 2874
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.058696458340855,
+              "after": 25.21986016666342,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 2898
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.200302666667266,
+                  "atMs": 3004
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 290,
+                "droppedVideoFrames": 25
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/6422675",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6422675-1790843102091\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-6422674"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "etag": "W/\"284384-1790843101428\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 911
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1040
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 2567
+        },
+        {
+          "type": "seeked",
+          "time": 20.160320583334542,
+          "atMs": 2675
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 2694
+        },
+        {
+          "type": "seeked",
+          "time": 5.0401961666712305,
+          "atMs": 2874
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 2898
+        },
+        {
+          "type": "seeked",
+          "time": 25.200302666667266,
+          "atMs": 3004
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 6140
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 6140
+        }
+      ],
+      "finishedAt": "2026-10-01T08:28:28.561Z"
+    },
+    {
+      "slug": "qiya-herbarium",
+      "engine": "webkit",
+      "environment": "narrow-dark",
+      "browser": "26.5",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+      "contentSha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/qiya-herbarium/?view=games",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 28,
+            "currentTime": 1.2152275490011948,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 11,
+              "droppedVideoFrames": 1
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2660235489970932,
+              "after": 20.174315083331894,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 20.16,
+                  "atMs": 2551
+                },
+                {
+                  "type": "seeked",
+                  "time": 20.160460416660644,
+                  "atMs": 2666
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 20.17652391666721,
+              "after": 5.055093666675966,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.04,
+                  "atMs": 2684
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.040197166678845,
+                  "atMs": 2865
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.056878624999663,
+              "after": 25.21652016666776,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 25.2,
+                  "atMs": 2884
+                },
+                {
+                  "type": "seeked",
+                  "time": 25.200174333326867,
+                  "atMs": 2997
+                }
+              ]
+            },
+            "final": {
+              "duration": 28,
+              "currentTime": 28,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 290,
+                "droppedVideoFrames": 24
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "a6cc23ce6a1b28371d1a288d50b3273ef01b218a47d904d36cae54db2c3085be",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/6422675",
+              "accept-ranges": "bytes",
+              "etag": "W/\"6422675-1790843102091\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 6422675,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1233,
+            "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "推开温室的门",
+              "expectedURL": "https://qiya.fangs.cc/",
+              "openedURL": "https://qiya.fangs.cc/",
+              "title": "奇芽药草铺",
+              "httpURL": "https://qiya.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=games#works",
+            "selectedGroup": "games",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-6422674"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/qiya-herbarium-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "6422675",
+            "content-range": "bytes 0-6422674/6422675",
+            "accept-ranges": "bytes",
+            "etag": "W/\"6422675-1790843102091\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:02 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/qiya-herbarium-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "284384",
+            "etag": "W/\"284384-1790843101428\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 284384,
+          "bodySha256": "db164b195ed20e74fe1693f6b0129f53e7f7779a735bcb6ba9919ca02e33200c",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 936
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 1053
+        },
+        {
+          "type": "seeking",
+          "time": 20.16,
+          "atMs": 2551
+        },
+        {
+          "type": "seeked",
+          "time": 20.160460416660644,
+          "atMs": 2666
+        },
+        {
+          "type": "seeking",
+          "time": 5.04,
+          "atMs": 2684
+        },
+        {
+          "type": "seeked",
+          "time": 5.040197166678845,
+          "atMs": 2865
+        },
+        {
+          "type": "seeking",
+          "time": 25.2,
+          "atMs": 2884
+        },
+        {
+          "type": "seeked",
+          "time": 25.200174333326867,
+          "atMs": 2997
+        },
+        {
+          "type": "pause",
+          "time": 28,
+          "atMs": 6132
+        },
+        {
+          "type": "ended",
+          "time": 28,
+          "atMs": 6132
+        }
+      ],
+      "finishedAt": "2026-10-01T08:28:36.450Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "webkit",
+      "environment": "desktop",
+      "browser": "26.5",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 1100,
+            "height": 618.75,
+            "pageWidth": 1280,
+            "viewportWidth": 1280,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.2088789316727457,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 11,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "uninterrupted-full-playback",
+          "passed": true,
+          "evidence": {
+            "method": "from initial pointer play to ended, no seek or speed changes",
+            "duration": 30,
+            "currentTime": 30,
+            "paused": true,
+            "ended": true,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 750,
+              "droppedVideoFrames": 256
+            },
+            "events": [
+              {
+                "type": "play",
+                "time": 0,
+                "atMs": 919
+              },
+              {
+                "type": "playing",
+                "time": 0,
+                "atMs": 971
+              },
+              {
+                "type": "pause",
+                "time": 30,
+                "atMs": 31238
+              },
+              {
+                "type": "ended",
+                "time": 30,
+                "atMs": 31238
+              }
+            ]
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": true,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 0.11771779165428597,
+              "after": 21.615226416668154,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999999999998,
+                  "atMs": 31545
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.600206374999832,
+                  "atMs": 31679
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.61692620833637,
+              "after": 5.412839458329835,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.3999999999999995,
+                  "atMs": 31697
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.400235583327594,
+                  "atMs": 31880
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.414594249994843,
+              "after": 27.017528875003336,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 31896
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.00032679166179,
+                  "atMs": 32076
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": false,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 1157,
+                "droppedVideoFrames": 277
+              }
+            }
+          }
+        },
+        {
+          "name": "desktop-volume-and-fullscreen",
+          "passed": true,
+          "evidence": {
+            "method": "WebKit media volume/mute API and requestFullscreen under trusted click; native buttons not claimed",
+            "before": {
+              "muted": false,
+              "volume": 1
+            },
+            "changed": {
+              "muted": true,
+              "volume": 0.4
+            },
+            "exitedFullscreen": true
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/2205633",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2205633-1790843101513\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-2205632"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "etag": "W/\"74938-1790843101413\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 919
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 971
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 31238
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 31238
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 31342
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 31342
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 31342
+        },
+        {
+          "type": "seeked",
+          "time": 0.0003524999920045957,
+          "atMs": 31362
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999999999998,
+          "atMs": 31545
+        },
+        {
+          "type": "seeked",
+          "time": 21.600206374999832,
+          "atMs": 31679
+        },
+        {
+          "type": "seeking",
+          "time": 5.3999999999999995,
+          "atMs": 31697
+        },
+        {
+          "type": "seeked",
+          "time": 5.400235583327594,
+          "atMs": 31880
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 31896
+        },
+        {
+          "type": "seeked",
+          "time": 27.00032679166179,
+          "atMs": 32076
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 35402
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 35402
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 35415
+        },
+        {
+          "type": "volumechange",
+          "time": 30,
+          "atMs": 35415
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 35436
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 35436
+        },
+        {
+          "type": "seeking",
+          "time": 0,
+          "atMs": 35467
+        },
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 35467
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 35467
+        },
+        {
+          "type": "seeked",
+          "time": 0,
+          "atMs": 35524
+        }
+      ],
+      "finishedAt": "2026-10-01T08:29:15.605Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "webkit",
+      "environment": "phone",
+      "browser": "26.5",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 350,
+            "height": 196.875,
+            "pageWidth": 390,
+            "viewportWidth": 390,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.216314357005969,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 11,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2555732320024178,
+              "after": 21.608069358330283,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999999999998,
+                  "atMs": 2435
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.600244458336963,
+                  "atMs": 2603
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.60985652500898,
+              "after": 5.412106750000384,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.3999999999999995,
+                  "atMs": 2624
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.400219291672692,
+                  "atMs": 2724
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.414365625000209,
+              "after": 27.015144125005463,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 2741
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.000195666667423,
+                  "atMs": 2921
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 415,
+                "droppedVideoFrames": 22
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/2205633",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2205633-1790843101513\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-2205632"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "etag": "W/\"74938-1790843101413\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 873
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 934
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999999999998,
+          "atMs": 2435
+        },
+        {
+          "type": "seeked",
+          "time": 21.600244458336963,
+          "atMs": 2603
+        },
+        {
+          "type": "seeking",
+          "time": 5.3999999999999995,
+          "atMs": 2624
+        },
+        {
+          "type": "seeked",
+          "time": 5.400219291672692,
+          "atMs": 2724
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 2741
+        },
+        {
+          "type": "seeked",
+          "time": 27.000195666667423,
+          "atMs": 2921
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 6226
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 6226
+        }
+      ],
+      "finishedAt": "2026-10-01T08:29:25.458Z"
+    },
+    {
+      "slug": "dankoe",
+      "engine": "webkit",
+      "environment": "narrow-dark",
+      "browser": "26.5",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "colorScheme": "dark",
+      "localMp4Sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "contentSha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6",
+      "expectedMediaURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "expectedPosterURL": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+      "checks": [
+        {
+          "name": "entry-and-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/projects/dankoe/?view=reading",
+            "method": "clicked filtered gallery card"
+          }
+        },
+        {
+          "name": "initial-player-layout-and-no-prefetch",
+          "passed": true,
+          "evidence": {
+            "paused": true,
+            "time": 0,
+            "preload": "none",
+            "autoplay": false,
+            "playsInline": true,
+            "controls": true,
+            "poster": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+            "source": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "objectFit": "contain",
+            "width": 280,
+            "height": 157.5,
+            "pageWidth": 320,
+            "viewportWidth": 320,
+            "mediaRequestsBeforeInteraction": 0,
+            "posterBodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352"
+          }
+        },
+        {
+          "name": "active-click-play-and-metadata",
+          "passed": true,
+          "evidence": {
+            "method": "trusted pointer click on native player",
+            "duration": 30,
+            "currentTime": 1.2128024313337604,
+            "paused": false,
+            "ended": false,
+            "playbackRate": 1,
+            "readyState": 4,
+            "videoWidth": 1920,
+            "videoHeight": 1080,
+            "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "muted": false,
+            "volume": 1,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 11,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "name": "seek-forward-back-and-ended",
+          "passed": true,
+          "evidence": {
+            "method": "HTMLMediaElement.currentTime forward/back/tail seek followed by normal playback to ended; native dragging not claimed",
+            "fullPlaybackRequired": false,
+            "forward": {
+              "targetFraction": 0.72,
+              "before": 1.2375883896661193,
+              "after": 21.606710000001474,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 21.599999999999998,
+                  "atMs": 2379
+                },
+                {
+                  "type": "seeked",
+                  "time": 21.60179433332232,
+                  "atMs": 2563
+                }
+              ]
+            },
+            "backward": {
+              "targetFraction": 0.18,
+              "before": 21.608394208329262,
+              "after": 5.4146942499995925,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 5.3999999999999995,
+                  "atMs": 2572
+                },
+                {
+                  "type": "seeked",
+                  "time": 5.400276624996331,
+                  "atMs": 2686
+                }
+              ]
+            },
+            "tail": {
+              "targetFraction": 0.9,
+              "before": 5.416627250006422,
+              "after": 27.020904583332594,
+              "events": [
+                {
+                  "type": "seeking",
+                  "time": 27,
+                  "atMs": 2705
+                },
+                {
+                  "type": "seeked",
+                  "time": 27.000179583323188,
+                  "atMs": 2883
+                }
+              ]
+            },
+            "final": {
+              "duration": 30,
+              "currentTime": 30,
+              "paused": true,
+              "ended": true,
+              "playbackRate": 1,
+              "readyState": 4,
+              "videoWidth": 1920,
+              "videoHeight": 1080,
+              "currentSrc": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "muted": false,
+              "volume": 1,
+              "error": null,
+              "quality": {
+                "totalVideoFrames": 415,
+                "droppedVideoFrames": 22
+              }
+            }
+          }
+        },
+        {
+          "name": "browser-media-response-identity",
+          "passed": true,
+          "evidence": {
+            "localReferenceSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+            "observedURL": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+            "status": 206,
+            "headers": {
+              "content-type": "video/mp4",
+              "content-length": "2",
+              "content-range": "bytes 0-1/2205633",
+              "accept-ranges": "bytes",
+              "etag": "W/\"2205633-1790843101513\"",
+              "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+              "cache-control": "no-cache"
+            },
+            "localByteLength": 2205633,
+            "wholeRemoteFileSha256": null,
+            "wholeRemoteFileEqualityVerified": false,
+            "scope": "URL, response metadata, dimensions and duration only; separate FBT verify_static required"
+          }
+        },
+        {
+          "name": "credits-link-open-and-content",
+          "passed": true,
+          "evidence": {
+            "method": "resolved actual page link, HTTP GET and byte comparison",
+            "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01-credits.html",
+            "status": 200,
+            "bytes": 1282,
+            "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84"
+          }
+        },
+        {
+          "name": "cta-links-open",
+          "passed": true,
+          "evidence": [
+            {
+              "label": "开始阅读",
+              "expectedURL": "https://dankoe.fangs.cc/",
+              "openedURL": "https://dankoe.fangs.cc/",
+              "title": "首页 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "看看格得精选",
+              "expectedURL": "https://dankoe.fangs.cc/picks",
+              "openedURL": "https://dankoe.fangs.cc/picks",
+              "title": "格得精选 | Dan Koe · 中文",
+              "httpURL": "https://dankoe.fangs.cc/picks",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            },
+            {
+              "label": "访问原作者网站",
+              "expectedURL": "https://thedankoe.com/",
+              "openedURL": "https://thedankoe.com/",
+              "title": "Home - Dan Koe",
+              "httpURL": "https://thedankoe.com/",
+              "status": 200,
+              "method": "clicked CTA into anonymous popup and HTTP GET succeeded"
+            }
+          ]
+        },
+        {
+          "name": "return-to-category",
+          "passed": true,
+          "evidence": {
+            "url": "http://127.0.0.1:4218/?view=reading#works",
+            "selectedGroup": "reading",
+            "visibleItems": 4
+          }
+        },
+        {
+          "name": "no-page-errors",
+          "passed": true,
+          "evidence": {
+            "pageErrors": 0,
+            "consoleErrors": 0
+          }
+        }
+      ],
+      "mediaRequests": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-1"
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "beforeInteraction": false,
+          "method": "GET",
+          "range": "bytes=0-2205632"
+        }
+      ],
+      "mediaResponses": [
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2",
+            "content-range": "bytes 0-1/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        },
+        {
+          "url": "http://127.0.0.1:4218/videos/projects/dankoe-promo-2026-10-01.mp4",
+          "status": 206,
+          "beforeInteraction": false,
+          "headers": {
+            "content-type": "video/mp4",
+            "content-length": "2205633",
+            "content-range": "bytes 0-2205632/2205633",
+            "accept-ranges": "bytes",
+            "etag": "W/\"2205633-1790843101513\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false
+        }
+      ],
+      "posterResponses": [
+        {
+          "url": "http://127.0.0.1:4218/images/projects/dankoe-promo-2026-10-01.webp",
+          "status": 200,
+          "beforeInteraction": true,
+          "headers": {
+            "content-type": "image/webp",
+            "content-length": "74938",
+            "etag": "W/\"74938-1790843101413\"",
+            "last-modified": "Thu, 01 Oct 2026 08:25:01 GMT",
+            "cache-control": "no-cache"
+          },
+          "fromServiceWorker": false,
+          "bodyBytes": 74938,
+          "bodySha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+          "matchesLocalPoster": true
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "passed": true,
+      "remoteWholeMp4IntegrityVerified": false,
+      "mediaEvents": [
+        {
+          "type": "play",
+          "time": 0,
+          "atMs": 857
+        },
+        {
+          "type": "playing",
+          "time": 0,
+          "atMs": 894
+        },
+        {
+          "type": "seeking",
+          "time": 21.599999999999998,
+          "atMs": 2379
+        },
+        {
+          "type": "seeked",
+          "time": 21.60179433332232,
+          "atMs": 2563
+        },
+        {
+          "type": "seeking",
+          "time": 5.3999999999999995,
+          "atMs": 2572
+        },
+        {
+          "type": "seeked",
+          "time": 5.400276624996331,
+          "atMs": 2686
+        },
+        {
+          "type": "seeking",
+          "time": 27,
+          "atMs": 2705
+        },
+        {
+          "type": "seeked",
+          "time": 27.000179583323188,
+          "atMs": 2883
+        },
+        {
+          "type": "pause",
+          "time": 30,
+          "atMs": 6190
+        },
+        {
+          "type": "ended",
+          "time": 30,
+          "atMs": 6190
+        }
+      ],
+      "finishedAt": "2026-10-01T08:29:34.609Z"
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "limits": [
+    "Synthetic browser viewports; no physical phone or Safari application test.",
+    "No human audio listening, continuous human visual review, or promotion-effectiveness claim.",
+    "Local public MP4 SHA-256 identifies the reference file only. Browser URLs/headers/duration do not establish whole remote-file identity; run FBT public-preview verify_static separately.",
+    "--full means uninterrupted normal-speed desktop playback to ended; phone/narrow runs use documented seeks before reaching ended.",
+    "Product CTA checks cover link opening and HTTP reachability only; product business flows are outside this script."
+  ],
+  "playwright": {
+    "root": "/Users/fangs/workspace/side/snow-duel/videos/promo-2026-10-01",
+    "version": "1.62.1"
+  },
+  "expectedResults": 12,
+  "finishedAt": "2026-10-01T08:29:34.623Z"
+}

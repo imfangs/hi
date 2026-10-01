@@ -1,0 +1,103 @@
+{
+  "startedAt": "2026-10-01T08:40:45.349Z",
+  "version": "26.5",
+  "events": [
+    {
+      "atMs": 542,
+      "type": "context-page",
+      "url": "about:blank"
+    },
+    {
+      "atMs": 553,
+      "type": "navigation-request",
+      "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+      "redirectedFrom": null
+    },
+    {
+      "atMs": 567,
+      "type": "navigation-response",
+      "url": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+      "status": 200,
+      "location": null
+    },
+    {
+      "atMs": 568,
+      "type": "frame-navigated",
+      "url": "http://127.0.0.1:4218/projects/lehh/?view=apps"
+    },
+    {
+      "atMs": 727,
+      "type": "click-start"
+    },
+    {
+      "atMs": 765,
+      "type": "click-resolved"
+    },
+    {
+      "atMs": 15942,
+      "type": "context-page",
+      "url": "about:blank"
+    },
+    {
+      "atMs": 15948,
+      "type": "navigation-request",
+      "url": "https://apps.apple.com/cn/app/id6785151750",
+      "redirectedFrom": null
+    },
+    {
+      "atMs": 16232,
+      "type": "navigation-response",
+      "url": "https://apps.apple.com/cn/app/id6785151750",
+      "status": 301,
+      "location": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750"
+    },
+    {
+      "atMs": 16232,
+      "type": "navigation-request",
+      "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+      "redirectedFrom": "https://apps.apple.com/cn/app/id6785151750"
+    },
+    {
+      "atMs": 16260,
+      "type": "navigation-response",
+      "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+      "status": 200,
+      "location": null
+    },
+    {
+      "atMs": 16262,
+      "type": "frame-navigated",
+      "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750"
+    },
+    {
+      "atMs": 16562,
+      "type": "frame-navigated",
+      "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750"
+    }
+  ],
+  "link": {
+    "href": "https://apps.apple.com/cn/app/id6785151750",
+    "target": "_blank",
+    "text": " 在 App Store 下载 ",
+    "onclick": null
+  },
+  "popup": {
+    "received": false,
+    "error": "page.waitForEvent: Timeout 15000ms exceeded while waiting for event \"popup\"\n=========================== logs ===========================\nwaiting for event \"popup\"\n============================================================"
+  },
+  "pagesAfterClick": [
+    "http://127.0.0.1:4218/projects/lehh/?view=apps"
+  ],
+  "hiURLAfterClick": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+  "direct": {
+    "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+    "status": 200,
+    "title": "‎单词合合乐 App - App Store"
+  },
+  "http": {
+    "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E5%90%88%E5%90%88%E4%B9%90/id6785151750",
+    "status": 200,
+    "bytes": 471006
+  },
+  "finishedAt": "2026-10-01T08:41:02.248Z"
+}
