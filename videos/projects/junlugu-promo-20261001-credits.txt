@@ -1,0 +1,23 @@
+菌露谷物语 · 宣传片
+2026-10-01 · 30.8 秒
+
+画面来自菌露谷物语实际游玩，包含家园种植、插地通讯、回合战斗与救援。
+游戏：https://junlugu.fangs.cc/
+
+音乐与动作音：Juhani Junkala / SubspaceAudio，CC0-1.0。
+音乐：Town1 – Home Town（JRPG Pack 2 – Towns）。
+动作音：The Essential Retro Video Game Sound Effects Collection。
+来源：https://opengameart.org/users/subspaceaudio
+许可：https://creativecommons.org/publicdomain/zero/1.0/
+声轨为后期配乐和动作音混音，无旁白。
+
+画面中的农场与城镇像素素材：Kenney Tiny Farm / Tiny Town，CC0。
+来源：https://kenney.nl/
+
+黄蝶：Diarandor / Solarus Free Resource Pack，CC BY-SA 4.0。
+按原动画定义裁切、缩放，衍生黄蝶图集沿用 CC BY-SA 4.0。
+来源：https://gitlab.com/solarus-games/resource-packs/solarus-free-resource-pack
+许可：https://creativecommons.org/licenses/by-sa/4.0/
+
+菌侠、世界与物件为本项目原创角色设计、生成美术、像素编辑与程序绘制。
+标题使用 Songti SC 的栅格文字，不分发字体文件。
