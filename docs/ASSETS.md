@@ -1,5 +1,13 @@
 # 作品封面来源
 
+## 2026-10-01 · 菌侠漫画与动画实验
+
+- 原作是方帅儿子提供的五页手绘漫画，依上传的 `1.jpg` 至 `5.jpg` 顺序整理。`public/images/projects/junxia-comic/page-1.jpg` 至 `page-5.jpg` 从原始照片逆时针旋转90度，移除EXIF，JPEG quality93，保留完整1707×1280画面；未裁掉边缘、重画或替换手写对白。原文件在本机Downloads中保留。
+- `junxia-comic.webp` 由第4页完整缩放、纸色补边为1200×750；单图动画poster从对应视频首帧抽取并转WebP。其余播放器使用对应原画作为poster。
+- `public/videos/projects/junxia-comic/` 收录8.08秒单图动画 `i-am-here.mp4`、29.302秒合成片 `five-scenes.mp4`，及 `scene-01.mp4` 至 `scene-05.mp4` 五段各6.06秒分镜。全部逐字节复制2026-08-16已有MP4，不重新生成、剪辑或修改音轨；原件和发布件SHA-256全部一致，见 [媒体回执](releases/2026-10-01-junxia-comic-assets.json)。
+- 方帅2026-10-01明确要求漫画及这些视频放入Hi。页面署名原作归儿子，整理/动画实验为爸爸和格得，并说明生成动作、声音、细节不完全等于原作；不使用早期不可靠OCR给孩子的故事编写剧情梗概。此前成片质量未获认可，本次是如实收录旧实验，不宣称质量已改善。
+- 只发布画作、成片、poster与阅读页面；原始OCR、含本机路径的生成manifest、聊天记录与操作日志不进入public。页面保留7个按需原生播放器，不自动下载MP4，播放下一段时暂停上一段。
+
 2026-09-26。以下封面用于 hi.fangs.cc 的作品展示，全部来自真实产品界面；未生成虚构 UI，也未将原图批量放入公开目录。输出为 `public/images/projects/<slug>.webp`，1200×750，WebP quality 88。
 
 | 文件 | 原始来源 | 加工 |

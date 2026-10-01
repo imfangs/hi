@@ -10,6 +10,7 @@ const projects = defineCollection({
     status: z.enum(['已上架', '可体验', '可阅读', '生产中', '内测中', '原型', '探索', '归档', '暂停']),
     category: z.string().optional(),
     featured: z.boolean().default(false),
+    format: z.enum(['project', 'comic']).default('project'),
     group: z.enum(['apps', 'games', 'reading']),
     cover: z.object({
       src: z.string().startsWith('/images/projects/'),

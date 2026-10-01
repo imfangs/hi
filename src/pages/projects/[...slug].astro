@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 }
 const { project, next, nextInGroup } = Astro.props;
 const { Content } = await render(project);
-const { title, subtitle, cover, video, category, status, links } = project.data;
+const { title, subtitle, cover, video, category, status, links, format } = project.data;
 ---
 <Base title={`${title} · hi · fangs`} description={subtitle} image={cover?.src} imageAlt={cover?.alt}>
   <SiteHeader />
@@ -35,14 +35,14 @@ const { title, subtitle, cover, video, category, status, links } = project.data;
           </a>)}
         </div>}
       </header>
-      {video ? <figure class="detail-video">
+      {format !== 'comic' && (video ? <figure class="detail-video">
         <video controls playsinline preload="none" poster={video.poster} width="1920" height="1080" aria-label={`${title}宣传片`} aria-describedby="video-caption">
           <source src={video.src} type="video/mp4" />
           <p>浏览器无法播放此视频，可以<a href={video.src}>打开宣传片</a>。</p>
         </video>
         <figcaption id="video-caption"><span>{video.caption}</span><a href={video.credits}>制作与素材</a></figcaption>
-      </figure> : cover && <figure class="detail-cover"><img src={cover.src} alt={cover.alt} width="1200" height="750" fetchpriority="high" /></figure>}
-      <div class="prose detail-body"><Content /></div>
+      </figure> : cover && <figure class="detail-cover"><img src={cover.src} alt={cover.alt} width="1200" height="750" fetchpriority="high" /></figure>)}
+      <div class={format === 'comic' ? 'comic-body' : 'prose detail-body'}><Content /></div>
       <nav class="detail-end" aria-label="继续浏览">
         <a href="/#works" data-return>← 回到作品</a>
         <a href={`/projects/${next.id}/`} class="next-project" data-group={project.data.group} data-filtered-href={`/projects/${nextInGroup.id}/`} data-filtered-title={nextInGroup.data.title}><span>下一件作品</span><strong>{next.data.title}</strong><span aria-hidden="true">↗</span></a>

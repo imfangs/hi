@@ -1,0 +1,207 @@
+---
+const imageRoot = '/images/projects/junxia-comic';
+const videoRoot = '/videos/projects/junxia-comic';
+const pages = [1, 2, 3, 4, 5].map(n => ({ n, src: `${imageRoot}/page-${n}.jpg` }));
+const films = [
+  { id: 'i-am-here', title: '我来啦！', duration: '8 秒', width: 834, height: 1112,
+    poster: `${imageRoot}/i-am-here.webp`, caption: '从一张菌侠涂鸦出发，试着让披风和角色动起来。' },
+  { id: 'five-scenes', title: '五幕短剧', duration: '29 秒', width: 1112, height: 834,
+    poster: `${imageRoot}/page-1.jpg`, caption: '五页画各生成一段镜头，再剪辑成一条短片。' },
+];
+---
+
+<section class="comic-collection" aria-label="菌侠漫画与动画">
+  <nav class="comic-jump" aria-label="本页目录">
+    <a href="#comic-pages">读漫画 <span>5 页</span></a>
+    <a href="#comic-films">看动画 <span>2 部</span></a>
+    <a href="#comic-scenes">分镜片段 <span>5 段</span></a>
+  </nav>
+  <section id="comic-pages" aria-labelledby="comic-pages-title">
+    <header class="comic-section-heading">
+      <div><span class="comic-eyebrow">THE ORIGINAL DRAWINGS</span><h2 id="comic-pages-title">故事，从纸上开始。</h2></div>
+      <p>原作 / 儿子的手绘<br />按原稿顺序，点开可放大读。</p>
+    </header>
+    <nav class="page-index" aria-label="跳到漫画页">
+      {pages.map(({n}) => <a href={`#page-${n}`} aria-label={`跳到第 ${n} 页`}>{String(n).padStart(2, '0')}</a>)}
+    </nav>
+    <div class="comic-pages">
+      {pages.map(({n, src}) => <figure id={`page-${n}`}>
+        <figcaption><span>第 {n} 页 <span class="page-total">/ 5</span></span><a href={src} target="_blank" rel="noopener" data-enlarge={n - 1}>放大阅读 ↗</a></figcaption>
+        <a href={src} target="_blank" rel="noopener" data-enlarge={n - 1} aria-label={`放大菌侠漫画第 ${n} 页`}>
+          <img src={src} alt={`菌侠手绘漫画第 ${n} 页，保留原稿中的人物、手写对白和纸张`} width="1707" height="1280" loading={n === 1 ? 'eager' : 'lazy'} decoding="async" />
+        </a>
+      </figure>)}
+    </div>
+    <p class="comic-note">原画仅校正阅读方向、压缩文件，保留手写对白、线条与纸张纹理。</p>
+  </section>
+
+  <section id="comic-films" aria-labelledby="comic-films-title">
+    <header class="comic-section-heading">
+      <div><span class="comic-eyebrow">ANIMATION EXPERIMENTS</span><h2 id="comic-films-title">当涂鸦动起来。</h2></div>
+      <p>2026.08 · 和格得一起做的动画尝试</p>
+    </header>
+    <p class="comic-note film-intro">以下是用 Seedance 生成的实验视频。动作、声音与部分细节经过模型演绎，和孩子的原作并不完全相同；这里一并保留这段尝试。</p>
+    <div class="comic-films">
+      {films.map(film => <figure>
+        <div class:list={['film-screen', {'portrait': film.height > film.width}]}>
+          <video controls playsinline preload="none" poster={film.poster} width={film.width} height={film.height} aria-label={film.title}>
+            <source src={`${videoRoot}/${film.id}.mp4`} type="video/mp4" />
+            <a href={`${videoRoot}/${film.id}.mp4`}>打开{film.title}</a>
+          </video>
+        </div>
+        <figcaption><div class="film-title"><h3>{film.title}</h3><span>{film.duration}</span></div><p>{film.caption}</p><a href={`${videoRoot}/${film.id}.mp4`} download>下载视频 ↓</a></figcaption>
+      </figure>)}
+    </div>
+  </section>
+
+  <section id="comic-scenes" class="comic-scenes" aria-label="五段独立分镜">
+    <details>
+      <summary>展开五段独立分镜 <span>每段约 6 秒</span></summary>
+      <div class="scene-grid">
+        {pages.map(({n, src}) => <figure>
+          <video controls playsinline preload="none" poster={src} width="1112" height="834" aria-label={`第 ${n} 页动画分镜`}>
+            <source src={`${videoRoot}/scene-${String(n).padStart(2, '0')}.mp4`} type="video/mp4" />
+          </video>
+          <figcaption>第 {n} 页 · 动画分镜 <a href={`${videoRoot}/scene-${String(n).padStart(2, '0')}.mp4`} download>下载 ↓</a></figcaption>
+        </figure>)}
+      </div>
+    </details>
+  </section>
+  <p class="comic-note collection-credit">漫画原作：儿子。整理与动画实验：爸爸和格得。<a href="#comic-pages">回到原画 ↑</a></p>
+
+  <dialog class="comic-lightbox" aria-label="放大阅读菌侠漫画">
+    <div class="lightbox-bar">
+      <span data-page-counter aria-live="polite"></span>
+      <button type="button" data-zoom aria-pressed="false">原尺寸</button>
+      <button type="button" data-close aria-label="关闭放大阅读">关闭 ×</button>
+    </div>
+    <div class="lightbox-stage"><img data-full-image width="1707" height="1280" alt="" /></div>
+    <div class="lightbox-nav"><button type="button" data-prev>← 上一页</button><span>← → 翻页 · Esc 关闭</span><button type="button" data-next>下一页 →</button></div>
+  </dialog>
+</section>
+
+<script>
+  const collection = document.querySelector<HTMLElement>('.comic-collection');
+  const dialog = collection?.querySelector<HTMLDialogElement>('dialog');
+  const sources = Array.from(collection?.querySelectorAll<HTMLImageElement>('.comic-pages img') ?? []);
+  if (collection && dialog && typeof dialog.showModal === 'function') {
+    const image = dialog.querySelector<HTMLImageElement>('[data-full-image]')!;
+    const stage = dialog.querySelector<HTMLElement>('.lightbox-stage')!;
+    const prev = dialog.querySelector<HTMLButtonElement>('[data-prev]')!;
+    const next = dialog.querySelector<HTMLButtonElement>('[data-next]')!;
+    const zoom = dialog.querySelector<HTMLButtonElement>('[data-zoom]')!;
+    let current = 0;
+    const showPage = (index: number) => {
+      current = Math.max(0, Math.min(sources.length - 1, index));
+      image.src = sources[current].src;
+      image.alt = sources[current].alt;
+      dialog.querySelector('[data-page-counter]')!.textContent = `第 ${current + 1} 页 / ${sources.length}`;
+      prev.disabled = current === 0;
+      next.disabled = current === sources.length - 1;
+      stage.classList.remove('is-zoomed');
+      zoom.textContent = '原尺寸';
+      zoom.setAttribute('aria-pressed', 'false');
+      stage.scrollTo(0, 0);
+    };
+    collection.querySelectorAll<HTMLAnchorElement>('[data-enlarge]').forEach(link => link.addEventListener('click', event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      showPage(Number(link.dataset.enlarge));
+      dialog.showModal();
+      document.documentElement.style.overflow = 'hidden';
+    }));
+    dialog.querySelector('[data-close]')!.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('close', () => { document.documentElement.style.overflow = ''; });
+    prev.addEventListener('click', () => showPage(current - 1));
+    next.addEventListener('click', () => showPage(current + 1));
+    dialog.addEventListener('keydown', event => {
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+        showPage(current + (event.key === 'ArrowRight' ? 1 : -1));
+      }
+    });
+    zoom.addEventListener('click', () => {
+      const isZoomed = stage.classList.toggle('is-zoomed');
+      zoom.setAttribute('aria-pressed', String(isZoomed));
+      zoom.textContent = isZoomed ? '适应屏幕' : '原尺寸';
+    });
+  }
+  // Keep a single soundtrack playing when comparing clips.
+  collection?.querySelectorAll('video').forEach(video => video.addEventListener('play', () => {
+    collection.querySelectorAll('video').forEach(other => { if (other !== video) other.pause(); });
+  }));
+  const scenes = collection?.querySelector<HTMLDetailsElement>('.comic-scenes details');
+  scenes?.addEventListener('toggle', () => {
+    if (!scenes.open) scenes.querySelectorAll('video').forEach(video => video.pause());
+  });
+  function revealScenes() {
+    if (location.hash === '#comic-scenes' && scenes) scenes.open = true;
+  }
+  window.addEventListener('hashchange', revealScenes);
+  revealScenes();
+</script>
+
+<style>
+  .comic-jump { display:flex; flex-wrap:wrap; gap:16px 28px; margin:30px 0 52px; padding:20px 0; border-block:1px solid var(--color-rule); font:14px/1.7 var(--font-sans); }
+  .comic-jump a { min-height:44px; display:flex; align-items:center; gap:10px; }
+  .comic-jump span, .comic-eyebrow, .page-total { color:var(--color-ink-muted); font:12px/1.6 var(--font-sans); }
+  .comic-section-heading { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:24px; }
+  .comic-eyebrow { letter-spacing:.12em; }
+  h2 { font-size:clamp(26px,3vw,38px); line-height:1.5; margin-top:8px; }
+  .comic-section-heading p, .comic-note { font:14px/1.9 var(--font-sans); color:var(--color-ink-muted); }
+  .comic-section-heading p { max-width:23em; }
+  .page-index { display:flex; gap:10px; margin:20px 0 30px; }
+  .page-index a { display:grid; place-items:center; width:44px; height:44px; border:1px solid var(--color-rule); border-radius:50%; font:14px var(--font-sans); }
+  a:hover { color:var(--color-accent); }
+  .comic-pages { display:grid; gap:40px; }
+  .comic-pages figcaption { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; font:14px/1.7 var(--font-sans); }
+  .comic-pages figcaption a { padding-block:12px; }
+  .comic-pages img { width:100%; height:auto; border-radius:3px; box-shadow:0 5px 25px #0000000c; }
+  .comic-pages > figure > a { display:block; cursor:zoom-in; }
+  .comic-note { margin-top:22px; }
+  #comic-films { border-top:1px solid var(--color-rule); margin-top:64px; padding-top:40px; }
+  .film-intro { max-width:48em; margin-top:0; margin-bottom:30px; }
+  .comic-films { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:32px; align-items:start; }
+  .film-screen { height:clamp(300px,35vw,450px); display:flex; align-items:center; justify-content:center; background:var(--color-surface); border-radius:4px; overflow:hidden; }
+  video { display:block; width:100%; height:auto; object-fit:contain; }
+  .film-screen video { max-height:100%; }
+  .portrait video { height:100%; width:auto; max-width:100%; }
+  .film-title { display:flex; justify-content:space-between; align-items:baseline; gap:15px; margin-top:18px; }
+  h3 { font-size:24px; }
+  .film-title span, .comic-films figcaption p, .comic-films figcaption > a { font:14px/1.8 var(--font-sans); color:var(--color-ink-muted); }
+  .comic-films figcaption p { margin-top:8px; }
+  .comic-films figcaption > a { display:inline-flex; align-items:center; min-height:44px; text-decoration:underline; text-underline-offset:4px; }
+  .comic-scenes { margin-top:38px; border-block:1px solid var(--color-rule); }
+  summary { cursor:pointer; padding:24px 0; font-size:20px; }
+  summary span { display:inline-block; font:13px/1.8 var(--font-sans); color:var(--color-ink-muted); margin-left:10px; }
+  .scene-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; padding-bottom:28px; }
+  .scene-grid figcaption { display:flex; justify-content:space-between; gap:10px; font:13px/1.8 var(--font-sans); margin-top:10px; }
+  .scene-grid figcaption a { padding-block:6px; }
+  .collection-credit { display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; }
+  .comic-lightbox { position:fixed; inset:0; width:100%; max-width:none; height:100dvh; max-height:none; padding:0; margin:0; border:0; background:var(--color-bg); color:var(--color-ink); }
+  .comic-lightbox[open] { display:grid; grid-template-rows:auto minmax(0,1fr) auto; }
+  .comic-lightbox::backdrop { background:#000b; }
+  .lightbox-bar, .lightbox-nav { display:flex; align-items:center; gap:16px; padding:12px 20px; font:14px/1.6 var(--font-sans); }
+  .lightbox-bar > span { margin-right:auto; }
+  .comic-lightbox button { min-height:44px; padding:8px 16px; background:var(--color-surface); border:1px solid var(--color-rule); border-radius:4px; font:14px/1.6 var(--font-sans); }
+  button:disabled { opacity:.35; cursor:default; }
+  .lightbox-stage { overflow:auto; display:flex; align-items:center; justify-content:center; padding:10px; }
+  .lightbox-stage img { width:100%; height:100%; object-fit:contain; }
+  .lightbox-stage.is-zoomed { display:block; }
+  .lightbox-stage.is-zoomed img { width:1707px; height:1280px; max-width:none; }
+  .lightbox-nav { justify-content:space-between; padding-bottom:max(12px,env(safe-area-inset-bottom)); }
+  .lightbox-nav > span { color:var(--color-ink-muted); font-size:12px; }
+  @media(max-width:700px) {
+    .comic-jump { gap:8px 20px; margin-bottom:34px; }
+    .comic-section-heading { display:block; }
+    .comic-section-heading p { margin-top:12px; }
+    .comic-pages { gap:24px; }
+    .comic-films, .scene-grid { grid-template-columns:minmax(0,1fr); gap:32px; }
+    .film-screen { height:auto; }
+    .portrait video { width:100%; height:auto; max-height:70vh; }
+    .lightbox-nav > span { display:none; }
+    .lightbox-bar, .lightbox-nav { gap:8px; padding-inline:12px; }
+    .comic-lightbox button { padding-inline:12px; }
+    #comic-films { margin-top:42px; padding-top:30px; }
+  }
+</style>

@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-10-01T08:55:11.208Z",
+  "videos": [
+    {
+      "file": "/videos/projects/junxia-comic/i-am-here.mp4",
+      "sha256": "0f6c6b3b4d789d4223df933ef5edf757460e92e8a764936fa8b6ec11e6033136",
+      "sourceMatches": true,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 834,
+          "height": 1112
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "8.080000",
+        "size": "3423779"
+      }
+    },
+    {
+      "file": "/videos/projects/junxia-comic/five-scenes.mp4",
+      "sha256": "76313c3136217beb22e38a62c22973fdcc20f396b4656713186f7a08df5d1e25",
+      "sourceMatches": true,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1112,
+          "height": 834
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "29.302000",
+        "size": "10251790"
+      }
+    },
+    {
+      "file": "/videos/projects/junxia-comic/scene-01.mp4",
+      "sha256": "2ab47cc8f6f1dbf3243f8fb056489092522a1d920a52f05f4e249119814145b5",
+      "sourceMatches": true,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1112,
+          "height": 834
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "6.060000",
+        "size": "2280115"
+      }
+    },
+    {
+      "file": "/videos/projects/junxia-comic/scene-02.mp4",
+      "sha256": "825d16bfe3a97676e537ee87d55f839cbc52cbee15437c20c595d8200ea5102a",
+      "sourceMatches": true,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1112,
+          "height": 834
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "6.060000",
+        "size": "2082651"
+      }
+    },
+    {
+      "file": "/videos/projects/junxia-comic/scene-03.mp4",
+      "sha256": "2f731c45eca4fe6264b0c3eaa9de7c8607c4d3d60de9046b46131987ad9bcc5e",
+      "sourceMatches": true,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1112,
+          "height": 834
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "6.060000",
+        "size": "2450764"
+      }
+    },
+    {
+      "file": "/videos/projects/junxia-comic/scene-04.mp4",
+      "sha256": "f635fad095c6561fd0c7f609c8d3e3b8eb7097ee298c85313ad1f575a276e478",
+      "sourceMatches": true,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1112,
+          "height": 834
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "6.060000",
+        "size": "3411963"
+      }
+    },
+    {
+      "file": "/videos/projects/junxia-comic/scene-05.mp4",
+      "sha256": "5cb116f50001e81a82f0c6023cdb9a9edf1b8f7d28d3a1fccb1babf2b99c8d13",
+      "sourceMatches": true,
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1112,
+          "height": 834
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "6.060000",
+        "size": "2261159"
+      }
+    }
+  ]
+}

@@ -47,6 +47,8 @@ order: 1
 
 正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。项目按 `order` 排序；`group` 定义应用、游戏或阅读分类。筛选与详情返回使用 `?view=`，浏览器可恢复选择。当前画廊设计与交互约定见 `docs/design/2026-09-30/DIRECTION.md`。
 
+菌侠原画集 `junxia-comic.mdx` 使用 `format: comic`，详情正文采用画幅宽度，首页cover不在详情重复展示。`ComicReader.astro` 保存五页原稿顺序、可缩放翻页阅读器、两条完整动画和五段独立分镜。无JavaScript时仍可顺序阅读、打开大图和播放原生视频。图片只校正方向，视频为已有实验原件；出处见ASSETS。
+
 封面统一为 1200×750 WebP，保存到 `public/images/projects/`，并补资产来源。网页截图完整缩放留边，App 截图组合展示，不裁掉关键界面或混入私人资料。
 
 有宣传片的作品可添加可选 `video: { src, poster, caption, credits }`：MP4与公开素材署名放 `public/videos/projects/`，poster放 `public/images/projects/`。详情主画面改为原生视频播放器，首页仍使用cover；不自动播放或预下载视频。例子见 `junlugu.mdx`。发布前检查桌面/手机播放、拖动、完整画幅和素材入口。
