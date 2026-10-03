@@ -1,5 +1,11 @@
 # 当前状态
 
+## 柚子的小岛互链（2026-10-03，本地已准备、尚未发布）
+
+- `src/components/SiteFooter.astro` 新增「柚子的小岛」入口，目标 `https://youzi.fangs.cc/`；保留格得、GitHub、联系与回顶入口。新站在 `../yuzu-island/`，本轮 youzi 域名等待小岛发布，线上 Hi 未改变。
+- 沿用现有依赖构建通过（`pnpm --config.verify-deps-before-run=false build`，14 页）；14 个站点页面均含新链接。独立 Chromium 检查首页与菌侠详情的 1440 / 390 / 320px：无横向溢出，footer 链接在边界内，新入口可聚焦。320px 受控截图确认文字完整、焦点圈可见、保留原样式。证据：[本地互链检查](docs/releases/2026-10-03-yuzu-link-local.json)。
+- 用户最终指定 `youzi.fangs.cc` 后，仅修正 href，重新构建并逐页回读精确新链接通过；上述布局和键盘检查来自 href 修正前，文字与样式未变。未部署、未 push；此次仅准备返回入口。公开发布后仍需验证 youzi 目标和三站往返，当前正式版本继续以下方已发布记录为准。
+
 ## 爱养蘑菇的小学生与创作分类（2026-10-01，已发布并回读）
 
 - 新增 `/projects/school-secret-lab/`，以《爱养蘑菇的小学生》介绍校园奇幻世界、与柚子的共创、三支概念短片及两个后续镜头实验；如实保留完整资产库尚未完成的进度。内容回源见 `docs/school-secret-lab-overview.md`。

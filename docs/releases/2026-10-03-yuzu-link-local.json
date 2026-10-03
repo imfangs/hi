@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-03",
+  "status": "local_prepared_not_published",
+  "scope": "Prepared footer link to the user-selected youzi.fangs.cc; source ready locally; publish waits for the destination readiness gate.",
+  "target": "https://youzi.fangs.cc/",
+  "build": {
+    "command": "pnpm --config.verify-deps-before-run=false build",
+    "passed": true,
+    "note": "Hi first plain pnpm build stopped at a non-TTY dependency purge prompt; command-scoped verify-deps-before-run=false used the existing dependencies without changing the lockfile."
+  },
+  "staticPages": [
+    "index.html",
+    "projects/aiedu/index.html",
+    "projects/dankoe/index.html",
+    "projects/hyrule/index.html",
+    "projects/junlugu/index.html",
+    "projects/junxia-comic/index.html",
+    "projects/lehh/index.html",
+    "projects/little-pause/index.html",
+    "projects/pocofocus/index.html",
+    "projects/qiya-herbarium/index.html",
+    "projects/school-secret-lab/index.html",
+    "projects/snow-duel/index.html",
+    "projects/taste/index.html",
+    "projects/wbw/index.html"
+  ],
+  "browser": "agent-browser Chromium, isolated session yuzu-family-links",
+  "checks": [
+    {
+      "documentWidth": 1440,
+      "focused": true,
+      "overflow": false,
+      "viewport": 1440,
+      "route": "/",
+      "allFooterLinksWithinWidth": true,
+      "islandLink": {
+        "height": 44,
+        "href": "https://island.fangs.cc/",
+        "left": 1207.375,
+        "right": 1285.484375,
+        "text": "柚子的小岛 ↗",
+        "width": 78.109375
+      }
+    },
+    {
+      "documentWidth": 1440,
+      "focused": true,
+      "overflow": false,
+      "viewport": 1440,
+      "route": "/projects/junxia-comic/",
+      "allFooterLinksWithinWidth": true,
+      "islandLink": {
+        "height": 44,
+        "href": "https://island.fangs.cc/",
+        "left": 1207.375,
+        "right": 1285.484375,
+        "text": "柚子的小岛 ↗",
+        "width": 78.109375
+      }
+    },
+    {
+      "documentWidth": 390,
+      "focused": true,
+      "overflow": false,
+      "viewport": 390,
+      "route": "/",
+      "allFooterLinksWithinWidth": true,
+      "islandLink": {
+        "height": 44,
+        "href": "https://island.fangs.cc/",
+        "left": 206.3125,
+        "right": 278.484375,
+        "text": "柚子的小岛 ↗",
+        "width": 72.171875
+      }
+    },
+    {
+      "documentWidth": 390,
+      "focused": true,
+      "overflow": false,
+      "viewport": 390,
+      "route": "/projects/junxia-comic/",
+      "allFooterLinksWithinWidth": true,
+      "islandLink": {
+        "height": 44,
+        "href": "https://island.fangs.cc/",
+        "left": 206.3125,
+        "right": 278.484375,
+        "text": "柚子的小岛 ↗",
+        "width": 72.171875
+      }
+    },
+    {
+      "documentWidth": 320,
+      "focused": true,
+      "overflow": false,
+      "viewport": 320,
+      "route": "/",
+      "allFooterLinksWithinWidth": true,
+      "islandLink": {
+        "height": 44,
+        "href": "https://island.fangs.cc/",
+        "left": 198.3125,
+        "right": 270.484375,
+        "text": "柚子的小岛 ↗",
+        "width": 72.171875
+      }
+    },
+    {
+      "documentWidth": 320,
+      "focused": true,
+      "overflow": false,
+      "viewport": 320,
+      "route": "/projects/junxia-comic/",
+      "allFooterLinksWithinWidth": true,
+      "islandLink": {
+        "height": 44,
+        "href": "https://island.fangs.cc/",
+        "left": 198.3125,
+        "right": 270.484375,
+        "text": "柚子的小岛 ↗",
+        "width": 72.171875
+      }
+    }
+  ],
+  "visual": {
+    "viewport": "320x844",
+    "result": "Footer link labels are readable, unclipped, and retain the existing visual style. The island link has a visible keyboard focus ring. Existing final footer link wraps to the following line.",
+    "preview": "/tmp/yuzu-family-links/footer-preview.jpg",
+    "scope": "Bounded two-image contact sheet; no full-site visual audit."
+  },
+  "limitations": [
+    "No deploy or push at the time of this local receipt; publication is held until the youzi site is confirmed live.",
+    "Browser layout checks preceded the href-only correction; final href was verified in the rebuilt HTML of every site page.",
+    "Real devices and subjective usability have not been tested."
+  ],
+  "initialTarget": "https://island.fangs.cc/",
+  "checksScope": "The six browser layout and keyboard checks below were performed before the href-only target correction. Link labels and styles are unchanged. Exact final href has been independently read back from every rebuilt site page, excluding standalone media credit documents.",
+  "finalTargetReadback": {
+    "checkedAt": "2026-10-03T02:21:24.154199+00:00",
+    "passed": true,
+    "pages": [
+      {
+        "file": "index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/aiedu/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/dankoe/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/hyrule/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/junlugu/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/junxia-comic/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/lehh/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/little-pause/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/pocofocus/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/qiya-herbarium/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/school-secret-lab/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/snow-duel/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/taste/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      },
+      {
+        "file": "projects/wbw/index.html",
+        "youziHrefCount": 1,
+        "oldIslandHrefAbsent": true
+      }
+    ],
+    "boundary": "Local build output only; public destination and three-site navigation will be verified after deployment."
+  }
+}
