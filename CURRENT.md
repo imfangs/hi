@@ -1,5 +1,12 @@
 # 当前状态
 
+## TBS 三角字徽（2026-10-03，已发布并回读）
+
+- 方帅选定第二轮 03「三角字徽」，随后收窄为轻量换 logo。首页与全部详情的页头、页脚改用完整 T/B/S 镂空字徽；浅色深灰、深色米白，沿用文字色。浏览器小图标使用同轮廓简化版并加版本参数。
+- 保留原页面布局、色板、Taste. Build. Sell. 文案、13 件作品及既有链接。没有扩展主题、分享图或新栏目。来源与小图标取舍见 [品牌资产](docs/brand/ASSETS.md)。
+- 构建 14 页与 TypeScript 通过；本地及公网首页→13 详情→logo 返回、分类返回、主题持久化/Escape、1440/390/320px、无 JS 回退通过，未见脚本错误或横向溢出。受控截图核对原字徽与浅/深色实际页面。IAB 不可用、Chrome 扩展连接超时后，采用隔离 Playwright Chromium 验收；未用实体手机。
+- 正式源码 `a6733d4d277324a96b0e026e96bee7ad2515d9e9`，Pages `9e4da562a77d7da9591ac870e51e8628a245df96`；API built，默认公网 release.json 匹配。28 个 HTML/CSS/logo/release 文件逐字节一致，既有视频未重新下载。详见 [发布回执](docs/releases/2026-10-03-tbs-logo.json)。
+
 ## 柚子的小岛互链（2026-10-03，本地已准备、尚未发布）
 
 - `src/components/SiteFooter.astro` 新增「柚子的小岛」入口，目标 `https://youzi.fangs.cc/`；保留格得、GitHub、联系与回顶入口。新站在 `../yuzu-island/`，本轮 youzi 域名等待小岛发布，线上 Hi 未改变。
