@@ -1,0 +1,646 @@
+{
+  "date": "2026-10-03",
+  "source": "a6733d4d277324a96b0e026e96bee7ad2515d9e9",
+  "pages": "9e4da562a77d7da9591ac870e51e8628a245df96",
+  "url": "https://hi.fangs.cc/",
+  "status": "published_and_read_back",
+  "scope": "Only header/footer logo and favicon; original layout, palette, copy, project content and links retained.",
+  "build": "Astro 14 pages and TypeScript passed",
+  "local": {
+    "origin": "http://127.0.0.1:4229",
+    "phase": "local",
+    "status": 200,
+    "desktop": {
+      "url": "/",
+      "status": "hi · fangs — Taste. Build. Sell.",
+      "marks": 2,
+      "uniqueIds": true,
+      "overflow": false,
+      "logoColor": "rgb(26, 26, 26)",
+      "slogan": "Taste. Build. Sell.",
+      "brokenLoadedImages": [],
+      "lazyImagesPending": 7,
+      "actions": true
+    },
+    "details": [
+      {
+        "url": "/projects/junxia-comic/",
+        "status": "菌侠 · 手绘漫画 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/lehh/",
+        "status": "单词合合乐 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/taste/",
+        "status": "你品 · 艺术与思想 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/little-pause/",
+        "status": "歇会鸭 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/snow-duel/",
+        "status": "雪仗／夜雪俱乐部 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/pocofocus/",
+        "status": "PocoFocus · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/junlugu/",
+        "status": "菌露谷物语 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/qiya-herbarium/",
+        "status": "奇芽药草铺 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/hyrule/",
+        "status": "海拉鲁 · 蓝焰余响 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/aiedu/",
+        "status": "AI 教育 · 中英双语 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/wbw/",
+        "status": "Wait But Why 中译 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/dankoe/",
+        "status": "Dan Koe 中文阅读站 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/school-secret-lab/",
+        "status": "爱养蘑菇的小学生 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      }
+    ],
+    "responsive": [
+      {
+        "width": 390,
+        "url": "/",
+        "status": "hi · fangs — Taste. Build. Sell.",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(232, 231, 226)",
+        "slogan": "Taste. Build. Sell.",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 3,
+        "actions": true
+      },
+      {
+        "width": 320,
+        "url": "/",
+        "status": "hi · fangs — Taste. Build. Sell.",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(232, 231, 226)",
+        "slogan": "Taste. Build. Sell.",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 3,
+        "actions": true
+      }
+    ],
+    "errors": [],
+    "browserFallback": "IAB unavailable; CUA Chrome tab setup timed out and reset; isolated Playwright Chromium used for website QA.",
+    "filterReturn": true,
+    "dark": {
+      "url": "/",
+      "status": "hi · fangs — Taste. Build. Sell.",
+      "marks": 2,
+      "uniqueIds": true,
+      "overflow": false,
+      "logoColor": "rgb(232, 231, 226)",
+      "slogan": "Taste. Build. Sell.",
+      "brokenLoadedImages": [],
+      "lazyImagesPending": 3,
+      "actions": true
+    },
+    "escape": true,
+    "noJS": {
+      "marks": 2,
+      "works": 13
+    }
+  },
+  "live": {
+    "origin": "https://hi.fangs.cc",
+    "phase": "live",
+    "status": 200,
+    "desktop": {
+      "url": "/",
+      "status": "hi · fangs — Taste. Build. Sell.",
+      "marks": 2,
+      "uniqueIds": true,
+      "overflow": false,
+      "logoColor": "rgb(26, 26, 26)",
+      "slogan": "Taste. Build. Sell.",
+      "brokenLoadedImages": [],
+      "lazyImagesPending": 11,
+      "actions": true
+    },
+    "details": [
+      {
+        "url": "/projects/junxia-comic/",
+        "status": "菌侠 · 手绘漫画 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/lehh/",
+        "status": "单词合合乐 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/taste/",
+        "status": "你品 · 艺术与思想 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/little-pause/",
+        "status": "歇会鸭 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/snow-duel/",
+        "status": "雪仗／夜雪俱乐部 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/pocofocus/",
+        "status": "PocoFocus · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/junlugu/",
+        "status": "菌露谷物语 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/qiya-herbarium/",
+        "status": "奇芽药草铺 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/hyrule/",
+        "status": "海拉鲁 · 蓝焰余响 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/aiedu/",
+        "status": "AI 教育 · 中英双语 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/wbw/",
+        "status": "Wait But Why 中译 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/dankoe/",
+        "status": "Dan Koe 中文阅读站 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "url": "/projects/school-secret-lab/",
+        "status": "爱养蘑菇的小学生 · hi · fangs",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(26, 26, 26)",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      }
+    ],
+    "responsive": [
+      {
+        "width": 390,
+        "url": "/",
+        "status": "hi · fangs — Taste. Build. Sell.",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(232, 231, 226)",
+        "slogan": "Taste. Build. Sell.",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      },
+      {
+        "width": 320,
+        "url": "/",
+        "status": "hi · fangs — Taste. Build. Sell.",
+        "marks": 2,
+        "uniqueIds": true,
+        "overflow": false,
+        "logoColor": "rgb(232, 231, 226)",
+        "slogan": "Taste. Build. Sell.",
+        "brokenLoadedImages": [],
+        "lazyImagesPending": 0,
+        "actions": true
+      }
+    ],
+    "errors": [],
+    "browserFallback": "IAB unavailable; CUA Chrome tab setup timed out and reset; isolated Playwright Chromium used for website QA.",
+    "filterReturn": true,
+    "dark": {
+      "url": "/",
+      "status": "hi · fangs — Taste. Build. Sell.",
+      "marks": 2,
+      "uniqueIds": true,
+      "overflow": false,
+      "logoColor": "rgb(232, 231, 226)",
+      "slogan": "Taste. Build. Sell.",
+      "brokenLoadedImages": [],
+      "lazyImagesPending": 0,
+      "actions": true
+    },
+    "escape": true,
+    "noJS": {
+      "marks": 2,
+      "works": 13
+    }
+  },
+  "integrity": {
+    "scope": "HTML, CSS, logo and favicon assets, release receipt; existing media bytes were not re-downloaded",
+    "files": [
+      {
+        "path": "_astro/ComicReader_astro_astro_type_style_index_0_lang.CeQLHRkA.css",
+        "status": 200,
+        "bytes": 7039,
+        "sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+        "match": true
+      },
+      {
+        "path": "_astro/index.BRrSophQ.css",
+        "status": 200,
+        "bytes": 20896,
+        "sha256": "fe429b9b178777e79241b0453fc7009fd00f367d8059501f07dcb5d55e672e18",
+        "match": true
+      },
+      {
+        "path": "brand/tbs-mark.svg",
+        "status": 200,
+        "bytes": 1107,
+        "sha256": "afd7b1e53645e861738fe8ef596dc576488204580c52799cb8c2704b35395f05",
+        "match": true
+      },
+      {
+        "path": "favicon.svg",
+        "status": 200,
+        "bytes": 286,
+        "sha256": "960bc3962e2186e629586fd71620ba328a9f9789ebb67f2c1ad947313b8b3600",
+        "match": true
+      },
+      {
+        "path": "index.html",
+        "status": 200,
+        "bytes": 18096,
+        "sha256": "8a9f7fd713e8ef2d26d5daa754175139020ead3e247ac7daa4f0c6f0a549cd73",
+        "match": true
+      },
+      {
+        "path": "projects/aiedu/index.html",
+        "status": 200,
+        "bytes": 10935,
+        "sha256": "d05bc3dcc3add45e2a501901a21f2f6645c070f07debbcbf627bf11eb3b68b4c",
+        "match": true
+      },
+      {
+        "path": "projects/dankoe/index.html",
+        "status": 200,
+        "bytes": 10795,
+        "sha256": "ccab1a5dd078deefa58bbb86f1cca99e5cdddec72cfae911f3bc53a854ab9f04",
+        "match": true
+      },
+      {
+        "path": "projects/hyrule/index.html",
+        "status": 200,
+        "bytes": 10877,
+        "sha256": "18b1172649e3c0a839432d23eadc0fcb8ba239cf5ecc1b33c8f24072a9ef91e8",
+        "match": true
+      },
+      {
+        "path": "projects/junlugu/index.html",
+        "status": 200,
+        "bytes": 10203,
+        "sha256": "bcbc24dcf1fc4087edcefbd2bf533f87fda92a996d3de16ff1121ad8487e00e5",
+        "match": true
+      },
+      {
+        "path": "projects/junxia-comic/index.html",
+        "status": 200,
+        "bytes": 22057,
+        "sha256": "a72302ce95112203ead88eaacde48bb463e9f512fbb8d206c5b2671de064fcec",
+        "match": true
+      },
+      {
+        "path": "projects/lehh/index.html",
+        "status": 200,
+        "bytes": 10350,
+        "sha256": "8884411cff14d3b2a2ca662ce3473c69fd19e7200e4ae16fdd228e274b2e0f29",
+        "match": true
+      },
+      {
+        "path": "projects/little-pause/index.html",
+        "status": 200,
+        "bytes": 10696,
+        "sha256": "f6fedfa02b271dc7c5f382a1b4252688e2d6154ac2d4581aebfc36e8365e4581",
+        "match": true
+      },
+      {
+        "path": "projects/pocofocus/index.html",
+        "status": 200,
+        "bytes": 10103,
+        "sha256": "d0b9e45c1aa8f681b03dd7131457bbb4ac700d35726130f19be2d4e7a66b1c08",
+        "match": true
+      },
+      {
+        "path": "projects/qiya-herbarium/index.html",
+        "status": 200,
+        "bytes": 10339,
+        "sha256": "03b835d3ec149578b92ee3a78619ae67cca617ab5921826294666a25ed2a29d0",
+        "match": true
+      },
+      {
+        "path": "projects/school-secret-lab/index.html",
+        "status": 200,
+        "bytes": 18172,
+        "sha256": "0121ea11a0c1662d4392d78c3f423274fcd813d41519c392d8c1225e95904541",
+        "match": true
+      },
+      {
+        "path": "projects/snow-duel/index.html",
+        "status": 200,
+        "bytes": 10280,
+        "sha256": "bdde23624c0f5e636a8230cc0f87790f1e558582822834fcf1c7d779f2f52515",
+        "match": true
+      },
+      {
+        "path": "projects/taste/index.html",
+        "status": 200,
+        "bytes": 11321,
+        "sha256": "b818c48e3c26573a999e3dae646f99d0e8578ebdd614873a95b01e407cb0640c",
+        "match": true
+      },
+      {
+        "path": "projects/wbw/index.html",
+        "status": 200,
+        "bytes": 10492,
+        "sha256": "cd5b8d08379abc39338343862b4ae92382abcb43c1a9afea84630ba003adf298",
+        "match": true
+      },
+      {
+        "path": "release.json",
+        "status": 200,
+        "bytes": 91,
+        "sha256": "3513af98f359aeac7a7c158560e8b18d545a0401dfeb16b5936a823a741df638",
+        "match": true
+      },
+      {
+        "path": "videos/projects/aiedu-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1177,
+        "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23",
+        "match": true
+      },
+      {
+        "path": "videos/projects/dankoe-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1282,
+        "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84",
+        "match": true
+      },
+      {
+        "path": "videos/projects/hyrule-promo-20261001-credits.html",
+        "status": 200,
+        "bytes": 2048,
+        "sha256": "e903c378ebe114df2607a1faff8ca648b14c90ed3789d8f952eb8d3844848971",
+        "match": true
+      },
+      {
+        "path": "videos/projects/lehh-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 991,
+        "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2",
+        "match": true
+      },
+      {
+        "path": "videos/projects/little-pause-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1086,
+        "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3",
+        "match": true
+      },
+      {
+        "path": "videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1233,
+        "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef",
+        "match": true
+      },
+      {
+        "path": "videos/projects/snow-duel-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1582,
+        "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d",
+        "match": true
+      },
+      {
+        "path": "videos/projects/taste-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1089,
+        "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91",
+        "match": true
+      },
+      {
+        "path": "videos/projects/wbw-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1181,
+        "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94",
+        "match": true
+      }
+    ],
+    "allMatch": true
+  },
+  "fidelity": {
+    "reference": "03 letter-relic selected by user; original SVG referenced in docs/brand/ASSETS.md",
+    "shape": "Triangle placement and T/B/S knockout paths preserved",
+    "color": "Intentional monochrome per user steering; #1a1a1a light, #e8e7e2 dark",
+    "typography": "Original hero, body and navigation typography retained",
+    "layout": "Existing gallery and page structure retained",
+    "interaction": "Brand links return home; filter/back, theme persistence and Escape passed",
+    "smallIcon": "Same triangle silhouette without letter cutouts at favicon sizes",
+    "visualReview": "Source logo and rendered desktop/light + phone/dark viewed together; no material mismatch within scoped logo replacement"
+  },
+  "limits": [
+    "Mobile sizes are simulated viewports, not physical devices.",
+    "Existing media bytes were not re-downloaded; 28 HTML/CSS/logo/release files matched.",
+    "No new hero, multi-color theme or social image was introduced."
+  ]
+}
