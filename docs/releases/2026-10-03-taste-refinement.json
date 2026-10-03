@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-03",
+  "url": "https://hi.fangs.cc/",
+  "status": "published_and_verified",
+  "source": "f652222b1bb63c9d89943f8c4dc71a1c99679448",
+  "pages": "cc7b288c80c5b6e7dd907ae2e635dabd44cbdb36",
+  "scope": "Typography, mobile slogan line break, gallery separators and captions; chosen monochrome TBS mark retained.",
+  "design": "docs/design/2026-10-03/REFINEMENT.md",
+  "build": "Astro 14 pages and TypeScript passed",
+  "localVerification": "Home to all 13 details and return, filter restoration, theme persistence and Escape, 1440/390/320px, no-JS fallback passed before publication.",
+  "live": {
+    "origin": "https://hi.fangs.cc/",
+    "date": "2026-10-03",
+    "errors": [],
+    "viewports": [
+      {
+        "width": 1440,
+        "overflow": false,
+        "marks": 2,
+        "words": [
+          {
+            "text": "Taste.",
+            "y": 188
+          },
+          {
+            "text": "Build.",
+            "y": 188
+          },
+          {
+            "text": "Sell.",
+            "y": 188
+          }
+        ],
+        "weight": "500",
+        "logoColor": "rgb(26, 26, 26)",
+        "works": 13
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "marks": 2,
+        "words": [
+          {
+            "text": "Taste.",
+            "y": 161
+          },
+          {
+            "text": "Build.",
+            "y": 161
+          },
+          {
+            "text": "Sell.",
+            "y": 213
+          }
+        ],
+        "weight": "500",
+        "logoColor": "rgb(232, 231, 226)",
+        "works": 13
+      },
+      {
+        "width": 320,
+        "overflow": false,
+        "marks": 2,
+        "words": [
+          {
+            "text": "Taste.",
+            "y": 161
+          },
+          {
+            "text": "Build.",
+            "y": 161
+          },
+          {
+            "text": "Sell.",
+            "y": 203
+          }
+        ],
+        "weight": "500",
+        "logoColor": "rgb(232, 231, 226)",
+        "works": 13
+      }
+    ],
+    "detail": {
+      "title": "你品 · 艺术与思想",
+      "marks": 2,
+      "actions": 3
+    },
+    "filterReturn": true,
+    "logoReturnsHome": true,
+    "darkPersistence": true,
+    "escape": true,
+    "noJS": {
+      "marks": 2,
+      "works": 13
+    },
+    "passed": true
+  },
+  "integrity": {
+    "scope": "HTML, CSS, logo/favicon and release; existing media not downloaded",
+    "files": [
+      {
+        "path": "_astro/ComicReader_astro_astro_type_style_index_0_lang.CeQLHRkA.css",
+        "status": 200,
+        "bytes": 7039,
+        "sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+        "match": true
+      },
+      {
+        "path": "_astro/index.DuJWILUA.css",
+        "status": 200,
+        "bytes": 20990,
+        "sha256": "c1caadace3d69af535a0365a939908fc8e312cf96c40a4c8b6f58aafc3d911cf",
+        "match": true
+      },
+      {
+        "path": "brand/tbs-mark.svg",
+        "status": 200,
+        "bytes": 1107,
+        "sha256": "afd7b1e53645e861738fe8ef596dc576488204580c52799cb8c2704b35395f05",
+        "match": true
+      },
+      {
+        "path": "favicon.svg",
+        "status": 200,
+        "bytes": 286,
+        "sha256": "960bc3962e2186e629586fd71620ba328a9f9789ebb67f2c1ad947313b8b3600",
+        "match": true
+      },
+      {
+        "path": "index.html",
+        "status": 200,
+        "bytes": 18252,
+        "sha256": "89e7bad13f27ddd5a10b79956979a2b9186ddc8b78b7de2f08c87435c3a57822",
+        "match": true
+      },
+      {
+        "path": "projects/aiedu/index.html",
+        "status": 200,
+        "bytes": 10935,
+        "sha256": "c9d90d22c839e7b3ed16cfed1b23a26766322b760f73921e4ef8c610b26b5036",
+        "match": true
+      },
+      {
+        "path": "projects/dankoe/index.html",
+        "status": 200,
+        "bytes": 10795,
+        "sha256": "f6f8fded8a6326db57ccf221e93fd8eb69f73439588049363a3fc5ff64152339",
+        "match": true
+      },
+      {
+        "path": "projects/hyrule/index.html",
+        "status": 200,
+        "bytes": 10877,
+        "sha256": "04e843bc222fc2dda8924259c3e71558684d3dbb37a488757703216d3cf812de",
+        "match": true
+      },
+      {
+        "path": "projects/junlugu/index.html",
+        "status": 200,
+        "bytes": 10203,
+        "sha256": "0a10c7180f275d5374524390d8bc5711e6672285cf85fd31c8c311e9253001c2",
+        "match": true
+      },
+      {
+        "path": "projects/junxia-comic/index.html",
+        "status": 200,
+        "bytes": 22057,
+        "sha256": "d4c3ebdb0f18b538bc5eed006996046fddc29ba25a8a914a41c36e1dfb70af7e",
+        "match": true
+      },
+      {
+        "path": "projects/lehh/index.html",
+        "status": 200,
+        "bytes": 10350,
+        "sha256": "d6ab54d88cb2c9e8567c1347dc1b0e3a02c8332bbc3550a304972b4fb949401a",
+        "match": true
+      },
+      {
+        "path": "projects/little-pause/index.html",
+        "status": 200,
+        "bytes": 10696,
+        "sha256": "1764e96337baa96533abf0a4d2d0c5310611456d651ce2e93f176344b06518d3",
+        "match": true
+      },
+      {
+        "path": "projects/pocofocus/index.html",
+        "status": 200,
+        "bytes": 10103,
+        "sha256": "b27ff5d92970c14ef8f3462fc2cd15f15cf512f68f632208421fe0acd0080ef1",
+        "match": true
+      },
+      {
+        "path": "projects/qiya-herbarium/index.html",
+        "status": 200,
+        "bytes": 10339,
+        "sha256": "63ecfce6c320550e3b24406833383c9611d8675024cb71015ee434a08a5eed9a",
+        "match": true
+      },
+      {
+        "path": "projects/school-secret-lab/index.html",
+        "status": 200,
+        "bytes": 18172,
+        "sha256": "542c3bab8e10c687478abe4cd066aa55eef8225e1290d71fde33009a6fd38524",
+        "match": true
+      },
+      {
+        "path": "projects/snow-duel/index.html",
+        "status": 200,
+        "bytes": 10280,
+        "sha256": "e605f2d66f915f267505f863ba276043246f2611cb2412cdb1d8cb604a13c558",
+        "match": true
+      },
+      {
+        "path": "projects/taste/index.html",
+        "status": 200,
+        "bytes": 11321,
+        "sha256": "d16a7c7a36bef0798a3ad970e1e92280c0696eae632cc07bc4f157a2a8b0672d",
+        "match": true
+      },
+      {
+        "path": "projects/wbw/index.html",
+        "status": 200,
+        "bytes": 10492,
+        "sha256": "aecdd5b18767ae9635f88a2269b66f3b89600b9f8ab0d4d71914e4a82c377c65",
+        "match": true
+      },
+      {
+        "path": "release.json",
+        "status": 200,
+        "bytes": 91,
+        "sha256": "2ff49589c058027b7ce3e478ecd0579fee574235781808cdbeb1ad04dba7d5cb",
+        "match": true
+      },
+      {
+        "path": "videos/projects/aiedu-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1177,
+        "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23",
+        "match": true
+      },
+      {
+        "path": "videos/projects/dankoe-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1282,
+        "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84",
+        "match": true
+      },
+      {
+        "path": "videos/projects/hyrule-promo-20261001-credits.html",
+        "status": 200,
+        "bytes": 2048,
+        "sha256": "e903c378ebe114df2607a1faff8ca648b14c90ed3789d8f952eb8d3844848971",
+        "match": true
+      },
+      {
+        "path": "videos/projects/lehh-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 991,
+        "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2",
+        "match": true
+      },
+      {
+        "path": "videos/projects/little-pause-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1086,
+        "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3",
+        "match": true
+      },
+      {
+        "path": "videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1233,
+        "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef",
+        "match": true
+      },
+      {
+        "path": "videos/projects/snow-duel-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1582,
+        "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d",
+        "match": true
+      },
+      {
+        "path": "videos/projects/taste-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1089,
+        "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91",
+        "match": true
+      },
+      {
+        "path": "videos/projects/wbw-promo-2026-10-01-credits.html",
+        "status": 200,
+        "bytes": 1181,
+        "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94",
+        "match": true
+      }
+    ],
+    "allMatch": true
+  },
+  "notes": [
+    "Initial broad browser navigation hit a load-event timeout. The bounded retest uses DOMContentLoaded and explicit visible readiness.",
+    "A too-early automated return click raced the detail query-link setup. The retest waited for the exact detail URL and filter-aware return link, then passed without product-code changes.",
+    "Current-run before/after screenshots were inspected together; visible copy remained identical after whitespace normalization.",
+    "Desktop/phone live screenshots matched the intended local appearance. Pixel comparison was not exactly identical; differences were confined to image regions and negligible rendering variance.",
+    "Physical phones and real visitor preferences were not tested; no full WCAG or conversion claims."
+  ]
+}
