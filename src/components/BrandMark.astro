@@ -1,0 +1,18 @@
+---
+interface Props { id: string }
+const { id } = Astro.props;
+const maskId = `tbs-cutout-${id}`;
+---
+<svg class="brand-mark" data-brand="tbs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="60" height="60" fill="currentColor" aria-hidden="true" focusable="false">
+  <defs>
+    <mask id={maskId} maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+      <rect width="256" height="256" fill="white" />
+      <g fill="black">
+        <g transform="translate(108 64) scale(.45 .35)"><path d="M0 0H90V20H56V100H34V20H0Z" /></g>
+        <g transform="translate(61 155) scale(.35 .43)"><path fill-rule="evenodd" d="M0 0H40C66 0 79 10 79 26C79 38 72 45 62 48C76 51 84 59 84 73C84 91 69 100 44 100H0ZM22 18V41H39C51 41 57 37 57 29C57 22 51 18 39 18ZM22 58V82H42C55 82 62 78 62 70C62 62 55 58 42 58Z" /></g>
+        <g transform="translate(171 154) scale(.36 .44)"><g transform="scale(1 .95238)"><path d="M77 9C66 2 56 0 42 0C17 0 2 12 2 31C2 47 12 54 33 59L47 63C58 66 63 70 63 77C63 84 55 88 43 88C29 88 16 82 4 73V93C16 101 29 105 44 105C70 105 86 93 86 74C86 57 75 49 54 43L40 39C29 36 24 33 24 27C24 20 31 17 42 17C55 17 66 22 77 29Z" /></g></g>
+      </g>
+    </mask>
+  </defs>
+  <path mask={`url(#${maskId})`} d="M128 22 178 109H78ZM72 120 125 212H19ZM184 120 237 212H131Z" />
+</svg>
