@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-04",
+  "status": "published_and_verified",
+  "url": "https://hi.fangs.cc/projects/school-secret-lab/#green-hideout",
+  "series": "爱养蘑菇的小学生",
+  "episode": 4,
+  "title": "蘑菇的新家",
+  "source": "493863eddbbeb1a327f22b0f49d592bd32fc253b",
+  "pages": "61fa9cbac8370136a1a75d1c1cb1cc1a045e916e",
+  "media": {
+    "url": "https://hi.fangs.cc/videos/projects/school-secret-lab/ep04-green-hideout.mp4",
+    "sha256": "29906a431626a00af0d5e404cc4d5f94c68a8f87adfa3f1d6d44452368eee630",
+    "bytes": 20766340,
+    "duration": 46,
+    "spokenDialogue": false
+  },
+  "pages_status": "built",
+  "release_matches_source": true,
+  "integrity": {
+    "matched": 43,
+    "file_count": 43,
+    "receipt": "2026-10-04-ep04-integrity.json",
+    "scope": "All generated HTML/code/fonts and newly added episode media. Unchanged historical raster/video files not downloaded again."
+  },
+  "range": {
+    "url": "https://hi.fangs.cc/videos/projects/school-secret-lab/ep04-green-hideout.mp4",
+    "status": "HTTP/2 206",
+    "headers": {
+      "content-type": "video/mp4",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 0-1023/20766340",
+      "content-length": "1024"
+    },
+    "prefix_bytes": 1024,
+    "matches_local": true
+  },
+  "focused_browser": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "creations filter active",
+        "passed": true
+      },
+      {
+        "name": "detail heading",
+        "passed": true
+      },
+      {
+        "name": "four official episodes",
+        "passed": true
+      },
+      {
+        "name": "two experiment episodes retained",
+        "passed": true
+      },
+      {
+        "name": "fourth-episode title and source",
+        "passed": true
+      },
+      {
+        "name": "six native players",
+        "passed": true
+      },
+      {
+        "name": "preload none avoids initial MP4 request",
+        "passed": true
+      },
+      {
+        "name": "1280 four episodes form 2x2",
+        "passed": true
+      },
+      {
+        "name": "desktop native player attributes preserved",
+        "passed": true
+      },
+      {
+        "name": "desktop no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "playback begins at zero without seek",
+        "passed": true
+      },
+      {
+        "name": "full natural 46-second playback reaches ended",
+        "passed": true
+      },
+      {
+        "name": "playback did not seek",
+        "passed": true
+      },
+      {
+        "name": "video dimensions and decoded frames",
+        "passed": true
+      },
+      {
+        "name": "no media error and other players paused",
+        "passed": true
+      },
+      {
+        "name": "390 official episodes single column",
+        "passed": true
+      },
+      {
+        "name": "390 no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "390 native player attributes preserved",
+        "passed": true
+      },
+      {
+        "name": "320 official episodes single column",
+        "passed": true
+      },
+      {
+        "name": "320 no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "320 native player attributes preserved",
+        "passed": true
+      },
+      {
+        "name": "no-JS four official plus two experiment players",
+        "passed": true
+      },
+      {
+        "name": "no-JS native controls preserved",
+        "passed": true
+      },
+      {
+        "name": "no-JS fourth title and no overflow",
+        "passed": true
+      },
+      {
+        "name": "no page or console errors",
+        "passed": true
+      },
+      {
+        "name": "no unexpected failed network requests",
+        "passed": true
+      }
+    ],
+    "preload_before_interaction": {
+      "countAtAssertion": 0,
+      "requestsAtAssertion": []
+    },
+    "full_playback": {
+      "currentTime": 46,
+      "duration": 46,
+      "width": 720,
+      "height": 1280,
+      "paused": true,
+      "ended": true,
+      "playbackRate": 1,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 1104,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      },
+      "otherPlayersPaused": true,
+      "wallPlaybackMs": 46876.812834000004
+    },
+    "events": [
+      "canplay",
+      "ended",
+      "loadeddata",
+      "loadedmetadata",
+      "pause",
+      "play",
+      "playing",
+      "waiting"
+    ],
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  "collection_regression": {
+    "passed": true,
+    "environments": [
+      {
+        "name": "desktop",
+        "clips": 6,
+        "details": 13,
+        "singleActivePlayer": true,
+        "passed": true
+      },
+      {
+        "name": "phone",
+        "clips": 6,
+        "details": 13,
+        "singleActivePlayer": true,
+        "passed": true
+      },
+      {
+        "name": "narrow-dark",
+        "clips": 6,
+        "details": 13,
+        "singleActivePlayer": true,
+        "passed": true
+      }
+    ],
+    "noJavaScript": "gallery and native players available"
+  },
+  "preserved": "13 existing works, Palm of Light artwork, monochrome TBS logo, Yuzu island link, first three episodes and two shot experiments.",
+  "network_recovery": {
+    "initial": "Two system Git HTTPS push attempts timed out; remote main was read back unchanged.",
+    "successful_path": "Bundled Git with per-command existing gh auth git-credential helper; same HTTPS origin, no global Git or network configuration changed.",
+    "interpretation": "Runtime and helper changed together; no isolated root cause established."
+  },
+  "limits": [
+    "Chromium desktop and emulated 390/320px viewports; not physical-device testing.",
+    "Player functionality and exact media bytes verified; no new subjective audio evaluation."
+  ]
+}
