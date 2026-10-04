@@ -92,11 +92,18 @@
 .work-card:hover .work-arrow { color: var(--color-accent); transform: translate(3px,-3px); }
 .work-card:hover h3 { color: var(--color-accent); }
 @media (hover:hover) and (pointer:fine) { .work-card:hover .work-image img { transform: scale(1.018); } }
-.about { display: grid; grid-template-columns: 28% minmax(0,1fr); gap: 0; border-top: 1px solid var(--color-rule); margin-top: 94px; padding: 52px 0 48px; }
-.about-label { font: 15px/1.7 var(--font-sans); color: var(--color-ink-muted); }
+.about { border-top: 1px solid var(--color-rule); margin-top: 94px; padding: 42px 0 48px; }
+.about-label { font: 15px/1.7 var(--font-sans); color: var(--color-ink-muted); margin-bottom: 28px; }
+.about-layout { display: grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); gap: 64px; align-items: center; }
+.about-copy { min-width: 0; }
 .about h2 { font-size: 42px; line-height: 1.35; letter-spacing: .01em; margin-bottom: 28px; }
 .about p:not(.about-label) { max-width: 740px; font: 17px/1.9 var(--font-sans); color: var(--color-ink-muted); margin-top: 18px; text-wrap: pretty; }
 .about .text-link { margin-top: 28px; color: var(--color-accent); font-size: 17px; }
+.about-artwork { display: block; min-width: 0; }
+.about-artwork img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; border-radius: 2px; background: var(--color-surface); }
+.about-artwork figcaption { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 12px; color: var(--color-ink-muted); font: 12px/1.6 var(--font-sans); }
+.artwork-open { display: inline-flex; align-items: center; gap: 7px; }
+.about-artwork:hover figcaption, .about-artwork:focus-visible figcaption { color: var(--color-accent); }
 .site-footer { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 22px 40px; border-top: 1px solid var(--color-rule); padding: 29px 0 36px; font: 13px/1.7 var(--font-sans); color: var(--color-ink-muted); }
 .footer-brand { display: inline-flex; align-items: center; color: var(--color-ink); white-space: nowrap; }
 .footer-brand .brand-mark { width: 52px; height: 52px; }
@@ -156,6 +163,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--color-accent); 
   .site-footer { gap: 18px 24px; }
   .site-footer nav { gap: 24px; }
   .contact-prompt { gap: 18px; }
+  .about-layout { gap: 40px; }
 }
 @media(max-width:700px) {
   .shell { width: calc(100% - 40px); }
@@ -186,8 +194,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--color-accent); 
   .work-title-line h3 { font-size: 22px; }
   .work-arrow { width: 21px; height: 21px; }
   .work-copy p { font-size: 14px; margin-top: 7px; }
-  .about { grid-template-columns: 1fr; gap: 20px; margin-top: 60px; padding: 30px 0 36px; }
-  .about-label { font-size: 13px; }
+  .about { margin-top: 60px; padding: 30px 0 36px; }
+  .about-label { font-size: 13px; margin-bottom: 20px; }
+  .about-layout { grid-template-columns: minmax(0,1fr); gap: 28px; }
+  .about-artwork figcaption { margin-top: 10px; font-size: 11px; }
   .about h2 { font-size: 34px; margin-bottom: 22px; }
   .about p:not(.about-label) { font-size: 15px; line-height: 1.9; }
   .about .text-link { font-size: 15px; margin-top: 22px; }

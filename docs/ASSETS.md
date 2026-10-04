@@ -1,5 +1,11 @@
 # 作品封面来源
 
+## 2026-10-04 · 掌心之光品牌插图
+
+- 方帅明确选用 `fangs-brand/derivatives/2026-10-04-palm-of-light/game-style/palm-forward-v2.png`，授权加入Hi。原图是基于用户伸掌参考与已选TBS字徽生成的游戏风格概念，不是游戏官方截图或产品界面。
+- 页面使用 `public/images/brand/palm-forward-1536.webp` / `palm-forward-768.webp`，1536×1024与768×512，WebP quality90/method6。保留完整3:2画幅，不裁切、不调色、不加遮罩；来源SHA、尺寸、编码和元数据检查见 [资产记录](brand/palm-forward-assets.json)。
+- 插图位于首页关于区，原图和创作过程由品牌项目维护。公开目录只放网页图片，不包含参考截帧、生成日志或私人输入路径。
+
 ## 2026-10-01 · 爱养蘑菇的小学生
 
 - 展示范围：三支概念短片（夜光伞、火凤菇、异常材料收集）与两个后续镜头实验（操场捡石、教室收纳）。原 MP4 从 `../short-drama-studio/productions/school-secret-lab/` 复制，未重剪、未转码、未新增配乐。每支源路径、文件大小、时长和 SHA-256 见 `school-secret-lab-media.json`。
