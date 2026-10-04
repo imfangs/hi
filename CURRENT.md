@@ -1,5 +1,13 @@
 # 当前状态
 
+## 柚子的小岛互链（2026-10-04，已发布并回读）
+
+- 首页及全部作品页的 footer 新增「柚子的小岛」入口，目标 `https://youzi.fangs.cc/`。10-03 本地准备见 [原始检查](docs/releases/2026-10-03-yuzu-link-local.json)；本次发布保留最新 TBS 字徽与排版精修。
+- 发布前回读发现正式站仍是独立精修分支 `f652222`，没有小岛链接；当前合并源码同时包含链接、字徽和精修三条历史。对照正式源码，运行代码只有 footer 新增一行，没有回退或替换其他任务内容。
+- **正式源码 `b0a1b347f16b6d4c4aca2745c18c2728ebf1e139`，Pages `16b97329f9f51bc5d2e90a0bc14619ae1d51b1fd`**。源代码已 push，沿用 `deploy.sh` 一次发布；GitHub API 为 built，普通 DNS/TLS 默认公开 `release.json` 与源码一致。
+- 合并源码构建 14 页通过；独立 Chromium 的首页/菌侠详情 × 1440/390/320px 共 6 场景，新 href、footer 边界、键盘焦点、无横溢与现有字徽通过。公网 41/41 个 HTML、脚本、样式、SVG、文本、字体等文件字节与 SHA-256 一致；既有位图和 MP4 未重复下载，Pages diff 确认它们未改变。
+- 正式站 320px 实际点击「柚子的小岛」，到达 `https://youzi.fangs.cc/` 并读到小岛标题与地点控件。完整回执见 [小岛互链发布](docs/releases/2026-10-04-yuzu-link-publish.json)。实体设备与审美效果未验证；后续记录性 commit 不代表再次部署。
+
 ## 排版与画廊精修（2026-10-03，已发布并回读）
 
 - 方帅在单色03字徽上线后，要求从 taste 角度优化网站审美，并允许使用 design skill 或其他方法。本轮借用 Product Design 审阅方法，在原系统内精修：桌面口号降重，手机改成 `Taste. Build.` / `Sell.` 两行；作品入口少一道分隔线，名称与说明字体分工更清晰，封面圆角收至2px。
@@ -13,12 +21,6 @@
 - 保留原页面布局、色板、Taste. Build. Sell. 文案、13 件作品及既有链接。没有扩展主题、分享图或新栏目。来源与小图标取舍见 [品牌资产](docs/brand/ASSETS.md)。
 - 构建 14 页与 TypeScript 通过；本地及公网首页→13 详情→logo 返回、分类返回、主题持久化/Escape、1440/390/320px、无 JS 回退通过，未见脚本错误或横向溢出。受控截图核对原字徽与浅/深色实际页面。IAB 不可用、Chrome 扩展连接超时后，采用隔离 Playwright Chromium 验收；未用实体手机。
 - 正式源码 `a6733d4d277324a96b0e026e96bee7ad2515d9e9`，Pages `9e4da562a77d7da9591ac870e51e8628a245df96`；API built，默认公网 release.json 匹配。28 个 HTML/CSS/logo/release 文件逐字节一致，既有视频未重新下载。详见 [发布回执](docs/releases/2026-10-03-tbs-logo.json)。
-
-## 柚子的小岛互链（2026-10-03，本地已准备、尚未发布）
-
-- `src/components/SiteFooter.astro` 新增「柚子的小岛」入口，目标 `https://youzi.fangs.cc/`；保留格得、GitHub、联系与回顶入口。新站在 `../yuzu-island/`，本轮 youzi 域名等待小岛发布，线上 Hi 未改变。
-- 沿用现有依赖构建通过（`pnpm --config.verify-deps-before-run=false build`，14 页）；14 个站点页面均含新链接。独立 Chromium 检查首页与菌侠详情的 1440 / 390 / 320px：无横向溢出，footer 链接在边界内，新入口可聚焦。320px 受控截图确认文字完整、焦点圈可见、保留原样式。证据：[本地互链检查](docs/releases/2026-10-03-yuzu-link-local.json)。
-- 用户最终指定 `youzi.fangs.cc` 后，仅修正 href，重新构建并逐页回读精确新链接通过；上述布局和键盘检查来自 href 修正前，文字与样式未变。未部署、未 push；此次仅准备返回入口。公开发布后仍需验证 youzi 目标和三站往返，当前正式版本继续以下方已发布记录为准。
 
 ## 爱养蘑菇的小学生与创作分类（2026-10-01，已发布并回读）
 
