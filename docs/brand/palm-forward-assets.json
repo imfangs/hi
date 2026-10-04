@@ -1,0 +1,100 @@
+{
+  "created": "2026-10-04",
+  "source": {
+    "path": "side/fangs-brand/derivatives/2026-10-04-palm-of-light/game-style/palm-forward-v2.png",
+    "path_base": "workspace",
+    "sha256": "04fabdde2d6209332cbbb3c34da3d7ed1ddbea508d40e4047952a61e01d30b05",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2041613,
+    "format": "PNG",
+    "metadata_keys_before": []
+  },
+  "processing": {
+    "crop": false,
+    "color_adjustment": false,
+    "mask": false,
+    "aspect_ratio": "3:2",
+    "metadata_cleaning": "Copied decoded RGB pixels into a new image; no EXIF, ICC, XMP or source metadata passed to WebP encoder.",
+    "pillow_version": "12.2.0",
+    "webp_version": "1.6.0"
+  },
+  "outputs": [
+    {
+      "path": "public/images/brand/palm-forward-1536.webp",
+      "sha256": "abdc5897cafd8e4cf55775d20f473304277d1de7676cee7559d0625d663b2640",
+      "bytes": 114332,
+      "width": 1536,
+      "height": 1024,
+      "mime_type": "image/webp",
+      "encoding": {
+        "format": "WEBP",
+        "quality": 90,
+        "method": 6,
+        "lossless": false,
+        "exact": true,
+        "resize_filter": "none"
+      },
+      "metadata_keys_after_decode": [
+        "background",
+        "duration",
+        "loop",
+        "timestamp"
+      ],
+      "verification": {
+        "psnr_db_against_same_size_reference": 41.99,
+        "fully_decoded": true,
+        "aspect_ratio": "3:2"
+      },
+      "riff_chunks": [
+        "VP8 "
+      ]
+    },
+    {
+      "path": "public/images/brand/palm-forward-768.webp",
+      "sha256": "69c61cb17585ac0aaa94c6c4ca1ad90d58dc531e54aa13797056168fe69e3ecc",
+      "bytes": 42710,
+      "width": 768,
+      "height": 512,
+      "mime_type": "image/webp",
+      "encoding": {
+        "format": "WEBP",
+        "quality": 90,
+        "method": 6,
+        "lossless": false,
+        "exact": true,
+        "resize_filter": "Lanczos"
+      },
+      "metadata_keys_after_decode": [
+        "background",
+        "duration",
+        "loop",
+        "timestamp"
+      ],
+      "verification": {
+        "psnr_db_against_same_size_reference": 39.6,
+        "fully_decoded": true,
+        "aspect_ratio": "3:2"
+      },
+      "riff_chunks": [
+        "VP8 "
+      ]
+    }
+  ],
+  "verification": {
+    "source_sha256_matches_selected_asset": true,
+    "full_decode_success": true,
+    "aspect_ratio_preserved": true,
+    "no_exif_icc_or_xmp_in_outputs": true,
+    "visual_comparison": {
+      "status": "passed",
+      "method": "FBT Safe Image View bounded 1280x1280 contact sheet with source, 1536px WebP and 768px WebP, visually read once",
+      "findings": [
+        "All three preserve the complete palm, sleeve, landscape, forward-right light rays and original warm gold/green color relationships.",
+        "T at the top and B/S at the base of the palm emblem remain individually readable at the contact-sheet display size.",
+        "No apparent block artifacts, edge ringing, clipping, crop, new text, mask or obvious color shift was visible.",
+        "This comparison verifies appearance at page-like scale, not bit-identical color reproduction; WebP compression is lossy."
+      ]
+    }
+  }
+}
