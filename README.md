@@ -53,7 +53,7 @@ order: 1
 
 有宣传片的作品可添加可选 `video: { src, poster, caption, credits }`：MP4与公开素材署名放 `public/videos/projects/`，poster放 `public/images/projects/`。详情主画面改为原生视频播放器，首页仍使用cover；不自动播放或预下载视频。例子见 `junlugu.mdx`。发布前检查桌面/手机播放、拖动、完整画幅和素材入口。
 
-竖屏短片合集可在 MDX 正文中使用 `FilmCollection.astro`，每条定义名称、时长说明、视频与封面，完整示例见 `school-secret-lab.mdx`。片集保持9:16，不套用宣传片的16:9布局。用 `scripts/verify-film-collection.mjs --url <origin> --out <临时目录> --playwright-root <已安装Playwright的项目>` 检查五支短片、分类往返与移动版布局。
+竖屏短片合集可在 MDX 正文中使用 `FilmCollection.astro`，每条定义名称、时长说明、视频与封面，完整示例见 `school-secret-lab.mdx`。片集保持9:16，不套用宣传片的16:9布局。用 `scripts/verify-film-collection.mjs --url <origin> --out <临时目录> --playwright-root <已安装Playwright的项目>` 检查媒体清单中的全部短片、分类往返与移动版布局。
 
 批量验收使用 `scripts/verify-promos.mjs`，从作品 frontmatter 读取媒体、片注、来源和CTA，支持原生播放器的主动播放、完整片尾、前后跳转及桌面/390/320px布局。它只证明记录范围内的功能，完整公开MP4哈希仍用FBT public-preview核对。使用已安装Playwright的绝对项目路径，不自动安装依赖：
 

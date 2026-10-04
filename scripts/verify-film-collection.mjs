@@ -120,7 +120,7 @@ try {
   await page.goto(base.origin);
   assert(await page.locator('[data-project="school-secret-lab"]').isVisible());
   await page.locator('[data-project="school-secret-lab"]').click();
-  assert.equal(await page.locator('.film video[controls]').count(), 5);
+  assert.equal(await page.locator('.film video[controls]').count(), expected.length);
   record.noJavaScript = 'gallery and native players available';
   await context.close();
   record.passed = true;

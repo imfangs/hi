@@ -1,0 +1,427 @@
+{
+  "date": "2026-10-04",
+  "status": "local_verified_pending_publication",
+  "title": "04 · 蘑菇的新家",
+  "source_base": "b23b7454d7ba473ed65b9b99e88bbeabc57177c5",
+  "source_media": {
+    "source": "/Users/fangs/workspace/side/school-secret-lab/episodes/ep04-green-hideout/deliverables/ep04-full-subtitles-v8.mp4",
+    "source_sha256": "29906a431626a00af0d5e404cc4d5f94c68a8f87adfa3f1d6d44452368eee630",
+    "source_bytes": 20766340,
+    "source_duration_seconds": 46.0,
+    "source_dimensions": [
+      720,
+      1280
+    ],
+    "source_fps": "24/1",
+    "source_video_codec": "h264",
+    "source_audio_codec": "aac",
+    "source_frame_count": 1104,
+    "source_full_decode_exit_code": 0,
+    "dialogue_status": "matches the V8 hash independently checked on 2026-10-02; v8-audio-check.json has no detected speech in former dialogue window",
+    "poster": "/tmp/hi-ep04-20261004/poster.webp",
+    "poster_sha256": "768867a7a220bb7ce2a90f3a4cafcdb38ebe32aa3e46d10b5c4223cf3ec1da64",
+    "poster_bytes": 155464,
+    "poster_dimensions": [
+      720,
+      1280
+    ],
+    "poster_format": "WEBP",
+    "poster_source_time_seconds": 41.5,
+    "poster_encoding": "FFmpeg libwebp quality 88, compression level 6",
+    "poster_crop": false,
+    "new_title_overlay": false,
+    "visual_inspection_performed": false
+  },
+  "build": "Astro 14 pages and TypeScript passed",
+  "focused": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "creations filter active",
+        "passed": true
+      },
+      {
+        "name": "detail heading",
+        "passed": true
+      },
+      {
+        "name": "four official episodes",
+        "passed": true
+      },
+      {
+        "name": "two experiment episodes retained",
+        "passed": true
+      },
+      {
+        "name": "fourth-episode title and source",
+        "passed": true
+      },
+      {
+        "name": "six native players",
+        "passed": true
+      },
+      {
+        "name": "preload none avoids initial MP4 request",
+        "passed": true
+      },
+      {
+        "name": "1280 four episodes form 2x2",
+        "passed": true
+      },
+      {
+        "name": "desktop native player attributes preserved",
+        "passed": true
+      },
+      {
+        "name": "desktop no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "playback begins at zero without seek",
+        "passed": true
+      },
+      {
+        "name": "full natural 46-second playback reaches ended",
+        "passed": true
+      },
+      {
+        "name": "playback did not seek",
+        "passed": true
+      },
+      {
+        "name": "video dimensions and decoded frames",
+        "passed": true
+      },
+      {
+        "name": "no media error and other players paused",
+        "passed": true
+      },
+      {
+        "name": "390 official episodes single column",
+        "passed": true
+      },
+      {
+        "name": "390 no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "390 native player attributes preserved",
+        "passed": true
+      },
+      {
+        "name": "320 official episodes single column",
+        "passed": true
+      },
+      {
+        "name": "320 no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "320 native player attributes preserved",
+        "passed": true
+      },
+      {
+        "name": "no-JS four official plus two experiment players",
+        "passed": true
+      },
+      {
+        "name": "no-JS native controls preserved",
+        "passed": true
+      },
+      {
+        "name": "no-JS fourth title and no overflow",
+        "passed": true
+      },
+      {
+        "name": "no page or console errors",
+        "passed": true
+      },
+      {
+        "name": "no unexpected failed network requests",
+        "passed": true
+      }
+    ],
+    "playback": {
+      "initial": {
+        "currentTime": 0,
+        "paused": true,
+        "preload": "none",
+        "readyState": 0,
+        "playbackRate": 1
+      },
+      "progress": [
+        {
+          "currentTime": 0.020478,
+          "elapsedMs": 329.30000001192093
+        },
+        {
+          "currentTime": 2.111651,
+          "elapsedMs": 2454.2000000029802
+        },
+        {
+          "currentTime": 4.239813,
+          "elapsedMs": 4579.5
+        },
+        {
+          "currentTime": 6.365654,
+          "elapsedMs": 6704.300000011921
+        },
+        {
+          "currentTime": 8.493751,
+          "elapsedMs": 8829.5
+        },
+        {
+          "currentTime": 10.609722,
+          "elapsedMs": 10954.20000000298
+        },
+        {
+          "currentTime": 12.735965,
+          "elapsedMs": 13079.40000000596
+        },
+        {
+          "currentTime": 14.863835,
+          "elapsedMs": 15204.300000011921
+        },
+        {
+          "currentTime": 16.98984,
+          "elapsedMs": 17329.40000000596
+        },
+        {
+          "currentTime": 19.117679,
+          "elapsedMs": 19454.20000000298
+        },
+        {
+          "currentTime": 21.234144,
+          "elapsedMs": 21579.40000000596
+        },
+        {
+          "currentTime": 23.359928,
+          "elapsedMs": 23704.10000000894
+        },
+        {
+          "currentTime": 25.488001,
+          "elapsedMs": 25829.5
+        },
+        {
+          "currentTime": 27.614015,
+          "elapsedMs": 27954.5
+        },
+        {
+          "currentTime": 29.741829,
+          "elapsedMs": 30079.20000000298
+        },
+        {
+          "currentTime": 31.858211,
+          "elapsedMs": 32204.30000001192
+        },
+        {
+          "currentTime": 33.984228,
+          "elapsedMs": 34329.30000001192
+        },
+        {
+          "currentTime": 36.112057,
+          "elapsedMs": 36454.30000001192
+        },
+        {
+          "currentTime": 38.238222,
+          "elapsedMs": 38579.5
+        },
+        {
+          "currentTime": 40.365938,
+          "elapsedMs": 40704.30000001192
+        },
+        {
+          "currentTime": 42.494797,
+          "elapsedMs": 42830.20000000298
+        },
+        {
+          "currentTime": 44.608924,
+          "elapsedMs": 44954.80000001192
+        }
+      ],
+      "callbacks": 1104,
+      "firstFrame": {
+        "mediaTime": 0,
+        "presentedFrames": 1,
+        "at": 2161
+      },
+      "lastFrame": {
+        "mediaTime": 45.958333,
+        "presentedFrames": 1104,
+        "at": 48177.4
+      },
+      "startedAt": 1925.8999999910593,
+      "currentSrc": "http://127.0.0.1:4267/videos/projects/school-secret-lab/ep04-green-hideout.mp4",
+      "currentTime": 46,
+      "duration": 46,
+      "width": 720,
+      "height": 1280,
+      "paused": true,
+      "ended": true,
+      "playbackRate": 1,
+      "muted": false,
+      "error": null,
+      "quality": {
+        "totalVideoFrames": 1104,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      },
+      "otherPlayersPaused": true,
+      "wallPlaybackMs": 46606.410834
+    },
+    "layouts": [
+      {
+        "width": 1280,
+        "gridColumns": "330px 330px",
+        "cards": [
+          {
+            "id": "night-glow",
+            "x": 300,
+            "y": 1873.203125,
+            "width": 330,
+            "height": 784.703125,
+            "right": 630
+          },
+          {
+            "id": "fire-phoenix",
+            "x": 650,
+            "y": 1873.203125,
+            "width": 330,
+            "height": 784.703125,
+            "right": 980
+          },
+          {
+            "id": "crystal-materials",
+            "x": 300,
+            "y": 2685.90625,
+            "width": 330,
+            "height": 812.453125,
+            "right": 630
+          },
+          {
+            "id": "green-hideout",
+            "x": 650,
+            "y": 2685.90625,
+            "width": 330,
+            "height": 812.453125,
+            "right": 980
+          }
+        ],
+        "documentWidth": 1280
+      },
+      {
+        "width": 390,
+        "gridColumns": "350px",
+        "cards": [
+          {
+            "id": "night-glow",
+            "x": 20,
+            "y": 1367.46875,
+            "width": 350,
+            "height": 810.640625,
+            "right": 370
+          },
+          {
+            "id": "fire-phoenix",
+            "x": 20,
+            "y": 2214.109375,
+            "width": 350,
+            "height": 810.640625,
+            "right": 370
+          },
+          {
+            "id": "crystal-materials",
+            "x": 20,
+            "y": 3060.75,
+            "width": 350,
+            "height": 810.640625,
+            "right": 370
+          },
+          {
+            "id": "green-hideout",
+            "x": 20,
+            "y": 3907.390625,
+            "width": 350,
+            "height": 838.390625,
+            "right": 370
+          }
+        ],
+        "documentWidth": 390
+      },
+      {
+        "width": 320,
+        "gridColumns": "280px",
+        "cards": [
+          {
+            "id": "night-glow",
+            "x": 20,
+            "y": 1479.90625,
+            "width": 280,
+            "height": 686.1875,
+            "right": 300
+          },
+          {
+            "id": "fire-phoenix",
+            "x": 20,
+            "y": 2202.09375,
+            "width": 280,
+            "height": 686.1875,
+            "right": 300
+          },
+          {
+            "id": "crystal-materials",
+            "x": 20,
+            "y": 2924.28125,
+            "width": 280,
+            "height": 686.1875,
+            "right": 300
+          },
+          {
+            "id": "green-hideout",
+            "x": 20,
+            "y": 3646.46875,
+            "width": 280,
+            "height": 713.9375,
+            "right": 300
+          }
+        ],
+        "documentWidth": 320
+      }
+    ],
+    "pageErrors": [],
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "collection": {
+    "passed": true,
+    "environments": [
+      {
+        "name": "desktop",
+        "clip_count": 6,
+        "passed": true,
+        "detailsChecked": 13,
+        "singleActivePlayer": true
+      },
+      {
+        "name": "phone",
+        "clip_count": 6,
+        "passed": true,
+        "detailsChecked": 13,
+        "singleActivePlayer": true
+      },
+      {
+        "name": "narrow-dark",
+        "clip_count": 6,
+        "passed": true,
+        "detailsChecked": 13,
+        "singleActivePlayer": true
+      }
+    ],
+    "noJavaScript": "gallery and native players available"
+  },
+  "limits": [
+    "Desktop and phone sizes are browser viewports, not physical phone tests.",
+    "Public playback and integrity are checked after deployment.",
+    "Original MP4 copied without re-encoding or new voice generation."
+  ]
+}

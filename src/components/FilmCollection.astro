@@ -10,7 +10,7 @@ interface Film {
 interface Props { films: Film[]; label: string }
 const { films, label } = Astro.props;
 ---
-<div class="film-collection" role="group" aria-label={label}>
+<div class="film-collection" role="group" aria-label={label} data-film-count={films.length}>
   {films.map(film => <figure class="film" id={film.id}>
     <video controls playsinline preload="none" width="720" height="1280" poster={film.poster}
       aria-label={film.title} aria-describedby={`${film.id}-caption`}>
@@ -41,5 +41,6 @@ const { films, label } = Astro.props;
   .film h3 { font: 500 21px/1.55 var(--font-serif); margin: 7px 0; }
   .film p { font-size: 15px; line-height: 1.85; margin: 8px 0; }
   .film-file { font: 13px/1.7 var(--font-sans); }
+  @media (min-width: 601px) { .film-collection[data-film-count="4"] { grid-template-columns: repeat(2,minmax(0,1fr)); } }
   @media (max-width: 600px) { .film-collection { grid-template-columns: minmax(0,1fr); gap: 36px; } .film { width: 100%; max-width: 360px; margin-inline: auto; } }
 </style>

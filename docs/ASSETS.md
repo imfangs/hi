@@ -121,3 +121,9 @@
 
 - 源工程：`../little-pause/videos/promo-2026-10-01/`；31秒1.1独立模拟器与系统卡实录，1920×1080/30fps、930帧。MP4直接复制，SHA-256 `b23d2f4d434511c19691bb3f580c2715ac7791b9acd6130d785e13553dca08b9`。
 - 成片 `public/videos/projects/little-pause-promo-2026-10-01.mp4`；同次poster.jpg转WebP（quality90），保留16:9；首页原封面保留。15秒提醒试用、后期原创配乐与静态停留见同前缀credits.html；完整工程留消费项目。
+
+## 《蘑菇的新家》第四集（2026-10-04）
+
+- 视频来自 `../school-secret-lab/episodes/ep04-green-hideout/deliverables/ep04-full-subtitles-v8.mp4`，用户本次明确要求收进Hi合集作为第四集；46秒、720×1280/24fps，字幕和环境声，无对白。
+- 原MP4逐字节复制到 `public/videos/projects/school-secret-lab/ep04-green-hideout.mp4`，SHA-256 `29906a431626a00af0d5e404cc4d5f94c68a8f87adfa3f1d6d44452368eee630`。
+- Poster从该最终MP4的41.5秒提取，完整720×1280，WebP quality88，SHA-256 `768867a7a220bb7ce2a90f3a4cafcdb38ebe32aa3e46d10b5c4223cf3ec1da64`；未裁切或新增标题。原首页三联封面保留，详情四集采用2×2排列、手机单列。
