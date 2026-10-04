@@ -2,9 +2,11 @@
 
 2026-10-03，方帅选择「03 三角字徽」用于 Hi；本轮仅替换标识，保留现有页面与色板。
 
-- 源稿：`ged/artworks/2026-10-03-taste-build-sale/round-02/marks/03-letter-relic.svg`。源 SHA-256：`963ae774c67817664f24ed24b9d7bb2c769d1476d778afe3108d2f6520d2d67d`。
+- 源稿：`side/fangs-brand/logo/studies/2026-10-03/round-02/marks/03-letter-relic.svg`。源 SHA-256：`963ae774c67817664f24ed24b9d7bb2c769d1476d778afe3108d2f6520d2d67d`。
 - `public/brand/tbs-mark.svg`：原稿完整三角排列与 T / B / S 镂空，仅将填色改为本站文字色 `#1a1a1a`。
 - `public/favicon.svg`：保留相同三角轮廓；为 16 / 32 px 标签页移除无法稳定辨识的字母镂空。透明背景，浅色模式 `#1a1a1a`、深色模式 `#e8e7e2`。
 - 站内完整字徽以 `BrandMark.astro` 内联 SVG 继承当前文字色；三角轮廓与镂空路径以完整主源核对。
 
 设计起点来自用户提出的《塞尔达》三角之力参考，字母融合稿由本次品牌设计任务制作；未复制游戏官方图像文件，不表示官方关联或商标权利确认。
+
+2026-10-04，设计工作空间迁入 [Fangs Brand](../../../fangs-brand/README.md)，后续品牌打磨和衍生作品从那里接续；本站保留实际渲染组件、应用副本与发布记录。本次仅更新归属指针，未改变生产资产或重新部署。
