@@ -1,0 +1,538 @@
+{
+  "date": "2026-10-04",
+  "url": "https://hi.fangs.cc/#about",
+  "status": "published_and_verified",
+  "source": "81e3490a418acc79412fa0b6a9116d48a8c19cf3",
+  "pages": "9b2f1b5a17f7cf1241082e5f626e3a347901b241",
+  "asset_record": "docs/brand/palm-forward-assets.json",
+  "scope": "Selected Palm of Light v2 in the about section; full-frame responsive WebP, lazy loading and native large-image link.",
+  "build": "Astro 14 pages and TypeScript passed",
+  "local": {
+    "origin": "http://127.0.0.1:4253",
+    "phase": "local",
+    "browser": "Playwright Chromium; Browser skill not listed, prior IAB path unavailable",
+    "errors": [],
+    "scenes": [
+      {
+        "width": 1440,
+        "theme": "light",
+        "url": "http://127.0.0.1:4253/#about",
+        "overflow": false,
+        "image": {
+          "currentSrc": "http://127.0.0.1:4253/images/brand/palm-forward-768.webp",
+          "natural": [
+            719,
+            479
+          ],
+          "display": [
+            690.8125,
+            460.53125
+          ],
+          "objectFit": "contain",
+          "filter": "none",
+          "loading": "lazy"
+        },
+        "link": "http://127.0.0.1:4253/images/brand/palm-forward-1536.webp",
+        "title": "慢慢做，认真玩。"
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "url": "http://127.0.0.1:4253/#about",
+        "overflow": false,
+        "image": {
+          "currentSrc": "http://127.0.0.1:4253/images/brand/palm-forward-768.webp",
+          "natural": [
+            350,
+            233
+          ],
+          "display": [
+            350,
+            233.328125
+          ],
+          "objectFit": "contain",
+          "filter": "none",
+          "loading": "lazy"
+        },
+        "link": "http://127.0.0.1:4253/images/brand/palm-forward-1536.webp",
+        "title": "慢慢做，认真玩。"
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "url": "http://127.0.0.1:4253/#about",
+        "overflow": false,
+        "image": {
+          "currentSrc": "http://127.0.0.1:4253/images/brand/palm-forward-768.webp",
+          "natural": [
+            350,
+            233
+          ],
+          "display": [
+            350,
+            233.328125
+          ],
+          "objectFit": "contain",
+          "filter": "none",
+          "loading": "lazy"
+        },
+        "link": "http://127.0.0.1:4253/images/brand/palm-forward-1536.webp",
+        "title": "慢慢做，认真玩。"
+      },
+      {
+        "width": 320,
+        "theme": "dark",
+        "url": "http://127.0.0.1:4253/#about",
+        "overflow": false,
+        "image": {
+          "currentSrc": "http://127.0.0.1:4253/images/brand/palm-forward-768.webp",
+          "natural": [
+            280,
+            186
+          ],
+          "display": [
+            280,
+            186.65625
+          ],
+          "objectFit": "contain",
+          "filter": "none",
+          "loading": "lazy"
+        },
+        "link": "http://127.0.0.1:4253/images/brand/palm-forward-1536.webp",
+        "title": "慢慢做，认真玩。"
+      }
+    ],
+    "details": [
+      {
+        "path": "/projects/junxia-comic/",
+        "title": "菌侠 · 手绘漫画",
+        "brand": 2
+      },
+      {
+        "path": "/projects/lehh/",
+        "title": "单词合合乐",
+        "brand": 2
+      },
+      {
+        "path": "/projects/taste/",
+        "title": "你品 · 艺术与思想",
+        "brand": 2
+      },
+      {
+        "path": "/projects/little-pause/",
+        "title": "歇会鸭",
+        "brand": 2
+      },
+      {
+        "path": "/projects/snow-duel/",
+        "title": "雪仗／夜雪俱乐部",
+        "brand": 2
+      },
+      {
+        "path": "/projects/pocofocus/",
+        "title": "PocoFocus",
+        "brand": 2
+      },
+      {
+        "path": "/projects/junlugu/",
+        "title": "菌露谷物语",
+        "brand": 2
+      },
+      {
+        "path": "/projects/qiya-herbarium/",
+        "title": "奇芽药草铺",
+        "brand": 2
+      },
+      {
+        "path": "/projects/hyrule/",
+        "title": "海拉鲁 · 蓝焰余响",
+        "brand": 2
+      },
+      {
+        "path": "/projects/aiedu/",
+        "title": "AI 教育 · 中英双语",
+        "brand": 2
+      },
+      {
+        "path": "/projects/wbw/",
+        "title": "Wait But Why 中译",
+        "brand": 2
+      },
+      {
+        "path": "/projects/dankoe/",
+        "title": "Dan Koe 中文阅读站",
+        "brand": 2
+      },
+      {
+        "path": "/projects/school-secret-lab/",
+        "title": "爱养蘑菇的小学生",
+        "brand": 2
+      }
+    ],
+    "projectCount": 13,
+    "keyboardFocus": true,
+    "largeImage": {
+      "url": "http://127.0.0.1:4253/images/brand/palm-forward-1536.webp",
+      "natural": [
+        1536,
+        1024
+      ]
+    },
+    "filterReturn": true,
+    "noJS": {
+      "works": 13,
+      "image": true
+    },
+    "passed": true
+  },
+  "live": {
+    "origin": "https://hi.fangs.cc",
+    "phase": "live",
+    "browser": "Playwright Chromium; Browser skill not listed, prior IAB path unavailable",
+    "errors": [],
+    "scenes": [
+      {
+        "width": 1440,
+        "theme": "light",
+        "url": "https://hi.fangs.cc/#about",
+        "overflow": false,
+        "image": {
+          "currentSrc": "https://hi.fangs.cc/images/brand/palm-forward-768.webp",
+          "natural": [
+            719,
+            479
+          ],
+          "display": [
+            690.8125,
+            460.53125
+          ],
+          "objectFit": "contain",
+          "filter": "none",
+          "loading": "lazy"
+        },
+        "link": "https://hi.fangs.cc/images/brand/palm-forward-1536.webp",
+        "title": "慢慢做，认真玩。"
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "url": "https://hi.fangs.cc/#about",
+        "overflow": false,
+        "image": {
+          "currentSrc": "https://hi.fangs.cc/images/brand/palm-forward-768.webp",
+          "natural": [
+            350,
+            233
+          ],
+          "display": [
+            350,
+            233.328125
+          ],
+          "objectFit": "contain",
+          "filter": "none",
+          "loading": "lazy"
+        },
+        "link": "https://hi.fangs.cc/images/brand/palm-forward-1536.webp",
+        "title": "慢慢做，认真玩。"
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "url": "https://hi.fangs.cc/#about",
+        "overflow": false,
+        "image": {
+          "currentSrc": "https://hi.fangs.cc/images/brand/palm-forward-768.webp",
+          "natural": [
+            350,
+            233
+          ],
+          "display": [
+            350,
+            233.328125
+          ],
+          "objectFit": "contain",
+          "filter": "none",
+          "loading": "lazy"
+        },
+        "link": "https://hi.fangs.cc/images/brand/palm-forward-1536.webp",
+        "title": "慢慢做，认真玩。"
+      },
+      {
+        "width": 320,
+        "theme": "dark",
+        "url": "https://hi.fangs.cc/#about",
+        "overflow": false,
+        "image": {
+          "currentSrc": "https://hi.fangs.cc/images/brand/palm-forward-768.webp",
+          "natural": [
+            280,
+            186
+          ],
+          "display": [
+            280,
+            186.65625
+          ],
+          "objectFit": "contain",
+          "filter": "none",
+          "loading": "lazy"
+        },
+        "link": "https://hi.fangs.cc/images/brand/palm-forward-1536.webp",
+        "title": "慢慢做，认真玩。"
+      }
+    ],
+    "details": [],
+    "projectCount": 13,
+    "keyboardFocus": true,
+    "largeImage": {
+      "url": "https://hi.fangs.cc/images/brand/palm-forward-1536.webp",
+      "natural": [
+        1536,
+        1024
+      ]
+    },
+    "filterReturn": true,
+    "noJS": {
+      "works": 13,
+      "image": true
+    },
+    "passed": true
+  },
+  "integrity": {
+    "scope": "HTML, CSS, two new brand WebP files and release receipt; existing videos not re-downloaded",
+    "all_match": true,
+    "files": [
+      {
+        "path": "_astro/ComicReader_astro_astro_type_style_index_0_lang.CeQLHRkA.css",
+        "status": 200,
+        "mime": "text/css; charset=utf-8",
+        "bytes": 7039,
+        "sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+        "match": true
+      },
+      {
+        "path": "_astro/index.BEbLIzEl.css",
+        "status": 200,
+        "mime": "text/css; charset=utf-8",
+        "bytes": 21706,
+        "sha256": "df277c76d3cc6e3b822940d27a7bd99737929fad31eaf23e9109c273a83ffa31",
+        "match": true
+      },
+      {
+        "path": "images/brand/palm-forward-1536.webp",
+        "status": 200,
+        "mime": "image/webp",
+        "bytes": 114332,
+        "sha256": "abdc5897cafd8e4cf55775d20f473304277d1de7676cee7559d0625d663b2640",
+        "match": true
+      },
+      {
+        "path": "images/brand/palm-forward-768.webp",
+        "status": 200,
+        "mime": "image/webp",
+        "bytes": 42710,
+        "sha256": "69c61cb17585ac0aaa94c6c4ca1ad90d58dc531e54aa13797056168fe69e3ecc",
+        "match": true
+      },
+      {
+        "path": "index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 19193,
+        "sha256": "be99e5f0f38f972a047a3e9620fdd32b9afaac221f1c4c90094d3999bf42240c",
+        "match": true
+      },
+      {
+        "path": "projects/aiedu/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10993,
+        "sha256": "ee25341114e9d39365576ec238ad8f0c34c53aba398c6a0ca5cc20403f84c434",
+        "match": true
+      },
+      {
+        "path": "projects/dankoe/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10853,
+        "sha256": "638507144e54a851d44871be801575aa2bf8d2ac175995ae9a10c09f6c92c13b",
+        "match": true
+      },
+      {
+        "path": "projects/hyrule/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10935,
+        "sha256": "de323ee6c68b4e6d9e6b42805e8c551279f7ed39e222bdcacd028856daa2e00b",
+        "match": true
+      },
+      {
+        "path": "projects/junlugu/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10261,
+        "sha256": "c4b25a481ca5c590eb71e77e879c8d37f807a685aed44279a6c5f5905bc1dcfa",
+        "match": true
+      },
+      {
+        "path": "projects/junxia-comic/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 22115,
+        "sha256": "bf2fb5d53a590d129aa904298f71302f1aed457242559918dd18556f3d5a7b0c",
+        "match": true
+      },
+      {
+        "path": "projects/lehh/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10408,
+        "sha256": "bdd0192e2ee0ed7f501603607ff6ce62ecb52e388a650df29ab7c81c92772d7d",
+        "match": true
+      },
+      {
+        "path": "projects/little-pause/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10754,
+        "sha256": "250e1f8ec7b112b629f9b50b17fc13923517350a8911321eaa53f333dfb0ba5e",
+        "match": true
+      },
+      {
+        "path": "projects/pocofocus/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10161,
+        "sha256": "07418a7126a2978b9f7f16aac990397ad70eaf31beb23f2c0eaf07947e0b1cbd",
+        "match": true
+      },
+      {
+        "path": "projects/qiya-herbarium/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10397,
+        "sha256": "1e741d791b754bcd71fdf8090bb8455ed21c81b574d5eaca7730609b3cc35a09",
+        "match": true
+      },
+      {
+        "path": "projects/school-secret-lab/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 18230,
+        "sha256": "b8a4c6b89bddc9f793c7def9b8a87e18d5f7d6a28dcc9c3e796a544522d99d42",
+        "match": true
+      },
+      {
+        "path": "projects/snow-duel/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10338,
+        "sha256": "7fcc9325271e7c09a5e515cf47efa9888a2da7e190fcdc5ef3b390316a518237",
+        "match": true
+      },
+      {
+        "path": "projects/taste/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 11379,
+        "sha256": "ceee370420b611fb361eb9d9905683462c2906269951d279784b0142e674fc41",
+        "match": true
+      },
+      {
+        "path": "projects/wbw/index.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 10550,
+        "sha256": "6e85190a744715bf0af77fb65d2749082bb730e8947dc5e441600fc05e9b29ea",
+        "match": true
+      },
+      {
+        "path": "release.json",
+        "status": 200,
+        "mime": "application/json; charset=utf-8",
+        "bytes": 91,
+        "sha256": "1312037e618e62cb56a196d08b855f4667b65305f812c143dfd4fbead8f29e99",
+        "match": true
+      },
+      {
+        "path": "videos/projects/aiedu-promo-2026-10-01-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 1177,
+        "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23",
+        "match": true
+      },
+      {
+        "path": "videos/projects/dankoe-promo-2026-10-01-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 1282,
+        "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84",
+        "match": true
+      },
+      {
+        "path": "videos/projects/hyrule-promo-20261001-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 2048,
+        "sha256": "e903c378ebe114df2607a1faff8ca648b14c90ed3789d8f952eb8d3844848971",
+        "match": true
+      },
+      {
+        "path": "videos/projects/lehh-promo-2026-10-01-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 991,
+        "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2",
+        "match": true
+      },
+      {
+        "path": "videos/projects/little-pause-promo-2026-10-01-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 1086,
+        "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3",
+        "match": true
+      },
+      {
+        "path": "videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 1233,
+        "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef",
+        "match": true
+      },
+      {
+        "path": "videos/projects/snow-duel-promo-2026-10-01-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 1582,
+        "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d",
+        "match": true
+      },
+      {
+        "path": "videos/projects/taste-promo-2026-10-01-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 1089,
+        "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91",
+        "match": true
+      },
+      {
+        "path": "videos/projects/wbw-promo-2026-10-01-credits.html",
+        "status": 200,
+        "mime": "text/html; charset=utf-8",
+        "bytes": 1181,
+        "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94",
+        "match": true
+      }
+    ],
+    "youzi_footer_preserved_in_all_site_pages": true
+  },
+  "notes": [
+    "The initial source push was rejected because another task had advanced main with the Youzi footer link. An intermediate artifact commit bf314e8 was written before that update was merged; it is superseded by the final source/pages listed here. The final publish preserved the current remote changes and all site pages retain the Youzi link. Whether the intermediate artifact was briefly served to a visitor was not measured.",
+    "Initial screenshot capture ran during smooth anchor scrolling; the accepted captures wait for the actual about position and capture the section.",
+    "The no-JS check originally stalled in a redundant scroll stability wait. The passing check uses the native #about anchor with reduced motion and validates the loaded image.",
+    "Mobile results are simulated viewports, not physical-device tests. Existing video files were not re-downloaded.",
+    "WebP is lossy; visual review verified complete framing, readable emblem and no noticeable artifacts, not pixel identity to the PNG."
+  ]
+}
