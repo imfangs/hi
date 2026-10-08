@@ -8,3 +8,5 @@ export const groups = [
 ] as const;
 export const sortProjects = (projects: CollectionEntry<'projects'>[]) =>
   [...projects].sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+
+export const cleanSearch = (value: string) => Array.from(value.replace(/[\u0000-\u001f\u007f]/g, ' ').trim()).slice(0, 80).join('');

@@ -94,7 +94,8 @@ try {
     const next = page.locator('.next-project');
     assert(new URL(await next.getAttribute('href'), base).pathname !== new URL(page.url()).pathname, 'Next item loops to itself');
     await page.locator('[data-return]').first().click();
-    await page.waitForURL('**/?view=creations#works');
+    await page.waitForURL(url => url.pathname === '/' && url.searchParams.get('view') === 'creations' && url.hash === '#work-school-secret-lab', { waitUntil: 'domcontentloaded' });
+    await page.waitForFunction(() => document.activeElement?.getAttribute('data-project') === 'school-secret-lab');
     assert.equal(await page.locator('[data-filter="creations"]').getAttribute('aria-pressed'), 'true');
     await page.locator('[data-filter="all"]').click();
     assert.equal(await page.locator('.work-item:visible').count(), links.length);

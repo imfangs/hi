@@ -1,0 +1,803 @@
+{
+  "date": "2026-10-08",
+  "stage": "local_verified_pending_publication",
+  "baseHead": "af66be9b0acbf2a363b25f89594004319ffef717",
+  "builtPages": 18,
+  "featuredWorks": 17,
+  "build": "passed, pnpm 10.19.0",
+  "typescript": "passed",
+  "browsing": {
+    "startedAt": "2026-10-08T13:30:42.717Z",
+    "base": "http://127.0.0.1:4218",
+    "results": [
+      {
+        "view": "desktop",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 738,
+            "y": 114.46875,
+            "width": 642,
+            "height": 575.234375
+          },
+          "toolbar": {
+            "x": 60,
+            "y": 0,
+            "width": 1320,
+            "height": 70
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "view": "phone",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 20,
+            "y": 152.078125,
+            "width": 350,
+            "height": 403.71875
+          },
+          "toolbar": {
+            "x": 20,
+            "y": 0,
+            "width": 350,
+            "height": 108
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "view": "narrow-dark",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 20,
+            "y": 151.96875,
+            "width": 280,
+            "height": 359.96875
+          },
+          "toolbar": {
+            "x": 20,
+            "y": 0,
+            "width": 280,
+            "height": 108
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "intermediateWidths": [
+          {
+            "width": 701,
+            "search": {
+              "left": 36,
+              "right": 665,
+              "top": 430.984375,
+              "bottom": 474.984375
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 378.984375,
+                "bottom": 422.984375
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 378.984375,
+                "bottom": 422.984375
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 378.984375,
+                "bottom": 422.984375
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 378.984375,
+                "bottom": 422.984375
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 378.984375,
+                "bottom": 422.984375
+              }
+            ]
+          },
+          {
+            "width": 720,
+            "search": {
+              "left": 36,
+              "right": 684,
+              "top": 432.46875,
+              "bottom": 476.46875
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 380.46875,
+                "bottom": 424.46875
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 380.46875,
+                "bottom": 424.46875
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 380.46875,
+                "bottom": 424.46875
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 380.46875,
+                "bottom": 424.46875
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 380.46875,
+                "bottom": 424.46875
+              }
+            ]
+          },
+          {
+            "width": 750,
+            "search": {
+              "left": 36,
+              "right": 714,
+              "top": 434.796875,
+              "bottom": 478.796875
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 382.796875,
+                "bottom": 426.796875
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 382.796875,
+                "bottom": 426.796875
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 382.796875,
+                "bottom": 426.796875
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 382.796875,
+                "bottom": 426.796875
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 382.796875,
+                "bottom": 426.796875
+              }
+            ]
+          },
+          {
+            "width": 960,
+            "search": {
+              "left": 36,
+              "right": 924,
+              "top": 451.125,
+              "bottom": 495.125
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 399.125,
+                "bottom": 443.125
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 399.125,
+                "bottom": 443.125
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 399.125,
+                "bottom": 443.125
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 399.125,
+                "bottom": 443.125
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 399.125,
+                "bottom": 443.125
+              }
+            ]
+          },
+          {
+            "width": 1024,
+            "search": {
+              "left": 732,
+              "right": 988,
+              "top": 408.109375,
+              "bottom": 452.109375
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 408.109375,
+                "bottom": 452.109375
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 408.109375,
+                "bottom": 452.109375
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 408.109375,
+                "bottom": 452.109375
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 408.109375,
+                "bottom": 452.109375
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 408.109375,
+                "bottom": 452.109375
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "noJavaScript": true,
+        "works": 17,
+        "directLinks": 15,
+        "returnAnchor": true
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Browser viewports, not physical phones.",
+      "No authenticated product actions or message sends.",
+      "Behavior and layout checks do not establish reader preference or conversion."
+    ],
+    "passed": true,
+    "finishedAt": "2026-10-08T13:30:47.203Z"
+  },
+  "media": {
+    "date": "2026-10-08T13:30:42.745Z",
+    "url": "http://127.0.0.1:4218",
+    "passed": true,
+    "results": [
+      {
+        "environment": "desktop",
+        "clips": [
+          {
+            "name": "ep01-night-glow",
+            "layout": {
+              "width": 330,
+              "height": 586.65625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep01-night-glow.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep01-night-glow.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 11.099002,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep02-fire-phoenix",
+            "layout": {
+              "width": 330,
+              "height": 586.65625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep02-fire-phoenix.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep02-fire-phoenix.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 32.368005,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep03-crystal-materials",
+            "layout": {
+              "width": 330,
+              "height": 586.65625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep03-crystal-materials.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep03-crystal-materials.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 21.246009,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep04-green-hideout",
+            "layout": {
+              "width": 330,
+              "height": 586.65625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep04-green-hideout.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep04-green-hideout.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 46,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "stones-pickup",
+            "layout": {
+              "width": 330,
+              "height": 586.65625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/stones-pickup.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/stones-pickup.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 4,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "classroom-storage",
+            "layout": {
+              "width": 330,
+              "height": 586.65625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/classroom-storage.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/classroom-storage.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 5,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          }
+        ],
+        "passed": true,
+        "singleActivePlayer": true,
+        "detailsChecked": 17,
+        "errors": []
+      },
+      {
+        "environment": "phone",
+        "clips": [
+          {
+            "name": "ep01-night-glow",
+            "layout": {
+              "width": 350,
+              "height": 622.21875,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep01-night-glow.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep01-night-glow.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 11.099002,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep02-fire-phoenix",
+            "layout": {
+              "width": 350,
+              "height": 622.21875,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep02-fire-phoenix.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep02-fire-phoenix.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 32.368005,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep03-crystal-materials",
+            "layout": {
+              "width": 350,
+              "height": 622.21875,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep03-crystal-materials.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep03-crystal-materials.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 21.246009,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep04-green-hideout",
+            "layout": {
+              "width": 350,
+              "height": 622.21875,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep04-green-hideout.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep04-green-hideout.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 46,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "stones-pickup",
+            "layout": {
+              "width": 350,
+              "height": 622.21875,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/stones-pickup.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/stones-pickup.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 4,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "classroom-storage",
+            "layout": {
+              "width": 350,
+              "height": 622.21875,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/classroom-storage.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/classroom-storage.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 5,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          }
+        ],
+        "passed": true,
+        "singleActivePlayer": true,
+        "detailsChecked": 17,
+        "errors": []
+      },
+      {
+        "environment": "narrow-dark",
+        "clips": [
+          {
+            "name": "ep01-night-glow",
+            "layout": {
+              "width": 280,
+              "height": 497.765625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep01-night-glow.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep01-night-glow.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 11.099002,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep02-fire-phoenix",
+            "layout": {
+              "width": 280,
+              "height": 497.765625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep02-fire-phoenix.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep02-fire-phoenix.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 32.368005,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep03-crystal-materials",
+            "layout": {
+              "width": 280,
+              "height": 497.765625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep03-crystal-materials.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep03-crystal-materials.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 21.246009,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "ep04-green-hideout",
+            "layout": {
+              "width": 280,
+              "height": 497.765625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/ep04-green-hideout.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/ep04-green-hideout.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 46,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "stones-pickup",
+            "layout": {
+              "width": 280,
+              "height": 497.765625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/stones-pickup.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/stones-pickup.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 4,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          },
+          {
+            "name": "classroom-storage",
+            "layout": {
+              "width": 280,
+              "height": 497.765625,
+              "preload": "none",
+              "controls": true,
+              "playsInline": true,
+              "autoplay": false,
+              "src": "http://127.0.0.1:4218/videos/projects/school-secret-lab/classroom-storage.mp4",
+              "poster": "http://127.0.0.1:4218/images/projects/school-secret-lab/classroom-storage.webp",
+              "fit": "contain"
+            },
+            "metadata": {
+              "duration": 5,
+              "width": 720,
+              "height": 1280,
+              "error": null
+            },
+            "fullPlayback": false,
+            "seekForwardBackwardAndEnd": true
+          }
+        ],
+        "passed": true,
+        "singleActivePlayer": true,
+        "detailsChecked": 17,
+        "errors": []
+      }
+    ],
+    "limits": [
+      "Chromium synthetic viewports; not a physical phone test.",
+      "Media playback and seeking verified; no subjective audio-quality claim.",
+      "Remote media byte identity is checked separately."
+    ],
+    "noJavaScript": "gallery and native players available",
+    "finishedAt": "2026-10-08T13:31:14.130Z"
+  },
+  "directEntry": {
+    "passed": true,
+    "from": "homepage-card",
+    "requested": "https://chenchen.fangs.cc/",
+    "landed": "https://chenchen.fangs.cc/",
+    "sourcePage": "http://127.0.0.1:4218/?q=%E8%8A%B1%E7%BA%B8",
+    "newTab": true,
+    "noDetailPageRequired": true,
+    "scope": "Actual click and public navigation; no authenticated actions"
+  },
+  "reviewFix": {
+    "issue": "701-720px filter buttons overlapped search despite no page overflow",
+    "fix": "Toolbar wraps at <=960px; 701,720,750,960,1024px bounds independently verified",
+    "status": "verified"
+  },
+  "visualEvidence": "docs/design/2026-10-08-benchmark/after/AFTER.json",
+  "unchanged": "All 17 MDX works, ordering, original covers, video bytes, download URLs and attribution retained."
+}

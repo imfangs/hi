@@ -3,33 +3,41 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
-import { sortProjects } from '../../lib/projects';
+import { groups, sortProjects } from '../../lib/projects';
 export async function getStaticPaths() {
   const projects = await getCollection('projects', ({ data }) => !data.draft);
   const ordered = sortProjects(projects);
-  return ordered.map((project, index) => {
+  return ordered.map((project) => {
     const peers = ordered.filter(p => p.data.group === project.data.group);
-    const nextInGroup = peers[(peers.findIndex(p => p.id === project.id) + 1) % peers.length];
-    return { params: { slug: project.id }, props: { project, next: ordered[(index + 1) % ordered.length], nextInGroup } };
+    const currentIndex = peers.findIndex(p => p.id === project.id);
+    const related = [...peers.slice(currentIndex + 1), ...peers.slice(0, currentIndex)]
+      .filter(p => p.data.cover)
+      .slice(0, 2);
+    return { params: { slug: project.id }, props: { project, related } };
   });
 }
-const { project, next, nextInGroup } = Astro.props;
+const { project, related } = Astro.props;
 const { Content } = await render(project);
 const { title, subtitle, cover, video, category, status, links, format } = project.data;
+const groupLabel = groups.find(group => group.id === project.data.group)?.label ?? '同类';
+const returnHref = `/#work-${project.id}`;
 ---
 <Base title={`${title} · hi · fangs`} description={subtitle} image={cover?.src} imageAlt={cover?.alt}>
   <SiteHeader />
-  <main id="main" class="project-detail shell">
-    <a href="/#works" class="back-link" data-return>
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6" /></svg>
-      全部作品
-    </a>
+  <main id="main" class="project-detail shell" data-work-id={project.id} data-work-title={title}>
+    <nav class="detail-context" aria-label="作品位置">
+      <a href={returnHref} class="back-link" data-return>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12H5m6-6-6 6 6 6" /></svg>
+        <span data-return-label>全部作品</span>
+      </a>
+      <span class="detail-context-current">{groupLabel}作品</span>
+    </nav>
     <article>
-      <header class="detail-heading fade-up">
-        <div class="work-meta">{category ?? project.data.year} · {status}</div>
+      <header class="detail-heading detail-intro fade-up">
+        <div class="work-meta"><span>{category ?? project.data.year}</span><span aria-hidden="true"> · </span><span class="detail-status">{status}</span></div>
         <h1>{title}</h1>
-        <p>{subtitle}</p>
-        {links && links.length > 0 && <div class="project-actions">
+        <p class="detail-summary">{subtitle}</p>
+        {links && links.length > 0 && <div class="project-actions detail-actions">
           {links.map((link, index) => <a class={index === 0 ? 'project-action primary' : 'project-action'} href={link.href} target="_blank" rel="noopener noreferrer">
             {link.label}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg>
           </a>)}
@@ -44,8 +52,31 @@ const { title, subtitle, cover, video, category, status, links, format } = proje
       </figure> : cover && <figure class="detail-cover"><img src={cover.src} alt={cover.alt} width="1200" height="750" fetchpriority="high" /></figure>)}
       <div class={format === 'comic' ? 'comic-body' : 'prose detail-body'}><Content /></div>
       <nav class="detail-end" aria-label="继续浏览">
-        <a href="/#works" data-return>← 回到作品</a>
-        <a href={`/projects/${next.id}/`} class="next-project" data-group={project.data.group} data-filtered-href={`/projects/${nextInGroup.id}/`} data-filtered-title={nextInGroup.data.title}><span>下一件作品</span><strong>{next.data.title}</strong><span aria-hidden="true">↗</span></a>
+        {related.length > 0 && <>
+          <header class="detail-end-heading">
+            <p class="detail-end-kicker">继续逛逛</p>
+            <h2>更多{groupLabel}作品</h2>
+          </header>
+          <div class="detail-related-grid">
+            {related.map((peer, index) => <a
+              href={`/projects/${peer.id}/?${new URLSearchParams({ view: project.data.group })}`}
+              class:list={['detail-related-card', { 'next-project': index === 0 }]}
+              data-group={project.data.group}
+              data-filtered-href={`/projects/${peer.id}/`}
+              data-filtered-title={peer.data.title}
+            >
+              <div class="detail-related-image"><img src={peer.data.cover!.src} alt={peer.data.cover!.alt} width="1200" height="750" loading="lazy" decoding="async" /></div>
+              <div class="detail-related-copy">
+                <span class="detail-related-meta">{peer.data.category ?? groupLabel} · {peer.data.status}</span>
+                <strong class="detail-related-title">{peer.data.title}</strong>
+                <span class="detail-related-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>)}
+          </div>
+        </>}
+        <a href={returnHref} class="back-link detail-return-bottom" data-return>
+          <span aria-hidden="true">←</span><span data-return-label>回到全部作品</span>
+        </a>
       </nav>
     </article>
   </main>

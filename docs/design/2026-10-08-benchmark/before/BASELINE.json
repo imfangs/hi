@@ -1,0 +1,223 @@
+{
+  "capturedAt": "2026-10-08T13:17:40.833Z",
+  "baselineHead": "af66be9",
+  "runtimeSource": "f64523f6a8b893b112c521736a6ce77adacb16d3",
+  "expectedWorks": 17,
+  "zoom": 1,
+  "reducedMotion": "reduce",
+  "defaultSorting": true,
+  "captures": [
+    {
+      "name": "home-phone",
+      "file": "home-phone.png",
+      "sha256": "f4e6e0759469bdba8921a0fa74305f2f9e28e0658ce4ef67010aff327c0c49a7",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4218/",
+      "scrollY": 0,
+      "overflow": false,
+      "visibleImages": [
+        {
+          "src": "http://127.0.0.1:4218/images/projects/junxia-comic.webp",
+          "complete": true,
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "name": "home-desktop",
+      "file": "home-desktop.png",
+      "sha256": "6c05fbdf220b289d27e3ea5ba29fe704ccedd1bb691bddf009e52dbc3b9b0ef1",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4218/",
+      "scrollY": 0,
+      "overflow": false,
+      "visibleImages": [
+        {
+          "src": "http://127.0.0.1:4218/images/projects/junxia-comic.webp",
+          "complete": true,
+          "width": 1200
+        },
+        {
+          "src": "http://127.0.0.1:4218/images/projects/lehh.webp",
+          "complete": true,
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "name": "works-narrow-dark",
+      "file": "works-narrow-dark.png",
+      "sha256": "b5895dab5e9e6782579d1ca492ae6b04c57f7214247e37c81e192ccb9f78f763",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "url": "http://127.0.0.1:4218/",
+      "scrollY": 378,
+      "overflow": false,
+      "visibleImages": [
+        {
+          "src": "http://127.0.0.1:4218/images/projects/junxia-comic.webp",
+          "complete": true,
+          "width": 1200
+        },
+        {
+          "src": "http://127.0.0.1:4218/images/projects/lehh.webp",
+          "complete": true,
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "name": "works-phone",
+      "file": "works-phone.png",
+      "sha256": "1a3308380b5a8c29f69ee35988a57820ecb3cf83b33812076d3bc1e3e1c850d4",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4218/",
+      "scrollY": 368,
+      "overflow": false,
+      "visibleImages": [
+        {
+          "src": "http://127.0.0.1:4218/images/projects/junxia-comic.webp",
+          "complete": true,
+          "width": 1200
+        },
+        {
+          "src": "http://127.0.0.1:4218/images/projects/lehh.webp",
+          "complete": true,
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "name": "works-desktop",
+      "file": "works-desktop.png",
+      "sha256": "3d8d8782c44660a3e58f668d5d0a94665b201a3a2fc34645f857520971f6b377",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4218/",
+      "scrollY": 380,
+      "overflow": false,
+      "visibleImages": [
+        {
+          "src": "http://127.0.0.1:4218/images/projects/junxia-comic.webp",
+          "complete": true,
+          "width": 1200
+        },
+        {
+          "src": "http://127.0.0.1:4218/images/projects/lehh.webp",
+          "complete": true,
+          "width": 1200
+        },
+        {
+          "src": "http://127.0.0.1:4218/images/projects/taste.webp",
+          "complete": true,
+          "width": 1200
+        },
+        {
+          "src": "http://127.0.0.1:4218/images/projects/little-pause.webp",
+          "complete": true,
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "name": "chenchen-atelier-phone",
+      "file": "chenchen-atelier-phone.png",
+      "sha256": "3151c99dde0c8c4ca9c0ebfd05e8cd0b77d7374c3f0be1f5240b8b3893f54765",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4218/projects/chenchen-atelier/",
+      "scrollY": 0,
+      "overflow": false,
+      "visibleImages": [
+        {
+          "src": "http://127.0.0.1:4218/images/projects/chenchen-atelier.webp",
+          "complete": true,
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "name": "chenchen-atelier-desktop",
+      "file": "chenchen-atelier-desktop.png",
+      "sha256": "8d6d6d4f62a5a20d237de4401e296bef29f96ce9ff818ab28f35826b0c9ce102",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4218/projects/chenchen-atelier/",
+      "scrollY": 0,
+      "overflow": false,
+      "visibleImages": [
+        {
+          "src": "http://127.0.0.1:4218/images/projects/chenchen-atelier.webp",
+          "complete": true,
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "name": "pocket-ged-phone",
+      "file": "pocket-ged-phone.png",
+      "sha256": "8c8726b4c989bca620c361c3b0989c47719f104a48bca3f2efcddfe750b93f65",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4218/projects/pocket-ged/",
+      "scrollY": 0,
+      "overflow": false,
+      "visibleImages": [
+        {
+          "src": "http://127.0.0.1:4218/images/projects/pocket-ged.webp",
+          "complete": true,
+          "width": 1200
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "visual": "一张受控联系表已检查桌面首页、390作品区、390晨间详情与320暗色Pocket详情：纸白/宋体与黑色CTA层次一致，图像均已加载，没有遮挡、加载空白或横向溢出。作品缩略图内容密度差异较大，真实页面截图的小字在手机卡片中不可读；这属于预览尺度，不是内容丢失。",
+    "confirmedNavigation": "390px 应用分类进入Pocket详情后点页内返回：筛选保留4件，但scrollY1355回368，原卡top258.875变1245.875；焦点回body。显式返回指向#works，未恢复原卡位置。",
+    "judgment": "17件作品的主问题是持续浏览定位：390页高7819px，类别工具不随滚动保留；原卡返回位置恢复和可随时触达的分类能直接减少重复找寻。当前视觉基础完整，保留真实封面与原顺序。",
+    "cta": "晨间CTA在390视口y322.53，Pocket CTA在y353.97；均46px高且首屏可见。Pocket文案已明确个人部署需登录，无须按普通公开下载来包装。",
+    "limits": "合成浏览器视口与受控视觉评审；无实体设备、真人偏好或转换效果证据。只测页内回到作品行为，未据此断言浏览器原生Back同样丢位置。"
+  },
+  "navigation": {
+    "before": {
+      "url": "http://127.0.0.1:4218/?view=apps#works",
+      "scrollY": 1355,
+      "filter": -916.328125,
+      "card": 258.875,
+      "visible": 4
+    },
+    "detail": {
+      "url": "http://127.0.0.1:4218/projects/pocket-ged/?view=apps",
+      "returnHref": "http://127.0.0.1:4218/?view=apps#works",
+      "coverCanOpenLarge": false
+    },
+    "after": {
+      "url": "http://127.0.0.1:4218/?view=apps#works",
+      "scrollY": 368,
+      "filter": 70.671875,
+      "card": 1245.875,
+      "visible": 4,
+      "focus": "<body> <a class=\"skip-link\" href=\"#main\">跳转到内容</a>  <header class=\"site-header shell\" id=\"top\"> <a href=\"/\" class=\"brand\" aria-label=\"fangs 作品集首页\"><svg class=\"b"
+    },
+    "result": "Category preserved; explicit back-to-works jumps to top of selected gallery rather than the previously opened card."
+  }
+}

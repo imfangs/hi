@@ -1,19 +1,25 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { groups } from '../lib/projects';
 interface Props { project: CollectionEntry<'projects'>; eager?: boolean }
 const { project, eager = false } = Astro.props;
-const { title, subtitle, cover, category, status, group } = project.data;
+const { title, subtitle, cover, category, status, group, links, stack } = project.data;
+const primary = links?.[0];
+const searchText = [title, subtitle, category, groups.find(g => g.id === group)?.label, project.id, ...stack].filter(Boolean).join(' ');
 if (!cover) throw new Error(`Featured project ${project.id} needs a cover`);
 ---
-<li class="work-item" data-group={group}>
+<li class="work-item" id={`work-${project.id}`} data-group={group} data-search={searchText}>
   <a class="work-card" href={`/projects/${project.id}/`} data-project={project.id}>
     <div class="work-image">
       <img src={cover.src} alt="" width="1200" height="750" loading={eager ? 'eager' : 'lazy'} decoding="async" />
     </div>
     <div class="work-copy">
-      <span class="work-meta">{category} · {status}</span>
-      <div class="work-title-line"><h3>{title}</h3><svg class="work-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></div>
+      <div class="work-meta"><span>{category}</span><span class="work-status" data-status={status}>{status}</span></div>
+      <div class="work-title-line"><h3>{title}</h3><svg class="work-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></div>
       <p>{subtitle}</p>
     </div>
   </a>
+  {primary && <div class="work-actions"><a class="work-launch" href={primary.href} target="_blank" rel="noopener noreferrer" aria-label={`${primary.label}：${title}（新标签页）`}>
+    {primary.label}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg>
+  </a></div>}
 </li>

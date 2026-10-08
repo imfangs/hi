@@ -1,0 +1,402 @@
+{
+  "checkedAt": "2026-10-08T13:31:57.006380+00:00",
+  "baseHead": "af66be9",
+  "phase": "after: uncommitted benchmark working tree build",
+  "sourceHashes": {
+    "src/styles/global.css": "00fb52d1d66be136bad20d7bd8414f11568d5d19d2f68d1f5f1ef1e810e3b48f",
+    "src/scripts/gallery.ts": "f23d1a7b607469d46c554773180d0529cf4c7015685c94f71fd020c6e1547f95",
+    "src/scripts/detail.ts": "2d049cc5a5c02701396d7c9e367e26ddd45f5bc7f2a38a6145083e97d420004a",
+    "src/pages/index.astro": "bf518a04a572eb5ca851936e0be683be542dcfbfbb78b3fcc1ac19d100d2407e",
+    "src/pages/projects/[...slug].astro": "bbbb567e64ddf767749f6ef45b4a9c1623491a099ca61e88e5fe89fd7b27b491",
+    "src/components/ProjectRow.astro": "a44f8639e01070b29b8a858cbd30f4bd7ef236004021c646bd6f292a46d567e3"
+  },
+  "captures": [
+    {
+      "name": "home-desktop",
+      "file": "home-desktop.png",
+      "sha256": "07e191aaf1b085b09444864a310e020a86d0b652c842b3b70b8cd406bc320107",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "name": "home-phone",
+      "file": "home-phone.png",
+      "sha256": "7f2254524dbc7c324ce1d9fb5ce5a7cafc28036574892a170035831613b94638",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "name": "works-phone",
+      "file": "works-phone.png",
+      "sha256": "112999f766f75aaba1ce140698fd61f92cc9e2844363bc0b2d3313a1d5bedee7",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 286,
+      "overflow": false
+    },
+    {
+      "name": "works-narrow-dark",
+      "file": "works-narrow-dark.png",
+      "sha256": "45747817858ce19efa4d0ca353de4c9548f4dfbe95e19446b76bd206aae661d0",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "scrollY": 296,
+      "overflow": false
+    },
+    {
+      "name": "works-desktop",
+      "file": "works-desktop.png",
+      "sha256": "b135072e56c951e3b4ee023557617d8fb075fe430bfc16a5a43d032e319e4ee6",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 337,
+      "overflow": false
+    },
+    {
+      "name": "chenchen-atelier-phone",
+      "file": "chenchen-atelier-phone.png",
+      "sha256": "77158038fbb9166773eaccca05a289785444e26b7d29d6f11544b01fb4c0e52d",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "name": "chenchen-atelier-desktop",
+      "file": "chenchen-atelier-desktop.png",
+      "sha256": "311c7ef1ba28b2bc597519ab607ea3cd9f9cc83abae30f640d5e867096542593",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "name": "pocket-ged-phone",
+      "file": "pocket-ged-phone.png",
+      "sha256": "b447a0e5c4df7a8eb71891ff04a66e82a543ea283be994ccc180d80cebb96271",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "overflow": false
+    },
+    {
+      "name": "related-phone",
+      "file": "related-phone.png",
+      "sha256": "88e7b12ec98406ac9561e9cc628ec3ba8d94d39f7f17f8c19d8d2d82a6e58495",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 1788,
+      "overflow": false
+    }
+  ],
+  "navigation": [
+    {
+      "name": "phone",
+      "before": {
+        "url": "http://127.0.0.1:4218/?view=apps#works",
+        "scrollY": 1478,
+        "toolbar": {
+          "top": 0,
+          "height": 108,
+          "bottom": 108
+        },
+        "card": {
+          "top": 260.078125,
+          "bottom": 607.796875
+        },
+        "visible": 4,
+        "focus": "BODY",
+        "overflow": false
+      },
+      "detail": {
+        "href": "http://127.0.0.1:4218/?view=apps#work-pocket-ged",
+        "label": "返回应用作品",
+        "related": [
+          {
+            "href": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "title": "单词合合乐"
+          },
+          {
+            "href": "http://127.0.0.1:4218/projects/little-pause/?view=apps",
+            "title": "歇会鸭"
+          }
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:4218/?view=apps#work-pocket-ged",
+        "scrollY": 1586,
+        "toolbar": {
+          "top": 0,
+          "height": 108,
+          "bottom": 108
+        },
+        "card": {
+          "top": 152.078125,
+          "bottom": 499.796875
+        },
+        "visible": 4,
+        "focus": "pocket-ged",
+        "overflow": false
+      },
+      "search": {
+        "url": "http://127.0.0.1:4218/?view=apps&q=pocket#works",
+        "scrollY": 342,
+        "toolbar": {
+          "top": 24.484375,
+          "height": 108,
+          "bottom": 132.484375
+        },
+        "card": {
+          "top": 152.484375,
+          "bottom": 500.203125
+        },
+        "visible": 1,
+        "focus": "work-search",
+        "overflow": false
+      },
+      "empty": {
+        "text": "换个线索，再找找\n\n没有找到「完全不存在的作品」\n\n试试作品名称、用途，或者看看其他分类。\n\n查看全部作品 ↗",
+        "visible": 0,
+        "input": "完全不存在的作品",
+        "resetBox": {
+          "x": 126.96875,
+          "y": 375.078125,
+          "width": 136.0625,
+          "height": 44,
+          "top": 375.078125,
+          "right": 263.03125,
+          "bottom": 419.078125,
+          "left": 126.96875
+        }
+      },
+      "reset": {
+        "url": "http://127.0.0.1:4218/#works",
+        "scrollY": 342,
+        "toolbar": {
+          "top": 24.484375,
+          "height": 108,
+          "bottom": 132.484375
+        },
+        "card": {
+          "top": 6773.734375,
+          "bottom": 7121.453125
+        },
+        "visible": 17,
+        "focus": "work-search",
+        "overflow": false
+      }
+    },
+    {
+      "name": "narrow-dark",
+      "before": {
+        "url": "http://127.0.0.1:4218/?view=apps#works",
+        "scrollY": 1412,
+        "toolbar": {
+          "top": 0,
+          "height": 108,
+          "bottom": 108
+        },
+        "card": {
+          "top": 229.96875,
+          "bottom": 533.9375
+        },
+        "visible": 4,
+        "focus": "BODY",
+        "overflow": false
+      },
+      "detail": {
+        "href": "http://127.0.0.1:4218/?view=apps#work-pocket-ged",
+        "label": "返回应用作品",
+        "related": [
+          {
+            "href": "http://127.0.0.1:4218/projects/lehh/?view=apps",
+            "title": "单词合合乐"
+          },
+          {
+            "href": "http://127.0.0.1:4218/projects/little-pause/?view=apps",
+            "title": "歇会鸭"
+          }
+        ]
+      },
+      "after": {
+        "url": "http://127.0.0.1:4218/?view=apps#work-pocket-ged",
+        "scrollY": 1490,
+        "toolbar": {
+          "top": 0,
+          "height": 108,
+          "bottom": 108
+        },
+        "card": {
+          "top": 151.96875,
+          "bottom": 455.9375
+        },
+        "visible": 4,
+        "focus": "pocket-ged",
+        "overflow": false
+      },
+      "search": {
+        "url": "http://127.0.0.1:4218/?view=apps&q=pocket#works",
+        "scrollY": 352,
+        "toolbar": {
+          "top": 24.4375,
+          "height": 108,
+          "bottom": 132.4375
+        },
+        "card": {
+          "top": 152.4375,
+          "bottom": 456.40625
+        },
+        "visible": 1,
+        "focus": "work-search",
+        "overflow": false
+      },
+      "empty": {
+        "text": "换个线索，再找找\n\n没有找到「完全不存在的作品」\n\n试试作品名称、用途，或者看看其他分类。\n\n查看全部作品 ↗",
+        "visible": 0,
+        "input": "完全不存在的作品",
+        "resetBox": {
+          "x": 91.96875,
+          "y": 402.03125,
+          "width": 136.0625,
+          "height": 44,
+          "top": 402.03125,
+          "right": 228.03125,
+          "bottom": 446.03125,
+          "left": 91.96875
+        }
+      },
+      "reset": {
+        "url": "http://127.0.0.1:4218/#works",
+        "scrollY": 352,
+        "toolbar": {
+          "top": 24.4375,
+          "height": 108,
+          "bottom": 132.4375
+        },
+        "card": {
+          "top": 6199.625,
+          "bottom": 6503.59375
+        },
+        "visible": 17,
+        "focus": "work-search",
+        "overflow": false
+      }
+    }
+  ],
+  "comparisonMetrics": [
+    {
+      "case": "home-narrow-dark",
+      "beforeFirstCardTop": 526.3125,
+      "afterFirstCardTop": 504.4375,
+      "beforeDocumentHeight": 7278,
+      "afterDocumentHeight": 7973
+    },
+    {
+      "case": "home-phone",
+      "beforeFirstCardTop": 516.671875,
+      "afterFirstCardTop": 494.484375,
+      "beforeDocumentHeight": 7819,
+      "afterDocumentHeight": 8515
+    },
+    {
+      "case": "home-desktop",
+      "beforeFirstCardTop": 537.453125,
+      "afterFirstCardTop": 519.234375,
+      "beforeDocumentHeight": 6537,
+      "afterDocumentHeight": 6929
+    },
+    {
+      "case": "works-narrow-dark",
+      "beforeFirstCardTop": 148.3125,
+      "afterFirstCardTop": 208.4375,
+      "beforeDocumentHeight": 7278,
+      "afterDocumentHeight": 7973
+    },
+    {
+      "case": "works-phone",
+      "beforeFirstCardTop": 148.671875,
+      "afterFirstCardTop": 208.484375,
+      "beforeDocumentHeight": 7819,
+      "afterDocumentHeight": 8515
+    },
+    {
+      "case": "works-desktop",
+      "beforeFirstCardTop": 157.453125,
+      "afterFirstCardTop": 182.234375,
+      "beforeDocumentHeight": 6537,
+      "afterDocumentHeight": 6929
+    }
+  ],
+  "notes": {
+    "visual": "受控联系表观察：当前分类选中态明显，搜索、分类与内容边界清楚；手机更多应用作品双卡带真实缩略图、名称与状态，入口比旧单一下一件更可识别；320暗色无结果状态换行自然，重置按钮可见，未见空白加载、溢出或遮挡。",
+    "confirmedFix": "最终收紧版390/320px：返回应用作品保留4件并将Pocket卡定位在top152px；焦点恢复pocket-ged。工具栏top0、高108px，卡片未被遮挡。",
+    "search": "两视口搜索pocket均显示1件；完全不存在的作品显示0件与可见44px查看全部作品按钮；重置后17件、焦点搜索框。",
+    "densityTradeoff": "最终手机工具栏108px，占390x844高12.8%、320x740高14.6%；具体首卡位置与全页高度见comparisonMetrics，收益来自定位与操作可达，不把列表变长描述为少滚动。",
+    "recommendation": "最终收紧已完成，本次无新增建议或阻塞。",
+    "limits": "页面级浏览器/合成视口与模型视觉审查；未测试实体手机软键盘或真人使用偏好。旧导航脚本因新增上下两个返回链接触发strict locator，已用first()明确页首链接重跑，属于脚本适配而非产品故障。"
+  },
+  "comparisons": [
+    {
+      "file": "comparison-works-phone.webp",
+      "sha256": "2e5fb63a9fc5b96beb69d37c3683b962d8de15f0f273414e488ca675174901f4",
+      "method": "Original before/final after screenshots side by side at identical native pixel dimensions; 44px labels only, no crop or content alteration."
+    },
+    {
+      "file": "comparison-home-desktop.webp",
+      "sha256": "97d3cda4faa39467d57982a2d7a52d9bba6a7ea36f75a34053099beb2d0ed951",
+      "method": "Original before/final after screenshots side by side at identical native pixel dimensions; 44px labels only, no crop or content alteration."
+    }
+  ],
+  "finalTightening": {
+    "scope": "Only home/works screenshots recaptured; detail screenshots reused unchanged",
+    "removed": "THE COLLECTION eyebrow",
+    "placeholder": "搜索名称或用途",
+    "mobileToolbarHeight": 108,
+    "visualReview": "已看最终受控联系表：同尺寸桌面首屏、390作品区前后对照与320暗色作品区；装饰小标题已移除，分类/搜索更紧凑，原图完整，无遮挡、加载空白或横溢。最终布局可交付。",
+    "intermediateWidths": [
+      {
+        "width": 701,
+        "overflow": false,
+        "searchOnSecondRow": true,
+        "filterButtonMinimumHeight": 44,
+        "placeholder": "搜索名称或用途"
+      },
+      {
+        "width": 800,
+        "overflow": false,
+        "searchOnSecondRow": true,
+        "filterButtonMinimumHeight": 44,
+        "placeholder": "搜索名称或用途"
+      },
+      {
+        "width": 960,
+        "overflow": false,
+        "searchOnSecondRow": true,
+        "filterButtonMinimumHeight": 44,
+        "placeholder": "搜索名称或用途"
+      }
+    ]
+  }
+}

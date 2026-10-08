@@ -65,6 +65,19 @@ node scripts/verify-promos.mjs --url http://127.0.0.1:4218 \
 
 本地先构建并使用 Astro preview；临时服务器需支持 Range。`--engines chromium,webkit` 可增加WebKit对照；帧统计和真实设备/听验边界在回执中保留。`--views phone` 可做局部复验。退出码0为全部通过，1为失败，2为已明确记录的未验证边界（例如WebKit商店链接接管），不能把2当作完整通过。完整批次入口见 `docs/promo-series/README.md`。
 
+## 浏览与交互回归
+
+当前画廊支持分类 `view` 和搜索 `q`，查询范围为公开作品名称、用途、类别与技术；`/` 聚焦搜索，Escape或清除按钮清空查询。详情返回保留筛选与查询，并定位、聚焦原作品卡。详情的“更多同类作品”开始新的同类浏览，不继承旧查询。无JavaScript时保留全部作品、详情和外部体验链接。
+
+固定工具栏仅停留在作品区；窄窗优先换行，不能仅用整页scrollWidth判断控件是否重叠。具体设计与同尺寸对照见 [10-08标杆设计](docs/design/2026-10-08-benchmark/README.md)。
+
+```bash
+node scripts/verify-browsing.mjs --url http://127.0.0.1:4218 \
+  --out /tmp/hi-browsing-qa --playwright-root /absolute/project-with-playwright
+```
+
+当前回归样本为17件作品，涵盖中文/英文搜索、组合输入、零结果、URL/历史、返回位置与焦点、主题、无JS及中间宽度；新增作品后同步样本数量。片集回归继续使用 `scripts/verify-film-collection.mjs --playback quick`，返回断言已采用原作品锚点。
+
 ## 发布
 
 当前使用 **本地构建 + GitHub Pages 的 gh-pages 分支**，不是 GitHub Actions。
