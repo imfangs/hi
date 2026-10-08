@@ -1,0 +1,207 @@
+{
+  "verifiedAt": "2026-10-08T13:52:18.846608+00:00",
+  "phase": "before visual taste upgrade; reused verified previous after captures, no browser or server started",
+  "headAtVerification": "e54ea8296aadb782c1556b06c3c271418b7820f6",
+  "renderSourceBase": "c06419459fa2997c919ed962fa213ceaedf95307",
+  "reuseSource": "docs/design/2026-10-08-benchmark/after/AFTER.json",
+  "originalCapturedAt": "2026-10-08T13:31:57.006380+00:00",
+  "originalCapturePhase": "after: uncommitted benchmark working tree build",
+  "originalReportedBaseHead": "af66be9",
+  "baseExplanation": "Previous AFTER metadata describes an uncommitted build over af66be9. Its six recorded render-source hashes now match both c064194 and e54ea82 plus the current working tree. e54ea82 differs from c064194 only in CURRENT.md and the publication receipt, so c064194 is the precise source baseline represented by these captures.",
+  "verifiedSourceHashes": [
+    {
+      "path": "src/styles/global.css",
+      "sha256": "00fb52d1d66be136bad20d7bd8414f11568d5d19d2f68d1f5f1ef1e810e3b48f",
+      "currentMatches": true,
+      "headMatches": true,
+      "renderBaseMatches": true
+    },
+    {
+      "path": "src/scripts/gallery.ts",
+      "sha256": "f23d1a7b607469d46c554773180d0529cf4c7015685c94f71fd020c6e1547f95",
+      "currentMatches": true,
+      "headMatches": true,
+      "renderBaseMatches": true
+    },
+    {
+      "path": "src/scripts/detail.ts",
+      "sha256": "2d049cc5a5c02701396d7c9e367e26ddd45f5bc7f2a38a6145083e97d420004a",
+      "currentMatches": true,
+      "headMatches": true,
+      "renderBaseMatches": true
+    },
+    {
+      "path": "src/pages/index.astro",
+      "sha256": "bf518a04a572eb5ca851936e0be683be542dcfbfbb78b3fcc1ac19d100d2407e",
+      "currentMatches": true,
+      "headMatches": true,
+      "renderBaseMatches": true
+    },
+    {
+      "path": "src/pages/projects/[...slug].astro",
+      "sha256": "bbbb567e64ddf767749f6ef45b4a9c1623491a099ca61e88e5fe89fd7b27b491",
+      "currentMatches": true,
+      "headMatches": true,
+      "renderBaseMatches": true
+    },
+    {
+      "path": "src/components/ProjectRow.astro",
+      "sha256": "a44f8639e01070b29b8a858cbd30f4bd7ef236004021c646bd6f292a46d567e3",
+      "currentMatches": true,
+      "headMatches": true,
+      "renderBaseMatches": true
+    }
+  ],
+  "contentHashes": [
+    {
+      "path": "src/content/projects/aiedu.mdx",
+      "sha256": "3f6e001986f60d58c552dbb25da94bc891feeeebbbeef5dbd8772a19c1102404"
+    },
+    {
+      "path": "src/content/projects/chenchen-atelier.mdx",
+      "sha256": "16f0516c5f9587b36ff984d78043bc8c14d6fa1cb13320cc8e09095352866ed8"
+    },
+    {
+      "path": "src/content/projects/dankoe.mdx",
+      "sha256": "68182702930f1fc5f3f6e78ce17e959f5730406e8712907fe7c397e2734820d6"
+    },
+    {
+      "path": "src/content/projects/hyrule.mdx",
+      "sha256": "183aed3032f6e6fbf4a7dd17fed437802b7a9f385ea0d2813edb85f579606ffb"
+    },
+    {
+      "path": "src/content/projects/junlugu.mdx",
+      "sha256": "a40b02115802d24e8e4b80cf0908b02b017522d9be3efe13301a85461af1554a"
+    },
+    {
+      "path": "src/content/projects/junxia-comic.mdx",
+      "sha256": "71dbfd830c890f3c3eb9737c9209675c7650cc65518dc45ce2afdc99af95cbd3"
+    },
+    {
+      "path": "src/content/projects/lehh.mdx",
+      "sha256": "9378c30eee0134d7b992b167e52dc98d835c84c9ee57969dcab156c62b49ef19"
+    },
+    {
+      "path": "src/content/projects/little-pause.mdx",
+      "sha256": "c09e56eeb46dd3994fca6ba852948ec6b0307b9b3ae0529c694f8505474c183a"
+    },
+    {
+      "path": "src/content/projects/pocket-ged.mdx",
+      "sha256": "c5351b949d1318448b3fed0801ba3c078627fed784ef8ec044c4e1277752362e"
+    },
+    {
+      "path": "src/content/projects/pocofocus.mdx",
+      "sha256": "c590472b10973715b48cd54aa9ea53cf0d72c727af41a3fc2b504a40fdd032b0"
+    },
+    {
+      "path": "src/content/projects/qiya-herbarium.mdx",
+      "sha256": "b064a3f6b6e49078db5d41f73a63c9a3cf7b48e9e07db5eeb98cd472702350a7"
+    },
+    {
+      "path": "src/content/projects/school-secret-lab.mdx",
+      "sha256": "96876c71ac8b2ed225feafe31594321a3fb1b22b04ef76308e42a023289f1574"
+    },
+    {
+      "path": "src/content/projects/snow-duel.mdx",
+      "sha256": "79064cd0c3ac8ba32ae0e92bfdf578e653d69e91cbe83709f36415390c56b283"
+    },
+    {
+      "path": "src/content/projects/taste.mdx",
+      "sha256": "9612192b3eabb8d8a59a8e8295c7e1e89b5ca87073d583b35f94503738a3e265"
+    },
+    {
+      "path": "src/content/projects/the-perfect-run.mdx",
+      "sha256": "742cc51b1fa4e7722d88948fa25e2c001e95c47c8e5c274f5e8191f5cde40843"
+    },
+    {
+      "path": "src/content/projects/wbw.mdx",
+      "sha256": "017790c53ef63ee4af974673c93ed743f8e9b4d9055943a550e81587e8ae58d5"
+    },
+    {
+      "path": "src/content/projects/yuzu-island.mdx",
+      "sha256": "9a322f607126ac44b92fab381fba9700e6325076088620c057cb27305dc9d4d4"
+    }
+  ],
+  "captures": [
+    {
+      "name": "home-desktop",
+      "file": "home-desktop.png",
+      "sha256": "07e191aaf1b085b09444864a310e020a86d0b652c842b3b70b8cd406bc320107",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "overflow": false,
+      "copiedFrom": "docs/design/2026-10-08-benchmark/after/home-desktop.png",
+      "route": "/",
+      "theme": "light",
+      "bytes": 370422,
+      "reusedWithoutPixelChanges": true
+    },
+    {
+      "name": "home-phone",
+      "file": "home-phone.png",
+      "sha256": "7f2254524dbc7c324ce1d9fb5ce5a7cafc28036574892a170035831613b94638",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "overflow": false,
+      "copiedFrom": "docs/design/2026-10-08-benchmark/after/home-phone.png",
+      "route": "/",
+      "theme": "light",
+      "bytes": 113167,
+      "reusedWithoutPixelChanges": true
+    },
+    {
+      "name": "chenchen-atelier-phone",
+      "file": "chenchen-atelier-phone.png",
+      "sha256": "77158038fbb9166773eaccca05a289785444e26b7d29d6f11544b01fb4c0e52d",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "overflow": false,
+      "copiedFrom": "docs/design/2026-10-08-benchmark/after/chenchen-atelier-phone.png",
+      "route": "/projects/chenchen-atelier/",
+      "theme": "light",
+      "bytes": 107257,
+      "reusedWithoutPixelChanges": true
+    },
+    {
+      "name": "chenchen-atelier-desktop",
+      "file": "chenchen-atelier-desktop.png",
+      "sha256": "311c7ef1ba28b2bc597519ab607ea3cd9f9cc83abae30f640d5e867096542593",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "overflow": false,
+      "copiedFrom": "docs/design/2026-10-08-benchmark/after/chenchen-atelier-desktop.png",
+      "route": "/projects/chenchen-atelier/",
+      "theme": "light",
+      "bytes": 319661,
+      "reusedWithoutPixelChanges": true
+    }
+  ],
+  "limits": [
+    "Reused historical captures from the same verified source state, not new browser observations.",
+    "Only four screenshots copied: 1440x1000 and 390x844 home plus corresponding Chenchen Atelier detail.",
+    "This baseline does not repeat functional tests, deep-page captures, dark-theme screenshots, browser font inspection or physical-device checks.",
+    "New after captures should use the same routes, viewport dimensions, light theme and scrollY=0, with fonts and images fully loaded."
+  ],
+  "protectedBehavior": [
+    "Exactly 17 homepage [data-project] links and unique work-<slug> IDs; no duplicate hero link using data-project.",
+    "Keep .work-item, data-group, data-search and [hidden] semantics intact; maintain one ordered work list and DOM/visual reading order.",
+    "Preserve view/q cleanSearch behavior, counts, empty/reset states, IME, / shortcut, history and per-work return anchors.",
+    "Keep ResizeObserver toolbar height contract and work-item scroll-margin offset so returned card stays below sticky search/filter.",
+    "Related cards exclude current work, use same-group view and drop inherited q.",
+    "Keep real covers and aspect ratios; native video controls, playsinline, preload=none, poster, source and credits; no autoplay.",
+    "Without JS all 17 works remain visible; dynamic toolbar/theme controls remain hidden, with native links/anchor return working.",
+    "Preserve keyboard focus visibility, semantic headings, dark/system theme, reduced motion and meaningful link labels."
+  ]
+}

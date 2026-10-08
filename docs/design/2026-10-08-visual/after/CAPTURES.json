@@ -1,0 +1,105 @@
+{
+  "capturedAt": "2026-10-08",
+  "browser": "Codex in-app browser via CUA",
+  "sourceBase": "e54ea82",
+  "render": "local production build",
+  "captures": [
+    {
+      "file": "home-phone.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "b6febae45d52c6932e0d7d23fa793b5bce399283415d36181354b1aa04558bba"
+    },
+    {
+      "file": "chenchen-atelier-desktop.png",
+      "size": [
+        1440,
+        1000
+      ],
+      "sha256": "bcf840af0bd231a7f41e9f3d295ac67fe5ddb422fbbf0c4c584cc32fe0018cd8"
+    },
+    {
+      "file": "home-full.png",
+      "size": [
+        1440,
+        7239
+      ],
+      "sha256": "cd519eed9ac1e3b842ee8d7835982031ecb969f2a6977de9ba85ccc6c5dfe6f1"
+    },
+    {
+      "file": "gallery-4.png",
+      "size": [
+        1440,
+        1000
+      ],
+      "sha256": "8f05f8ffcf82bc3d72a14401e006e3b8ba262ab7b0459286cd35c492bad4b856"
+    },
+    {
+      "file": "gallery-0.png",
+      "size": [
+        1440,
+        1000
+      ],
+      "sha256": "47d8818acfccb1ac772304fae1fba4364b871b2e5e45e2470a8ee031a3878fed"
+    },
+    {
+      "file": "gallery-2.png",
+      "size": [
+        1440,
+        1000
+      ],
+      "sha256": "5711d56ec42c0797a400a28e2ac113735497a2b6be82920171e2b84e0363f80d"
+    },
+    {
+      "file": "concept-frame.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "68f31462cf2fcd3ba3ca73e6b39208bd1b0eec1106b4998287beb207cc8b760a"
+    },
+    {
+      "file": "home-narrow-dark.png",
+      "size": [
+        320,
+        740
+      ],
+      "sha256": "a68042db71ef15c84ee67604013feb2c7c14e56bb512fb03ebc6537335c51d25"
+    },
+    {
+      "file": "chenchen-atelier-phone.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "9ae3412a9cd9da70d65e955f6f87d9cf47cf976e4b9c62f6a47e9c8428e92616"
+    },
+    {
+      "file": "return-narrow.png",
+      "size": [
+        320,
+        740
+      ],
+      "sha256": "43b71be04a7eff94c5c4079df0466fce3aba9bc515f3aba95363acc0206201dd"
+    },
+    {
+      "file": "home-desktop.png",
+      "size": [
+        1440,
+        1000
+      ],
+      "sha256": "29f641c0f5638fe2b3e9d212f5288bac2ca44b61c5f21908f18d91ddd8efcbd5"
+    }
+  ],
+  "sourceHashes": {
+    "src/styles/global.css": "f90bcffde0f6bb144034e5071325f0dda150ebbbc5dea4af0b346f6f1db4e22a",
+    "src/pages/index.astro": "dcd8a4e948360fd0f26e758e36daa3455a9e50bbcaa697e1e2452c01ccdf021e",
+    "src/components/ProjectRow.astro": "3c56c4f0aecfdba2cee6568b923ce27f765bac4239a4599e95058afffdb3daea",
+    "src/components/SiteHeader.astro": "48c75dec337bb4e2a780ecda61b4753de7060b221f1df4055017dc283c59b5d8",
+    "src/lib/exhibition.ts": "592c4f30c021043b2ca6bcf83d74c7ad2146d4fb23c8421ea7d5e94a6ff72a33",
+    "src/scripts/gallery.ts": "88f5d748233bea3abad98839f07ced48353c34fa6d10b8118035efc203cb223d"
+  },
+  "captureCorrection": "A mobile-to-desktop transition initially returned a 462x1000 partial bitmap while DOM viewport was1440x1000. Re-navigated at desktop size and verified final PNG dimensions before comparison. The failed frame is retained only in temporary evidence."
+}

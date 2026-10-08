@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "capability": "image-generation",
+  "operation": "request",
+  "ok": true,
+  "code": "completed",
+  "transport": "curl",
+  "created_at": "2026-10-08T13:58:16.971308+00:00",
+  "request_sha256": "e627c7e643c676d02065bdd00ff5fb0ce2f21f2411ce8b073dfa43e09900f462",
+  "request_bytes": 382854,
+  "attempts": [
+    {
+      "index": 1,
+      "trace_id": "f29d513b08d04ceea9f2704574c94c35",
+      "started_at": "2026-10-08T13:58:16.972389+00:00",
+      "outcome": "response_received",
+      "safe_to_replay": false,
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "response_bytes": 1700609,
+      "elapsed_seconds": 99.272
+    }
+  ],
+  "billing_status": "not_determined",
+  "endpoint": "https://chat.sankuai.com/v1/openai/native/images/edits",
+  "images": [
+    {
+      "index": 0,
+      "ok": true,
+      "output": "/Users/fangs/workspace/side/hi/docs/design/2026-10-08-visual/concepts/printed-index.png",
+      "size_bytes": 1275099,
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "outputs": [
+    "/Users/fangs/workspace/side/hi/docs/design/2026-10-08-visual/concepts/printed-index.png"
+  ],
+  "exit_code": 0,
+  "completed_at": "2026-10-08T13:59:56.306315+00:00"
+}

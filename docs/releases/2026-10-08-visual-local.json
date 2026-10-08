@@ -1,0 +1,1606 @@
+{
+  "date": "2026-10-08",
+  "state": "local_verified_pending_publication",
+  "base": "e54ea8296aadb782c1556b06c3c271418b7820f6",
+  "build": "18 pages passed",
+  "typescript": "passed",
+  "browser": "CUA: primary Codex in-app browser; Chrome only for actual external new-tab handoff",
+  "iab": {
+    "checkedAt": "2026-10-08T14:37:51.370Z",
+    "checks": [
+      {
+        "scope": "desktop",
+        "reading": {
+          "layout": "grid",
+          "visible": 5
+        },
+        "search": {
+          "href": "/projects/the-perfect-run/?view=reading&q=%E5%AE%8C%E7%BE%8E",
+          "ids": [
+            "work-the-perfect-run"
+          ],
+          "imageHref": "/projects/the-perfect-run/?view=reading&q=%E5%AE%8C%E7%BE%8E"
+        },
+        "return": {
+          "barBottom": 74.921875,
+          "focus": "the-perfect-run",
+          "hash": "#work-the-perfect-run",
+          "search": "?view=reading&q=%E5%AE%8C%E7%BE%8E",
+          "top": 104.921875,
+          "visible": 1
+        }
+      },
+      {
+        "scope": "full-gallery",
+        "passes": [
+          {
+            "images": [
+              {
+                "loaded": true,
+                "src": "/images/projects/junxia-comic.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/yuzu-island.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/pocket-ged.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/taste.webp"
+              }
+            ],
+            "overflow": false,
+            "scrollY": 1000
+          },
+          {
+            "images": [
+              {
+                "loaded": true,
+                "src": "/images/projects/pocket-ged.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/taste.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/school-secret-lab.webp"
+              }
+            ],
+            "overflow": false,
+            "scrollY": 2000
+          },
+          {
+            "images": [
+              {
+                "loaded": true,
+                "src": "/images/projects/school-secret-lab.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/little-pause.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/lehh.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/pocofocus.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/junlugu.webp"
+              }
+            ],
+            "overflow": false,
+            "scrollY": 3000
+          },
+          {
+            "images": [
+              {
+                "loaded": true,
+                "src": "/images/projects/pocofocus.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/junlugu.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/snow-duel.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/qiya-herbarium.webp"
+              }
+            ],
+            "overflow": false,
+            "scrollY": 4000
+          },
+          {
+            "images": [
+              {
+                "loaded": true,
+                "src": "/images/projects/snow-duel.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/hyrule.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/the-perfect-run.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/aiedu.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/wbw.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/dankoe.webp"
+              }
+            ],
+            "overflow": false,
+            "scrollY": 5000
+          },
+          {
+            "images": [
+              {
+                "loaded": true,
+                "src": "/images/projects/aiedu.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/wbw.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/projects/dankoe.webp"
+              },
+              {
+                "loaded": true,
+                "src": "/images/brand/palm-forward-1536.webp"
+              }
+            ],
+            "overflow": false,
+            "scrollY": 6000
+          },
+          {
+            "images": [
+              {
+                "loaded": true,
+                "src": "/images/brand/palm-forward-1536.webp"
+              }
+            ],
+            "overflow": false,
+            "scrollY": 6239
+          }
+        ]
+      },
+      {
+        "scope": "320-dark",
+        "empty": {
+          "emptyVisible": true,
+          "injected": 0,
+          "layout": "grid",
+          "visible": 0
+        },
+        "apps": {
+          "layout": "grid",
+          "visible": 4
+        },
+        "return": {
+          "bar": 107,
+          "focus": "pocofocus",
+          "hash": "#work-pocofocus",
+          "overflow": false,
+          "search": "?view=apps",
+          "top": 151.109375
+        }
+      },
+      {
+        "scope": "history",
+        "result": {
+          "view": "reading",
+          "visible": 5
+        }
+      },
+      {
+        "scope": "breakpoints",
+        "results": [
+          {
+            "buttons": [
+              {
+                "bottom": 390.9453125,
+                "height": 44,
+                "right": 87.59375,
+                "width": 67.59375,
+                "x": 20,
+                "y": 346.9453125
+              },
+              {
+                "bottom": 390.9453125,
+                "height": 44,
+                "right": 158.1953125,
+                "width": 67.6015625,
+                "x": 90.59375,
+                "y": 346.9453125
+              },
+              {
+                "bottom": 390.9453125,
+                "height": 44,
+                "right": 228.796875,
+                "width": 67.6015625,
+                "x": 161.1953125,
+                "y": 346.9453125
+              },
+              {
+                "bottom": 390.9453125,
+                "height": 44,
+                "right": 299.3984375,
+                "width": 67.6015625,
+                "x": 231.796875,
+                "y": 346.9453125
+              },
+              {
+                "bottom": 390.9453125,
+                "height": 44,
+                "right": 370,
+                "width": 67.6015625,
+                "x": 302.3984375,
+                "y": 346.9453125
+              }
+            ],
+            "grid": "350px",
+            "ids": [
+              "chenchen-atelier",
+              "junxia-comic",
+              "yuzu-island",
+              "pocket-ged",
+              "taste",
+              "school-secret-lab",
+              "little-pause",
+              "lehh",
+              "pocofocus",
+              "junlugu",
+              "snow-duel",
+              "qiya-herbarium",
+              "hyrule",
+              "the-perfect-run",
+              "aiedu",
+              "wbw",
+              "dankoe"
+            ],
+            "imageRatios": [
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6
+            ],
+            "lead": {
+              "bottom": 852.0859375,
+              "height": 384.140625,
+              "right": 370,
+              "width": 350,
+              "x": 20,
+              "y": 467.9453125
+            },
+            "overflow": false,
+            "search": {
+              "bottom": 440.9453125,
+              "height": 44,
+              "right": 370,
+              "width": 350,
+              "x": 20,
+              "y": 396.9453125
+            },
+            "width": 390
+          },
+          {
+            "buttons": [
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 93.203125,
+                "width": 57.203125,
+                "x": 36,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 169.8046875,
+                "width": 50.6015625,
+                "x": 119.203125,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 246.40625,
+                "width": 50.6015625,
+                "x": 195.8046875,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 323.0078125,
+                "width": 50.6015625,
+                "x": 272.40625,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 399.609375,
+                "width": 50.6015625,
+                "x": 349.0078125,
+                "y": 298.78125
+              }
+            ],
+            "grid": "300.5px 300.5px",
+            "ids": [
+              "chenchen-atelier",
+              "junxia-comic",
+              "yuzu-island",
+              "pocket-ged",
+              "taste",
+              "school-secret-lab",
+              "little-pause",
+              "lehh",
+              "pocofocus",
+              "junlugu",
+              "snow-duel",
+              "qiya-herbarium",
+              "hyrule",
+              "the-perfect-run",
+              "aiedu",
+              "wbw",
+              "dankoe"
+            ],
+            "imageRatios": [
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6
+            ],
+            "lead": {
+              "bottom": 816.9765625,
+              "height": 383.1953125,
+              "right": 336.5,
+              "width": 300.5,
+              "x": 36,
+              "y": 433.78125
+            },
+            "overflow": false,
+            "search": {
+              "bottom": 394.78125,
+              "height": 44,
+              "right": 665,
+              "width": 629,
+              "x": 36,
+              "y": 350.78125
+            },
+            "width": 701
+          },
+          {
+            "buttons": [
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 93.203125,
+                "width": 57.203125,
+                "x": 36,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 169.8046875,
+                "width": 50.6015625,
+                "x": 119.203125,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 246.40625,
+                "width": 50.6015625,
+                "x": 195.8046875,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 323.0078125,
+                "width": 50.6015625,
+                "x": 272.40625,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 399.609375,
+                "width": 50.6015625,
+                "x": 349.0078125,
+                "y": 298.78125
+              }
+            ],
+            "grid": "350px 350px",
+            "ids": [
+              "chenchen-atelier",
+              "junxia-comic",
+              "yuzu-island",
+              "pocket-ged",
+              "taste",
+              "school-secret-lab",
+              "little-pause",
+              "lehh",
+              "pocofocus",
+              "junlugu",
+              "snow-duel",
+              "qiya-herbarium",
+              "hyrule",
+              "the-perfect-run",
+              "aiedu",
+              "wbw",
+              "dankoe"
+            ],
+            "imageRatios": [
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6
+            ],
+            "lead": {
+              "bottom": 847.9140625,
+              "height": 414.1328125,
+              "right": 386,
+              "width": 350,
+              "x": 36,
+              "y": 433.78125
+            },
+            "overflow": false,
+            "search": {
+              "bottom": 394.78125,
+              "height": 44,
+              "right": 764,
+              "width": 728,
+              "x": 36,
+              "y": 350.78125
+            },
+            "width": 800
+          },
+          {
+            "buttons": [
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 93.203125,
+                "width": 57.203125,
+                "x": 36,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 169.8046875,
+                "width": 50.6015625,
+                "x": 119.203125,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 246.40625,
+                "width": 50.6015625,
+                "x": 195.8046875,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 323.0078125,
+                "width": 50.6015625,
+                "x": 272.40625,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 399.609375,
+                "width": 50.6015625,
+                "x": 349.0078125,
+                "y": 298.78125
+              }
+            ],
+            "grid": "430px 430px",
+            "ids": [
+              "chenchen-atelier",
+              "junxia-comic",
+              "yuzu-island",
+              "pocket-ged",
+              "taste",
+              "school-secret-lab",
+              "little-pause",
+              "lehh",
+              "pocofocus",
+              "junlugu",
+              "snow-duel",
+              "qiya-herbarium",
+              "hyrule",
+              "the-perfect-run",
+              "aiedu",
+              "wbw",
+              "dankoe"
+            ],
+            "imageRatios": [
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6
+            ],
+            "lead": {
+              "bottom": 872.71875,
+              "height": 438.9375,
+              "right": 466,
+              "width": 430,
+              "x": 36,
+              "y": 433.78125
+            },
+            "overflow": false,
+            "search": {
+              "bottom": 394.78125,
+              "height": 44,
+              "right": 924,
+              "width": 888,
+              "x": 36,
+              "y": 350.78125
+            },
+            "width": 960
+          },
+          {
+            "buttons": [
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 93.203125,
+                "width": 57.203125,
+                "x": 36,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 169.8046875,
+                "width": 50.6015625,
+                "x": 119.203125,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 246.40625,
+                "width": 50.6015625,
+                "x": 195.8046875,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 323.0078125,
+                "width": 50.6015625,
+                "x": 272.40625,
+                "y": 298.78125
+              },
+              {
+                "bottom": 342.78125,
+                "height": 44,
+                "right": 399.609375,
+                "width": 50.6015625,
+                "x": 349.0078125,
+                "y": 298.78125
+              }
+            ],
+            "grid": "44.4141px 44.4141px 44.4141px 44.4141px 44.4141px 44.4219px 44.4141px 44.4141px 44.4141px 44.4141px 44.4141px 44.4141px",
+            "ids": [
+              "chenchen-atelier",
+              "junxia-comic",
+              "yuzu-island",
+              "pocket-ged",
+              "taste",
+              "school-secret-lab",
+              "little-pause",
+              "lehh",
+              "pocofocus",
+              "junlugu",
+              "snow-duel",
+              "qiya-herbarium",
+              "hyrule",
+              "the-perfect-run",
+              "aiedu",
+              "wbw",
+              "dankoe"
+            ],
+            "imageRatios": [
+              1.6000045001462548,
+              1.6000136584033329,
+              1.6000284677247172,
+              1.600004744620786,
+              1.6000478044116644,
+              1.6000290324921975,
+              1.6,
+              1.6,
+              1.6000136584033329,
+              1.6000284677247172,
+              1.600004744620786,
+              1.6000478044116644,
+              1.6,
+              1.6,
+              1.600008751586225,
+              1.600008751586225,
+              1.60005250951735
+            ],
+            "lead": {
+              "bottom": 728.9921875,
+              "height": 347.2109375,
+              "right": 965,
+              "width": 929,
+              "x": 36,
+              "y": 381.78125
+            },
+            "overflow": false,
+            "search": {
+              "bottom": 342.78125,
+              "height": 44,
+              "right": 965,
+              "width": 256,
+              "x": 709,
+              "y": 298.78125
+            },
+            "width": 1001
+          },
+          {
+            "buttons": [
+              {
+                "bottom": 400.921875,
+                "height": 44,
+                "right": 117.203125,
+                "width": 57.203125,
+                "x": 60,
+                "y": 356.921875
+              },
+              {
+                "bottom": 400.921875,
+                "height": 44,
+                "right": 193.8046875,
+                "width": 50.6015625,
+                "x": 143.203125,
+                "y": 356.921875
+              },
+              {
+                "bottom": 400.921875,
+                "height": 44,
+                "right": 270.40625,
+                "width": 50.6015625,
+                "x": 219.8046875,
+                "y": 356.921875
+              },
+              {
+                "bottom": 400.921875,
+                "height": 44,
+                "right": 347.0078125,
+                "width": 50.6015625,
+                "x": 296.40625,
+                "y": 356.921875
+              },
+              {
+                "bottom": 400.921875,
+                "height": 44,
+                "right": 423.609375,
+                "width": 50.6015625,
+                "x": 373.0078125,
+                "y": 356.921875
+              }
+            ],
+            "grid": "77px 77px 77px 77px 77px 77px 77px 77px 77px 77px 77px 77px",
+            "ids": [
+              "chenchen-atelier",
+              "junxia-comic",
+              "yuzu-island",
+              "pocket-ged",
+              "taste",
+              "school-secret-lab",
+              "little-pause",
+              "lehh",
+              "pocofocus",
+              "junlugu",
+              "snow-duel",
+              "qiya-herbarium",
+              "hyrule",
+              "the-perfect-run",
+              "aiedu",
+              "wbw",
+              "dankoe"
+            ],
+            "imageRatios": [
+              1.600018648598247,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6000066838218092,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6,
+              1.6
+            ],
+            "lead": {
+              "bottom": 942.640625,
+              "height": 502.71875,
+              "right": 1380,
+              "width": 1320,
+              "x": 60,
+              "y": 439.921875
+            },
+            "overflow": false,
+            "search": {
+              "bottom": 400.921875,
+              "height": 44,
+              "right": 1380,
+              "width": 256,
+              "x": 1124,
+              "y": 356.921875
+            },
+            "width": 1440
+          }
+        ]
+      },
+      {
+        "scope": "no-javascript",
+        "result": {
+          "launches": 15,
+          "overflow": false,
+          "previews": 17,
+          "toolbarHidden": true,
+          "visible": 17,
+          "works": 17
+        }
+      },
+      {
+        "scope": "reduced-motion",
+        "result": {
+          "animation": "none",
+          "transition": "0s"
+        }
+      },
+      {
+        "scope": "17-desktop-details",
+        "results": [
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/yuzu-island/?view=creations",
+              "/projects/junxia-comic/?view=creations"
+            ],
+            "route": "/projects/chenchen-atelier/",
+            "videos": [],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/school-secret-lab/?view=creations",
+              "/projects/chenchen-atelier/?view=creations"
+            ],
+            "route": "/projects/junxia-comic/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/junxia-comic/?view=creations",
+              "/projects/school-secret-lab/?view=creations"
+            ],
+            "route": "/projects/yuzu-island/",
+            "videos": [],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/lehh/?view=apps",
+              "/projects/little-pause/?view=apps"
+            ],
+            "route": "/projects/pocket-ged/",
+            "videos": [],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/aiedu/?view=reading",
+              "/projects/wbw/?view=reading"
+            ],
+            "route": "/projects/taste/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/chenchen-atelier/?view=creations",
+              "/projects/yuzu-island/?view=creations"
+            ],
+            "route": "/projects/school-secret-lab/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              },
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/pocofocus/?view=apps",
+              "/projects/pocket-ged/?view=apps"
+            ],
+            "route": "/projects/little-pause/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/little-pause/?view=apps",
+              "/projects/pocofocus/?view=apps"
+            ],
+            "route": "/projects/lehh/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/pocket-ged/?view=apps",
+              "/projects/lehh/?view=apps"
+            ],
+            "route": "/projects/pocofocus/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/qiya-herbarium/?view=games",
+              "/projects/hyrule/?view=games"
+            ],
+            "route": "/projects/junlugu/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/junlugu/?view=games",
+              "/projects/qiya-herbarium/?view=games"
+            ],
+            "route": "/projects/snow-duel/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/hyrule/?view=games",
+              "/projects/snow-duel/?view=games"
+            ],
+            "route": "/projects/qiya-herbarium/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/snow-duel/?view=games",
+              "/projects/junlugu/?view=games"
+            ],
+            "route": "/projects/hyrule/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/taste/?view=reading",
+              "/projects/aiedu/?view=reading"
+            ],
+            "route": "/projects/the-perfect-run/",
+            "videos": [],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/wbw/?view=reading",
+              "/projects/dankoe/?view=reading"
+            ],
+            "route": "/projects/aiedu/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/dankoe/?view=reading",
+              "/projects/the-perfect-run/?view=reading"
+            ],
+            "route": "/projects/wbw/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          },
+          {
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "related": [
+              "/projects/the-perfect-run/?view=reading",
+              "/projects/taste/?view=reading"
+            ],
+            "route": "/projects/dankoe/",
+            "videos": [
+              {
+                "autoplay": false,
+                "controls": true,
+                "inline": true,
+                "preload": "none"
+              }
+            ],
+            "passed": true
+          }
+        ]
+      },
+      {
+        "scope": "17-320px-details",
+        "results": [
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 147,
+                "width": 127
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/chenchen-atelier/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/junxia-comic/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 147,
+                "width": 127
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/yuzu-island/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 243.6484375,
+                "width": 223.6484375
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/pocket-ged/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 134,
+                "width": 114
+              },
+              {
+                "height": 46,
+                "left": 144,
+                "right": 245,
+                "width": 101
+              },
+              {
+                "height": 46,
+                "left": 20,
+                "right": 160,
+                "width": 140
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/taste/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/school-secret-lab/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 186.4296875,
+                "width": 166.4296875
+              },
+              {
+                "height": 46,
+                "left": 20,
+                "right": 134,
+                "width": 114
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/little-pause/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 186.4296875,
+                "width": 166.4296875
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/lehh/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 160,
+                "width": 140
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/pocofocus/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 147,
+                "width": 127
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/junlugu/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 173,
+                "width": 153
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/snow-duel/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 160,
+                "width": 140
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/qiya-herbarium/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 134,
+                "width": 114
+              },
+              {
+                "height": 46,
+                "left": 144,
+                "right": 271,
+                "width": 127
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/hyrule/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 134,
+                "width": 114
+              },
+              {
+                "height": 46,
+                "left": 144,
+                "right": 258,
+                "width": 114
+              },
+              {
+                "height": 46,
+                "left": 20,
+                "right": 225,
+                "width": 205
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/the-perfect-run/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 134,
+                "width": 114
+              },
+              {
+                "height": 46,
+                "left": 144,
+                "right": 271,
+                "width": 127
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/aiedu/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 173,
+                "width": 153
+              },
+              {
+                "height": 46,
+                "left": 20,
+                "right": 173,
+                "width": 153
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/wbw/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          },
+          {
+            "actions": [
+              {
+                "height": 46,
+                "left": 20,
+                "right": 134,
+                "width": 114
+              },
+              {
+                "height": 46,
+                "left": 144,
+                "right": 284,
+                "width": 140
+              },
+              {
+                "height": 46,
+                "left": 20,
+                "right": 173,
+                "width": 153
+              }
+            ],
+            "badVisibleImages": [],
+            "headings": 1,
+            "overflow": false,
+            "route": "/projects/dankoe/",
+            "viewport": [
+              320,
+              740
+            ],
+            "passed": true
+          }
+        ]
+      },
+      {
+        "scope": "direct-entry",
+        "result": {
+          "browser": "Chrome through CUA",
+          "from": "Hi homepage search result card",
+          "url": "https://chenchen.fangs.cc/",
+          "title": "晨间花园 · 给陈晨的一张花纸",
+          "newTab": true,
+          "originalTabPreserved": true
+        },
+        "iabBoundary": "The same target=_blank click did not produce a tool-visible new tab in IAB; Chrome actual navigation verified instead."
+      }
+    ]
+  },
+  "designQa": "../../design-qa.md",
+  "visual": "../design/2026-10-08-visual/README.md",
+  "assetScope": "All17 project source files and original media unchanged; two font files added",
+  "limits": [
+    "No physical device/Safari verification",
+    "Visual reviews do not establish human preference"
+  ]
+}

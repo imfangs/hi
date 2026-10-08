@@ -1,25 +1,33 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { groups } from '../lib/projects';
-interface Props { project: CollectionEntry<'projects'>; eager?: boolean }
-const { project, eager = false } = Astro.props;
+import { presentationFor } from '../lib/exhibition';
+interface Props { project: CollectionEntry<'projects'>; eager?: boolean; index?: number }
+const { project, eager = false, index } = Astro.props;
 const { title, subtitle, cover, category, status, group, links, stack } = project.data;
 const primary = links?.[0];
+const presentation = presentationFor(project.id);
+const detailHref = `/projects/${project.id}/`;
 const searchText = [title, subtitle, category, groups.find(g => g.id === group)?.label, project.id, ...stack].filter(Boolean).join(' ');
 if (!cover) throw new Error(`Featured project ${project.id} needs a cover`);
 ---
-<li class="work-item" id={`work-${project.id}`} data-group={group} data-search={searchText}>
-  <a class="work-card" href={`/projects/${project.id}/`} data-project={project.id}>
+<li class="work-item" id={`work-${project.id}`} data-group={group} data-search={searchText} data-treatment={presentation.treatment} style={`--work-span: ${presentation.span}`}>
+  <a class="work-image-link" href={detailHref} data-preview-project={project.id} tabindex="-1" aria-hidden="true">
     <div class="work-image">
       <img src={cover.src} alt="" width="1200" height="750" loading={eager ? 'eager' : 'lazy'} decoding="async" />
     </div>
-    <div class="work-copy">
-      <div class="work-meta"><span>{category}</span><span class="work-status" data-status={status}>{status}</span></div>
+  </a>
+  <div class="work-copy">
+    <a class="work-card" href={detailHref} data-project={project.id}>
+      <div class="work-meta">{index !== undefined && <span class="work-number">{String(index + 1).padStart(2, '0')}</span>}<span>{category}</span></div>
       <div class="work-title-line"><h3>{title}</h3><svg class="work-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></div>
       <p>{subtitle}</p>
+    </a>
+    <div class="work-actions">
+      {primary && <a class="work-launch" href={primary.href} target="_blank" rel="noopener noreferrer" aria-label={`${primary.label}：${title}（新标签页）`}>
+        {primary.label}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg>
+      </a>}
+      <span class="work-status" data-status={status}>{status}</span>
     </div>
-  </a>
-  {primary && <div class="work-actions"><a class="work-launch" href={primary.href} target="_blank" rel="noopener noreferrer" aria-label={`${primary.label}：${title}（新标签页）`}>
-    {primary.label}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg>
-  </a></div>}
+  </div>
 </li>

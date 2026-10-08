@@ -2,6 +2,7 @@ import { groups, cleanSearch } from '../lib/projects';
 
 const toolbar = document.querySelector<HTMLElement>('.browse-toolbar');
 const items = [...document.querySelectorAll<HTMLElement>('.work-item')];
+const list = document.querySelector<HTMLElement>('#work-list');
 const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
 const search = document.querySelector<HTMLInputElement>('#work-search');
 const clear = document.querySelector<HTMLButtonElement>('.search-clear');
@@ -23,6 +24,7 @@ function state() {
 }
 function apply(announce = false) {
   const { view, query } = state();
+  list?.setAttribute('data-layout', view === 'all' && !query ? 'exhibition' : 'grid');
   const terms = normalize(query).split(' ').filter(Boolean);
   const matches = items.filter(item => terms.every(term => corpus.get(item)?.includes(term)));
   for (const item of items) item.hidden = !matches.includes(item) || (view !== 'all' && item.dataset.group !== view);
@@ -32,7 +34,7 @@ function apply(announce = false) {
     const counter = button.querySelector<HTMLElement>('[data-filter-count]');
     if (counter) counter.textContent = String(value);
   }
-  for (const link of document.querySelectorAll<HTMLAnchorElement>('[data-project]')) {
+  for (const link of document.querySelectorAll<HTMLAnchorElement>('[data-project], [data-preview-project]')) {
     const url = new URL(link.href);
     view === 'all' ? url.searchParams.delete('view') : url.searchParams.set('view', view);
     query ? url.searchParams.set('q', query) : url.searchParams.delete('q');

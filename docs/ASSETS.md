@@ -1,5 +1,11 @@
 # 作品封面来源
 
+## 2026-10-08 · 视觉作品选集字体
+
+- `public/fonts/instrument-serif-italic.ttf`：Instrument Serif Italic，仅用于英文署名Taste；从Google Fonts官方仓库取得，按SIL Open Font License 1.1自托管，同目录保留 `instrument-serif-OFL.txt`。源URL、大小和SHA见 [字体回执](design/2026-10-08-visual/font-source.json)。
+- 本轮不替换任何作品封面或影片。两张生成概念只在设计记录中作为方向，正式站使用原始真实素材；Pentagram/Frank的参考截图仅在本轮临时目录，未加入public。
+
+
 ## 2026-10-08 · 晨间花园、完美通关、小岛与 Pocket / Ged
 
 新增四张 1200×750 WebP 封面和一张 1200×1360 的 Pocket / Ged 详情图；输出 SHA、尺寸、捕获日期与视觉检查见 [资产回执](releases/2026-10-08-additions-assets.json)。

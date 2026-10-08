@@ -45,7 +45,7 @@ order: 1
 ---
 ```
 
-正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。项目按 `order` 排序；`group` 定义应用、游戏、阅读或创作分类。筛选与详情返回使用 `?view=`，浏览器可恢复选择。当前画廊设计与交互约定见 `docs/design/2026-09-30/DIRECTION.md`。
+正文使用 Markdown / MDX，介绍做什么、怎么玩、使用条件。`featured: true` 会进入首页作品列表；其他非 draft 条目仅生成详情；`draft: true` 不生成页面。首页展陈由 `src/lib/exhibition.ts` 排列，`order` 保留为内容与同类接续顺序；`group` 定义应用、游戏、阅读或创作分类。筛选与详情返回使用 `?view=`，浏览器可恢复选择。当前画廊设计与交互约定见 `docs/design/2026-09-30/DIRECTION.md`。
 
 菌侠原画集 `junxia-comic.mdx` 使用 `format: comic`，详情正文采用画幅宽度，首页cover不在详情重复展示。`ComicReader.astro` 保存五页原稿顺序、可缩放翻页阅读器、两条完整动画和五段独立分镜。无JavaScript时仍可顺序阅读、打开大图和播放原生视频。图片只校正方向，视频为已有实验原件；出处见ASSETS。
 
@@ -64,6 +64,10 @@ node scripts/verify-promos.mjs --url http://127.0.0.1:4218 \
 ```
 
 本地先构建并使用 Astro preview；临时服务器需支持 Range。`--engines chromium,webkit` 可增加WebKit对照；帧统计和真实设备/听验边界在回执中保留。`--views phone` 可做局部复验。退出码0为全部通过，1为失败，2为已明确记录的未验证边界（例如WebKit商店链接接管），不能把2当作完整通过。完整批次入口见 `docs/promo-series/README.md`。
+
+## 视觉展陈
+
+当前设计见 [视觉作品选集](docs/design/2026-10-08-visual/README.md)。晨间花园以大图开场，默认桌面使用少量不等宽组合；筛选/搜索恢复规整网格，手机单列。展陈配置接收全部作品，未配置的新作品按原序追加。所有图片仍保持真实完整画幅；请同步检查图片与题签两个入口的查询参数。
 
 ## 浏览与交互回归
 

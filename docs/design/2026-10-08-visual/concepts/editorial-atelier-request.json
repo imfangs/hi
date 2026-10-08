@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "capability": "image-generation",
+  "operation": "request",
+  "ok": true,
+  "code": "completed",
+  "transport": "curl",
+  "created_at": "2026-10-08T13:58:05.465148+00:00",
+  "request_sha256": "0fc42e618ad1ac031881401c77af55abc87ee2196e6d3fc034d11e3153afdd66",
+  "request_bytes": 383408,
+  "attempts": [
+    {
+      "index": 1,
+      "trace_id": "4cb4d92f4eb442868cee75747d674a63",
+      "started_at": "2026-10-08T13:58:05.467341+00:00",
+      "outcome": "response_received",
+      "safe_to_replay": false,
+      "curl_exit_code": 0,
+      "http_status": 200,
+      "response_bytes": 1474845,
+      "elapsed_seconds": 97.54
+    }
+  ],
+  "billing_status": "not_determined",
+  "endpoint": "https://chat.sankuai.com/v1/openai/native/images/edits",
+  "images": [
+    {
+      "index": 0,
+      "ok": true,
+      "output": "/Users/fangs/workspace/side/hi/docs/design/2026-10-08-visual/concepts/editorial-atelier.png",
+      "size_bytes": 1105776,
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "outputs": [
+    "/Users/fangs/workspace/side/hi/docs/design/2026-10-08-visual/concepts/editorial-atelier.png"
+  ],
+  "exit_code": 0,
+  "completed_at": "2026-10-08T13:59:43.107158+00:00"
+}

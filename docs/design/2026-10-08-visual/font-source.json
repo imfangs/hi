@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-08",
+  "records": [
+    {
+      "file": "public/fonts/instrument-serif-italic.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf",
+      "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385",
+      "bytes": 71592,
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "file": "public/fonts/instrument-serif-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/OFL.txt",
+      "sha256": "b6b2292aa580937fb63796878d65a027a27f8c3db2d97601d0c34d9031f4ca17",
+      "bytes": 4404,
+      "license": "SIL Open Font License 1.1",
+      "upstreamSha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "normalization": "Trailing whitespace removed; license wording unchanged"
+    }
+  ]
+}
