@@ -33,3 +33,7 @@ Actual IAB checks cover: search + category, regular/exhibition layout switch, eq
 ## Boundaries
 
 This is an independent design judgment, not evidence of visitor preference, conversion or long-term usefulness. No new physical-phone/Safari or human IME test. No new continuous listening/viewing of the existing media. All temporary emulation and theme choices are restored before closeout.
+
+## Public delivery
+
+Published source11776af / Pages aafb2fb.43/43 scoped static files match, original media are unchanged, and the formal IAB page shows the new first work and loaded display font.390px search/image entry/return-focus pass on a fresh tab. A timed-out same-page navigation wait was treated as tool-state uncertainty and the relevant flow repeated; no product changes were made to conceal it. See docs/releases/2026-10-08-visual-publish.json.
