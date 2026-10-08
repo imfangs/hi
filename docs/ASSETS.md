@@ -1,5 +1,19 @@
 # 作品封面来源
 
+## 2026-10-08 · 晨间花园、完美通关、小岛与 Pocket / Ged
+
+新增四张 1200×750 WebP 封面和一张 1200×1360 的 Pocket / Ged 详情图；输出 SHA、尺寸、捕获日期与视觉检查见 [资产回执](releases/2026-10-08-additions-assets.json)。
+
+| 文件 | 来源 | 加工与边界 |
+| --- | --- | --- |
+| chenchen-atelier.webp | 当日正式站 https://chenchen.fangs.cc/ | 1440×900 完整界面等比缩放，默认花纸与真实3D礼盒；仅使用隔离浏览器的默认设计 |
+| the-perfect-run.webp | 当日正式站 https://perfect-run.fangs.cc/ | 完整首页等比缩放，原作封面、原作者及三版入口；没有正文或图谱剧透，原作归 Maxime J. Durand |
+| yuzu-island.webp | 当日正式站 https://youzi.fangs.cc/ | 真实GLB加载后完整截图并等比缩放；保留岛景、标题与控件 |
+| pocket-ged.webp / pocket-ged-detail.webp | Pocket 10-08 发布版的合成QA截图；Ged 0.6.3（16）独立模拟器的合成对话截图 | 完整应用界面缩放并排、外侧标签及浅色背景；不修改截图文字。详情图注明版本，没有私人聊天、真实头像、账号或凭据 |
+
+三个公网截图使用全新匿名上下文，HTML 与各自本地已发布构建哈希一致；WebP quality 88。Pocket / Ged 的截图来源与合成 fixture 已逐条对照，公开的是示例内容，不代表发生过的私人对话或最新真机运行。原始截图及制作脚本留在本轮临时证据目录，网页只发布必要衍生图片。
+
+
 ## 2026-10-04 · 掌心之光品牌插图
 
 - 方帅明确选用 `fangs-brand/derivatives/2026-10-04-palm-of-light/game-style/palm-forward-v2.png`，授权加入Hi。原图是基于用户伸掌参考与已选TBS字徽生成的游戏风格概念，不是游戏官方截图或产品界面。

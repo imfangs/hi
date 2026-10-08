@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-08",
+  "scope": "Four portfolio additions; existing public assets unchanged",
+  "records": [
+    {
+      "slug": "chenchen-atelier",
+      "sourceUrl": "https://chenchen.fangs.cc/",
+      "capturedAt": "2026-10-08",
+      "sourceScreenshotSha256": "1a4a665d78c6c50039e50a9979fc7f767e04f6827fdd6ab4817333144cd80a46",
+      "publicDocumentSha256": "9f356585e44c56895dd926c1d879ff9dbecd9ca0610b9bae2b7b69cffd67a03f",
+      "documentMatchesLocalRelease": true,
+      "method": "Complete 1440x900 public-page screenshot resized proportionally to 1200x750 using Pillow LANCZOS. WebP quality 88 / method 6. No crop, repaint, text overlay or UI alteration.",
+      "output": "public/images/projects/chenchen-atelier.webp",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "bytes": 67844,
+      "sha256": "e5965a64b7337f13ecd851949aaf5f640edbca68d82e2ebd84027619e858b7d9",
+      "visualReview": {
+        "status": "passed-for-cover-use",
+        "method": "One bounded 1280x1280 JPEG contact sheet, examined with view_image; UI facts also checked by DOM and real asset decode/render state.",
+        "notes": "受控联系表确认：杏桃/鼠尾草色的真实默认花纸占左侧主体，右侧12色选择、画笔、3D礼盒与包起来按钮清楚可辨；主标题完整，无错误、占位或遮挡弹窗。截图为首屏，页面下方未展示。仅使用产品自带32个默认花枝，未读取或注入用户设计。"
+      }
+    },
+    {
+      "slug": "the-perfect-run",
+      "sourceUrl": "https://perfect-run.fangs.cc/",
+      "capturedAt": "2026-10-08",
+      "sourceScreenshotSha256": "72c68da55f334e1a2d1ded4b106c25bfa129f771a2318209d312056553d2c208",
+      "publicDocumentSha256": "267590ae49dc515b6e0b695fe0707a48b9d9c27fbf097d273b9700f7eecdad81",
+      "documentMatchesLocalRelease": true,
+      "method": "Complete 1440x900 public-page screenshot resized proportionally to 1200x750 using Pillow LANCZOS. WebP quality 88 / method 6. No crop, repaint, text overlay or UI alteration.",
+      "output": "public/images/projects/the-perfect-run.webp",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "bytes": 39194,
+      "sha256": "32000aef02a8d025b5bf6f45d17e75951565f984049196c39069029bd4bf9504",
+      "visualReview": {
+        "status": "passed-for-cover-use",
+        "method": "One bounded 1280x1280 JPEG contact sheet, examined with view_image; UI facts also checked by DOM and real asset decode/render state.",
+        "notes": "受控联系表确认：书名、英文书名、原作者、原作封面、开始阅读和三版入口构成清楚；画面仅到目录开头，没有章节正文、故事图谱或情节内容，未混入剧透。小字事实另以DOM读取确认。"
+      }
+    },
+    {
+      "slug": "yuzu-island",
+      "sourceUrl": "https://youzi.fangs.cc/",
+      "capturedAt": "2026-10-08",
+      "sourceScreenshotSha256": "fb1f5e775d318c1a3c11d5b3b006f443685531699a0cc80fb4439c69856d9d67",
+      "publicDocumentSha256": "3f7948e5fd270485de1b0fcb50179c49466da886a3d6a768082946057c724cce",
+      "documentMatchesLocalRelease": true,
+      "method": "Complete 1440x900 public-page screenshot resized proportionally to 1200x750 using Pillow LANCZOS. WebP quality 88 / method 6. No crop, repaint, text overlay or UI alteration.",
+      "output": "public/images/projects/yuzu-island.webp",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "bytes": 63910,
+      "sha256": "ac0e4a5fe75395210e6e47471a6bddff49a44701be319e0e20e6e0c4d102c422",
+      "visualReview": {
+        "status": "passed-for-cover-use",
+        "method": "One bounded 1280x1280 JPEG contact sheet, examined with view_image; UI facts also checked by DOM and real asset decode/render state.",
+        "notes": "受控联系表确认：完整苔藓岛、白桦树屋、菌侠、海岸与纸船已真实呈现；左侧标题/简介、三个地标和底部视角控件可辨，没有加载或错误提示。DOM为scene-ready/3d；真实GLB响应887972字节，SHA与发布元数据一致。"
+      }
+    },
+    {
+      "slug": "pocket-ged",
+      "sources": [
+        {
+          "product": "Pocket",
+          "version": "2026-10-08 released UI",
+          "sourceScreenshotSha256": "05ba043b46aca236ed59da9e970038904e0f9ad813105f00dfd505a74078aa12",
+          "syntheticFixture": true
+        },
+        {
+          "product": "Ged",
+          "version": "0.6.3 (16)",
+          "sourceScreenshotSha256": "2deaf7bb24ed76b7eef6a535fa1242f09a55fb469376ffc2ddc199d8472c1d6c",
+          "syntheticFixture": true
+        }
+      ],
+      "method": "Pillow layout of original real-product synthetic screenshots; only whole-image scaling, rounded outer masking, neutral background, drop shadow and external captions. Screenshot wording/pixels not edited; no invented UI.",
+      "privacy": {
+        "real_user_messages": false,
+        "real_accounts": false,
+        "credentials": false,
+        "real_avatars": false,
+        "test_sends_to_real_threads": false,
+        "product_changes": false,
+        "processes_started": false
+      },
+      "outputs": [
+        {
+          "file": "public/images/projects/pocket-ged.webp",
+          "dimensions": [
+            1200,
+            750
+          ],
+          "bytes": 32750,
+          "sha256": "4979ed7a953851de48342e064af79a345a5221c369a1c99e0d55d91216481720"
+        },
+        {
+          "file": "public/images/projects/pocket-ged-detail.webp",
+          "dimensions": [
+            1200,
+            1360
+          ],
+          "bytes": 76328,
+          "sha256": "4d2521db708bb779c7cc0b52e417a6d3f81fcbdf85f509fb9d0fe30b2dd85dc9"
+        }
+      ],
+      "visualReview": {
+        "status": "passed",
+        "cover": "1200x750 bounded preview inspected. Both full app screens retained side by side; labels and bottom captions not clipped; calm pale green background and subtle shadows; screenshot words not modified. Screenshot small text primarily intended for detail view.",
+        "detail": "1129x1280 bounded preview inspected from 1200x1360 original. All five Ged messages, Pocket visible paragraph/headings and empty composer readable; no overlap/clipping. Explicit Ged 0.6.3 (16) screenshot version at bottom.",
+        "boundary": "Visual review establishes screenshot source/layout/privacy for public portfolio, not real-user adoption, model response quality, or a new device run."
+      }
+    }
+  ],
+  "captureCaveats": [
+    "One second-pass chenchen.fangs.cc navigation timed out at45s; first pass and a separate fresh-context retry succeeded. Timeout evidence retained in chenchen-atelier-timeout.json. All delivered covers use final successful captures."
+  ]
+}

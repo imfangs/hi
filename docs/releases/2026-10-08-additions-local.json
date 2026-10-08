@@ -1,0 +1,293 @@
+{
+  "date": "2026-10-08",
+  "state": "local_verified_pending_publication",
+  "addedProjects": [
+    "chenchen-atelier",
+    "the-perfect-run",
+    "yuzu-island",
+    "pocket-ged"
+  ],
+  "featuredCount": 17,
+  "builtPages": 18,
+  "build": "pnpm 10.19.0 build passed",
+  "typescript": "pnpm exec tsc --noEmit passed",
+  "browser": {
+    "startedAt": "2026-10-08T13:01:26.443Z",
+    "base": "http://127.0.0.1:4218",
+    "results": [
+      {
+        "view": "desktop",
+        "slug": "chenchen-atelier",
+        "links": [
+          {
+            "text": "画一张花纸",
+            "href": "https://chenchen.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "desktop",
+        "slug": "the-perfect-run",
+        "links": [
+          {
+            "text": "开始阅读",
+            "href": "https://perfect-run.fangs.cc/"
+          },
+          {
+            "text": "同章对照",
+            "href": "https://perfect-run.fangs.cc/read/001/compare/"
+          },
+          {
+            "text": "故事图谱（含全书剧透）",
+            "href": "https://perfect-run.fangs.cc/atlas/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "desktop",
+        "slug": "yuzu-island",
+        "links": [
+          {
+            "text": "去小岛逛逛",
+            "href": "https://youzi.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "desktop",
+        "slug": "pocket-ged",
+        "links": [
+          {
+            "text": "Pocket 个人部署（需登录）",
+            "href": "https://x.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "desktop",
+        "groups": {
+          "apps": 4,
+          "games": 4,
+          "reading": 5,
+          "creations": 4
+        },
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "view": "phone",
+        "slug": "chenchen-atelier",
+        "links": [
+          {
+            "text": "画一张花纸",
+            "href": "https://chenchen.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "phone",
+        "slug": "the-perfect-run",
+        "links": [
+          {
+            "text": "开始阅读",
+            "href": "https://perfect-run.fangs.cc/"
+          },
+          {
+            "text": "同章对照",
+            "href": "https://perfect-run.fangs.cc/read/001/compare/"
+          },
+          {
+            "text": "故事图谱（含全书剧透）",
+            "href": "https://perfect-run.fangs.cc/atlas/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "phone",
+        "slug": "yuzu-island",
+        "links": [
+          {
+            "text": "去小岛逛逛",
+            "href": "https://youzi.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "phone",
+        "slug": "pocket-ged",
+        "links": [
+          {
+            "text": "Pocket 个人部署（需登录）",
+            "href": "https://x.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "phone",
+        "groups": {
+          "apps": 4,
+          "games": 4,
+          "reading": 5,
+          "creations": 4
+        },
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "view": "narrow-dark",
+        "slug": "chenchen-atelier",
+        "links": [
+          {
+            "text": "画一张花纸",
+            "href": "https://chenchen.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "narrow-dark",
+        "slug": "the-perfect-run",
+        "links": [
+          {
+            "text": "开始阅读",
+            "href": "https://perfect-run.fangs.cc/"
+          },
+          {
+            "text": "同章对照",
+            "href": "https://perfect-run.fangs.cc/read/001/compare/"
+          },
+          {
+            "text": "故事图谱（含全书剧透）",
+            "href": "https://perfect-run.fangs.cc/atlas/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "narrow-dark",
+        "slug": "yuzu-island",
+        "links": [
+          {
+            "text": "去小岛逛逛",
+            "href": "https://youzi.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "narrow-dark",
+        "slug": "pocket-ged",
+        "links": [
+          {
+            "text": "Pocket 个人部署（需登录）",
+            "href": "https://x.fangs.cc/"
+          }
+        ],
+        "detail": true
+      },
+      {
+        "view": "narrow-dark",
+        "groups": {
+          "apps": 4,
+          "games": 4,
+          "reading": 5,
+          "creations": 4
+        },
+        "overflow": false,
+        "pageErrors": []
+      },
+      {
+        "noJavaScript": true,
+        "visibleWorks": 17,
+        "details": [
+          "chenchen-atelier",
+          "the-perfect-run",
+          "yuzu-island",
+          "pocket-ged"
+        ]
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Browser viewports, not physical devices.",
+      "External destinations checked separately; private product functions are not tested."
+    ],
+    "passed": true,
+    "finishedAt": "2026-10-08T13:01:35.659Z"
+  },
+  "links": {
+    "base": "http://127.0.0.1:4218",
+    "passed": true,
+    "results": [
+      {
+        "slug": "chenchen-atelier",
+        "target": "https://chenchen.fangs.cc/",
+        "attempts": [
+          {
+            "passed": true,
+            "url": "https://chenchen.fangs.cc/",
+            "title": "晨间花园 · 给陈晨的一张花纸"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "slug": "the-perfect-run",
+        "target": "https://perfect-run.fangs.cc/",
+        "attempts": [
+          {
+            "passed": true,
+            "url": "https://perfect-run.fangs.cc/",
+            "title": "完美通关 · The Perfect Run 三版阅读"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "slug": "yuzu-island",
+        "target": "https://youzi.fangs.cc/",
+        "attempts": [
+          {
+            "passed": true,
+            "url": "https://youzi.fangs.cc/",
+            "title": "柚子的小岛"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "slug": "pocket-ged",
+        "target": "https://x.fangs.cc/",
+        "attempts": [
+          {
+            "passed": true,
+            "url": "https://x.fangs.cc/",
+            "title": "Pocket"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "detailImagePopup": true,
+        "passed": true,
+        "width": 1200,
+        "height": 1360
+      }
+    ],
+    "finishedAt": "2026-10-08T13:02:13.728Z"
+  },
+  "visualReview": "Final covers and actual local gallery/details examined in bounded contact sheets. Desktop two-column gallery, phone titles and primary actions, 320px dark edition links and image proportions remained readable, without clipping or horizontal overflow. Small screenshot text verified from original DOM and fixture sources.",
+  "testHarnessCorrection": "First local QA stopped at the existing comic page because it searched only for .detail-body; expanded to the documented .comic-body variant and reran all checks. No product change was required.",
+  "limits": [
+    "No public-product authenticated actions or message sends.",
+    "Synthetic browser viewport verification, not physical-device or reader-effect validation."
+  ]
+}
