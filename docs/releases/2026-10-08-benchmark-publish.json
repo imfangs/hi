@@ -1,0 +1,889 @@
+{
+  "date": "2026-10-08",
+  "state": "published_and_verified",
+  "url": "https://hi.fangs.cc/",
+  "source": "c06419459fa2997c919ed962fa213ceaedf95307",
+  "pagesCommit": "e60e2e206744fa273d1cc96542e25c2ace9e396c",
+  "release": {
+    "source": "c06419459fa2997c919ed962fa213ceaedf95307",
+    "builtAt": "2026-10-08T13:36:44.562Z"
+  },
+  "pagesBuild": {
+    "status": "built",
+    "commit": "e60e2e206744fa273d1cc96542e25c2ace9e396c",
+    "created_at": "2026-10-08T13:36:52Z",
+    "updated_at": "2026-10-08T13:37:39Z",
+    "error": {
+      "message": null
+    }
+  },
+  "featuredCount": 17,
+  "builtPages": 18,
+  "integrity": {
+    "capability": "public-preview",
+    "operation": "verify-files",
+    "outputs": [
+      "/tmp/hi-benchmark-20261008/public-integrity.json"
+    ],
+    "warnings": [],
+    "schema_version": 2,
+    "ok": true,
+    "complete": true,
+    "identity": {
+      "url": "https://hi.fangs.cc/",
+      "build_sha256": "2f9a128d738160f0cb7187e6df387214a5aa913a6d738fa59f696d7cbb46c11f",
+      "deployment_id": "e60e2e206744fa273d1cc96542e25c2ace9e396c",
+      "config": {
+        "transport": "curl",
+        "timeout": 20000,
+        "retries": 2,
+        "concurrency": 4,
+        "exclusions": [],
+        "playwright_root": null,
+        "policy": "sha256-normal-dns-tls-v2"
+      }
+    },
+    "fingerprint": "604703ad89c976d6c315d480ea7b378775c262d20adcdaa7c76a4c4ce6fc3b7f",
+    "url": "https://hi.fangs.cc/",
+    "anonymous": true,
+    "transport": "curl",
+    "budget_ms": 240000,
+    "file_count": 39,
+    "completed_count": 39,
+    "matched_count": 39,
+    "pending_count": 0,
+    "failed_count": 0,
+    "reused_count": 0,
+    "updated_at": "2026-10-08T13:38:35.471Z",
+    "skipped": [],
+    "files": [
+      {
+        "file": "_astro/ComicReader_astro_astro_type_style_index_0_lang.CeQLHRkA.css",
+        "sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+        "local_bytes": 7039,
+        "status": 200,
+        "remote_sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+        "remote_bytes": 7039,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:26.072Z"
+      },
+      {
+        "file": "_astro/_...slug_.astro_astro_type_script_index_0_lang.CUh733Hb.js",
+        "sha256": "352228adc70313123a275568ef36c3a65399c4aa5b3a31e6695ac194eb177cdb",
+        "local_bytes": 1184,
+        "status": 200,
+        "remote_sha256": "352228adc70313123a275568ef36c3a65399c4aa5b3a31e6695ac194eb177cdb",
+        "remote_bytes": 1184,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:26.061Z"
+      },
+      {
+        "file": "_astro/index.HszxLdiN.css",
+        "sha256": "c567ef1fc3bb97921241fd6c822ea9e982e7ee1f712cd346fc2701f7a2077a96",
+        "local_bytes": 25998,
+        "status": 200,
+        "remote_sha256": "c567ef1fc3bb97921241fd6c822ea9e982e7ee1f712cd346fc2701f7a2077a96",
+        "remote_bytes": 25998,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:26.057Z"
+      },
+      {
+        "file": "_astro/index.astro_astro_type_script_index_0_lang.DbafSetn.js",
+        "sha256": "4e5673ad72fe37d60f4a755e71c29bd342bc1e44cb856cc3d2a328929e8e6d16",
+        "local_bytes": 4074,
+        "status": 200,
+        "remote_sha256": "4e5673ad72fe37d60f4a755e71c29bd342bc1e44cb856cc3d2a328929e8e6d16",
+        "remote_bytes": 4074,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:26.071Z"
+      },
+      {
+        "file": "_astro/projects.BRvjfRjv.js",
+        "sha256": "a7b6cfc87c7da173f38b731c0ecd5a08c09fc3d5fcd5ab9b7cb8f0851d6403a0",
+        "local_bytes": 261,
+        "status": 200,
+        "remote_sha256": "a7b6cfc87c7da173f38b731c0ecd5a08c09fc3d5fcd5ab9b7cb8f0851d6403a0",
+        "remote_bytes": 261,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:26.575Z"
+      },
+      {
+        "file": "brand/tbs-mark.svg",
+        "sha256": "afd7b1e53645e861738fe8ef596dc576488204580c52799cb8c2704b35395f05",
+        "local_bytes": 1107,
+        "status": 200,
+        "remote_sha256": "afd7b1e53645e861738fe8ef596dc576488204580c52799cb8c2704b35395f05",
+        "remote_bytes": 1107,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:26.595Z"
+      },
+      {
+        "file": "favicon.svg",
+        "sha256": "960bc3962e2186e629586fd71620ba328a9f9789ebb67f2c1ad947313b8b3600",
+        "local_bytes": 286,
+        "status": 200,
+        "remote_sha256": "960bc3962e2186e629586fd71620ba328a9f9789ebb67f2c1ad947313b8b3600",
+        "remote_bytes": 286,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:26.602Z"
+      },
+      {
+        "file": "fonts/geist-latin.woff2",
+        "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608",
+        "local_bytes": 29288,
+        "status": 200,
+        "remote_sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608",
+        "remote_bytes": 29288,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:26.624Z"
+      },
+      {
+        "file": "fonts/noto-serif-sc-subset.woff2",
+        "sha256": "505b730bf55db722328394d7404586c1058cbaaac99ac51bca28b1316345200d",
+        "local_bytes": 114052,
+        "status": 200,
+        "remote_sha256": "505b730bf55db722328394d7404586c1058cbaaac99ac51bca28b1316345200d",
+        "remote_bytes": 114052,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:29.411Z"
+      },
+      {
+        "file": "index.html",
+        "sha256": "ef013b68b69140f13e50321c54bba0fc6ce0d7da4f02ece225bfa48f0e3f0757",
+        "local_bytes": 33499,
+        "status": 200,
+        "remote_sha256": "ef013b68b69140f13e50321c54bba0fc6ce0d7da4f02ece225bfa48f0e3f0757",
+        "remote_bytes": 33499,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:27.214Z"
+      },
+      {
+        "file": "projects/aiedu/index.html",
+        "sha256": "7ba9e05c72c168fc8c52e13e94cacc53763e8518fa97fc1d04216534cb007f06",
+        "local_bytes": 12602,
+        "status": 200,
+        "remote_sha256": "7ba9e05c72c168fc8c52e13e94cacc53763e8518fa97fc1d04216534cb007f06",
+        "remote_bytes": 12602,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:27.120Z"
+      },
+      {
+        "file": "projects/chenchen-atelier/index.html",
+        "sha256": "8b5114365c96fbc8b90870c5b362c93fd085754b8864085a010b695c1faba346",
+        "local_bytes": 11334,
+        "status": 200,
+        "remote_sha256": "8b5114365c96fbc8b90870c5b362c93fd085754b8864085a010b695c1faba346",
+        "remote_bytes": 11334,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:27.133Z"
+      },
+      {
+        "file": "projects/dankoe/index.html",
+        "sha256": "ec9a62147b0e53992da8bf021e103f2540c042b79dc1c04b6ef6eefdc33a6d30",
+        "local_bytes": 12545,
+        "status": 200,
+        "remote_sha256": "ec9a62147b0e53992da8bf021e103f2540c042b79dc1c04b6ef6eefdc33a6d30",
+        "remote_bytes": 12545,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:29.954Z"
+      },
+      {
+        "file": "projects/hyrule/index.html",
+        "sha256": "fa495757c194fda2e49d332aa84a72627c8e2e7caf43dccae8e2086ffdc94f79",
+        "local_bytes": 12558,
+        "status": 200,
+        "remote_sha256": "fa495757c194fda2e49d332aa84a72627c8e2e7caf43dccae8e2086ffdc94f79",
+        "remote_bytes": 12558,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:29.957Z"
+      },
+      {
+        "file": "projects/junlugu/index.html",
+        "sha256": "85413a5711e5113ce82a06a165bddef9686ab0e7c29df54853f029908afcced3",
+        "local_bytes": 11948,
+        "status": 200,
+        "remote_sha256": "85413a5711e5113ce82a06a165bddef9686ab0e7c29df54853f029908afcced3",
+        "remote_bytes": 11948,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:29.952Z"
+      },
+      {
+        "file": "projects/junxia-comic/index.html",
+        "sha256": "6572a7525e932466670f7778198dc485140e6cddc551a9c3df3021838ef05eac",
+        "local_bytes": 23840,
+        "status": 200,
+        "remote_sha256": "6572a7525e932466670f7778198dc485140e6cddc551a9c3df3021838ef05eac",
+        "remote_bytes": 23840,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:30.362Z"
+      },
+      {
+        "file": "projects/lehh/index.html",
+        "sha256": "55c6caec7dbf4c5620de01cba94a167fee9b895033a75579619e39404eff032a",
+        "local_bytes": 11985,
+        "status": 200,
+        "remote_sha256": "55c6caec7dbf4c5620de01cba94a167fee9b895033a75579619e39404eff032a",
+        "remote_bytes": 11985,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:30.897Z"
+      },
+      {
+        "file": "projects/little-pause/index.html",
+        "sha256": "294e4b5ea5ad0375184a4060e3e636facededb6cf14805c271b1d98faf6792da",
+        "local_bytes": 12389,
+        "status": 200,
+        "remote_sha256": "294e4b5ea5ad0375184a4060e3e636facededb6cf14805c271b1d98faf6792da",
+        "remote_bytes": 12389,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:30.892Z"
+      },
+      {
+        "file": "projects/pocket-ged/index.html",
+        "sha256": "48fac804dee0d94ead048e303cc3430e3ed231f200849f3c90210aad7d5db86b",
+        "local_bytes": 12077,
+        "status": 200,
+        "remote_sha256": "48fac804dee0d94ead048e303cc3430e3ed231f200849f3c90210aad7d5db86b",
+        "remote_bytes": 12077,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:30.898Z"
+      },
+      {
+        "file": "projects/pocofocus/index.html",
+        "sha256": "bcec3feb0265d5c0286f0995d0f35c1254eedeb2dcd03eafa121d4ac0e7de32b",
+        "local_bytes": 11787,
+        "status": 200,
+        "remote_sha256": "bcec3feb0265d5c0286f0995d0f35c1254eedeb2dcd03eafa121d4ac0e7de32b",
+        "remote_bytes": 11787,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:30.891Z"
+      },
+      {
+        "file": "projects/qiya-herbarium/index.html",
+        "sha256": "aa1cee82281c83786d299e832f09d745462058f02b751341f0de91b3c95dce7e",
+        "local_bytes": 12083,
+        "status": 200,
+        "remote_sha256": "aa1cee82281c83786d299e832f09d745462058f02b751341f0de91b3c95dce7e",
+        "remote_bytes": 12083,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:31.440Z"
+      },
+      {
+        "file": "projects/school-secret-lab/index.html",
+        "sha256": "84ab8ebe0a38e497522c40428f1d42b19e628ed260a20d878d1a8fe55839dddb",
+        "local_bytes": 21258,
+        "status": 200,
+        "remote_sha256": "84ab8ebe0a38e497522c40428f1d42b19e628ed260a20d878d1a8fe55839dddb",
+        "remote_bytes": 21258,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:31.394Z"
+      },
+      {
+        "file": "projects/snow-duel/index.html",
+        "sha256": "d47e83911f2eca90236405d29f1bfe4da2004224c818cf87d210dde2c4889752",
+        "local_bytes": 12010,
+        "status": 200,
+        "remote_sha256": "d47e83911f2eca90236405d29f1bfe4da2004224c818cf87d210dde2c4889752",
+        "remote_bytes": 12010,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:31.382Z"
+      },
+      {
+        "file": "projects/taste/index.html",
+        "sha256": "866f967470dc3ebe667e344c4471ba09d8ecb8d25d19e296372e72c20cba849c",
+        "local_bytes": 13004,
+        "status": 200,
+        "remote_sha256": "866f967470dc3ebe667e344c4471ba09d8ecb8d25d19e296372e72c20cba849c",
+        "remote_bytes": 13004,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:31.370Z"
+      },
+      {
+        "file": "projects/the-perfect-run/index.html",
+        "sha256": "1f5d157cf7d9ea4613e4ad363d3e7849189765218f12c40f5a250bde10d49607",
+        "local_bytes": 12546,
+        "status": 200,
+        "remote_sha256": "1f5d157cf7d9ea4613e4ad363d3e7849189765218f12c40f5a250bde10d49607",
+        "remote_bytes": 12546,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:32.419Z"
+      },
+      {
+        "file": "projects/wbw/index.html",
+        "sha256": "ab5b2eb602d0d83fe898b3572e8e07a68d280e2f78c5b90656669e048d106074",
+        "local_bytes": 12199,
+        "status": 200,
+        "remote_sha256": "ab5b2eb602d0d83fe898b3572e8e07a68d280e2f78c5b90656669e048d106074",
+        "remote_bytes": 12199,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:32.530Z"
+      },
+      {
+        "file": "projects/yuzu-island/index.html",
+        "sha256": "88195538f140831c964783b903cf448db9ab6a94faba653c837a95e0f665a297",
+        "local_bytes": 11553,
+        "status": 200,
+        "remote_sha256": "88195538f140831c964783b903cf448db9ab6a94faba653c837a95e0f665a297",
+        "remote_bytes": 11553,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:31.980Z"
+      },
+      {
+        "file": "release.json",
+        "sha256": "0884dce55dfa61134c8f502d3008c9ab80f711d05b43902ded1b193f122ad4f4",
+        "local_bytes": 91,
+        "status": 200,
+        "remote_sha256": "0884dce55dfa61134c8f502d3008c9ab80f711d05b43902ded1b193f122ad4f4",
+        "remote_bytes": 91,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:31.805Z"
+      },
+      {
+        "file": "sitemap-0.xml",
+        "sha256": "0aa07851962673ff1bfb936af9f645a1ffa1e49b5df53c851c3bf3487c98291a",
+        "local_bytes": 1421,
+        "status": 200,
+        "remote_sha256": "0aa07851962673ff1bfb936af9f645a1ffa1e49b5df53c851c3bf3487c98291a",
+        "remote_bytes": 1421,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:33.281Z"
+      },
+      {
+        "file": "sitemap-index.xml",
+        "sha256": "f69b1720b93494076dc40483db3ab16f4eba9c14d84dd739f95de5e8f44a6261",
+        "local_bytes": 182,
+        "status": 200,
+        "remote_sha256": "f69b1720b93494076dc40483db3ab16f4eba9c14d84dd739f95de5e8f44a6261",
+        "remote_bytes": 182,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:33.207Z"
+      },
+      {
+        "file": "videos/projects/aiedu-promo-2026-10-01-credits.html",
+        "sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23",
+        "local_bytes": 1177,
+        "status": 200,
+        "remote_sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23",
+        "remote_bytes": 1177,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:33.303Z"
+      },
+      {
+        "file": "videos/projects/dankoe-promo-2026-10-01-credits.html",
+        "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84",
+        "local_bytes": 1282,
+        "status": 200,
+        "remote_sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84",
+        "remote_bytes": 1282,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:33.251Z"
+      },
+      {
+        "file": "videos/projects/hyrule-promo-20261001-credits.html",
+        "sha256": "e903c378ebe114df2607a1faff8ca648b14c90ed3789d8f952eb8d3844848971",
+        "local_bytes": 2048,
+        "status": 200,
+        "remote_sha256": "e903c378ebe114df2607a1faff8ca648b14c90ed3789d8f952eb8d3844848971",
+        "remote_bytes": 2048,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:34.765Z"
+      },
+      {
+        "file": "videos/projects/lehh-promo-2026-10-01-credits.html",
+        "sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2",
+        "local_bytes": 991,
+        "status": 200,
+        "remote_sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2",
+        "remote_bytes": 991,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:34.078Z"
+      },
+      {
+        "file": "videos/projects/little-pause-promo-2026-10-01-credits.html",
+        "sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3",
+        "local_bytes": 1086,
+        "status": 200,
+        "remote_sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3",
+        "remote_bytes": 1086,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:34.815Z"
+      },
+      {
+        "file": "videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+        "sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef",
+        "local_bytes": 1233,
+        "status": 200,
+        "remote_sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef",
+        "remote_bytes": 1233,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:34.084Z"
+      },
+      {
+        "file": "videos/projects/snow-duel-promo-2026-10-01-credits.html",
+        "sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d",
+        "local_bytes": 1582,
+        "status": 200,
+        "remote_sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d",
+        "remote_bytes": 1582,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:35.459Z"
+      },
+      {
+        "file": "videos/projects/taste-promo-2026-10-01-credits.html",
+        "sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91",
+        "local_bytes": 1089,
+        "status": 200,
+        "remote_sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91",
+        "remote_bytes": 1089,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:35.435Z"
+      },
+      {
+        "file": "videos/projects/wbw-promo-2026-10-01-credits.html",
+        "sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94",
+        "local_bytes": 1181,
+        "status": 200,
+        "remote_sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94",
+        "remote_bytes": 1181,
+        "matches": true,
+        "attempts": 1,
+        "verified_at": "2026-10-08T13:38:35.470Z"
+      }
+    ],
+    "verification_scope": "file integrity only; application behavior and device compatibility require separate tests",
+    "duration_ms": 9932
+  },
+  "integrityScope": {
+    "scope": "All HTML, JavaScript, CSS, JSON/XML, SVG and fonts; no image/video bytes changed in this release",
+    "files": [
+      "index.html",
+      "sitemap-0.xml",
+      "release.json",
+      "sitemap-index.xml",
+      "favicon.svg",
+      "brand/tbs-mark.svg",
+      "_astro/ComicReader_astro_astro_type_style_index_0_lang.CeQLHRkA.css",
+      "_astro/_...slug_.astro_astro_type_script_index_0_lang.CUh733Hb.js",
+      "_astro/index.HszxLdiN.css",
+      "_astro/index.astro_astro_type_script_index_0_lang.DbafSetn.js",
+      "_astro/projects.BRvjfRjv.js",
+      "fonts/noto-serif-sc-subset.woff2",
+      "fonts/geist-latin.woff2",
+      "videos/projects/little-pause-promo-2026-10-01-credits.html",
+      "videos/projects/lehh-promo-2026-10-01-credits.html",
+      "videos/projects/dankoe-promo-2026-10-01-credits.html",
+      "videos/projects/hyrule-promo-20261001-credits.html",
+      "videos/projects/snow-duel-promo-2026-10-01-credits.html",
+      "videos/projects/wbw-promo-2026-10-01-credits.html",
+      "videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+      "videos/projects/taste-promo-2026-10-01-credits.html",
+      "videos/projects/aiedu-promo-2026-10-01-credits.html",
+      "projects/lehh/index.html",
+      "projects/wbw/index.html",
+      "projects/pocofocus/index.html",
+      "projects/aiedu/index.html",
+      "projects/pocket-ged/index.html",
+      "projects/the-perfect-run/index.html",
+      "projects/yuzu-island/index.html",
+      "projects/school-secret-lab/index.html",
+      "projects/hyrule/index.html",
+      "projects/junlugu/index.html",
+      "projects/taste/index.html",
+      "projects/qiya-herbarium/index.html",
+      "projects/little-pause/index.html",
+      "projects/dankoe/index.html",
+      "projects/chenchen-atelier/index.html",
+      "projects/snow-duel/index.html",
+      "projects/junxia-comic/index.html"
+    ]
+  },
+  "publicBrowser": {
+    "startedAt": "2026-10-08T13:38:25.736Z",
+    "base": "https://hi.fangs.cc",
+    "results": [
+      {
+        "view": "desktop",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 738,
+            "y": 114.46875,
+            "width": 642,
+            "height": 575.234375
+          },
+          "toolbar": {
+            "x": 60,
+            "y": 0,
+            "width": 1320,
+            "height": 70
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "view": "phone",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 20,
+            "y": 152.078125,
+            "width": 350,
+            "height": 403.71875
+          },
+          "toolbar": {
+            "x": 20,
+            "y": 0,
+            "width": 350,
+            "height": 108
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "view": "narrow-dark",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 20,
+            "y": 151.96875,
+            "width": 280,
+            "height": 359.96875
+          },
+          "toolbar": {
+            "x": 20,
+            "y": 0,
+            "width": 280,
+            "height": 108
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "intermediateWidths": [
+          {
+            "width": 701,
+            "search": {
+              "left": 36,
+              "right": 665,
+              "top": 430.984375,
+              "bottom": 474.984375
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 378.984375,
+                "bottom": 422.984375
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 378.984375,
+                "bottom": 422.984375
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 378.984375,
+                "bottom": 422.984375
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 378.984375,
+                "bottom": 422.984375
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 378.984375,
+                "bottom": 422.984375
+              }
+            ]
+          },
+          {
+            "width": 720,
+            "search": {
+              "left": 36,
+              "right": 684,
+              "top": 432.46875,
+              "bottom": 476.46875
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 380.46875,
+                "bottom": 424.46875
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 380.46875,
+                "bottom": 424.46875
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 380.46875,
+                "bottom": 424.46875
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 380.46875,
+                "bottom": 424.46875
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 380.46875,
+                "bottom": 424.46875
+              }
+            ]
+          },
+          {
+            "width": 750,
+            "search": {
+              "left": 36,
+              "right": 714,
+              "top": 434.796875,
+              "bottom": 478.796875
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 382.796875,
+                "bottom": 426.796875
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 382.796875,
+                "bottom": 426.796875
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 382.796875,
+                "bottom": 426.796875
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 382.796875,
+                "bottom": 426.796875
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 382.796875,
+                "bottom": 426.796875
+              }
+            ]
+          },
+          {
+            "width": 960,
+            "search": {
+              "left": 36,
+              "right": 924,
+              "top": 451.125,
+              "bottom": 495.125
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 399.125,
+                "bottom": 443.125
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 399.125,
+                "bottom": 443.125
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 399.125,
+                "bottom": 443.125
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 399.125,
+                "bottom": 443.125
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 399.125,
+                "bottom": 443.125
+              }
+            ]
+          },
+          {
+            "width": 1024,
+            "search": {
+              "left": 732,
+              "right": 988,
+              "top": 408.109375,
+              "bottom": 452.109375
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 117.203125,
+                "top": 408.109375,
+                "bottom": 452.109375
+              },
+              {
+                "left": 121.203125,
+                "right": 195.8125,
+                "top": 408.109375,
+                "bottom": 452.109375
+              },
+              {
+                "left": 199.8125,
+                "right": 274.421875,
+                "top": 408.109375,
+                "bottom": 452.109375
+              },
+              {
+                "left": 278.421875,
+                "right": 353.03125,
+                "top": 408.109375,
+                "bottom": 452.109375
+              },
+              {
+                "left": 357.03125,
+                "right": 431.640625,
+                "top": 408.109375,
+                "bottom": 452.109375
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "noJavaScript": true,
+        "works": 17,
+        "directLinks": 15,
+        "returnAnchor": true
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Browser viewports, not physical phones.",
+      "No authenticated product actions or message sends.",
+      "Behavior and layout checks do not establish reader preference or conversion."
+    ],
+    "passed": true,
+    "finishedAt": "2026-10-08T13:40:04.909Z"
+  },
+  "existingMediaUnchanged": true,
+  "localEvidence": "2026-10-08-benchmark-local.json",
+  "design": "../design/2026-10-08-benchmark/README.md",
+  "comparisons": [
+    "../design/2026-10-08-benchmark/comparison-works-phone.webp",
+    "../design/2026-10-08-benchmark/comparison-home-desktop.webp"
+  ],
+  "limits": [
+    "Browser viewports, not physical phones or Safari; composition test uses synthetic events.",
+    "No authenticated product operations, private conversations or real-user efficacy test.",
+    "Unchanged original images/videos were not downloaded for another full byte comparison."
+  ]
+}
