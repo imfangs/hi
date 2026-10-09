@@ -1,3 +1,9 @@
+# 2026-10-09 首屏与页尾精简
+
+18页构建与TypeScript、原浏览回归通过。桌面与320px共34详情布局检查；隐藏且未打开的漫画灯箱空src不属于损坏图片。字体请求失败及200%文字曾复现横溢，修复后10个场景通过。最终同尺寸对照、机器回执和审美判断边界见 [本轮记录](docs/design/2026-10-09-simplification/README.md)。
+
+---
+
 # Hi visual design QA · 2026-10-08
 
 final result: passed

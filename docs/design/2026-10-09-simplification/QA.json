@@ -1,0 +1,2468 @@
+{
+  "date": "2026-10-09",
+  "baseHead": "4904ae5",
+  "baselineLiveSource": "11776afad5ee1b9c3ba2b69f272145c19fae7562",
+  "build": "18 pages, pnpm 10.19.0",
+  "typescript": "passed",
+  "browsing": {
+    "startedAt": "2026-10-09T01:38:08.626Z",
+    "base": "http://127.0.0.1:4218",
+    "results": [
+      {
+        "view": "desktop",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 60,
+            "y": 104.515625,
+            "width": 642,
+            "height": 578.84375
+          },
+          "toolbar": {
+            "x": 60,
+            "y": 13.515625,
+            "width": 1320,
+            "height": 61
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "view": "phone",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 20,
+            "y": 150.6875,
+            "width": 350,
+            "height": 409.3125
+          },
+          "toolbar": {
+            "x": 20,
+            "y": 23.6875,
+            "width": 350,
+            "height": 107
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "view": "narrow-dark",
+        "search": true,
+        "composition": true,
+        "escapedQuery": true,
+        "queryReload": true,
+        "return": {
+          "position": {
+            "x": 20,
+            "y": 151.359375,
+            "width": 280,
+            "height": 365.5625
+          },
+          "toolbar": {
+            "x": 20,
+            "y": 24.359375,
+            "width": 280,
+            "height": 107
+          },
+          "focus": "pocket-ged",
+          "group": "apps"
+        },
+        "history": true,
+        "related": [
+          {
+            "href": "/projects/yuzu-island/?view=creations",
+            "title": "柚子的小岛"
+          },
+          {
+            "href": "/projects/junxia-comic/?view=creations",
+            "title": "菌侠 · 手绘漫画"
+          }
+        ],
+        "theme": true,
+        "noOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "intermediateWidths": [
+          {
+            "width": 701,
+            "search": {
+              "left": 36,
+              "right": 665,
+              "top": 320.890625,
+              "bottom": 364.890625
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 72,
+                "top": 268.890625,
+                "bottom": 312.890625
+              },
+              {
+                "left": 98,
+                "right": 134,
+                "top": 268.890625,
+                "bottom": 312.890625
+              },
+              {
+                "left": 160,
+                "right": 196,
+                "top": 268.890625,
+                "bottom": 312.890625
+              },
+              {
+                "left": 222,
+                "right": 258,
+                "top": 268.890625,
+                "bottom": 312.890625
+              },
+              {
+                "left": 284,
+                "right": 320,
+                "top": 268.890625,
+                "bottom": 312.890625
+              }
+            ]
+          },
+          {
+            "width": 720,
+            "search": {
+              "left": 36,
+              "right": 684,
+              "top": 323.96875,
+              "bottom": 367.96875
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 72,
+                "top": 271.96875,
+                "bottom": 315.96875
+              },
+              {
+                "left": 98,
+                "right": 134,
+                "top": 271.96875,
+                "bottom": 315.96875
+              },
+              {
+                "left": 160,
+                "right": 196,
+                "top": 271.96875,
+                "bottom": 315.96875
+              },
+              {
+                "left": 222,
+                "right": 258,
+                "top": 271.96875,
+                "bottom": 315.96875
+              },
+              {
+                "left": 284,
+                "right": 320,
+                "top": 271.96875,
+                "bottom": 315.96875
+              }
+            ]
+          },
+          {
+            "width": 750,
+            "search": {
+              "left": 36,
+              "right": 714,
+              "top": 328.828125,
+              "bottom": 372.828125
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 72,
+                "top": 276.828125,
+                "bottom": 320.828125
+              },
+              {
+                "left": 98,
+                "right": 134,
+                "top": 276.828125,
+                "bottom": 320.828125
+              },
+              {
+                "left": 160,
+                "right": 196,
+                "top": 276.828125,
+                "bottom": 320.828125
+              },
+              {
+                "left": 222,
+                "right": 258,
+                "top": 276.828125,
+                "bottom": 320.828125
+              },
+              {
+                "left": 284,
+                "right": 320,
+                "top": 276.828125,
+                "bottom": 320.828125
+              }
+            ]
+          },
+          {
+            "width": 960,
+            "search": {
+              "left": 36,
+              "right": 924,
+              "top": 362.859375,
+              "bottom": 406.859375
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 72,
+                "top": 310.859375,
+                "bottom": 354.859375
+              },
+              {
+                "left": 98,
+                "right": 134,
+                "top": 310.859375,
+                "bottom": 354.859375
+              },
+              {
+                "left": 160,
+                "right": 196,
+                "top": 310.859375,
+                "bottom": 354.859375
+              },
+              {
+                "left": 222,
+                "right": 258,
+                "top": 310.859375,
+                "bottom": 354.859375
+              },
+              {
+                "left": 284,
+                "right": 320,
+                "top": 310.859375,
+                "bottom": 354.859375
+              }
+            ]
+          },
+          {
+            "width": 1024,
+            "search": {
+              "left": 732,
+              "right": 988,
+              "top": 321.21875,
+              "bottom": 365.21875
+            },
+            "buttons": [
+              {
+                "left": 36,
+                "right": 72,
+                "top": 321.21875,
+                "bottom": 365.21875
+              },
+              {
+                "left": 98,
+                "right": 134,
+                "top": 321.21875,
+                "bottom": 365.21875
+              },
+              {
+                "left": 160,
+                "right": 196,
+                "top": 321.21875,
+                "bottom": 365.21875
+              },
+              {
+                "left": 222,
+                "right": 258,
+                "top": 321.21875,
+                "bottom": 365.21875
+              },
+              {
+                "left": 284,
+                "right": 320,
+                "top": 321.21875,
+                "bottom": 365.21875
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "noJavaScript": true,
+        "works": 17,
+        "directLinks": 15,
+        "returnAnchor": true
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Browser viewports, not physical phones.",
+      "No authenticated product actions or message sends.",
+      "Behavior and layout checks do not establish reader preference or conversion."
+    ],
+    "passed": true,
+    "finishedAt": "2026-10-09T01:38:12.419Z"
+  },
+  "fontBoundaryBefore": {
+    "startedAt": "2026-10-09T01:40:08.611Z",
+    "cases": [
+      {
+        "width": 320,
+        "rootSize": "100%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 320,
+          "documentWidth": 345,
+          "overflow": true,
+          "rootFont": "16px",
+          "titleFont": "44.8px",
+          "lineHeight": "48.384px",
+          "wordSpacing": "4.48px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 280,
+            "height": 48.375,
+            "right": 300,
+            "bottom": 148.375
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 280,
+            "height": 104.375,
+            "right": 300,
+            "bottom": 180.375
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 20,
+                "y": 98,
+                "width": 112.046875,
+                "height": 51,
+                "right": 132.046875,
+                "bottom": 149
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 145.765625,
+                "y": 98,
+                "width": 109.59375,
+                "height": 51,
+                "right": 255.359375,
+                "bottom": 149
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 269.078125,
+                "y": 98,
+                "width": 76.0625,
+                "height": 51,
+                "right": 345.140625,
+                "bottom": 149
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 20,
+            "right": 345.140625,
+            "width": 325.140625
+          },
+          "withinContainer": false,
+          "withinViewport": false,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 308.375
+        }
+      },
+      {
+        "width": 390,
+        "rootSize": "100%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 390,
+          "documentWidth": 426,
+          "overflow": true,
+          "rootFont": "16px",
+          "titleFont": "56px",
+          "lineHeight": "60.48px",
+          "wordSpacing": "5.6px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 350,
+            "height": 60.46875,
+            "right": 370,
+            "bottom": 160.46875
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 350,
+            "height": 116.46875,
+            "right": 370,
+            "bottom": 192.46875
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 20,
+                "y": 98,
+                "width": 140.0625,
+                "height": 63,
+                "right": 160.0625,
+                "bottom": 161
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 177.21875,
+                "y": 98,
+                "width": 137,
+                "height": 63,
+                "right": 314.21875,
+                "bottom": 161
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 331.375,
+                "y": 98,
+                "width": 95.078125,
+                "height": 63,
+                "right": 426.453125,
+                "bottom": 161
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 20,
+            "right": 426.453125,
+            "width": 406.453125
+          },
+          "withinContainer": false,
+          "withinViewport": false,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 320.46875
+        }
+      },
+      {
+        "width": 768,
+        "rootSize": "100%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 768,
+          "documentWidth": 844,
+          "overflow": true,
+          "rootFont": "16px",
+          "titleFont": "111.36px",
+          "lineHeight": "120.269px",
+          "wordSpacing": "11.136px",
+          "title": {
+            "x": 36,
+            "y": 112,
+            "width": 696,
+            "height": 120.265625,
+            "right": 732,
+            "bottom": 232.265625
+          },
+          "intro": {
+            "x": 36,
+            "y": 78,
+            "width": 696,
+            "height": 200.265625,
+            "right": 732,
+            "bottom": 278.265625
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 36,
+                "y": 109,
+                "width": 278.515625,
+                "height": 126,
+                "right": 314.515625,
+                "bottom": 235
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 348.625,
+                "y": 109,
+                "width": 272.421875,
+                "height": 126,
+                "right": 621.046875,
+                "bottom": 235
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 655.15625,
+                "y": 109,
+                "width": 189.046875,
+                "height": 126,
+                "right": 844.203125,
+                "bottom": 235
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 36,
+            "right": 844.203125,
+            "width": 808.203125
+          },
+          "withinContainer": false,
+          "withinViewport": false,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 422.265625
+        }
+      },
+      {
+        "width": 1440,
+        "rootSize": "100%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "144px",
+          "lineHeight": "155.52px",
+          "wordSpacing": "14.4px",
+          "title": {
+            "x": 60,
+            "y": 112,
+            "width": 1320,
+            "height": 155.515625,
+            "right": 1380,
+            "bottom": 267.515625
+          },
+          "intro": {
+            "x": 60,
+            "y": 78,
+            "width": 1320,
+            "height": 235.515625,
+            "right": 1380,
+            "bottom": 313.515625
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 197.453125,
+                "y": 107,
+                "width": 360.140625,
+                "height": 164,
+                "right": 557.59375,
+                "bottom": 271
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 601.703125,
+                "y": 107,
+                "width": 352.265625,
+                "height": 164,
+                "right": 953.96875,
+                "bottom": 271
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 998.078125,
+                "y": 107,
+                "width": 244.453125,
+                "height": 164,
+                "right": 1242.53125,
+                "bottom": 271
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 197.453125,
+            "right": 1242.53125,
+            "width": 1045.078125
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 405.515625
+        }
+      },
+      {
+        "width": 320,
+        "rootSize": "200%",
+        "blockDisplay": false,
+        "blockedRequests": 0,
+        "metrics": {
+          "viewport": 320,
+          "documentWidth": 464,
+          "overflow": true,
+          "rootFont": "32px",
+          "titleFont": "80px",
+          "lineHeight": "86.4px",
+          "wordSpacing": "8px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 280,
+            "height": 86.390625,
+            "right": 300,
+            "bottom": 186.390625
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 280,
+            "height": 142.390625,
+            "right": 300,
+            "bottom": 218.390625
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 20,
+                "y": 91,
+                "width": 143.046875,
+                "height": 104,
+                "right": 163.046875,
+                "bottom": 195
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 181.859375,
+                "y": 91,
+                "width": 159.84375,
+                "height": 104,
+                "right": 341.703125,
+                "bottom": 195
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 360.515625,
+                "y": 91,
+                "width": 103.6875,
+                "height": 104,
+                "right": 464.203125,
+                "bottom": 195
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 20,
+            "right": 464.203125,
+            "width": 444.203125
+          },
+          "withinContainer": false,
+          "withinViewport": false,
+          "displayFaceLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 346.390625
+        }
+      },
+      {
+        "width": 320,
+        "rootSize": "200%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 320,
+          "documentWidth": 601,
+          "overflow": true,
+          "rootFont": "32px",
+          "titleFont": "80px",
+          "lineHeight": "86.4px",
+          "wordSpacing": "8px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 280,
+            "height": 86.390625,
+            "right": 300,
+            "bottom": 186.390625
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 280,
+            "height": 142.390625,
+            "right": 300,
+            "bottom": 218.390625
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 20,
+                "y": 97,
+                "width": 200.078125,
+                "height": 91,
+                "right": 220.078125,
+                "bottom": 188
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 244.578125,
+                "y": 97,
+                "width": 195.703125,
+                "height": 91,
+                "right": 440.28125,
+                "bottom": 188
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 464.78125,
+                "y": 97,
+                "width": 135.8125,
+                "height": 91,
+                "right": 600.59375,
+                "bottom": 188
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 20,
+            "right": 600.59375,
+            "width": 580.59375
+          },
+          "withinContainer": false,
+          "withinViewport": false,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 346.390625
+        }
+      }
+    ],
+    "finishedAt": "2026-10-09T01:40:14.069Z"
+  },
+  "fontBoundaryAfter": {
+    "startedAt": "2026-10-09T01:42:24.488Z",
+    "cases": [
+      {
+        "width": 320,
+        "rootSize": "100%",
+        "blockDisplay": false,
+        "blockedRequests": 0,
+        "metrics": {
+          "viewport": 320,
+          "documentWidth": 320,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "44.8px",
+          "lineHeight": "48.384px",
+          "wordSpacing": "4.48px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 280,
+            "height": 48.375,
+            "right": 300,
+            "bottom": 148.375
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 280,
+            "height": 104.375,
+            "right": 300,
+            "bottom": 180.375
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 35.625,
+                "y": 95,
+                "width": 80.109375,
+                "height": 58,
+                "right": 115.734375,
+                "bottom": 153
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 126.265625,
+                "y": 95,
+                "width": 89.515625,
+                "height": 58,
+                "right": 215.78125,
+                "bottom": 153
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 226.3125,
+                "y": 95,
+                "width": 58.0625,
+                "height": 58,
+                "right": 284.375,
+                "bottom": 153
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 35.625,
+            "right": 284.375,
+            "width": 248.75
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "unloaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 308.375,
+          "lineCount": 1
+        }
+      },
+      {
+        "width": 320,
+        "rootSize": "100%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 320,
+          "documentWidth": 320,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "44.8px",
+          "lineHeight": "48.384px",
+          "wordSpacing": "4.48px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 280,
+            "height": 48.375,
+            "right": 300,
+            "bottom": 148.375
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 280,
+            "height": 104.375,
+            "right": 300,
+            "bottom": 180.375
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 38.078125,
+                "y": 104,
+                "width": 83.5,
+                "height": 39,
+                "right": 121.578125,
+                "bottom": 143
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 132.765625,
+                "y": 104,
+                "width": 81.625,
+                "height": 39,
+                "right": 214.390625,
+                "bottom": 143
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 225.578125,
+                "y": 104,
+                "width": 56.34375,
+                "height": 39,
+                "right": 281.921875,
+                "bottom": 143
+              },
+              "fontSize": "44.8px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 38.078125,
+            "right": 281.921875,
+            "width": 243.84375
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 308.375,
+          "lineCount": 1
+        }
+      },
+      {
+        "width": 390,
+        "rootSize": "100%",
+        "blockDisplay": false,
+        "blockedRequests": 0,
+        "metrics": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "56px",
+          "lineHeight": "60.48px",
+          "wordSpacing": "5.6px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 350,
+            "height": 60.46875,
+            "right": 370,
+            "bottom": 160.46875
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 350,
+            "height": 116.46875,
+            "right": 370,
+            "bottom": 192.46875
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 39.515625,
+                "y": 94,
+                "width": 100.140625,
+                "height": 72,
+                "right": 139.65625,
+                "bottom": 166
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 152.828125,
+                "y": 94,
+                "width": 111.890625,
+                "height": 72,
+                "right": 264.71875,
+                "bottom": 166
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 277.890625,
+                "y": 94,
+                "width": 72.578125,
+                "height": 72,
+                "right": 350.46875,
+                "bottom": 166
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 39.515625,
+            "right": 350.46875,
+            "width": 310.953125
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "unloaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 320.46875,
+          "lineCount": 1
+        }
+      },
+      {
+        "width": 390,
+        "rootSize": "100%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "56px",
+          "lineHeight": "60.48px",
+          "wordSpacing": "5.6px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 350,
+            "height": 60.46875,
+            "right": 370,
+            "bottom": 160.46875
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 350,
+            "height": 116.46875,
+            "right": 370,
+            "bottom": 192.46875
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 42.578125,
+                "y": 106,
+                "width": 104.390625,
+                "height": 48,
+                "right": 146.96875,
+                "bottom": 154
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 160.953125,
+                "y": 106,
+                "width": 102.046875,
+                "height": 48,
+                "right": 263,
+                "bottom": 154
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 276.984375,
+                "y": 106,
+                "width": 70.421875,
+                "height": 48,
+                "right": 347.40625,
+                "bottom": 154
+              },
+              "fontSize": "56px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 42.578125,
+            "right": 347.40625,
+            "width": 304.828125
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 320.46875,
+          "lineCount": 1
+        }
+      },
+      {
+        "width": 768,
+        "rootSize": "100%",
+        "blockDisplay": false,
+        "blockedRequests": 0,
+        "metrics": {
+          "viewport": 768,
+          "documentWidth": 768,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "111.36px",
+          "lineHeight": "120.269px",
+          "wordSpacing": "11.136px",
+          "title": {
+            "x": 36,
+            "y": 112,
+            "width": 696,
+            "height": 120.265625,
+            "right": 732,
+            "bottom": 232.265625
+          },
+          "intro": {
+            "x": 36,
+            "y": 78,
+            "width": 696,
+            "height": 200.265625,
+            "right": 732,
+            "bottom": 278.265625
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 74.84375,
+                "y": 99,
+                "width": 199.125,
+                "height": 145,
+                "right": 273.96875,
+                "bottom": 244
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 300.140625,
+                "y": 99,
+                "width": 222.5,
+                "height": 145,
+                "right": 522.640625,
+                "bottom": 244
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 548.8125,
+                "y": 99,
+                "width": 144.328125,
+                "height": 145,
+                "right": 693.140625,
+                "bottom": 244
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 74.84375,
+            "right": 693.140625,
+            "width": 618.296875
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "unloaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 422.265625,
+          "lineCount": 1
+        }
+      },
+      {
+        "width": 768,
+        "rootSize": "100%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 768,
+          "documentWidth": 768,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "111.36px",
+          "lineHeight": "120.269px",
+          "wordSpacing": "11.136px",
+          "title": {
+            "x": 36,
+            "y": 112,
+            "width": 696,
+            "height": 120.265625,
+            "right": 732,
+            "bottom": 232.265625
+          },
+          "intro": {
+            "x": 36,
+            "y": 78,
+            "width": 696,
+            "height": 200.265625,
+            "right": 732,
+            "bottom": 278.265625
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 80.9375,
+                "y": 123,
+                "width": 207.5625,
+                "height": 97,
+                "right": 288.5,
+                "bottom": 220
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 316.296875,
+                "y": 123,
+                "width": 202.90625,
+                "height": 97,
+                "right": 519.203125,
+                "bottom": 220
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 547,
+                "y": 123,
+                "width": 140.046875,
+                "height": 97,
+                "right": 687.046875,
+                "bottom": 220
+              },
+              "fontSize": "111.36px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 80.9375,
+            "right": 687.046875,
+            "width": 606.109375
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 422.265625,
+          "lineCount": 1
+        }
+      },
+      {
+        "width": 1440,
+        "rootSize": "100%",
+        "blockDisplay": false,
+        "blockedRequests": 0,
+        "metrics": {
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "144px",
+          "lineHeight": "155.52px",
+          "wordSpacing": "14.4px",
+          "title": {
+            "x": 60,
+            "y": 112,
+            "width": 1320,
+            "height": 155.515625,
+            "right": 1380,
+            "bottom": 267.515625
+          },
+          "intro": {
+            "x": 60,
+            "y": 78,
+            "width": 1320,
+            "height": 235.515625,
+            "right": 1380,
+            "bottom": 313.515625
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 320.234375,
+                "y": 95,
+                "width": 257.484375,
+                "height": 188,
+                "right": 577.71875,
+                "bottom": 283
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 611.5625,
+                "y": 95,
+                "width": 287.71875,
+                "height": 188,
+                "right": 899.28125,
+                "bottom": 283
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 933.125,
+                "y": 95,
+                "width": 186.625,
+                "height": 188,
+                "right": 1119.75,
+                "bottom": 283
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 320.234375,
+            "right": 1119.75,
+            "width": 799.515625
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "unloaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 405.515625,
+          "lineCount": 1
+        }
+      },
+      {
+        "width": 1440,
+        "rootSize": "100%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "overflow": false,
+          "rootFont": "16px",
+          "titleFont": "144px",
+          "lineHeight": "155.52px",
+          "wordSpacing": "14.4px",
+          "title": {
+            "x": 60,
+            "y": 112,
+            "width": 1320,
+            "height": 155.515625,
+            "right": 1380,
+            "bottom": 267.515625
+          },
+          "intro": {
+            "x": 60,
+            "y": 78,
+            "width": 1320,
+            "height": 235.515625,
+            "right": 1380,
+            "bottom": 313.515625
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 328.125,
+                "y": 127,
+                "width": 268.40625,
+                "height": 125,
+                "right": 596.53125,
+                "bottom": 252
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 632.46875,
+                "y": 127,
+                "width": 262.375,
+                "height": 125,
+                "right": 894.84375,
+                "bottom": 252
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 930.78125,
+                "y": 127,
+                "width": 181.09375,
+                "height": 125,
+                "right": 1111.875,
+                "bottom": 252
+              },
+              "fontSize": "144px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": true,
+          "textExtent": {
+            "left": 328.125,
+            "right": 1111.875,
+            "width": 783.75
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 405.515625,
+          "lineCount": 1
+        }
+      },
+      {
+        "width": 320,
+        "rootSize": "200%",
+        "blockDisplay": false,
+        "blockedRequests": 0,
+        "metrics": {
+          "viewport": 320,
+          "documentWidth": 320,
+          "overflow": false,
+          "rootFont": "32px",
+          "titleFont": "80px",
+          "lineHeight": "86.4px",
+          "wordSpacing": "8px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 280,
+            "height": 259.171875,
+            "right": 300,
+            "bottom": 359.171875
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 280,
+            "height": 315.171875,
+            "right": 300,
+            "bottom": 391.171875
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 88.46875,
+                "y": 91,
+                "width": 143.046875,
+                "height": 104,
+                "right": 231.515625,
+                "bottom": 195
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 80.078125,
+                "y": 177.390625,
+                "width": 159.84375,
+                "height": 104,
+                "right": 239.921875,
+                "bottom": 281.390625
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 108.15625,
+                "y": 263.78125,
+                "width": 103.6875,
+                "height": 104,
+                "right": 211.84375,
+                "bottom": 367.78125
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": false,
+          "textExtent": {
+            "left": 80.078125,
+            "right": 239.921875,
+            "width": 159.84375
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": true,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "unloaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 519.171875,
+          "lineCount": 3
+        }
+      },
+      {
+        "width": 320,
+        "rootSize": "200%",
+        "blockDisplay": true,
+        "blockedRequests": 1,
+        "metrics": {
+          "viewport": 320,
+          "documentWidth": 320,
+          "overflow": false,
+          "rootFont": "32px",
+          "titleFont": "80px",
+          "lineHeight": "86.4px",
+          "wordSpacing": "8px",
+          "title": {
+            "x": 20,
+            "y": 100,
+            "width": 280,
+            "height": 172.78125,
+            "right": 300,
+            "bottom": 272.78125
+          },
+          "intro": {
+            "x": 20,
+            "y": 76,
+            "width": 280,
+            "height": 228.78125,
+            "right": 300,
+            "bottom": 304.78125
+          },
+          "words": [
+            {
+              "text": "Taste.",
+              "rect": {
+                "x": 85.453125,
+                "y": 108,
+                "width": 149.09375,
+                "height": 69,
+                "right": 234.546875,
+                "bottom": 177
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Build.",
+              "rect": {
+                "x": 26.84375,
+                "y": 194.390625,
+                "width": 145.75,
+                "height": 69,
+                "right": 172.59375,
+                "bottom": 263.390625
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            },
+            {
+              "text": "Sell.",
+              "rect": {
+                "x": 192.5625,
+                "y": 194.390625,
+                "width": 100.59375,
+                "height": 69,
+                "right": 293.15625,
+                "bottom": 263.390625
+              },
+              "fontSize": "80px",
+              "fontFamily": "\"Hi Display\", \"Hi Display Fallback\", Georgia, serif"
+            }
+          ],
+          "sameLine": false,
+          "textExtent": {
+            "left": 26.84375,
+            "right": 293.15625,
+            "width": 266.3125
+          },
+          "withinContainer": true,
+          "withinViewport": true,
+          "displayFaceLoaded": false,
+          "fontFaces": [
+            {
+              "family": "Geist",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Display",
+              "status": "error"
+            },
+            {
+              "family": "Hi Display Fallback",
+              "status": "loaded"
+            },
+            {
+              "family": "Hi Song",
+              "status": "loaded"
+            }
+          ],
+          "firstImageTop": 432.78125,
+          "lineCount": 2
+        }
+      }
+    ],
+    "finishedAt": "2026-10-09T01:42:31.155Z"
+  },
+  "detailLayout": [
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/chenchen-atelier/",
+      "title": "晨间花园",
+      "width": 1440
+    },
+    {
+      "brokenImages": [
+        null
+      ],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/junxia-comic/",
+      "title": "菌侠 · 手绘漫画",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/yuzu-island/",
+      "title": "柚子的小岛",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/pocket-ged/",
+      "title": "Pocket & Ged",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/taste/",
+      "title": "你品 · 艺术与思想",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/school-secret-lab/",
+      "title": "爱养蘑菇的小学生",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/little-pause/",
+      "title": "歇会鸭",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/lehh/",
+      "title": "单词合合乐",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/pocofocus/",
+      "title": "PocoFocus",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/junlugu/",
+      "title": "菌露谷物语",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/snow-duel/",
+      "title": "雪仗／夜雪俱乐部",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/qiya-herbarium/",
+      "title": "奇芽药草铺",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/hyrule/",
+      "title": "海拉鲁 · 蓝焰余响",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/the-perfect-run/",
+      "title": "完美通关",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/aiedu/",
+      "title": "AI 教育 · 中英双语",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/wbw/",
+      "title": "Wait But Why 中译",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/dankoe/",
+      "title": "Dan Koe 中文阅读站",
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/chenchen-atelier/",
+      "title": "晨间花园",
+      "width": 320
+    },
+    {
+      "brokenImages": [
+        null
+      ],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/junxia-comic/",
+      "title": "菌侠 · 手绘漫画",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/yuzu-island/",
+      "title": "柚子的小岛",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/pocket-ged/",
+      "title": "Pocket & Ged",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/taste/",
+      "title": "你品 · 艺术与思想",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/school-secret-lab/",
+      "title": "爱养蘑菇的小学生",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/little-pause/",
+      "title": "歇会鸭",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/lehh/",
+      "title": "单词合合乐",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/pocofocus/",
+      "title": "PocoFocus",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/junlugu/",
+      "title": "菌露谷物语",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/snow-duel/",
+      "title": "雪仗／夜雪俱乐部",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/qiya-herbarium/",
+      "title": "奇芽药草铺",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/hyrule/",
+      "title": "海拉鲁 · 蓝焰余响",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/the-perfect-run/",
+      "title": "完美通关",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/aiedu/",
+      "title": "AI 教育 · 中英双语",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/wbw/",
+      "title": "Wait But Why 中译",
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "footerLinks": [
+        "mailto:mafangshuai@126.com",
+        "https://github.com/imfangs",
+        "https://ged.fangs.cc/",
+        "https://youzi.fangs.cc/"
+      ],
+      "noOverflow": true,
+      "path": "/projects/dankoe/",
+      "title": "Dan Koe 中文阅读站",
+      "width": 320
+    }
+  ],
+  "detailImageNote": "Two null-src readings are the hidden uninitialized ComicReader lightbox image. DOM inspected: data-full-image, no src, no client rect. No rendered broken image found.",
+  "firstImageTop": {
+    "desktop1440": {
+      "before": 481.921875,
+      "after": 405.515625
+    },
+    "phone390": {
+      "before": 509.9453125,
+      "after": 320.4765625
+    }
+  },
+  "captures": [
+    {
+      "path": "before/desktop.webp",
+      "size": [
+        1440,
+        1000
+      ],
+      "originalSha256": "29f641c0f5638fe2b3e9d212f5288bac2ca44b61c5f21908f18d91ddd8efcbd5"
+    },
+    {
+      "path": "before/footer-desktop.webp",
+      "size": [
+        1440,
+        1000
+      ],
+      "originalSha256": "61ff8b0123e3bf2815e04fe6e571c6363551fa1c2ed0ebe53b65c9a66dbb2d46"
+    },
+    {
+      "path": "before/phone.webp",
+      "size": [
+        390,
+        844
+      ],
+      "originalSha256": "b6febae45d52c6932e0d7d23fa793b5bce399283415d36181354b1aa04558bba"
+    },
+    {
+      "path": "after/desktop.webp",
+      "size": [
+        1440,
+        1000
+      ],
+      "originalSha256": "3b613be68620b0298154c120ba40270300b9b8d212b1b8c1166eebc0db13e9a7"
+    },
+    {
+      "path": "after/footer-phone.webp",
+      "size": [
+        390,
+        844
+      ],
+      "originalSha256": "d54bdfdbdb8138a82f0ddad2f8eea3cdb738976f7b5c0894c84cfdd2d517a09e"
+    },
+    {
+      "path": "after/footer-desktop.webp",
+      "size": [
+        1440,
+        1000
+      ],
+      "originalSha256": "4102338fafdc19cf2e44b72cab66bc4073c9530e40af46de2def0b6e8b00048d"
+    },
+    {
+      "path": "after/phone.webp",
+      "size": [
+        390,
+        844
+      ],
+      "originalSha256": "2a5ee69e0e6bb3a9e9e2fc3469a6f6e924edf509a6b64e9c00be69e6709c812f"
+    }
+  ],
+  "visualJudgment": "Unified display line removes the disconnected intro block; works begin sooner without changing image scale. Footer has one consistent link row. This is an internal judgment, not user acceptance.",
+  "limits": [
+    "No physical device or Safari verification",
+    "No new full playback of unchanged videos",
+    "User visual response pending"
+  ]
+}

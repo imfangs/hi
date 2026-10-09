@@ -12,15 +12,14 @@ const featured = arrangeExhibition(sortProjects(await getCollection('projects', 
   <SiteHeader />
   <main id="main" class="portfolio shell">
     <header class="intro">
-      <p class="intro-slogan" lang="en"><span class="slogan-word slogan-taste">Taste<span class="slogan-dot">.</span></span><span class="slogan-follow"><span class="slogan-word">Build<span class="slogan-dot">.</span></span> <span class="slogan-word">Sell<span class="slogan-dot">.</span></span></span></p>
-      <div class="intro-bottom"><h1>你好，我是 fangs。</h1><p class="intro-belief">判断什么值得做，<br class="intro-break" />把它做出来，让真实的人愿意用。</p><a class="text-link" href="#works">看看作品 ↓</a></div>
+      <h1 class="intro-slogan" lang="en"><span class="slogan-word">Taste.</span> <span class="slogan-word">Build.</span> <span class="slogan-word">Sell.</span></h1>
     </header>
     <section id="works" aria-labelledby="works-title">
-      <div class="section-heading"><h2 id="works-title">作品</h2><span>2026 / <span data-result-count>{featured.length} 件作品</span></span></div>
+      <h2 id="works-title" class="sr-only">作品</h2>
       <div class="browse-sentinel" aria-hidden="true"></div>
       <div class="browse-toolbar" hidden>
         <div class="filter-bar" role="group" aria-label="筛选作品">
-          {groups.map(group => <button type="button" data-filter={group.id} aria-pressed={group.id === 'all'} aria-controls="work-list">{group.label}<span data-filter-count>{group.id === 'all' ? featured.length : featured.filter(p => p.data.group === group.id).length}</span></button>)}
+          {groups.map(group => <button type="button" data-filter={group.id} aria-pressed={group.id === 'all'} aria-controls="work-list">{group.label}</button>)}
         </div>
         <div class="work-search" role="search" aria-label="搜索作品">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
@@ -31,7 +30,7 @@ const featured = arrangeExhibition(sortProjects(await getCollection('projects', 
         </div>
       </div>
       <p class="sr-only" role="status" id="filter-status"></p>
-      <ul class="work-list" id="work-list" data-layout="exhibition">{featured.map((project, index) => <ProjectRow project={project} index={index} eager={index < 2} />)}</ul>
+      <ul class="work-list" id="work-list" data-layout="exhibition">{featured.map((project, index) => <ProjectRow project={project} eager={index < 2} />)}</ul>
       <div class="work-empty" hidden>
         <p class="empty-eyebrow">换个线索，再找找</p>
         <h3 data-empty-title>暂时没有找到作品</h3>
@@ -40,13 +39,10 @@ const featured = arrangeExhibition(sortProjects(await getCollection('projects', 
       </div>
     </section>
     <section class="about" id="about" aria-labelledby="about-title">
-      <p class="about-label">关于</p>
       <div class="about-layout">
         <div class="about-copy">
           <h2 id="about-title">慢慢做，<br />认真玩。</h2>
-          <p>从原生 App、网页游戏，到艺术与阅读的小站，我喜欢把好奇心做成可以亲手体验的东西。</p>
-          <p>和我的最佳拍档格得一起，琢磨、动手，再让真实的使用告诉我们哪里还值得打磨。</p>
-          <a class="text-link" href="https://ged.fangs.cc/">去格得的小站坐坐 ↗</a>
+          <p>和格得一起，把好奇心做成可以亲手体验的东西。</p>
         </div>
         <a class="about-artwork" href="/images/brand/palm-forward-1536.webp" target="_blank" rel="noopener noreferrer" aria-label="掌心之光，查看大图">
           <figure>

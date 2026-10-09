@@ -31,6 +31,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     <meta name="theme-color" content="#fafaf7" />
     <link rel="preload" href="/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin />
+    {Astro.url.pathname === '/' && <link rel="preload" href="/fonts/instrument-serif-italic.ttf" as="font" type="font/ttf" crossorigin />}
     <script is:inline>
       let preference = 'system';
       try { const saved = localStorage.getItem('hi-theme'); if (['system','light','dark'].includes(saved)) preference = saved; } catch {}

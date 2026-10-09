@@ -7,7 +7,6 @@ const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]'
 const search = document.querySelector<HTMLInputElement>('#work-search');
 const clear = document.querySelector<HTMLButtonElement>('.search-clear');
 const status = document.querySelector<HTMLElement>('#filter-status');
-const count = document.querySelector<HTMLElement>('[data-result-count]');
 const empty = document.querySelector<HTMLElement>('.work-empty');
 const emptyTitle = document.querySelector<HTMLElement>('[data-empty-title]');
 const works = document.querySelector<HTMLElement>('#works');
@@ -30,9 +29,6 @@ function apply(announce = false) {
   for (const item of items) item.hidden = !matches.includes(item) || (view !== 'all' && item.dataset.group !== view);
   for (const button of buttons) {
     button.setAttribute('aria-pressed', String(button.dataset.filter === view));
-    const value = matches.filter(item => button.dataset.filter === 'all' || item.dataset.group === button.dataset.filter).length;
-    const counter = button.querySelector<HTMLElement>('[data-filter-count]');
-    if (counter) counter.textContent = String(value);
   }
   for (const link of document.querySelectorAll<HTMLAnchorElement>('[data-project], [data-preview-project]')) {
     const url = new URL(link.href);
@@ -44,7 +40,6 @@ function apply(announce = false) {
   if (clear) clear.hidden = !query;
   toolbar?.classList.toggle('has-query', Boolean(query));
   const visible = items.filter(item => !item.hidden).length;
-  if (count) count.textContent = `${visible} 件作品`;
   if (empty) empty.hidden = visible > 0;
   if (emptyTitle) emptyTitle.textContent = query ? `没有找到「${query}」` : '这个分类暂时没有作品';
   if (announce && status) {
