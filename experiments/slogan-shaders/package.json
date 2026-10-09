@@ -1,0 +1,1 @@
+{"name":"hi-slogan-studies","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build"},"dependencies":{"shaders":"4.0.3"},"devDependencies":{"vite":"6.4.4"}}
