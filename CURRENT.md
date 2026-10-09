@@ -1,10 +1,12 @@
 # 当前状态
 
-## 首屏与页尾精简（2026-10-09，本地已验证，待发布）
+## 首屏与页尾精简（2026-10-09，已发布并回读）
 
 - 本轮明确审美否定覆盖10-08内部视觉评审的正面判断。按用户要求借鉴Apple的主次层级，统一Taste. Build. Sell.一行同字体/字号，删除首屏介绍、看看作品、年份/计数、编号与重复状态；关于和footer精简。
 - 17件作品、顺序、原图/视频和体验链接保留；正常320–1440px单行，字体失败有匹配回退，200%文字可换行。现有浏览回归、18页构建、TypeScript、17详情×2视口及10个字体边界场景通过。
-- [取舍与同尺寸对照](docs/design/2026-10-09-simplification/README.md) · [QA回执](docs/design/2026-10-09-simplification/QA.json)。真人设备/Safari及用户审美反馈待验证；发布状态在正式回读后更新。
+- [取舍与同尺寸对照](docs/design/2026-10-09-simplification/README.md) · [QA回执](docs/design/2026-10-09-simplification/QA.json)。真人设备/Safari及用户审美反馈待验证。
+- 正式源码 `1a44f9180894ce08a1254e3003ea692c4b3316dc`，Pages `1f9a6605f33dec417d8dfc1bb3a083b8c7c510ab`；Pages built，默认release.json匹配，46/46页面、脚本、样式、字体与文本等文件一致。正式IAB桌面/390px标题与首图、搜索/图片入口/原位焦点返回/主题/footer通过。[发布回执](docs/releases/2026-10-09-simplification-publish.json)。
+- 同尺寸首图提前：1440px桌面约76px，390px手机约189px，图片尺寸与内容保持。临时4218预览已清理，浏览器视口恢复，正式页面保留；记录性提交不代表再次发布。
 
 ## 视觉作品选集（2026-10-08，已发布并回读）
 
