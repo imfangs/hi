@@ -22,6 +22,7 @@ for family, local, filename in [('notoserifsc','Hi Song','hi-song.woff2'),('noto
     license_url=f'https://raw.githubusercontent.com/google/fonts/{REV}/ofl/{family}/OFL.txt'
     license_file=ROOT/'public/fonts'/(family+'-OFL.txt')
     urllib.request.urlretrieve(license_url,license_file)
+    license_file.write_text("\n".join(line.rstrip() for line in license_file.read_text().splitlines())+"\n")
     font=TTFont(source)
     missing={ord(c) for c in chars}-set(font.getBestCmap())
     if missing: raise RuntimeError(f'{family} missing {missing}')
