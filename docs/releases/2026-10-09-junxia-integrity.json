@@ -1,0 +1,245 @@
+{
+  "all_ok": true,
+  "files": [
+    {
+      "path": "index.html",
+      "ok": true,
+      "bytes": 35276,
+      "status": 0
+    },
+    {
+      "path": "release.json",
+      "ok": true,
+      "bytes": 91,
+      "status": 0
+    },
+    {
+      "path": "_astro/Slogan.astro_astro_type_script_index_0_lang.z42zm_DK.js",
+      "ok": true,
+      "bytes": 6906,
+      "status": 0
+    },
+    {
+      "path": "_astro/ComicReader_astro_astro_type_style_index_0_lang.CeQLHRkA.css",
+      "ok": true,
+      "bytes": 7039,
+      "status": 0
+    },
+    {
+      "path": "_astro/index.astro_astro_type_script_index_0_lang.Ct62Yhkb.js",
+      "ok": true,
+      "bytes": 3964,
+      "status": 0
+    },
+    {
+      "path": "_astro/_...slug_.astro_astro_type_script_index_0_lang.CUh733Hb.js",
+      "ok": true,
+      "bytes": 1184,
+      "status": 0
+    },
+    {
+      "path": "_astro/index.C1HZ5GXE.css",
+      "ok": true,
+      "bytes": 28365,
+      "status": 0
+    },
+    {
+      "path": "_astro/index.D45GQoYD.js",
+      "ok": true,
+      "bytes": 2564969,
+      "status": 0
+    },
+    {
+      "path": "_astro/projects.BRvjfRjv.js",
+      "ok": true,
+      "bytes": 261,
+      "status": 0
+    },
+    {
+      "path": "fonts/hi-song.woff2",
+      "ok": true,
+      "bytes": 355468,
+      "status": 0
+    },
+    {
+      "path": "fonts/hi-sans.woff2",
+      "ok": true,
+      "bytes": 273768,
+      "status": 0
+    },
+    {
+      "path": "fonts/geist-latin.woff2",
+      "ok": true,
+      "bytes": 29288,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/little-pause-promo-2026-10-01-credits.html",
+      "ok": true,
+      "bytes": 1086,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/lehh-promo-2026-10-01-credits.html",
+      "ok": true,
+      "bytes": 991,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/dankoe-promo-2026-10-01-credits.html",
+      "ok": true,
+      "bytes": 1282,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/hyrule-promo-20261001-credits.html",
+      "ok": true,
+      "bytes": 2048,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/snow-duel-promo-2026-10-01-credits.html",
+      "ok": true,
+      "bytes": 1582,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/wbw-promo-2026-10-01-credits.html",
+      "ok": true,
+      "bytes": 1181,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+      "ok": true,
+      "bytes": 1233,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/taste-promo-2026-10-01-credits.html",
+      "ok": true,
+      "bytes": 1089,
+      "status": 0
+    },
+    {
+      "path": "videos/projects/aiedu-promo-2026-10-01-credits.html",
+      "ok": true,
+      "bytes": 1177,
+      "status": 0
+    },
+    {
+      "path": "projects/lehh/index.html",
+      "ok": true,
+      "bytes": 10695,
+      "status": 0
+    },
+    {
+      "path": "projects/wbw/index.html",
+      "ok": true,
+      "bytes": 10948,
+      "status": 0
+    },
+    {
+      "path": "projects/pocofocus/index.html",
+      "ok": true,
+      "bytes": 10497,
+      "status": 0
+    },
+    {
+      "path": "projects/junxia-travels/index.html",
+      "ok": true,
+      "bytes": 10610,
+      "status": 0
+    },
+    {
+      "path": "projects/aiedu/index.html",
+      "ok": true,
+      "bytes": 11351,
+      "status": 0
+    },
+    {
+      "path": "projects/pocket-ged/index.html",
+      "ok": true,
+      "bytes": 10787,
+      "status": 0
+    },
+    {
+      "path": "projects/the-perfect-run/index.html",
+      "ok": true,
+      "bytes": 11294,
+      "status": 0
+    },
+    {
+      "path": "projects/yuzu-island/index.html",
+      "ok": true,
+      "bytes": 10263,
+      "status": 0
+    },
+    {
+      "path": "projects/school-secret-lab/index.html",
+      "ok": true,
+      "bytes": 19968,
+      "status": 0
+    },
+    {
+      "path": "projects/hyrule/index.html",
+      "ok": true,
+      "bytes": 11292,
+      "status": 0
+    },
+    {
+      "path": "projects/junlugu/index.html",
+      "ok": true,
+      "bytes": 10658,
+      "status": 0
+    },
+    {
+      "path": "projects/taste/index.html",
+      "ok": true,
+      "bytes": 11739,
+      "status": 0
+    },
+    {
+      "path": "projects/qiya-herbarium/index.html",
+      "ok": true,
+      "bytes": 10799,
+      "status": 0
+    },
+    {
+      "path": "projects/little-pause/index.html",
+      "ok": true,
+      "bytes": 11099,
+      "status": 0
+    },
+    {
+      "path": "projects/dankoe/index.html",
+      "ok": true,
+      "bytes": 11280,
+      "status": 0
+    },
+    {
+      "path": "projects/chenchen-atelier/index.html",
+      "ok": true,
+      "bytes": 10044,
+      "status": 0
+    },
+    {
+      "path": "projects/snow-duel/index.html",
+      "ok": true,
+      "bytes": 10720,
+      "status": 0
+    },
+    {
+      "path": "projects/junxia-comic/index.html",
+      "ok": true,
+      "bytes": 22550,
+      "status": 0
+    },
+    {
+      "path": "images/projects/junxia-travels.webp",
+      "ok": true,
+      "bytes": 124930,
+      "status": 0
+    }
+  ]
+}

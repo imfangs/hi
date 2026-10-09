@@ -5,3 +5,7 @@
 构建19个页面、925个源码汉字覆盖通过；IAB核验新详情的正文、链接、封面，以及390px深色模式、返回首页后对应卡片/焦点恢复。公网发布与回读结果另记，不把本地检查当作已上线。
 
 此次接续阅读封面任务已发布的e3f28aa主分支。保留五张阅读封面、相关MDX哈希参数及既有页面；只新增旅行条目、展陈位置和必要字集。与其他任务协调串行发布，避免覆盖。
+
+## 发布结果
+
+源码3c37d11a77b1e5fe37de46e52025fd6f2d626327，Pages产物1ccb2c9。正式release.json与source一致，40/40个HTML/CSS/JS/字体/新增封面逐字节匹配；见2026-10-09-junxia-integrity.json。正式 https://hi.fangs.cc/projects/junxia-travels/ 已在IAB回读，标题、产品正文、真实封面和 https://travel.fangs.cc/ 体验入口一致。既有阅读封面与MDX版本参数保持。
