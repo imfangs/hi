@@ -151,3 +151,7 @@
 ## 2026-10-09 中文字体更新
 
 以固定Google Fonts来源生成 `hi-song.woff2` / `hi-sans.woff2`，替换历史307字符宋体子集。来源、SHA-256、OFL与字集见 `scripts/font-manifest.json`；决策与维护见 [中文字体记录](design/2026-10-09-chinese-type/README.md)。两套独立OFL在public/fonts中保留。
+
+## 阅读类首页与封面更新（2026-10-09）
+
+你品、WBW、Dan Koe、AI教育、完美通关分别完成首页优化与正式域名回读后，从匿名首次访问环境采集1200×750真实页面，原尺寸转WebP quality90。没有改写截图内文案或拼接不存在的功能，也未读取/清除个人阅读进度。封面src附图片哈希版本以避免旧图缓存，旧宣传片本轮未重制。五图来源、SHA及对应网站部署见 [封面回执](releases/2026-10-09-reading-covers-assets.json)。你品已与“提升 Taste 网站设计”任务合并发布；其他四站各自保存首页与发布记录。

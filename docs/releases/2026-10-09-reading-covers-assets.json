@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-09",
+  "state": "five production homepages captured",
+  "capture": "Existing Playwright with installed Chrome; fresh anonymous context per origin; 1200x750, light theme, reduced motion; no user storage read or cleared; no visual compositing",
+  "assets": [
+    {
+      "project": "taste",
+      "source_url": "https://taste.fangs.cc/",
+      "file": "public/images/projects/taste.webp",
+      "src": "/images/projects/taste.webp?v=31a605af5f",
+      "sha256": "31a605af5fcd690135a689bb0c244b51a2a39f4dfffc7e41f0357126f67dcc47",
+      "size": [
+        1200,
+        750
+      ],
+      "bytes": 104392
+    },
+    {
+      "project": "wbw",
+      "source_url": "https://wbw.fangs.cc/",
+      "file": "public/images/projects/wbw.webp",
+      "src": "/images/projects/wbw.webp?v=9377c996e2",
+      "sha256": "9377c996e25c5c775cf4c14132b9d9849b32a7dea329c57a0bac070a75a74510",
+      "size": [
+        1200,
+        750
+      ],
+      "bytes": 46024
+    },
+    {
+      "project": "dankoe",
+      "source_url": "https://dankoe.fangs.cc/",
+      "file": "public/images/projects/dankoe.webp",
+      "src": "/images/projects/dankoe.webp?v=69c21dd1e6",
+      "sha256": "69c21dd1e64ffc47c629b3fbcf650da9cf6500db2a52aa6db9beeaa0bb46e10c",
+      "size": [
+        1200,
+        750
+      ],
+      "bytes": 33460
+    },
+    {
+      "project": "aiedu",
+      "source_url": "https://aiedu.fangs.cc/",
+      "file": "public/images/projects/aiedu.webp",
+      "src": "/images/projects/aiedu.webp?v=0675fea692",
+      "sha256": "0675fea692b1fa2eabb90848eb26ea08baea2f1c53ef7cbaeb6888e13d2dce37",
+      "size": [
+        1200,
+        750
+      ],
+      "bytes": 55776
+    },
+    {
+      "project": "the-perfect-run",
+      "source_url": "https://perfect-run.fangs.cc/",
+      "file": "public/images/projects/the-perfect-run.webp",
+      "src": "/images/projects/the-perfect-run.webp?v=530597ddc4",
+      "sha256": "530597ddc4d899881fd9e8dc45a5bea08223bc261690e7994939518e97fab008",
+      "size": [
+        1200,
+        750
+      ],
+      "bytes": 58706
+    }
+  ],
+  "taste_release": {
+    "source": "01d3dbbc8874c57849952972364388a3fa2c8d61",
+    "deployment": "486f20fc-a0f1-40e4-8013-a64ce0d18c76",
+    "matched_files": 527
+  },
+  "other_releases": {
+    "wbw": {
+      "date": "2026-10-09",
+      "source": "8e2381b3c78feda6a9fec0d9aa4cfefdf65288a2",
+      "deployment": "daa09f05e4ba54dfdfa18b220696f615c953b3c9",
+      "ready": true,
+      "matched_files": 319,
+      "verification_scope": "HTML/JS/CSS/JSON/text; unchanged image binaries excluded",
+      "limits": [
+        "Browser viewports, not physical devices",
+        "Content/translation unchanged; no renewed semantic proof",
+        "Visitor interest not measured"
+      ]
+    },
+    "dankoe": {
+      "date": "2026-10-09",
+      "source": "f2131a0a068c877f463d6344c5835c25ee211368",
+      "deployment": "74521ce5f54aae4721fb3f9e1bbcece50d83c7cc",
+      "ready": true,
+      "matched_files": 1326,
+      "verification_scope": "HTML/JS/CSS/JSON/text; unchanged image binaries excluded",
+      "limits": [
+        "Browser viewports, not physical devices",
+        "Content/translation unchanged; no renewed semantic proof",
+        "Visitor interest not measured"
+      ]
+    },
+    "ai-for-education-zh": {
+      "date": "2026-10-09",
+      "source": "70a25297351a8cb6f364f88da1f5c71af4129de5",
+      "deployment": "64076e65-78fa-4b8c-948f-bdb1a9d85dfb",
+      "ready": true,
+      "matched_files": 109,
+      "verification_scope": "Full published static files (configured exclusions only)",
+      "limits": [
+        "Browser viewports, not physical devices",
+        "Content/translation unchanged; no renewed semantic proof",
+        "Visitor interest not measured"
+      ]
+    },
+    "the-perfect-run": {
+      "date": "2026-10-09",
+      "source": "2b51c98b9239ac1ed9a746875eec1a6704554f1a",
+      "deployment": "7feb3910-82ff-4682-8a27-5bc9999e2978",
+      "ready": true,
+      "matched_files": 803,
+      "verification_scope": "Full published static files (configured exclusions only)",
+      "limits": [
+        "Browser viewports, not physical devices",
+        "Content/translation unchanged; no renewed semantic proof",
+        "Visitor interest not measured"
+      ]
+    }
+  }
+}
