@@ -1,0 +1,264 @@
+{
+  "capability": "public-preview",
+  "operation": "verify-files",
+  "outputs": [
+    "/tmp/hi-reading-covers-integrity.json"
+  ],
+  "warnings": [],
+  "schema_version": 2,
+  "ok": true,
+  "complete": true,
+  "identity": {
+    "url": "https://hi.fangs.cc/",
+    "build_sha256": "3aac268c29bdf20332a182e618d16f2a65efe8f11652243eb8800ef7fddd9106",
+    "deployment_id": "362a57aa6940bb8056a3c25ac9946f4c138974ab",
+    "config": {
+      "transport": "curl",
+      "timeout": 20000,
+      "retries": 2,
+      "concurrency": 4,
+      "exclusions": [],
+      "playwright_root": null,
+      "policy": "sha256-normal-dns-tls-v2"
+    }
+  },
+  "fingerprint": "e298e0c0e1921330cda1e639addf64e35c0ca2ef89b02af4e2c098613fb90a40",
+  "url": "https://hi.fangs.cc/",
+  "anonymous": true,
+  "transport": "curl",
+  "budget_ms": 900000,
+  "file_count": 19,
+  "completed_count": 19,
+  "matched_count": 19,
+  "pending_count": 0,
+  "failed_count": 0,
+  "reused_count": 0,
+  "updated_at": "2026-10-09T04:22:38.793Z",
+  "skipped": [],
+  "files": [
+    {
+      "file": "_astro/ComicReader_astro_astro_type_style_index_0_lang.CeQLHRkA.css",
+      "sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+      "local_bytes": 7039,
+      "status": 200,
+      "remote_sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+      "remote_bytes": 7039,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:32.716Z"
+    },
+    {
+      "file": "_astro/Slogan.astro_astro_type_script_index_0_lang.z42zm_DK.js",
+      "sha256": "7a9cb95e14f8c202aa946adb9aedd850101a440ba2ce8273afbf090a868a91ee",
+      "local_bytes": 6906,
+      "status": 200,
+      "remote_sha256": "7a9cb95e14f8c202aa946adb9aedd850101a440ba2ce8273afbf090a868a91ee",
+      "remote_bytes": 6906,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:32.707Z"
+    },
+    {
+      "file": "_astro/_...slug_.astro_astro_type_script_index_0_lang.CUh733Hb.js",
+      "sha256": "352228adc70313123a275568ef36c3a65399c4aa5b3a31e6695ac194eb177cdb",
+      "local_bytes": 1184,
+      "status": 200,
+      "remote_sha256": "352228adc70313123a275568ef36c3a65399c4aa5b3a31e6695ac194eb177cdb",
+      "remote_bytes": 1184,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:32.699Z"
+    },
+    {
+      "file": "_astro/index.C1HZ5GXE.css",
+      "sha256": "febfd6953088226558b41ad6c1625a65aa15f9afdbb82cc28eced4b9124b54d2",
+      "local_bytes": 28365,
+      "status": 200,
+      "remote_sha256": "febfd6953088226558b41ad6c1625a65aa15f9afdbb82cc28eced4b9124b54d2",
+      "remote_bytes": 28365,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:32.715Z"
+    },
+    {
+      "file": "_astro/index.D45GQoYD.js",
+      "sha256": "e00fe88f809732d0edde725e93f8eea8ae8498e4564d01b996ae1dac10a2d340",
+      "local_bytes": 2564969,
+      "status": 200,
+      "remote_sha256": "e00fe88f809732d0edde725e93f8eea8ae8498e4564d01b996ae1dac10a2d340",
+      "remote_bytes": 2564969,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:35.157Z"
+    },
+    {
+      "file": "_astro/index.astro_astro_type_script_index_0_lang.Ct62Yhkb.js",
+      "sha256": "1f6eaef8fd4c70863931404473f1643ccc81485f0f4b9d4ceaa9e5f31237dff0",
+      "local_bytes": 3964,
+      "status": 200,
+      "remote_sha256": "1f6eaef8fd4c70863931404473f1643ccc81485f0f4b9d4ceaa9e5f31237dff0",
+      "remote_bytes": 3964,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:33.738Z"
+    },
+    {
+      "file": "_astro/projects.BRvjfRjv.js",
+      "sha256": "a7b6cfc87c7da173f38b731c0ecd5a08c09fc3d5fcd5ab9b7cb8f0851d6403a0",
+      "local_bytes": 261,
+      "status": 200,
+      "remote_sha256": "a7b6cfc87c7da173f38b731c0ecd5a08c09fc3d5fcd5ab9b7cb8f0851d6403a0",
+      "remote_bytes": 261,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:33.785Z"
+    },
+    {
+      "file": "images/projects/aiedu.webp",
+      "sha256": "0675fea692b1fa2eabb90848eb26ea08baea2f1c53ef7cbaeb6888e13d2dce37",
+      "local_bytes": 55776,
+      "status": 200,
+      "remote_sha256": "0675fea692b1fa2eabb90848eb26ea08baea2f1c53ef7cbaeb6888e13d2dce37",
+      "remote_bytes": 55776,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:33.940Z"
+    },
+    {
+      "file": "images/projects/dankoe.webp",
+      "sha256": "69c21dd1e64ffc47c629b3fbcf650da9cf6500db2a52aa6db9beeaa0bb46e10c",
+      "local_bytes": 33460,
+      "status": 200,
+      "remote_sha256": "69c21dd1e64ffc47c629b3fbcf650da9cf6500db2a52aa6db9beeaa0bb46e10c",
+      "remote_bytes": 33460,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:36.508Z"
+    },
+    {
+      "file": "images/projects/taste.webp",
+      "sha256": "31a605af5fcd690135a689bb0c244b51a2a39f4dfffc7e41f0357126f67dcc47",
+      "local_bytes": 104392,
+      "status": 200,
+      "remote_sha256": "31a605af5fcd690135a689bb0c244b51a2a39f4dfffc7e41f0357126f67dcc47",
+      "remote_bytes": 104392,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:36.328Z"
+    },
+    {
+      "file": "images/projects/the-perfect-run.webp",
+      "sha256": "530597ddc4d899881fd9e8dc45a5bea08223bc261690e7994939518e97fab008",
+      "local_bytes": 58706,
+      "status": 200,
+      "remote_sha256": "530597ddc4d899881fd9e8dc45a5bea08223bc261690e7994939518e97fab008",
+      "remote_bytes": 58706,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:36.189Z"
+    },
+    {
+      "file": "images/projects/wbw.webp",
+      "sha256": "9377c996e25c5c775cf4c14132b9d9849b32a7dea329c57a0bac070a75a74510",
+      "local_bytes": 46024,
+      "status": 200,
+      "remote_sha256": "9377c996e25c5c775cf4c14132b9d9849b32a7dea329c57a0bac070a75a74510",
+      "remote_bytes": 46024,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:36.124Z"
+    },
+    {
+      "file": "index.html",
+      "sha256": "fe20ac51ed8a52a52b59dd635ab717b818846638075912118c29cd802cb4ef27",
+      "local_bytes": 33838,
+      "status": 200,
+      "remote_sha256": "fe20ac51ed8a52a52b59dd635ab717b818846638075912118c29cd802cb4ef27",
+      "remote_bytes": 33838,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:37.892Z"
+    },
+    {
+      "file": "projects/aiedu/index.html",
+      "sha256": "d8ad80002fa956af03265f595b8f5133b21a4fcc4ed8a16dc71967a56fc2239a",
+      "local_bytes": 11351,
+      "status": 200,
+      "remote_sha256": "d8ad80002fa956af03265f595b8f5133b21a4fcc4ed8a16dc71967a56fc2239a",
+      "remote_bytes": 11351,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:37.794Z"
+    },
+    {
+      "file": "projects/dankoe/index.html",
+      "sha256": "68d2c5251aa0e2362a4962883d9a57c9cb41f79e247b62419f5d007b7692a7cc",
+      "local_bytes": 11280,
+      "status": 200,
+      "remote_sha256": "68d2c5251aa0e2362a4962883d9a57c9cb41f79e247b62419f5d007b7692a7cc",
+      "remote_bytes": 11280,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:37.892Z"
+    },
+    {
+      "file": "projects/taste/index.html",
+      "sha256": "fab96e07a558f92836b346dc7a535074ac350c2f05d550c610fd7fd8de8359ba",
+      "local_bytes": 11739,
+      "status": 200,
+      "remote_sha256": "fab96e07a558f92836b346dc7a535074ac350c2f05d550c610fd7fd8de8359ba",
+      "remote_bytes": 11739,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:37.901Z"
+    },
+    {
+      "file": "projects/the-perfect-run/index.html",
+      "sha256": "9c34b88a3f46019c50c338a0a79fe18b7222f46383eaa70007e2ab36a3138c83",
+      "local_bytes": 11294,
+      "status": 200,
+      "remote_sha256": "9c34b88a3f46019c50c338a0a79fe18b7222f46383eaa70007e2ab36a3138c83",
+      "remote_bytes": 11294,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:38.792Z"
+    },
+    {
+      "file": "projects/wbw/index.html",
+      "sha256": "5350f549e8ae48cff6ed9bef5b1604956539230937541953f1796493482b43cd",
+      "local_bytes": 10948,
+      "status": 200,
+      "remote_sha256": "5350f549e8ae48cff6ed9bef5b1604956539230937541953f1796493482b43cd",
+      "remote_bytes": 10948,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:38.755Z"
+    },
+    {
+      "file": "release.json",
+      "sha256": "53a3bae1ea85408e38ef691db7b7e7ffca73c6357cc14d4a3555c357e3920d51",
+      "local_bytes": 91,
+      "status": 200,
+      "remote_sha256": "53a3bae1ea85408e38ef691db7b7e7ffca73c6357cc14d4a3555c357e3920d51",
+      "remote_bytes": 91,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-09T04:22:38.767Z"
+    }
+  ],
+  "verification_scope": "file integrity only; application behavior and device compatibility require separate tests",
+  "duration_ms": 7023,
+  "source": "22a3b0039d86d71a49f76bbf59f5c828fc31ac66",
+  "pages": "362a57aa6940bb8056a3c25ac9946f4c138974ab",
+  "scope_note": "Homepage, five reading detail pages, five changed cover images, generated CSS/JS and release metadata. Unchanged media not rehashed.",
+  "browser_checks": {
+    "reading_cards": 5,
+    "all_covers_natural_size": [
+      1200,
+      750
+    ],
+    "versioned_image_urls": true,
+    "wbw_detail_return": "/?view=reading#work-wbw",
+    "isolation": "Published from detached worktree; concurrent junxia-travels/exhibition/font changes excluded and preserved."
+  }
+}
