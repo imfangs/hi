@@ -94,3 +94,7 @@ node scripts/verify-browsing.mjs --url http://127.0.0.1:4218 \
 源代码与产物 push 显式启用 `--progress`，使非交互终端中的视频大文件上传也有传输进度；耗时较长时结合远端分支 SHA 回读判断状态。
 
 Pages 设置为 `gh-pages` / root。域名 `hi.fangs.cc` CNAME 指向 `imfangs.github.io`；`public/CNAME` 随构建保留。发布脚本不会自动提交脏源码，也不会修改其他仓库。
+
+## 中文字体维护
+
+中文采用宋体标题与黑体说明/正文，依据与对照见 [字体研究](docs/design/2026-10-09-chinese-type/README.md)。`pnpm build`自动检查源码汉字覆盖与字体哈希。新增缺字后运行 `pnpm fonts:build`（uv、fontTools、Brotli；源版本固定），再构建和浏览器验证。字体重建不应更改正文内容。

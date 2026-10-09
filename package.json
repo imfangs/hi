@@ -6,9 +6,11 @@
   "packageManager": "pnpm@10.19.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/check-fonts.mjs && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "fonts:check": "node scripts/check-fonts.mjs",
+    "fonts:build": "uv run --with fonttools --with brotli scripts/build-fonts.py"
   },
   "dependencies": {
     "@astrojs/mdx": "^4",

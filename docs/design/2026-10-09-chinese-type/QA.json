@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-09",
+  "desktop": [
+    {
+      "route": "/projects/chenchen-atelier/",
+      "title": "晨间花园",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/junxia-comic/",
+      "title": "菌侠 · 手绘漫画",
+      "layout": {
+        "broken": 1,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/yuzu-island/",
+      "title": "柚子的小岛",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/pocket-ged/",
+      "title": "Pocket & Ged",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/taste/",
+      "title": "你品 · 艺术与思想",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/school-secret-lab/",
+      "title": "爱养蘑菇的小学生",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/little-pause/",
+      "title": "歇会鸭",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/lehh/",
+      "title": "单词合合乐",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/pocofocus/",
+      "title": "PocoFocus",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/junlugu/",
+      "title": "菌露谷物语",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/snow-duel/",
+      "title": "雪仗／夜雪俱乐部",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/qiya-herbarium/",
+      "title": "奇芽药草铺",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/hyrule/",
+      "title": "海拉鲁 · 蓝焰余响",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/the-perfect-run/",
+      "title": "完美通关",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/aiedu/",
+      "title": "AI 教育 · 中英双语",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/wbw/",
+      "title": "Wait But Why 中译",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "route": "/projects/dankoe/",
+      "title": "Dan Koe 中文阅读站",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 1280
+      }
+    }
+  ],
+  "phone": [
+    {
+      "route": "/projects/chenchen-atelier/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/junxia-comic/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/yuzu-island/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/pocket-ged/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/taste/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/school-secret-lab/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/little-pause/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/lehh/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/pocofocus/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/junlugu/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/snow-duel/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/qiya-herbarium/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/hyrule/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/the-perfect-run/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/aiedu/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/wbw/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "route": "/projects/dankoe/",
+      "layout": {
+        "broken": 0,
+        "overflow": false,
+        "width": 390
+      }
+    }
+  ],
+  "desktopImageCountCorrection": "junxia-comic includes an img without src; all five comic image URLs individually loaded at naturalWidth 1707.",
+  "actualFonts": {
+    "title": "Hi Song custom, 4 glyphs",
+    "description": "Hi Sans custom, 19 glyphs"
+  },
+  "fontBlockedFallback": {
+    "viewport": 390,
+    "heading": "Taste. Build. Sell.",
+    "firstProject": "晨间花园",
+    "overflow": false
+  },
+  "searchReturn": "?q=花纸#works",
+  "limits": [
+    "Browser viewports, not physical phones",
+    "Safari and sustained reading preference not verified"
+  ]
+}
