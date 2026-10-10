@@ -20,6 +20,7 @@
 
 ## 设计与验证
 
+- 接续本轮三角之力 Logo 提案时读 `docs/design/2026-10-10-three-forces/README.md`；选择、资产和验证集中在该目录。
 - 颜色与文字样式统一在 `src/styles/global.css`：纸白、宋体中文标题、黑体中文说明/正文、Geist西文工具文字与少量朱砂红；英文主标题 Taste. Build. Sell. 统一使用 Instrument Serif 斜体、同字号和基线；正常视口单行，文字放大时按词换行。字体自托管于 `public/fonts/` 并保留许可；主题支持系统/浅色/深色。
 - 中文字体接续读 `docs/design/2026-10-09-chinese-type/README.md`；新增src文案由构建字集检查守护，缺字运行 `pnpm fonts:build`，不得手改font-manifest绕过。
 - 口号动态接续读 `docs/design/2026-10-09-shaders/README.md`；共享引擎 `src/scripts/slogan-effects.js`，六种随机、成形自动往返、原生文字回退；实验对照页不是正式路由。

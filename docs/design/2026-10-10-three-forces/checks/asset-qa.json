@@ -1,0 +1,3679 @@
+{
+  "date": "2026-10-10",
+  "scope": "Independent check of new assets only; no old Hi logo assets or concepts examined. Added export check by coordinator request.",
+  "status": "assets_and_export_pass_for_documented_uses",
+  "tooling": {
+    "audit": "FBT logo-design/scripts/svg_audit.py --strict --json",
+    "render": "FBT logo-design/scripts/render_png.py --backend rsvg-convert",
+    "pixels": "Pillow RGBA alpha, four-neighbor components; transparent holes use alpha=0, opaque modules use alpha>=128",
+    "circle": "Pixel-center circle at canvas center/radius half-size; geometric corner check supplements raster at256",
+    "safe_preview": "FBT safe-image-view, /tmp/hi-logo-qa/qa-board-safe.jpg"
+  },
+  "asset_count": 19,
+  "asset_structures": [
+    {
+      "file": "fangs-wordmark-ink.svg",
+      "sha256": "9b58a146e76765fe5cbddcf22d910dd635c341ad09cc9da814639a27524f5e68",
+      "bytes": 11410,
+      "xml_valid": true,
+      "viewBox": "0 0 286 160",
+      "paths": 5,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#242420"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "fangs-wordmark-vermilion.svg",
+      "sha256": "28dadf4bdb13ca851a4b38987c6ba356d71381531c46101a4de2f8f59408ffa2",
+      "bytes": 11410,
+      "xml_valid": true,
+      "viewBox": "0 0 286 160",
+      "paths": 5,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#B44732"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "fangs-wordmark-white.svg",
+      "sha256": "47f5bdd4484955de3e1ce72fc5c9ce684f99e6d5917c6dd2d98ee5841a6232f4",
+      "bytes": 11410,
+      "xml_valid": true,
+      "viewBox": "0 0 286 160",
+      "paths": 5,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#FFFFFF"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "fold-lockup-ink.svg",
+      "sha256": "3b44c5d239d2b1f3bff4c22feebc82f4b9ae53581cdba605f126aaeb26b0f5f3",
+      "bytes": 10490,
+      "xml_valid": true,
+      "viewBox": "0 0 398 160",
+      "paths": 8,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#242420"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "fold-lockup-vermilion.svg",
+      "sha256": "5c1cc4a9dfde401afeadf5b1990a2da6907df6fff6b9370446f5675202ddc0e5",
+      "bytes": 10490,
+      "xml_valid": true,
+      "viewBox": "0 0 398 160",
+      "paths": 8,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#B44732"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "fold-lockup-white.svg",
+      "sha256": "f70f3ad94e64e98bf253708ffe64c40c4a6e5d5f8ae8638f7bdc73a6009e0ead",
+      "bytes": 10490,
+      "xml_valid": true,
+      "viewBox": "0 0 398 160",
+      "paths": 8,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#FFFFFF"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "fold-symbol-ink.svg",
+      "sha256": "99cf826908254d3dc5a93f59216b9a3446945d762ceef9fb49babab5259e02d2",
+      "bytes": 559,
+      "xml_valid": true,
+      "viewBox": "0 0 256 256",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#242420"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "fold-symbol-vermilion.svg",
+      "sha256": "6340cc92b0cb656284321ddae2e03b7966d2c87cda7cb4d5259b8d465f3002b0",
+      "bytes": 559,
+      "xml_valid": true,
+      "viewBox": "0 0 256 256",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#B44732"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "fold-symbol-white.svg",
+      "sha256": "51b23813a7a6e5e0c3b326b173054b1f689b8d74c626a634d0c7f37210a8904c",
+      "bytes": 559,
+      "xml_valid": true,
+      "viewBox": "0 0 256 256",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#FFFFFF"
+      ],
+      "evenodd_paths": 0
+    },
+    {
+      "file": "pin-favicon-ink.svg",
+      "sha256": "0c0b98022dae5f26ad1d4b0ae4ad0776409a4ecec79d23a4e4226cadeda555cd",
+      "bytes": 531,
+      "xml_valid": true,
+      "viewBox": "0 0 16 16",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#242420"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "pin-favicon-vermilion.svg",
+      "sha256": "7ecdce1a9664099d87d3696d8b08d40d06ab93033b2aeb76fd5c1f875c249b32",
+      "bytes": 531,
+      "xml_valid": true,
+      "viewBox": "0 0 16 16",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#B44732"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "pin-favicon-white.svg",
+      "sha256": "a2bec95c93f4c7b82ad7cd99092d246091781837f00eabc6f375561f959b5010",
+      "bytes": 531,
+      "xml_valid": true,
+      "viewBox": "0 0 16 16",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#FFFFFF"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "pin-lockup-ink.svg",
+      "sha256": "f6c88812e169529ae9c7f12f7e919558a43d5786b76532899ab36699b76b630c",
+      "bytes": 10525,
+      "xml_valid": true,
+      "viewBox": "0 0 398 160",
+      "paths": 8,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#242420"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "pin-lockup-vermilion.svg",
+      "sha256": "e2cfe2454ed568e7cd888339e1a8528d58aaa3cd380931bdec1fa1b9672bf700",
+      "bytes": 10525,
+      "xml_valid": true,
+      "viewBox": "0 0 398 160",
+      "paths": 8,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#B44732"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "pin-lockup-white.svg",
+      "sha256": "75cbe14825473bca8279f8a44d8f98b69c062155ad55fc51822d4c02fa4d7c30",
+      "bytes": 10525,
+      "xml_valid": true,
+      "viewBox": "0 0 398 160",
+      "paths": 8,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#FFFFFF"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "pin-symbol-ink.svg",
+      "sha256": "01f3b512a4fdcbf9ee94c4682ccc21de5b530a6ced9010cd0d95dea3b93177d2",
+      "bytes": 593,
+      "xml_valid": true,
+      "viewBox": "0 0 256 256",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#242420"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "pin-symbol-vermilion.svg",
+      "sha256": "c1d34e1a50fbf3e38eacd2a32c378ae1287df107ae58523f0af7aeeb017e36bc",
+      "bytes": 593,
+      "xml_valid": true,
+      "viewBox": "0 0 256 256",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#B44732"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "pin-symbol-white.svg",
+      "sha256": "c47b0f78ba855b2f2cbf44425ff520ce06de43146605696e04e262206ec78e7d",
+      "bytes": 593,
+      "xml_valid": true,
+      "viewBox": "0 0 256 256",
+      "paths": 3,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#FFFFFF"
+      ],
+      "evenodd_paths": 3
+    },
+    {
+      "file": "slogan-ink.svg",
+      "sha256": "5acc56f59ae80294d419ef7776e25426a9dcce9d40e556acabf789cf6dd9a880",
+      "bytes": 21862,
+      "xml_valid": true,
+      "viewBox": "0 0 918 180",
+      "paths": 17,
+      "text_nodes": 0,
+      "raster_images": 0,
+      "scripts": 0,
+      "external_dependencies": [],
+      "has_doctype_or_entity": false,
+      "colors": [
+        "#242420"
+      ],
+      "evenodd_paths": 0
+    }
+  ],
+  "asset_audit_exit": 0,
+  "asset_audit": [
+    {
+      "file": "fangs-wordmark-ink.svg",
+      "bytes": 11410,
+      "viewBox": [
+        0.0,
+        0.0,
+        286.0,
+        160.0
+      ],
+      "aspect": 1.788,
+      "aspect_class": "wide",
+      "colors": [
+        "#242420"
+      ],
+      "gradients": 0,
+      "anchors": 229,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        20.83,
+        7.26,
+        278.54,
+        134.51
+      ],
+      "margins": {
+        "left": 20.8,
+        "right": 7.5,
+        "top": 7.3,
+        "bottom": 25.5
+      },
+      "bbox_fill_ratio": 0.717,
+      "score": 88,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "229 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "7 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 58.6 at (21,104); 102.9° (→105°) len 11.8 at (48,25); 103.1° (→105°) len 62.5 at (44,44); 103.1° (→105°) len 51.9 at (109,41); 103.4° (→105°) len 54.1 at (124,104); 103.0° (→105°) len 14.6 at (144,52) …. (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        },
+        {
+          "level": "INFO",
+          "code": "off-centre-x",
+          "message": "Horizontal margins differ (left 20.8, right 7.5). Intentional optical centring? Otherwise centre it."
+        },
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 7.3, bottom 25.5). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "fangs-wordmark-vermilion.svg",
+      "bytes": 11410,
+      "viewBox": [
+        0.0,
+        0.0,
+        286.0,
+        160.0
+      ],
+      "aspect": 1.788,
+      "aspect_class": "wide",
+      "colors": [
+        "#b44732"
+      ],
+      "gradients": 0,
+      "anchors": 229,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        20.83,
+        7.26,
+        278.54,
+        134.51
+      ],
+      "margins": {
+        "left": 20.8,
+        "right": 7.5,
+        "top": 7.3,
+        "bottom": 25.5
+      },
+      "bbox_fill_ratio": 0.717,
+      "score": 88,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "229 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "7 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 58.6 at (21,104); 102.9° (→105°) len 11.8 at (48,25); 103.1° (→105°) len 62.5 at (44,44); 103.1° (→105°) len 51.9 at (109,41); 103.4° (→105°) len 54.1 at (124,104); 103.0° (→105°) len 14.6 at (144,52) …. (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        },
+        {
+          "level": "INFO",
+          "code": "off-centre-x",
+          "message": "Horizontal margins differ (left 20.8, right 7.5). Intentional optical centring? Otherwise centre it."
+        },
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 7.3, bottom 25.5). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "fangs-wordmark-white.svg",
+      "bytes": 11410,
+      "viewBox": [
+        0.0,
+        0.0,
+        286.0,
+        160.0
+      ],
+      "aspect": 1.788,
+      "aspect_class": "wide",
+      "colors": [
+        "#ffffff"
+      ],
+      "gradients": 0,
+      "anchors": 229,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        20.83,
+        7.26,
+        278.54,
+        134.51
+      ],
+      "margins": {
+        "left": 20.8,
+        "right": 7.5,
+        "top": 7.3,
+        "bottom": 25.5
+      },
+      "bbox_fill_ratio": 0.717,
+      "score": 88,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "229 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "7 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 58.6 at (21,104); 102.9° (→105°) len 11.8 at (48,25); 103.1° (→105°) len 62.5 at (44,44); 103.1° (→105°) len 51.9 at (109,41); 103.4° (→105°) len 54.1 at (124,104); 103.0° (→105°) len 14.6 at (144,52) …. (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        },
+        {
+          "level": "INFO",
+          "code": "off-centre-x",
+          "message": "Horizontal margins differ (left 20.8, right 7.5). Intentional optical centring? Otherwise centre it."
+        },
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 7.3, bottom 25.5). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "fold-lockup-ink.svg",
+      "bytes": 10490,
+      "viewBox": [
+        0.0,
+        0.0,
+        398.0,
+        160.0
+      ],
+      "aspect": 2.487,
+      "aspect_class": "wide",
+      "colors": [
+        "#242420"
+      ],
+      "gradients": 0,
+      "anchors": 250,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        10.35,
+        19.26,
+        376.64,
+        142.65
+      ],
+      "margins": {
+        "left": 10.4,
+        "right": 21.4,
+        "top": 19.3,
+        "bottom": 17.4
+      },
+      "bbox_fill_ratio": 0.71,
+      "score": 90,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "250 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "5 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 56.8 at (127,113); 103.1° (→105°) len 60.6 at (149,55); 103.1° (→105°) len 50.3 at (213,52); 103.4° (→105°) len 52.5 at (226,113); 104.7° (→105°) len 38.4 at (277,65). (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        }
+      ]
+    },
+    {
+      "file": "fold-lockup-vermilion.svg",
+      "bytes": 10490,
+      "viewBox": [
+        0.0,
+        0.0,
+        398.0,
+        160.0
+      ],
+      "aspect": 2.487,
+      "aspect_class": "wide",
+      "colors": [
+        "#b44732"
+      ],
+      "gradients": 0,
+      "anchors": 250,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        10.35,
+        19.26,
+        376.64,
+        142.65
+      ],
+      "margins": {
+        "left": 10.4,
+        "right": 21.4,
+        "top": 19.3,
+        "bottom": 17.4
+      },
+      "bbox_fill_ratio": 0.71,
+      "score": 90,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "250 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "5 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 56.8 at (127,113); 103.1° (→105°) len 60.6 at (149,55); 103.1° (→105°) len 50.3 at (213,52); 103.4° (→105°) len 52.5 at (226,113); 104.7° (→105°) len 38.4 at (277,65). (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        }
+      ]
+    },
+    {
+      "file": "fold-lockup-white.svg",
+      "bytes": 10490,
+      "viewBox": [
+        0.0,
+        0.0,
+        398.0,
+        160.0
+      ],
+      "aspect": 2.487,
+      "aspect_class": "wide",
+      "colors": [
+        "#ffffff"
+      ],
+      "gradients": 0,
+      "anchors": 250,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        10.35,
+        19.26,
+        376.64,
+        142.65
+      ],
+      "margins": {
+        "left": 10.4,
+        "right": 21.4,
+        "top": 19.3,
+        "bottom": 17.4
+      },
+      "bbox_fill_ratio": 0.71,
+      "score": 90,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "250 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "5 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 56.8 at (127,113); 103.1° (→105°) len 60.6 at (149,55); 103.1° (→105°) len 50.3 at (213,52); 103.4° (→105°) len 52.5 at (226,113); 104.7° (→105°) len 38.4 at (277,65). (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        }
+      ]
+    },
+    {
+      "file": "fold-symbol-ink.svg",
+      "bytes": 559,
+      "viewBox": [
+        0.0,
+        0.0,
+        256.0,
+        256.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#242420"
+      ],
+      "gradients": 0,
+      "anchors": 21,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        24.08,
+        24.0,
+        231.92,
+        204.0
+      ],
+      "margins": {
+        "left": 24.1,
+        "right": 24.1,
+        "top": 24.0,
+        "bottom": 52.0
+      },
+      "bbox_fill_ratio": 0.571,
+      "score": 99,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 24.0, bottom 52.0). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "fold-symbol-vermilion.svg",
+      "bytes": 559,
+      "viewBox": [
+        0.0,
+        0.0,
+        256.0,
+        256.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#b44732"
+      ],
+      "gradients": 0,
+      "anchors": 21,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        24.08,
+        24.0,
+        231.92,
+        204.0
+      ],
+      "margins": {
+        "left": 24.1,
+        "right": 24.1,
+        "top": 24.0,
+        "bottom": 52.0
+      },
+      "bbox_fill_ratio": 0.571,
+      "score": 99,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 24.0, bottom 52.0). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "fold-symbol-white.svg",
+      "bytes": 559,
+      "viewBox": [
+        0.0,
+        0.0,
+        256.0,
+        256.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#ffffff"
+      ],
+      "gradients": 0,
+      "anchors": 21,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        24.08,
+        24.0,
+        231.92,
+        204.0
+      ],
+      "margins": {
+        "left": 24.1,
+        "right": 24.1,
+        "top": 24.0,
+        "bottom": 52.0
+      },
+      "bbox_fill_ratio": 0.571,
+      "score": 99,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 24.0, bottom 52.0). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "pin-favicon-ink.svg",
+      "bytes": 531,
+      "viewBox": [
+        0.0,
+        0.0,
+        16.0,
+        16.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#242420"
+      ],
+      "gradients": 0,
+      "anchors": 33,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        1.0,
+        1.0,
+        15.0,
+        15.0
+      ],
+      "margins": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      },
+      "bbox_fill_ratio": 0.766,
+      "score": 100,
+      "findings": []
+    },
+    {
+      "file": "pin-favicon-vermilion.svg",
+      "bytes": 531,
+      "viewBox": [
+        0.0,
+        0.0,
+        16.0,
+        16.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#b44732"
+      ],
+      "gradients": 0,
+      "anchors": 33,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        1.0,
+        1.0,
+        15.0,
+        15.0
+      ],
+      "margins": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      },
+      "bbox_fill_ratio": 0.766,
+      "score": 100,
+      "findings": []
+    },
+    {
+      "file": "pin-favicon-white.svg",
+      "bytes": 531,
+      "viewBox": [
+        0.0,
+        0.0,
+        16.0,
+        16.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#ffffff"
+      ],
+      "gradients": 0,
+      "anchors": 33,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        1.0,
+        1.0,
+        15.0,
+        15.0
+      ],
+      "margins": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      },
+      "bbox_fill_ratio": 0.766,
+      "score": 100,
+      "findings": []
+    },
+    {
+      "file": "pin-lockup-ink.svg",
+      "bytes": 10525,
+      "viewBox": [
+        0.0,
+        0.0,
+        398.0,
+        160.0
+      ],
+      "aspect": 2.487,
+      "aspect_class": "wide",
+      "colors": [
+        "#242420"
+      ],
+      "gradients": 0,
+      "anchors": 262,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        16.34,
+        19.26,
+        376.64,
+        142.65
+      ],
+      "margins": {
+        "left": 16.3,
+        "right": 21.4,
+        "top": 19.3,
+        "bottom": 17.4
+      },
+      "bbox_fill_ratio": 0.698,
+      "score": 90,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "262 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "5 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 56.8 at (127,113); 103.1° (→105°) len 60.6 at (149,55); 103.1° (→105°) len 50.3 at (213,52); 103.4° (→105°) len 52.5 at (226,113); 104.7° (→105°) len 38.4 at (277,65). (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        }
+      ]
+    },
+    {
+      "file": "pin-lockup-vermilion.svg",
+      "bytes": 10525,
+      "viewBox": [
+        0.0,
+        0.0,
+        398.0,
+        160.0
+      ],
+      "aspect": 2.487,
+      "aspect_class": "wide",
+      "colors": [
+        "#b44732"
+      ],
+      "gradients": 0,
+      "anchors": 262,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        16.34,
+        19.26,
+        376.64,
+        142.65
+      ],
+      "margins": {
+        "left": 16.3,
+        "right": 21.4,
+        "top": 19.3,
+        "bottom": 17.4
+      },
+      "bbox_fill_ratio": 0.698,
+      "score": 90,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "262 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "5 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 56.8 at (127,113); 103.1° (→105°) len 60.6 at (149,55); 103.1° (→105°) len 50.3 at (213,52); 103.4° (→105°) len 52.5 at (226,113); 104.7° (→105°) len 38.4 at (277,65). (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        }
+      ]
+    },
+    {
+      "file": "pin-lockup-white.svg",
+      "bytes": 10525,
+      "viewBox": [
+        0.0,
+        0.0,
+        398.0,
+        160.0
+      ],
+      "aspect": 2.487,
+      "aspect_class": "wide",
+      "colors": [
+        "#ffffff"
+      ],
+      "gradients": 0,
+      "anchors": 262,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        16.34,
+        19.26,
+        376.64,
+        142.65
+      ],
+      "margins": {
+        "left": 16.3,
+        "right": 21.4,
+        "top": 19.3,
+        "bottom": 17.4
+      },
+      "bbox_fill_ratio": 0.698,
+      "score": 90,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "INFO",
+          "code": "complexity",
+          "message": "262 anchor points (library median 75.0, p75 155.0). Check every point earns its place."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "5 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.2° (→105°) len 56.8 at (127,113); 103.1° (→105°) len 60.6 at (149,55); 103.1° (→105°) len 50.3 at (213,52); 103.4° (→105°) len 52.5 at (226,113); 104.7° (→105°) len 38.4 at (277,65). (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        }
+      ]
+    },
+    {
+      "file": "pin-symbol-ink.svg",
+      "bytes": 593,
+      "viewBox": [
+        0.0,
+        0.0,
+        256.0,
+        256.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#242420"
+      ],
+      "gradients": 0,
+      "anchors": 33,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        38.0,
+        30.0,
+        218.0,
+        208.0
+      ],
+      "margins": {
+        "left": 38.0,
+        "right": 38.0,
+        "top": 30.0,
+        "bottom": 48.0
+      },
+      "bbox_fill_ratio": 0.489,
+      "score": 99,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 30.0, bottom 48.0). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "pin-symbol-vermilion.svg",
+      "bytes": 593,
+      "viewBox": [
+        0.0,
+        0.0,
+        256.0,
+        256.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#b44732"
+      ],
+      "gradients": 0,
+      "anchors": 33,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        38.0,
+        30.0,
+        218.0,
+        208.0
+      ],
+      "margins": {
+        "left": 38.0,
+        "right": 38.0,
+        "top": 30.0,
+        "bottom": 48.0
+      },
+      "bbox_fill_ratio": 0.489,
+      "score": 99,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 30.0, bottom 48.0). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "pin-symbol-white.svg",
+      "bytes": 593,
+      "viewBox": [
+        0.0,
+        0.0,
+        256.0,
+        256.0
+      ],
+      "aspect": 1.0,
+      "aspect_class": "square",
+      "colors": [
+        "#ffffff"
+      ],
+      "gradients": 0,
+      "anchors": 33,
+      "library_anchor_percentiles": {
+        "p10": 21.0,
+        "p25": 31.0,
+        "median": 53.0,
+        "p75": 95.5,
+        "p90": 194.0,
+        "p95": 274.0
+      },
+      "content_bbox": [
+        38.0,
+        30.0,
+        218.0,
+        208.0
+      ],
+      "margins": {
+        "left": 38.0,
+        "right": 38.0,
+        "top": 30.0,
+        "bottom": 48.0
+      },
+      "bbox_fill_ratio": 0.489,
+      "score": 99,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 30.0, bottom 48.0). Remember the optical centre sits slightly above the geometric centre."
+        }
+      ]
+    },
+    {
+      "file": "slogan-ink.svg",
+      "bytes": 21862,
+      "viewBox": [
+        0.0,
+        0.0,
+        918.0,
+        180.0
+      ],
+      "aspect": 5.1,
+      "aspect_class": "extra-wide",
+      "colors": [
+        "#242420"
+      ],
+      "gradients": 0,
+      "anchors": 524,
+      "library_anchor_percentiles": {
+        "p10": 23.0,
+        "p25": 37.0,
+        "median": 75.0,
+        "p75": 155.0,
+        "p90": 257.8,
+        "p95": 379.45
+      },
+      "content_bbox": [
+        15.55,
+        20.04,
+        895.11,
+        131.48
+      ],
+      "margins": {
+        "left": 15.5,
+        "right": 22.9,
+        "top": 20.0,
+        "bottom": 48.5
+      },
+      "bbox_fill_ratio": 0.593,
+      "score": 81,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "precision",
+          "message": "Coordinates with 4+ decimals: round to 0–2 decimals to reduce size and reveal misalignments."
+        },
+        {
+          "level": "WARN",
+          "code": "complex",
+          "message": "524 anchor points — more than 95% of comparable reference logos (median 75.0). Simplify: fewer points, merged shapes, less detail."
+        },
+        {
+          "level": "WARN",
+          "code": "near-miss-angle",
+          "message": "17 straight edge(s) are 0.3–3° off a clean angle — they read as mistakes. Snap them: 103.0° (→105°) len 91.2 at (31,120); 103.0° (→105°) len 91.2 at (61,31); 103.1° (→105°) len 58.2 at (138,57); 102.9° (→105°) len 55.0 at (197,114); 102.9° (→105°) len 55.6 at (219,62); 103.0° (→105°) len 89.3 at (347,120) …. (Expected — and fine — for type set on a curve or deliberately rotated elements.)"
+        },
+        {
+          "level": "INFO",
+          "code": "off-centre-y",
+          "message": "Vertical margins differ (top 20.0, bottom 48.5). Remember the optical centre sits slightly above the geometric centre."
+        },
+        {
+          "level": "INFO",
+          "code": "extra-wide",
+          "message": "Extra-wide lockup (>4.5:1) shrinks badly; provide a stacked lockup and a standalone symbol."
+        }
+      ]
+    }
+  ],
+  "pixel_metrics": [
+    {
+      "source": "pin-symbol-ink",
+      "size": 16,
+      "mode": "RGBA",
+      "bbox": [
+        2,
+        1,
+        14,
+        13
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 20,
+          "bbox": [
+            5,
+            2,
+            11,
+            7
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 19,
+          "bbox": [
+            2,
+            8,
+            7,
+            13
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 19,
+          "bbox": [
+            9,
+            8,
+            14,
+            13
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 2,
+          "bbox": [
+            7,
+            4,
+            9,
+            5
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 2,
+          "bbox": [
+            4,
+            10,
+            6,
+            11
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 2,
+          "bbox": [
+            10,
+            10,
+            12,
+            11
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        17,
+        34,
+        68,
+        78,
+        96,
+        102,
+        111,
+        119,
+        125,
+        128,
+        136,
+        159,
+        191,
+        217,
+        221,
+        223,
+        232,
+        238,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 0,
+      "circle_outside_alpha_area": 0.0,
+      "alpha_area": 57.22745,
+      "alpha_grid": [
+        "................",
+        ".....++++++.....",
+        ".....+####+.....",
+        ".....++++++.....",
+        ".....++..++.....",
+        ".....++++++.....",
+        ".....+++++......",
+        "................",
+        "..+###+..+###+..",
+        "..++++#++#++++..",
+        "..++..#++#..++..",
+        "..++++#++#++++..",
+        "..+####++####+..",
+        "................",
+        "................",
+        "................"
+      ]
+    },
+    {
+      "source": "pin-symbol-ink",
+      "size": 32,
+      "mode": "RGBA",
+      "bbox": [
+        4,
+        3,
+        28,
+        26
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 78,
+          "bbox": [
+            11,
+            4,
+            21,
+            14
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 80,
+          "bbox": [
+            5,
+            16,
+            15,
+            26
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 80,
+          "bbox": [
+            17,
+            16,
+            27,
+            26
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 16,
+          "bbox": [
+            14,
+            7,
+            18,
+            11
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 16,
+          "bbox": [
+            8,
+            19,
+            12,
+            23
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 16,
+          "bbox": [
+            20,
+            19,
+            24,
+            23
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        64,
+        68,
+        118,
+        120,
+        127,
+        128,
+        136,
+        187,
+        191,
+        221,
+        225,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 0,
+      "circle_outside_alpha_area": 0.0,
+      "alpha_area": 227.88235
+    },
+    {
+      "source": "pin-symbol-ink",
+      "size": 64,
+      "mode": "RGBA",
+      "bbox": [
+        9,
+        7,
+        55,
+        52
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 307,
+          "bbox": [
+            22,
+            8,
+            42,
+            28
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 323,
+          "bbox": [
+            9,
+            32,
+            30,
+            52
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 323,
+          "bbox": [
+            34,
+            32,
+            55,
+            52
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 72,
+          "bbox": [
+            28,
+            13,
+            36,
+            22
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 72,
+          "bbox": [
+            15,
+            38,
+            24,
+            46
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 72,
+          "bbox": [
+            40,
+            38,
+            49,
+            46
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        96,
+        100,
+        119,
+        127,
+        128,
+        136,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 0,
+      "circle_outside_alpha_area": 0.0,
+      "alpha_area": 911.78039
+    },
+    {
+      "source": "pin-symbol-ink",
+      "size": 256,
+      "mode": "RGBA",
+      "bbox": [
+        38,
+        30,
+        218,
+        208
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 4851,
+          "bbox": [
+            88,
+            30,
+            168,
+            110
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 4873,
+          "bbox": [
+            38,
+            128,
+            118,
+            208
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 4873,
+          "bbox": [
+            138,
+            128,
+            218,
+            208
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 1296,
+          "bbox": [
+            110,
+            52,
+            146,
+            88
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 1296,
+          "bbox": [
+            60,
+            150,
+            96,
+            186
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 1296,
+          "bbox": [
+            160,
+            150,
+            196,
+            186
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        127,
+        128,
+        136,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 0,
+      "circle_outside_alpha_area": 0.0,
+      "alpha_area": 14586.73333
+    },
+    {
+      "source": "pin-favicon-ink",
+      "size": 16,
+      "mode": "RGBA",
+      "bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 29,
+          "bbox": [
+            5,
+            1,
+            11,
+            7
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 31,
+          "bbox": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 31,
+          "bbox": [
+            9,
+            9,
+            15,
+            15
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 4,
+          "bbox": [
+            7,
+            3,
+            9,
+            5
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 4,
+          "bbox": [
+            3,
+            11,
+            5,
+            13
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 4,
+          "bbox": [
+            11,
+            11,
+            13,
+            13
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        127,
+        128,
+        136,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 6,
+      "circle_outside_alpha_area": 6.0,
+      "alpha_area": 90.06667,
+      "alpha_grid": [
+        "................",
+        ".....######.....",
+        ".....######.....",
+        ".....##..##.....",
+        ".....##..##.....",
+        ".....#####+.....",
+        ".....####+......",
+        "................",
+        "................",
+        ".####+....+####.",
+        ".#####+..+#####.",
+        ".##..##..##..##.",
+        ".##..##..##..##.",
+        ".######..######.",
+        ".######..######.",
+        "................"
+      ],
+      "alpha_counts": {
+        "transparent": 163,
+        "opaque": 87,
+        "partial": 6
+      }
+    },
+    {
+      "source": "pin-favicon-ink",
+      "size": 32,
+      "mode": "RGBA",
+      "bbox": [
+        2,
+        2,
+        30,
+        30
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 118,
+          "bbox": [
+            10,
+            2,
+            22,
+            14
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 122,
+          "bbox": [
+            2,
+            18,
+            14,
+            30
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 122,
+          "bbox": [
+            18,
+            18,
+            30,
+            30
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 16,
+          "bbox": [
+            14,
+            6,
+            18,
+            10
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 16,
+          "bbox": [
+            6,
+            22,
+            10,
+            26
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 16,
+          "bbox": [
+            22,
+            22,
+            26,
+            26
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        127,
+        128,
+        136,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 30,
+      "circle_outside_alpha_area": 30.0,
+      "alpha_area": 360.13333
+    },
+    {
+      "source": "pin-favicon-ink",
+      "size": 64,
+      "mode": "RGBA",
+      "bbox": [
+        4,
+        4,
+        60,
+        60
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 476,
+          "bbox": [
+            20,
+            4,
+            44,
+            28
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 484,
+          "bbox": [
+            4,
+            36,
+            28,
+            60
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 484,
+          "bbox": [
+            36,
+            36,
+            60,
+            60
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 64,
+          "bbox": [
+            28,
+            12,
+            36,
+            20
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 64,
+          "bbox": [
+            12,
+            44,
+            20,
+            52
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 64,
+          "bbox": [
+            44,
+            44,
+            52,
+            52
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        127,
+        128,
+        136,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 126,
+      "circle_outside_alpha_area": 126.0,
+      "alpha_area": 1440.26667
+    },
+    {
+      "source": "pin-favicon-ink",
+      "size": 256,
+      "mode": "RGBA",
+      "bbox": [
+        16,
+        16,
+        240,
+        240
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 7664,
+          "bbox": [
+            80,
+            16,
+            176,
+            112
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 7696,
+          "bbox": [
+            16,
+            144,
+            112,
+            240
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 7696,
+          "bbox": [
+            144,
+            144,
+            240,
+            240
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 1024,
+          "bbox": [
+            112,
+            48,
+            144,
+            80
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 1024,
+          "bbox": [
+            48,
+            176,
+            80,
+            208
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 1024,
+          "bbox": [
+            176,
+            176,
+            208,
+            208
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        127,
+        128,
+        136,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 2034,
+      "circle_outside_alpha_area": 2034.0,
+      "alpha_area": 23041.06667
+    },
+    {
+      "source": "fold-symbol-ink",
+      "size": 16,
+      "mode": "RGBA",
+      "bbox": [
+        1,
+        1,
+        15,
+        13
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 17,
+          "bbox": [
+            6,
+            2,
+            11,
+            8
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 18,
+          "bbox": [
+            2,
+            7,
+            7,
+            13
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 18,
+          "bbox": [
+            8,
+            8,
+            14,
+            13
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 8,
+          "bbox": [
+            6,
+            7,
+            10,
+            10
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        1,
+        2,
+        7,
+        9,
+        18,
+        19,
+        22,
+        23,
+        24,
+        26,
+        34,
+        36,
+        37,
+        38,
+        42,
+        45,
+        47,
+        49,
+        51,
+        52,
+        65,
+        71,
+        79,
+        118,
+        134,
+        138,
+        141,
+        143,
+        147,
+        148,
+        158,
+        159,
+        176,
+        179,
+        185,
+        187,
+        189,
+        192,
+        194,
+        198,
+        212,
+        214,
+        220,
+        241,
+        242,
+        249,
+        251,
+        252,
+        253,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 0,
+      "circle_outside_alpha_area": 0.0,
+      "alpha_area": 49.05882,
+      "alpha_grid": [
+        "................",
+        ".......++.......",
+        ".......++.......",
+        "......++++......",
+        "......+##+......",
+        ".....+#++#+.....",
+        "....+++++#++....",
+        "....+++..+++....",
+        "...++++..++++...",
+        "...+#+....+#+...",
+        "..++++++++++++..",
+        ".++###++#####++.",
+        ".++++++++++++++.",
+        "................",
+        "................",
+        "................"
+      ]
+    },
+    {
+      "source": "fold-symbol-ink",
+      "size": 32,
+      "mode": "RGBA",
+      "bbox": [
+        3,
+        3,
+        29,
+        26
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 64,
+          "bbox": [
+            11,
+            4,
+            23,
+            16
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 71,
+          "bbox": [
+            4,
+            14,
+            14,
+            26
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 70,
+          "bbox": [
+            15,
+            17,
+            28,
+            26
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [
+        {
+          "area": 1,
+          "bbox": [
+            11,
+            13,
+            12,
+            14
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 1,
+          "bbox": [
+            21,
+            16,
+            22,
+            17
+          ],
+          "touches_edge": false
+        }
+      ],
+      "alpha_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14,
+        17,
+        21,
+        24,
+        27,
+        33,
+        34,
+        35,
+        37,
+        47,
+        51,
+        56,
+        57,
+        61,
+        66,
+        68,
+        69,
+        70,
+        73,
+        74,
+        75,
+        77,
+        84,
+        95,
+        96,
+        106,
+        107,
+        108,
+        111,
+        113,
+        114,
+        117,
+        124,
+        128,
+        129,
+        133,
+        134,
+        135,
+        136,
+        149,
+        152,
+        153,
+        164,
+        172,
+        174,
+        176,
+        191,
+        196,
+        201,
+        204,
+        205,
+        209,
+        212,
+        213,
+        216,
+        219,
+        223,
+        226,
+        229,
+        230,
+        232,
+        237,
+        239,
+        241,
+        244,
+        247,
+        248,
+        249,
+        252,
+        253,
+        254,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 0,
+      "circle_outside_alpha_area": 0.0,
+      "alpha_area": 198.03529
+    },
+    {
+      "source": "fold-symbol-ink",
+      "size": 64,
+      "mode": "RGBA",
+      "bbox": [
+        6,
+        6,
+        58,
+        51
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 262,
+          "bbox": [
+            22,
+            7,
+            45,
+            33
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 261,
+          "bbox": [
+            6,
+            28,
+            27,
+            51
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 256,
+          "bbox": [
+            31,
+            33,
+            58,
+            51
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [],
+      "alpha_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        21,
+        22,
+        24,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        48,
+        49,
+        51,
+        52,
+        54,
+        57,
+        60,
+        61,
+        62,
+        63,
+        64,
+        68,
+        70,
+        74,
+        75,
+        77,
+        78,
+        80,
+        81,
+        84,
+        86,
+        87,
+        88,
+        91,
+        92,
+        95,
+        97,
+        98,
+        99,
+        102,
+        103,
+        105,
+        111,
+        113,
+        115,
+        116,
+        117,
+        119,
+        120,
+        121,
+        124,
+        125,
+        126,
+        128,
+        131,
+        134,
+        135,
+        136,
+        138,
+        140,
+        142,
+        145,
+        148,
+        149,
+        152,
+        153,
+        155,
+        156,
+        159,
+        162,
+        163,
+        164,
+        166,
+        171,
+        172,
+        174,
+        176,
+        177,
+        179,
+        180,
+        181,
+        184,
+        185,
+        187,
+        189,
+        191,
+        192,
+        193,
+        196,
+        197,
+        199,
+        200,
+        201,
+        202,
+        204,
+        206,
+        207,
+        213,
+        216,
+        217,
+        218,
+        219,
+        221,
+        223,
+        224,
+        225,
+        226,
+        227,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        237,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 0,
+      "circle_outside_alpha_area": 0.0,
+      "alpha_area": 786.95686
+    },
+    {
+      "source": "fold-symbol-ink",
+      "size": 256,
+      "mode": "RGBA",
+      "bbox": [
+        24,
+        24,
+        232,
+        204
+      ],
+      "opaque_components_at_128": [
+        {
+          "area": 4202,
+          "bbox": [
+            86,
+            25,
+            182,
+            132
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 4200,
+          "bbox": [
+            24,
+            111,
+            108,
+            204
+          ],
+          "touches_edge": false
+        },
+        {
+          "area": 4198,
+          "bbox": [
+            124,
+            132,
+            232,
+            204
+          ],
+          "touches_edge": false
+        }
+      ],
+      "fully_transparent_holes": [],
+      "alpha_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "circle_outside_nonzero_pixels": 2,
+      "circle_outside_alpha_area": 1.26667,
+      "alpha_area": 12600.25882
+    }
+  ],
+  "geometry_variant_equality": {
+    "pin-symbol": true,
+    "pin-favicon": true,
+    "pin-lockup": true,
+    "fold-symbol": true,
+    "fold-lockup": true,
+    "fangs-wordmark": true
+  },
+  "pin_main_color_alpha_identical": {
+    "white": true,
+    "vermilion": true
+  },
+  "circle_geometry": {
+    "pin_symbol_256": {
+      "max_radius": 120.41594578792295,
+      "radius": 128,
+      "clearance": 7.584054212077049,
+      "safe": true
+    },
+    "pin_favicon_16": {
+      "max_radius": 9.899494936611665,
+      "radius": 8,
+      "safe": false,
+      "recommendation": "Use main pin-symbol for circular avatars."
+    },
+    "fold_symbol_256": {
+      "max_radius": 128.74781551544865,
+      "radius": 128,
+      "excess": 0.7478155154486501,
+      "safe": false,
+      "recommendation": "Add separate circular use padding if chosen."
+    }
+  },
+  "export_initial": {
+    "pngs": [
+      {
+        "file": "apple-touch-icon.png",
+        "size": [
+          180,
+          180
+        ],
+        "expected_size": 180,
+        "dimensions_match": true,
+        "mode": "RGB",
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "partly_transparent_pixels": 0,
+        "bbox": [
+          0,
+          0,
+          180,
+          180
+        ]
+      },
+      {
+        "file": "fangs-pin-black-512.png",
+        "size": [
+          512,
+          512
+        ],
+        "expected_size": 512,
+        "dimensions_match": true,
+        "mode": "RGBA",
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 203734,
+        "partly_transparent_pixels": 132,
+        "bbox": [
+          76,
+          60,
+          436,
+          416
+        ]
+      },
+      {
+        "file": "fangs-pin-mono-b44732-512.png",
+        "size": [
+          512,
+          512
+        ],
+        "expected_size": 512,
+        "dimensions_match": true,
+        "mode": "RGBA",
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 203734,
+        "partly_transparent_pixels": 132,
+        "bbox": [
+          76,
+          60,
+          436,
+          416
+        ]
+      },
+      {
+        "file": "fangs-pin-white-512.png",
+        "size": [
+          512,
+          512
+        ],
+        "expected_size": 512,
+        "dimensions_match": true,
+        "mode": "RGBA",
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 203734,
+        "partly_transparent_pixels": 132,
+        "bbox": [
+          76,
+          60,
+          436,
+          416
+        ]
+      },
+      {
+        "file": "favicon-16.png",
+        "size": [
+          16,
+          16
+        ],
+        "expected_size": 16,
+        "dimensions_match": true,
+        "mode": "RGBA",
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 111,
+        "partly_transparent_pixels": 98,
+        "bbox": [
+          0,
+          0,
+          16,
+          16
+        ]
+      },
+      {
+        "file": "favicon-32.png",
+        "size": [
+          32,
+          32
+        ],
+        "expected_size": 32,
+        "dimensions_match": true,
+        "mode": "RGBA",
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 498,
+        "partly_transparent_pixels": 192,
+        "bbox": [
+          0,
+          0,
+          32,
+          32
+        ]
+      },
+      {
+        "file": "favicon-48.png",
+        "size": [
+          48,
+          48
+        ],
+        "expected_size": 48,
+        "dimensions_match": true,
+        "mode": "RGBA",
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "transparent_pixels": 1173,
+        "partly_transparent_pixels": 316,
+        "bbox": [
+          0,
+          0,
+          48,
+          48
+        ]
+      },
+      {
+        "file": "icon-192.png",
+        "size": [
+          192,
+          192
+        ],
+        "expected_size": 192,
+        "dimensions_match": true,
+        "mode": "RGB",
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "partly_transparent_pixels": 0,
+        "bbox": [
+          0,
+          0,
+          192,
+          192
+        ]
+      },
+      {
+        "file": "icon-512.png",
+        "size": [
+          512,
+          512
+        ],
+        "expected_size": 512,
+        "dimensions_match": true,
+        "mode": "RGB",
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "partly_transparent_pixels": 0,
+        "bbox": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "maskable-512.png",
+        "size": [
+          512,
+          512
+        ],
+        "expected_size": 512,
+        "dimensions_match": true,
+        "mode": "RGB",
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "partly_transparent_pixels": 0,
+        "bbox": [
+          0,
+          0,
+          512,
+          512
+        ]
+      }
+    ],
+    "ico": {
+      "valid_header": true,
+      "count": 3,
+      "entries": [
+        {
+          "width": 16,
+          "height": 16,
+          "bits": 32,
+          "length": 409,
+          "offset": 54,
+          "payload_png": true
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "bits": 32,
+          "length": 491,
+          "offset": 463,
+          "payload_png": true
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "bits": 32,
+          "length": 606,
+          "offset": 954,
+          "payload_png": true
+        }
+      ],
+      "pillow_sizes": [
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          48,
+          48
+        ]
+      ]
+    },
+    "favicon16": {
+      "matches_native_source": false,
+      "diff_bbox": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "alpha_values": [
+        0,
+        47,
+        50,
+        52,
+        64,
+        68,
+        70,
+        75,
+        116,
+        123,
+        127,
+        131,
+        136,
+        153,
+        162,
+        164,
+        170,
+        171,
+        173,
+        197,
+        219,
+        225,
+        230,
+        235,
+        237,
+        238,
+        243,
+        255
+      ],
+      "alpha_grid": [
+        "....++++++++....",
+        "....+######+....",
+        "....+#++++#+....",
+        "....+#+..+#+....",
+        "....+#++++#+....",
+        "....+#####+.....",
+        "....++++++......",
+        "................",
+        "................",
+        "++++++....++++++",
+        "+####++..++####+",
+        "+#+++#+..+#+++#+",
+        "+#+.+#+..+#+.+#+",
+        "+#+++#+..+#+++#+",
+        "+#####+..+#####+",
+        "+++++++..+++++++"
+      ],
+      "svg_render_matches_native_source": false,
+      "svg_render_diff_bbox": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "export_svg_matches_export_png": true
+    },
+    "svg_audit_exit": 0,
+    "svg_audit": [
+      {
+        "file": "fangs-pin-black.svg",
+        "bytes": 628,
+        "viewBox": [
+          0.0,
+          0.0,
+          256.0,
+          256.0
+        ],
+        "aspect": 1.0,
+        "aspect_class": "square",
+        "colors": [
+          "#000000"
+        ],
+        "gradients": 0,
+        "anchors": 33,
+        "library_anchor_percentiles": {
+          "p10": 21.0,
+          "p25": 31.0,
+          "median": 53.0,
+          "p75": 95.5,
+          "p90": 194.0,
+          "p95": 274.0
+        },
+        "content_bbox": [
+          38.0,
+          30.0,
+          218.0,
+          208.0
+        ],
+        "margins": {
+          "left": 38.0,
+          "right": 38.0,
+          "top": 30.0,
+          "bottom": 48.0
+        },
+        "bbox_fill_ratio": 0.489,
+        "score": 99,
+        "findings": [
+          {
+            "level": "INFO",
+            "code": "off-centre-y",
+            "message": "Vertical margins differ (top 30.0, bottom 48.0). Remember the optical centre sits slightly above the geometric centre."
+          }
+        ]
+      },
+      {
+        "file": "fangs-pin-mono-b44732.svg",
+        "bytes": 628,
+        "viewBox": [
+          0.0,
+          0.0,
+          256.0,
+          256.0
+        ],
+        "aspect": 1.0,
+        "aspect_class": "square",
+        "colors": [
+          "#b44732"
+        ],
+        "gradients": 0,
+        "anchors": 33,
+        "library_anchor_percentiles": {
+          "p10": 21.0,
+          "p25": 31.0,
+          "median": 53.0,
+          "p75": 95.5,
+          "p90": 194.0,
+          "p95": 274.0
+        },
+        "content_bbox": [
+          38.0,
+          30.0,
+          218.0,
+          208.0
+        ],
+        "margins": {
+          "left": 38.0,
+          "right": 38.0,
+          "top": 30.0,
+          "bottom": 48.0
+        },
+        "bbox_fill_ratio": 0.489,
+        "score": 99,
+        "findings": [
+          {
+            "level": "INFO",
+            "code": "off-centre-y",
+            "message": "Vertical margins differ (top 30.0, bottom 48.0). Remember the optical centre sits slightly above the geometric centre."
+          }
+        ]
+      },
+      {
+        "file": "fangs-pin-white.svg",
+        "bytes": 628,
+        "viewBox": [
+          0.0,
+          0.0,
+          256.0,
+          256.0
+        ],
+        "aspect": 1.0,
+        "aspect_class": "square",
+        "colors": [
+          "#ffffff"
+        ],
+        "gradients": 0,
+        "anchors": 33,
+        "library_anchor_percentiles": {
+          "p10": 21.0,
+          "p25": 31.0,
+          "median": 53.0,
+          "p75": 95.5,
+          "p90": 194.0,
+          "p95": 274.0
+        },
+        "content_bbox": [
+          38.0,
+          30.0,
+          218.0,
+          208.0
+        ],
+        "margins": {
+          "left": 38.0,
+          "right": 38.0,
+          "top": 30.0,
+          "bottom": 48.0
+        },
+        "bbox_fill_ratio": 0.489,
+        "score": 99,
+        "findings": [
+          {
+            "level": "INFO",
+            "code": "off-centre-y",
+            "message": "Vertical margins differ (top 30.0, bottom 48.0). Remember the optical centre sits slightly above the geometric centre."
+          }
+        ]
+      },
+      {
+        "file": "favicon.svg",
+        "bytes": 577,
+        "viewBox": [
+          0.0,
+          0.0,
+          256.0,
+          256.0
+        ],
+        "aspect": 1.0,
+        "aspect_class": "square",
+        "colors": [
+          "#242420"
+        ],
+        "gradients": 0,
+        "anchors": 33,
+        "library_anchor_percentiles": {
+          "p10": 21.0,
+          "p25": 31.0,
+          "median": 53.0,
+          "p75": 95.5,
+          "p90": 194.0,
+          "p95": 274.0
+        },
+        "content_bbox": [
+          5.12,
+          5.12,
+          250.88,
+          250.88
+        ],
+        "margins": {
+          "left": 5.1,
+          "right": 5.1,
+          "top": 5.1,
+          "bottom": 5.1
+        },
+        "bbox_fill_ratio": 0.922,
+        "score": 100,
+        "findings": []
+      }
+    ],
+    "snapshot_status": "historical_pre_fix_evidence_retained"
+  },
+  "findings": [
+    {
+      "severity": "fix",
+      "id": "export-favicon-rescale",
+      "status": "resolved_and_independently_verified",
+      "detail": "export favicon source is normalized to viewBox256 with fractional translate/scale. 16px is no longer aligned: 98 partial-alpha pixels vs6 native; bbox touches all canvas edges; lower clear holes shrink from4 pixels each to1. PNG matches the exported SVG, so source normalization is the cause.",
+      "resolution": "Final export preserves original16×16 viewBox. Direct native render, final PNG and decoded ICO match full RGBA bytes at16/32/48. Original discrepancy remains in export_initial.",
+      "verified_date": "2026-10-10"
+    },
+    {
+      "severity": "usage",
+      "id": "favicon-not-circle",
+      "detail": "Native pixel favicon is square-only; circular crop removes6 opaque pixels at16px. Use main pin-symbol, which loses zero alpha under circle crop at16/32/64/256."
+    },
+    {
+      "severity": "usage",
+      "id": "fold-circle-corners",
+      "detail": "Fold master two lower tips exceed radius128 by0.748 units; at256 crop intersects2 nonzero pixels (alpha area1.267). Square use is unaffected."
+    },
+    {
+      "severity": "advisory",
+      "id": "wordmark-angle-heuristic",
+      "detail": "Audit near-miss angles appear only in outlined italic letterforms/lockups. Do not snap font outlines merely to satisfy a geometric heuristic."
+    }
+  ],
+  "visual_observations": [
+    "Pin master shows one upper and two lower square window modules. Cut corners point into the central opening. At16px the main master has gray antialiasing; native16px favicon is visibly cleaner.",
+    "Fold silhouette is readable at16px, but the three separating seams look thin and gray;64px and above is more stable.",
+    "The pin/fold lockups and fangs wordmark render without missing shapes or visibly broken outlines.",
+    "Circular crop of native favicon visibly cuts the lower outer corners. Main pin symbol retains them."
+  ],
+  "limitations": [
+    "Raster evidence uses rsvg-convert, not every browser rasterizer or DPR.",
+    "No uniqueness, trademark availability, audience recognition, preference or real-world adoption claim is established by these checks.",
+    "No source/assets changed; only checks/asset-qa.json and checks/asset-qa.md are authored by this reviewer.",
+    "export_initial is retained historical pre-fix evidence; export_final and top-level status describe the final verified files. Original circle-use constraints still apply."
+  ],
+  "export_final": {
+    "verified_date": "2026-10-10",
+    "fix": "Explicit --preserve-favicon-viewbox during actual re-export; source/render.py coordinated by root agent.",
+    "source_sha256": "0c0b98022dae5f26ad1d4b0ae4ad0776409a4ecec79d23a4e4226cadeda555cd",
+    "source_unchanged_since_initial_qa": true,
+    "favicon_svg": {
+      "viewBox": "0 0 16 16",
+      "source_viewBox": "0 0 16 16",
+      "viewBox_preserved": true,
+      "width": "16",
+      "height": "16",
+      "wrapper_groups": 0,
+      "title_count": 2,
+      "native16_render_rgba_matches_source": true,
+      "note": "Exporter adds a second title; existing aria-labelledby still points to the id-bearing title. No effect on pixel verification."
+    },
+    "comparisons": [
+      {
+        "size": 16,
+        "png_matches_direct_native_rgba": true,
+        "ico_matches_direct_native_rgba": true,
+        "ico_matches_png_rgba": true,
+        "png_rgba_sha256": "c19aca7251b5151b19e961cd690d028e2f2f0f2d2b2d347e13b0bd3e84d2dc34",
+        "native_rgba_sha256": "c19aca7251b5151b19e961cd690d028e2f2f0f2d2b2d347e13b0bd3e84d2dc34",
+        "ico_rgba_sha256": "c19aca7251b5151b19e961cd690d028e2f2f0f2d2b2d347e13b0bd3e84d2dc34",
+        "bbox": [
+          1,
+          1,
+          15,
+          15
+        ],
+        "alpha_counts": {
+          "transparent": 163,
+          "opaque": 87,
+          "partial": 6
+        }
+      },
+      {
+        "size": 32,
+        "png_matches_direct_native_rgba": true,
+        "ico_matches_direct_native_rgba": true,
+        "ico_matches_png_rgba": true,
+        "png_rgba_sha256": "8c05a1d9de8d189486e0c38fd3683b1e18b9aa07900fcedb6db33d2b5ec6ec2b",
+        "native_rgba_sha256": "8c05a1d9de8d189486e0c38fd3683b1e18b9aa07900fcedb6db33d2b5ec6ec2b",
+        "ico_rgba_sha256": "8c05a1d9de8d189486e0c38fd3683b1e18b9aa07900fcedb6db33d2b5ec6ec2b",
+        "bbox": [
+          2,
+          2,
+          30,
+          30
+        ],
+        "alpha_counts": {
+          "transparent": 658,
+          "opaque": 354,
+          "partial": 12
+        }
+      },
+      {
+        "size": 48,
+        "png_matches_direct_native_rgba": true,
+        "ico_matches_direct_native_rgba": true,
+        "ico_matches_png_rgba": true,
+        "png_rgba_sha256": "50aca86a25cdc1d103bdbc5d01fab49ef6a3d18c5d0d8d6823d6a425b2397470",
+        "native_rgba_sha256": "50aca86a25cdc1d103bdbc5d01fab49ef6a3d18c5d0d8d6823d6a425b2397470",
+        "ico_rgba_sha256": "50aca86a25cdc1d103bdbc5d01fab49ef6a3d18c5d0d8d6823d6a425b2397470",
+        "bbox": [
+          3,
+          3,
+          45,
+          45
+        ],
+        "alpha_counts": {
+          "transparent": 1485,
+          "opaque": 801,
+          "partial": 18
+        }
+      }
+    ],
+    "ico": {
+      "valid_header": true,
+      "entry_count": 3,
+      "entries": [
+        {
+          "size": [
+            16,
+            16
+          ],
+          "bits": 32,
+          "payload_length": 196,
+          "offset": 54,
+          "payload_sha256": "07a20b2e98c0fa2926ac6db6baf11c2a429ab3a58a7b779f315eb82b4cac8ab6",
+          "decoded_size": [
+            16,
+            16
+          ],
+          "decoded_rgba_sha256": "c19aca7251b5151b19e961cd690d028e2f2f0f2d2b2d347e13b0bd3e84d2dc34"
+        },
+        {
+          "size": [
+            32,
+            32
+          ],
+          "bits": 32,
+          "payload_length": 245,
+          "offset": 250,
+          "payload_sha256": "2e088de9fbdc00b00afd0ebd67242aa6b32a46132c3078a34e7d8a31049a7a00",
+          "decoded_size": [
+            32,
+            32
+          ],
+          "decoded_rgba_sha256": "8c05a1d9de8d189486e0c38fd3683b1e18b9aa07900fcedb6db33d2b5ec6ec2b"
+        },
+        {
+          "size": [
+            48,
+            48
+          ],
+          "bits": 32,
+          "payload_length": 303,
+          "offset": 495,
+          "payload_sha256": "f9a4b52b12b2d189d2d53a04a3c6292e83f45cd01063255bf9789c6b0b45b34e",
+          "decoded_size": [
+            48,
+            48
+          ],
+          "decoded_rgba_sha256": "50aca86a25cdc1d103bdbc5d01fab49ef6a3d18c5d0d8d6823d6a425b2397470"
+        }
+      ],
+      "pillow_sizes": [
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          48,
+          48
+        ]
+      ]
+    },
+    "file_hashes": [
+      {
+        "file": "apple-touch-icon.png",
+        "bytes": 1155,
+        "sha256": "ed3aa5a6d32460d3692deb6aac311e05f2df7c7ecaa9b5771634223572452545"
+      },
+      {
+        "file": "fangs-pin-black-512.png",
+        "bytes": 2419,
+        "sha256": "6796d8f0798a0964aa812c3f6cbd2e13bd4ea15f9615c7363d2733aa89672675"
+      },
+      {
+        "file": "fangs-pin-black.svg",
+        "bytes": 628,
+        "sha256": "bb025d9866845f99c12a7b6a264b0c0aa11725304d3f341186da5861a0552281"
+      },
+      {
+        "file": "fangs-pin-mono-b44732-512.png",
+        "bytes": 2374,
+        "sha256": "d327e6225583fda8a00a5d3035bff94655742ca3ebb6519e26ce14a3454a6468"
+      },
+      {
+        "file": "fangs-pin-mono-b44732.svg",
+        "bytes": 628,
+        "sha256": "919a25c1ae581b5cf07d2e274732baab924ddda7dfac7577ebc8013bb6ef55d6"
+      },
+      {
+        "file": "fangs-pin-white-512.png",
+        "bytes": 2325,
+        "sha256": "b5e0d1bc62134b936e44cb07b78903b8d7eb6b596a44c158b1157190c09e7137"
+      },
+      {
+        "file": "fangs-pin-white.svg",
+        "bytes": 628,
+        "sha256": "5c955059b423a6e573bef64e231c46e200228d6fdf340163855401e598d6e4a6"
+      },
+      {
+        "file": "favicon-16.png",
+        "bytes": 196,
+        "sha256": "07a20b2e98c0fa2926ac6db6baf11c2a429ab3a58a7b779f315eb82b4cac8ab6"
+      },
+      {
+        "file": "favicon-32.png",
+        "bytes": 245,
+        "sha256": "2e088de9fbdc00b00afd0ebd67242aa6b32a46132c3078a34e7d8a31049a7a00"
+      },
+      {
+        "file": "favicon-48.png",
+        "bytes": 303,
+        "sha256": "f9a4b52b12b2d189d2d53a04a3c6292e83f45cd01063255bf9789c6b0b45b34e"
+      },
+      {
+        "file": "favicon.ico",
+        "bytes": 798,
+        "sha256": "215cf5ccbcff13bea1d81f38617522fe654c225ee6ab76ec43b00c4cf6b1da55"
+      },
+      {
+        "file": "favicon.svg",
+        "bytes": 551,
+        "sha256": "ec524a88125b546be1ac6da05e30d2d07a2381a2914ae33ba412b10ed3569ad4"
+      },
+      {
+        "file": "head-snippet.html",
+        "bytes": 261,
+        "sha256": "7e8e3e49675212da23aa0ecf3ee0748b194c4d0737145ddedfcbfeb35f0d3674"
+      },
+      {
+        "file": "icon-192.png",
+        "bytes": 1240,
+        "sha256": "4de6f784ebeb05a6451daa190161bb34dd33608069644067f03e16d48476a582"
+      },
+      {
+        "file": "icon-512.png",
+        "bytes": 2804,
+        "sha256": "cda1d18c389b1f3f1efd061f656aa2bc1d1205f94effec2d14228fcd9c165d52"
+      },
+      {
+        "file": "maskable-512.png",
+        "bytes": 2755,
+        "sha256": "5229741fa6fa24eca2c3186b50ba07f9c3ca8a6196092834496526904fc357f8"
+      },
+      {
+        "file": "site.webmanifest",
+        "bytes": 444,
+        "sha256": "23af9fcd291731abd0a7e2ba95c936ea001e27b39e8b5be1eb1594fa471d7228"
+      }
+    ],
+    "unchanged_checks": "Prior asset geometry, color alpha, circle-use and 10 PNG dimensions/alpha checks retained; no repeat visual pass.",
+    "passed": true
+  }
+}

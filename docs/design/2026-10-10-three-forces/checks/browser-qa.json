@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-10",
+  "target": "index.html",
+  "browser": "Chrome DevTools isolated context hi-logo-20261010",
+  "desktop": {"viewport":1440,"scrollWidth":1440,"allImagesLoaded":true},
+  "mobile": {"viewport":390,"scrollWidth":390,"conceptColumnWidth":346,"brokenImages":0},
+  "combinations": ["pin/light","pin/dark","pin/red","fold/light","fold/dark","fold/red"],
+  "allCombinationsLoaded": true,
+  "actualCssWidths": [16,32,64],
+  "slider": {"input":240,"actualWidth":240,"output":"240 px"},
+  "visualEvidence": "FBT render_png.py Chrome HTML screenshot, bounded preview inspected",
+  "visualObservation": "Two equal concept columns on desktop, symbol and serif signature aligned; controls, native-size ladder and header example visible without collisions.",
+  "boundary": "Design proposal preview only; no old logo inspected and no live-site change. DevTools screenshot file output denied; screenshot rendering used the FBT Chrome backend."
+}

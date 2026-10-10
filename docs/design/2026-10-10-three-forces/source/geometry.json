@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-10",
+  "recommended": "pin",
+  "status": "proposal",
+  "concept": "Three equal frames in the triangular structure of 品",
+  "colors": {
+    "ink": "#242420",
+    "vermilion": "#B44732",
+    "paper": "#F6F3EB"
+  },
+  "master": {
+    "viewBox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "frame_size": 80,
+    "frame_weight": 22,
+    "counter_size": 36,
+    "chamfer": 22,
+    "placements": [
+      [
+        88,
+        30,
+        90
+      ],
+      [
+        38,
+        128,
+        0
+      ],
+      [
+        138,
+        128,
+        270
+      ]
+    ]
+  },
+  "micro": {
+    "viewBox": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "frame_size": 6,
+    "frame_weight": 2,
+    "counter_size": 2,
+    "gap": 2
+  },
+  "font": {
+    "file": "public/fonts/instrument-serif-italic.ttf",
+    "license": "SIL OFL 1.1",
+    "delivery": "SVG paths, no installed font required"
+  },
+  "source_boundary": "Only new geometry and existing typeface; no previous logo read"
+}
