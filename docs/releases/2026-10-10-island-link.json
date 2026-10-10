@@ -1,0 +1,169 @@
+{
+  "source": "ad0c7957b052a5e744cfd0c4610509c5abfe9196",
+  "pages_commit": "1f7696cba01fc216242512c427d51de7e7a833c6",
+  "status": "built",
+  "url": "https://hi.fangs.cc/",
+  "island_url": "https://island.fangs.cc/",
+  "file_count": 20,
+  "matched_count": 20,
+  "scope": "19 changed HTML files and release.json; existing assets unchanged",
+  "browser": "Actual public footer link clicked through to island.fangs.cc; 390px footer layout checked locally",
+  "files": [
+    {
+      "file": "index.html",
+      "ok": true,
+      "local_sha256": "97b6c757b01bacbea6af70181aa961c6e374838c2f4fb0b821313d20adaead59",
+      "remote_sha256": "97b6c757b01bacbea6af70181aa961c6e374838c2f4fb0b821313d20adaead59",
+      "bytes": 35328
+    },
+    {
+      "file": "projects/aiedu/index.html",
+      "ok": true,
+      "local_sha256": "8c246f2e4027eab8be2976ed7c3f09e5bcf6bcddb916ed73dd7199eb0cb976a4",
+      "remote_sha256": "8c246f2e4027eab8be2976ed7c3f09e5bcf6bcddb916ed73dd7199eb0cb976a4",
+      "bytes": 11403
+    },
+    {
+      "file": "projects/chenchen-atelier/index.html",
+      "ok": true,
+      "local_sha256": "453774b3feda999358b560b01405af92244e9431d9447393d0bab9c0f2a9373b",
+      "remote_sha256": "453774b3feda999358b560b01405af92244e9431d9447393d0bab9c0f2a9373b",
+      "bytes": 10096
+    },
+    {
+      "file": "projects/dankoe/index.html",
+      "ok": true,
+      "local_sha256": "8387f50b86f40b5058d1fd4b07f6d5bf1fbbfd99b3af45047f7059381638d4da",
+      "remote_sha256": "8387f50b86f40b5058d1fd4b07f6d5bf1fbbfd99b3af45047f7059381638d4da",
+      "bytes": 11332
+    },
+    {
+      "file": "projects/hyrule/index.html",
+      "ok": true,
+      "local_sha256": "9bd0b7f41d661b7b822ab0b4291b4300fb9ffc137dd998e3a6f50f77423050d4",
+      "remote_sha256": "9bd0b7f41d661b7b822ab0b4291b4300fb9ffc137dd998e3a6f50f77423050d4",
+      "bytes": 11344
+    },
+    {
+      "file": "projects/junlugu/index.html",
+      "ok": true,
+      "local_sha256": "b503642f0d39fc0697c81a3d093cb58c1d2e157defff1b9003f7c1a16b04badc",
+      "remote_sha256": "b503642f0d39fc0697c81a3d093cb58c1d2e157defff1b9003f7c1a16b04badc",
+      "bytes": 10710
+    },
+    {
+      "file": "projects/junxia-comic/index.html",
+      "ok": true,
+      "local_sha256": "377969ae935ed1f0dfcb5546a4ed9de52b4bec1379f7a064a9e0ba83ad8ee9e4",
+      "remote_sha256": "377969ae935ed1f0dfcb5546a4ed9de52b4bec1379f7a064a9e0ba83ad8ee9e4",
+      "bytes": 22602
+    },
+    {
+      "file": "projects/junxia-travels/index.html",
+      "ok": true,
+      "local_sha256": "b81fd6c88203b9b4bd6ace68b7d5669fd9481bfac5d312d3911acb9ef03bc21c",
+      "remote_sha256": "b81fd6c88203b9b4bd6ace68b7d5669fd9481bfac5d312d3911acb9ef03bc21c",
+      "bytes": 10662,
+      "curl_exit": 0,
+      "previous_attempt": {
+        "file": "projects/junxia-travels/index.html",
+        "ok": false,
+        "local_sha256": "b81fd6c88203b9b4bd6ace68b7d5669fd9481bfac5d312d3911acb9ef03bc21c",
+        "remote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "file": "projects/lehh/index.html",
+      "ok": true,
+      "local_sha256": "043862aaa12d54d2cb60a7bec5f545fb25d3c909b08088157a2f4a4a21fae8b7",
+      "remote_sha256": "043862aaa12d54d2cb60a7bec5f545fb25d3c909b08088157a2f4a4a21fae8b7",
+      "bytes": 10747
+    },
+    {
+      "file": "projects/little-pause/index.html",
+      "ok": true,
+      "local_sha256": "a4ff438704274251230d664c048bc52b21015863e11d32be178c073509742b0c",
+      "remote_sha256": "a4ff438704274251230d664c048bc52b21015863e11d32be178c073509742b0c",
+      "bytes": 11151
+    },
+    {
+      "file": "projects/pocket-ged/index.html",
+      "ok": true,
+      "local_sha256": "3620a107182ff7b40be3447524735aa885617b16e003ce0dfdbbaabc11ba3cc6",
+      "remote_sha256": "3620a107182ff7b40be3447524735aa885617b16e003ce0dfdbbaabc11ba3cc6",
+      "bytes": 10839
+    },
+    {
+      "file": "projects/pocofocus/index.html",
+      "ok": true,
+      "local_sha256": "958b41f0a651b80f45ff45221f32b3f25af34f220fcfa7241faf09468e016401",
+      "remote_sha256": "958b41f0a651b80f45ff45221f32b3f25af34f220fcfa7241faf09468e016401",
+      "bytes": 10549
+    },
+    {
+      "file": "projects/qiya-herbarium/index.html",
+      "ok": true,
+      "local_sha256": "d7cb444cb7c0e79efeed7b21b79db82abc8043c3b0ba1259abac6bced8aac1f2",
+      "remote_sha256": "d7cb444cb7c0e79efeed7b21b79db82abc8043c3b0ba1259abac6bced8aac1f2",
+      "bytes": 10851
+    },
+    {
+      "file": "projects/school-secret-lab/index.html",
+      "ok": true,
+      "local_sha256": "1d47a06675914fa4f10bc3b280deebb0195a6307e9db1ff2a2b87fa9b5353011",
+      "remote_sha256": "1d47a06675914fa4f10bc3b280deebb0195a6307e9db1ff2a2b87fa9b5353011",
+      "bytes": 20020
+    },
+    {
+      "file": "projects/snow-duel/index.html",
+      "ok": true,
+      "local_sha256": "a738503cddee40f3f63bcbc0328c6bcbb81f1b898b235b355fe1bebc32ecbf7b",
+      "remote_sha256": "a738503cddee40f3f63bcbc0328c6bcbb81f1b898b235b355fe1bebc32ecbf7b",
+      "bytes": 10772
+    },
+    {
+      "file": "projects/taste/index.html",
+      "ok": true,
+      "local_sha256": "ab65c779b0e5a98cd182f3e8f7e2c548e4d7b395b371b5b422f573e6674f3835",
+      "remote_sha256": "ab65c779b0e5a98cd182f3e8f7e2c548e4d7b395b371b5b422f573e6674f3835",
+      "bytes": 11791
+    },
+    {
+      "file": "projects/the-perfect-run/index.html",
+      "ok": true,
+      "local_sha256": "394bbfd903fc92980f6579f85bced534d7bef206e50eeffc565ebd2566369247",
+      "remote_sha256": "394bbfd903fc92980f6579f85bced534d7bef206e50eeffc565ebd2566369247",
+      "bytes": 11346
+    },
+    {
+      "file": "projects/wbw/index.html",
+      "ok": true,
+      "local_sha256": "fc3dfc85184a65d5ca2a41ae0aa7679fd4e0d45a8c1742cfd05519bf73f0aa43",
+      "remote_sha256": "fc3dfc85184a65d5ca2a41ae0aa7679fd4e0d45a8c1742cfd05519bf73f0aa43",
+      "bytes": 11000,
+      "curl_exit": 0,
+      "previous_attempt": {
+        "file": "projects/wbw/index.html",
+        "ok": false,
+        "local_sha256": "fc3dfc85184a65d5ca2a41ae0aa7679fd4e0d45a8c1742cfd05519bf73f0aa43",
+        "remote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    },
+    {
+      "file": "projects/yuzu-island/index.html",
+      "ok": true,
+      "local_sha256": "bfc32204727fef0d39dd6be04ff478a596eae6f867936803dc3dc6a89df9f7b3",
+      "remote_sha256": "bfc32204727fef0d39dd6be04ff478a596eae6f867936803dc3dc6a89df9f7b3",
+      "bytes": 10315
+    },
+    {
+      "file": "release.json",
+      "ok": true,
+      "local_sha256": "7d59e55deba9c7071efac754f86925ab4142377f59cb49c734df1e9d7368886c",
+      "remote_sha256": "7d59e55deba9c7071efac754f86925ab4142377f59cb49c734df1e9d7368886c",
+      "bytes": 91
+    }
+  ]
+}
