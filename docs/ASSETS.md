@@ -159,3 +159,11 @@
 ## 旅行菌侠（2026-10-09）
 
 `public/images/projects/junxia-travels.webp` 来自 https://travel.fangs.cc/ 正式版本0.3.0，源码ae3b84d的真实首开界面；无玩家存档、无测试弹层。IAB以1536×1200采集，原图3072×2400，完整缩到1400×1094，WebP质量88。小屋、原角色、行囊和新增故事册均来自产品，不新增视觉功能。新文案字集由既有fonts:build重建到925个源码汉字，保留原字体许可。
+
+
+## 《紫玻璃菇和蘑菇维度》第五集（2026-10-13）
+
+- 柚子确认第八版并指定本片名，要求加入《爱养蘑菇的小学生》系列。原片来自mushroom-kid项目purple-glass-v8.mp4，57.5秒，720×1280/24fps，保留字幕、环境声与两次Minecraft传送音效，无对白。
+- MP4原样复制到public/videos/projects/school-secret-lab/ep05-purple-glass-dimension.mp4，31,041,995 bytes，SHA-256 `0d43d243a6673604a1fdbfae0e8c4b2ae8dce62f17862af8b74c67d634e81707`。岩浆菇与原紫玻璃菇均为柚子确认的v8画面，没有重新压缩或改片。
+- 封面从同一MP4的42秒提取，完整720×1280，WebP quality88，SHA-256 `aa7bc4bc8168962a172239a38f210d7c74a194a16b14a4b97cfcbe70ee18ca9e`。原首页三联封面保留；故事片集桌面保持双列、手机单列，两个镜头实验单列为另一组。
+- 制作署名和Minecraft音效来源同步写入公开credits.txt；完整生产过程、私有回执、聊天与本机路径不公开。
