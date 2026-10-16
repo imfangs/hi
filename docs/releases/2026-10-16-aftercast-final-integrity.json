@@ -1,0 +1,108 @@
+{
+  "capability": "public-preview",
+  "operation": "verify-files",
+  "outputs": [
+    "/Users/fangs/workspace/side/hi/docs/releases/2026-10-16-aftercast-final-integrity.json"
+  ],
+  "warnings": [],
+  "schema_version": 2,
+  "ok": true,
+  "complete": true,
+  "identity": {
+    "url": "https://hi.fangs.cc/",
+    "build_sha256": "bb907cba7ab292dc7942ba070d8a160ef759460c8d09a06146e7590cf61c05f6",
+    "deployment_id": null,
+    "config": {
+      "transport": "curl",
+      "timeout": 20000,
+      "retries": 2,
+      "concurrency": 4,
+      "exclusions": [],
+      "playwright_root": null,
+      "policy": "sha256-normal-dns-tls-v2"
+    }
+  },
+  "fingerprint": "c3dbdb99509c04eae8af776130a8741ceb0d596e09255158e9295f2a2a76a035",
+  "url": "https://hi.fangs.cc/",
+  "anonymous": true,
+  "transport": "curl",
+  "budget_ms": 180000,
+  "file_count": 6,
+  "completed_count": 6,
+  "matched_count": 6,
+  "pending_count": 0,
+  "failed_count": 0,
+  "reused_count": 0,
+  "updated_at": "2026-10-16T15:56:00.764Z",
+  "skipped": [],
+  "files": [
+    {
+      "file": "images/projects/aftercast.webp",
+      "sha256": "cf7a0de8f961dc16fac6602faa5185805a115155f1030a89a7eb088c0134ff60",
+      "local_bytes": 46850,
+      "status": 200,
+      "remote_sha256": "cf7a0de8f961dc16fac6602faa5185805a115155f1030a89a7eb088c0134ff60",
+      "remote_bytes": 46850,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-16T15:55:59.977Z"
+    },
+    {
+      "file": "index.html",
+      "sha256": "2148cf230af97c6bb5c07f68b7e5c1320011ee17cf6eca65d95a03d37bae36ea",
+      "local_bytes": 36824,
+      "status": 200,
+      "remote_sha256": "2148cf230af97c6bb5c07f68b7e5c1320011ee17cf6eca65d95a03d37bae36ea",
+      "remote_bytes": 36824,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-16T15:55:59.817Z"
+    },
+    {
+      "file": "projects/aftercast/index.html",
+      "sha256": "53993d9d96ad9df72052ba422a455c8dc4997a21bcc1e8d234e154711c93dc9d",
+      "local_bytes": 11101,
+      "status": 200,
+      "remote_sha256": "53993d9d96ad9df72052ba422a455c8dc4997a21bcc1e8d234e154711c93dc9d",
+      "remote_bytes": 11101,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-16T15:55:59.864Z"
+    },
+    {
+      "file": "projects/dankoe/index.html",
+      "sha256": "464560eb01e8e73fe4871858b78c0a1b03c7e45bbc4ddaceaa8e6185fd55b428",
+      "local_bytes": 11355,
+      "status": 200,
+      "remote_sha256": "464560eb01e8e73fe4871858b78c0a1b03c7e45bbc4ddaceaa8e6185fd55b428",
+      "remote_bytes": 11355,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-16T15:55:59.831Z"
+    },
+    {
+      "file": "projects/the-perfect-run/index.html",
+      "sha256": "c2755aff7d379e081c33cc093a44eef82883232cd7937ad4594143e624eba62a",
+      "local_bytes": 11375,
+      "status": 200,
+      "remote_sha256": "c2755aff7d379e081c33cc093a44eef82883232cd7937ad4594143e624eba62a",
+      "remote_bytes": 11375,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-16T15:56:00.764Z"
+    },
+    {
+      "file": "release.json",
+      "sha256": "35e0eebcd8f6541fdf0fef3073a1bf56342b39ae05483f99cc8eca2cd41ca9e3",
+      "local_bytes": 91,
+      "status": 200,
+      "remote_sha256": "35e0eebcd8f6541fdf0fef3073a1bf56342b39ae05483f99cc8eca2cd41ca9e3",
+      "remote_bytes": 91,
+      "matches": true,
+      "attempts": 1,
+      "verified_at": "2026-10-16T15:56:00.729Z"
+    }
+  ],
+  "verification_scope": "file integrity only; application behavior and device compatibility require separate tests",
+  "duration_ms": 2314
+}

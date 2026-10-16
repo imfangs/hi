@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-16",
+  "source": "9d5c206d056ee556835ba369491c02bb49691bf3",
+  "pagesCommit": "0e63fd28d6b9c45cec05d726f255085a0ca15fb3",
+  "status": "built",
+  "url": "https://hi.fangs.cc/projects/aftercast/",
+  "destination": "https://aftercast.fangs.cc/",
+  "sourceReleaseMatched": true,
+  "initialIntegrity": {
+    "files": 26,
+    "matched": 26
+  },
+  "finalCoverIntegrity": {
+    "ok": true,
+    "file_count": 6,
+    "matched_count": 6,
+    "failed_count": 0
+  },
+  "preservedRemoteEpisode5": {
+    "path": "videos/projects/school-secret-lab/ep05-purple-glass-dimension.mp4",
+    "sha256": "0d43d243a6673604a1fdbfae0e8c4b2ae8dce62f17862af8b74c67d634e81707"
+  },
+  "fontCharacters": 941,
+  "cover": "images/projects/aftercast.webp",
+  "browserChecks": [
+    "formal reading category and search finds Aftercast",
+    "formal detail cover loaded 1200x750",
+    "clicked formal Hi Open Aftercast link and new tab arrived at HTTPS homepage showing 11 articles",
+    "local 390px layout no horizontal overflow",
+    "dark mode checked then restored to system",
+    "detail return preserved search query"
+  ]
+}
