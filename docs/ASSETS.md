@@ -163,3 +163,11 @@
 ## 2026-10-16 · 余音播客精读
 
 `aftercast.webp`来自余音公开发布构建的真实浏览器截图（原截图1200×675），本轮在隔离本地静态预览读取；测试笔记已清空，未包含私人资料。完整画面纸色补边为1200×750，WebP quality88、sRGB，未重排或伪造产品界面。正式URL为https://aftercast.fangs.cc/；上线后独立回读确认同一构建。原图留余音本机临时发布证据，Hi保留该正式封面。
+
+
+## 《紫玻璃菇和蘑菇维度》第五集（2026-10-13）
+
+- 柚子确认第八版并指定本片名，要求加入《爱养蘑菇的小学生》系列。原片来自mushroom-kid项目purple-glass-v8.mp4，57.5秒，720×1280/24fps，保留字幕、环境声与两次Minecraft传送音效，无对白。
+- MP4原样复制到public/videos/projects/school-secret-lab/ep05-purple-glass-dimension.mp4，31,041,995 bytes，SHA-256 `0d43d243a6673604a1fdbfae0e8c4b2ae8dce62f17862af8b74c67d634e81707`。岩浆菇与原紫玻璃菇均为柚子确认的v8画面，没有重新压缩或改片。
+- 封面从同一MP4的42秒提取，完整720×1280，WebP quality88，SHA-256 `aa7bc4bc8168962a172239a38f210d7c74a194a16b14a4b97cfcbe70ee18ca9e`。原首页三联封面保留；故事片集桌面保持双列、手机单列，两个镜头实验单列为另一组。
+- 制作署名和Minecraft音效来源同步写入公开credits.txt；完整生产过程、私有回执、聊天与本机路径不公开。

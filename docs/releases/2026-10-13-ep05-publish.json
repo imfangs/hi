@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-13",
+  "source": "94bc63094cfc148d00d841ba09d4b04426375a1d",
+  "pages_commit": "e3b4c4a4b01c5df32444447b20eccce103340e34",
+  "status": "built",
+  "episode": "05 · 紫玻璃菇和蘑菇维度",
+  "series": "爱养蘑菇的小学生",
+  "version": "v8",
+  "url": "https://hi.fangs.cc/projects/school-secret-lab/#purple-glass-dimension",
+  "video_url": "https://hi.fangs.cc/videos/projects/school-secret-lab/ep05-purple-glass-dimension.mp4",
+  "duration": 57.5,
+  "video_sha256": "0d43d243a6673604a1fdbfae0e8c4b2ae8dce62f17862af8b74c67d634e81707",
+  "video_bytes": 31041995,
+  "public_release_matches": true,
+  "integrity": {
+    "base": "https://hi.fangs.cc/",
+    "checked_at": "2026-10-13T10:02:25Z",
+    "passed": true,
+    "file_count": 43,
+    "matched_count": 43,
+    "range": {
+      "status": 206,
+      "bytes": 1024,
+      "content_range": "bytes 0-1023/31041995",
+      "ok": true
+    },
+    "files": [
+      {
+        "file": "_astro/ComicReader_astro_astro_type_style_index_0_lang.CeQLHRkA.css",
+        "local_sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+        "ok": true,
+        "status": 200,
+        "bytes": 7039,
+        "remote_sha256": "079680a966f04a39fa7997741c4ea5f03c43e32d8aacc8d6676b412e83c3f9dc",
+        "attempts": 1
+      },
+      {
+        "file": "_astro/Slogan.astro_astro_type_script_index_0_lang.z42zm_DK.js",
+        "local_sha256": "7a9cb95e14f8c202aa946adb9aedd850101a440ba2ce8273afbf090a868a91ee",
+        "ok": true,
+        "status": 200,
+        "bytes": 6906,
+        "remote_sha256": "7a9cb95e14f8c202aa946adb9aedd850101a440ba2ce8273afbf090a868a91ee",
+        "attempts": 1
+      },
+      {
+        "file": "_astro/_...slug_.astro_astro_type_script_index_0_lang.CUh733Hb.js",
+        "local_sha256": "352228adc70313123a275568ef36c3a65399c4aa5b3a31e6695ac194eb177cdb",
+        "ok": true,
+        "status": 200,
+        "bytes": 1184,
+        "remote_sha256": "352228adc70313123a275568ef36c3a65399c4aa5b3a31e6695ac194eb177cdb",
+        "attempts": 1
+      },
+      {
+        "file": "_astro/index.C1HZ5GXE.css",
+        "local_sha256": "febfd6953088226558b41ad6c1625a65aa15f9afdbb82cc28eced4b9124b54d2",
+        "ok": true,
+        "status": 200,
+        "bytes": 28365,
+        "remote_sha256": "febfd6953088226558b41ad6c1625a65aa15f9afdbb82cc28eced4b9124b54d2",
+        "attempts": 1
+      },
+      {
+        "file": "_astro/index.D45GQoYD.js",
+        "local_sha256": "e00fe88f809732d0edde725e93f8eea8ae8498e4564d01b996ae1dac10a2d340",
+        "ok": true,
+        "status": 200,
+        "bytes": 2564969,
+        "remote_sha256": "e00fe88f809732d0edde725e93f8eea8ae8498e4564d01b996ae1dac10a2d340",
+        "attempts": 1
+      },
+      {
+        "file": "_astro/index.astro_astro_type_script_index_0_lang.Ct62Yhkb.js",
+        "local_sha256": "1f6eaef8fd4c70863931404473f1643ccc81485f0f4b9d4ceaa9e5f31237dff0",
+        "ok": true,
+        "status": 200,
+        "bytes": 3964,
+        "remote_sha256": "1f6eaef8fd4c70863931404473f1643ccc81485f0f4b9d4ceaa9e5f31237dff0",
+        "attempts": 1
+      },
+      {
+        "file": "_astro/projects.BRvjfRjv.js",
+        "local_sha256": "a7b6cfc87c7da173f38b731c0ecd5a08c09fc3d5fcd5ab9b7cb8f0851d6403a0",
+        "ok": true,
+        "status": 200,
+        "bytes": 261,
+        "remote_sha256": "a7b6cfc87c7da173f38b731c0ecd5a08c09fc3d5fcd5ab9b7cb8f0851d6403a0",
+        "attempts": 1
+      },
+      {
+        "file": "fonts/hi-sans.woff2",
+        "local_sha256": "064ed2994a58e5ae26d489f03ead0665327c365ab1a20832be180808b82bb9ca",
+        "ok": true,
+        "status": 200,
+        "bytes": 274648,
+        "remote_sha256": "064ed2994a58e5ae26d489f03ead0665327c365ab1a20832be180808b82bb9ca",
+        "attempts": 1
+      },
+      {
+        "file": "fonts/hi-song.woff2",
+        "local_sha256": "8087e58c62b5fa492efe5810b24e1246926cef4de890f81eb02779c2f9cfacf2",
+        "ok": true,
+        "status": 200,
+        "bytes": 356752,
+        "remote_sha256": "8087e58c62b5fa492efe5810b24e1246926cef4de890f81eb02779c2f9cfacf2",
+        "attempts": 1
+      },
+      {
+        "file": "images/projects/school-secret-lab/ep05-purple-glass-dimension.webp",
+        "local_sha256": "aa7bc4bc8168962a172239a38f210d7c74a194a16b14a4b97cfcbe70ee18ca9e",
+        "ok": true,
+        "status": 200,
+        "bytes": 101802,
+        "remote_sha256": "aa7bc4bc8168962a172239a38f210d7c74a194a16b14a4b97cfcbe70ee18ca9e",
+        "attempts": 1
+      },
+      {
+        "file": "index.html",
+        "local_sha256": "97b6c757b01bacbea6af70181aa961c6e374838c2f4fb0b821313d20adaead59",
+        "ok": true,
+        "status": 200,
+        "bytes": 35328,
+        "remote_sha256": "97b6c757b01bacbea6af70181aa961c6e374838c2f4fb0b821313d20adaead59",
+        "attempts": 1
+      },
+      {
+        "file": "projects/aiedu/index.html",
+        "local_sha256": "8c246f2e4027eab8be2976ed7c3f09e5bcf6bcddb916ed73dd7199eb0cb976a4",
+        "ok": true,
+        "status": 200,
+        "bytes": 11403,
+        "remote_sha256": "8c246f2e4027eab8be2976ed7c3f09e5bcf6bcddb916ed73dd7199eb0cb976a4",
+        "attempts": 1
+      },
+      {
+        "file": "projects/chenchen-atelier/index.html",
+        "local_sha256": "453774b3feda999358b560b01405af92244e9431d9447393d0bab9c0f2a9373b",
+        "ok": true,
+        "status": 200,
+        "bytes": 10096,
+        "remote_sha256": "453774b3feda999358b560b01405af92244e9431d9447393d0bab9c0f2a9373b",
+        "attempts": 1
+      },
+      {
+        "file": "projects/dankoe/index.html",
+        "local_sha256": "8387f50b86f40b5058d1fd4b07f6d5bf1fbbfd99b3af45047f7059381638d4da",
+        "ok": true,
+        "status": 200,
+        "bytes": 11332,
+        "remote_sha256": "8387f50b86f40b5058d1fd4b07f6d5bf1fbbfd99b3af45047f7059381638d4da",
+        "attempts": 1
+      },
+      {
+        "file": "projects/hyrule/index.html",
+        "local_sha256": "9bd0b7f41d661b7b822ab0b4291b4300fb9ffc137dd998e3a6f50f77423050d4",
+        "ok": true,
+        "status": 200,
+        "bytes": 11344,
+        "remote_sha256": "9bd0b7f41d661b7b822ab0b4291b4300fb9ffc137dd998e3a6f50f77423050d4",
+        "attempts": 1
+      },
+      {
+        "file": "projects/junlugu/index.html",
+        "local_sha256": "b503642f0d39fc0697c81a3d093cb58c1d2e157defff1b9003f7c1a16b04badc",
+        "ok": true,
+        "status": 200,
+        "bytes": 10710,
+        "remote_sha256": "b503642f0d39fc0697c81a3d093cb58c1d2e157defff1b9003f7c1a16b04badc",
+        "attempts": 1
+      },
+      {
+        "file": "projects/junxia-comic/index.html",
+        "local_sha256": "377969ae935ed1f0dfcb5546a4ed9de52b4bec1379f7a064a9e0ba83ad8ee9e4",
+        "ok": true,
+        "status": 200,
+        "bytes": 22602,
+        "remote_sha256": "377969ae935ed1f0dfcb5546a4ed9de52b4bec1379f7a064a9e0ba83ad8ee9e4",
+        "attempts": 1
+      },
+      {
+        "file": "projects/junxia-travels/index.html",
+        "local_sha256": "b81fd6c88203b9b4bd6ace68b7d5669fd9481bfac5d312d3911acb9ef03bc21c",
+        "ok": true,
+        "status": 200,
+        "bytes": 10662,
+        "remote_sha256": "b81fd6c88203b9b4bd6ace68b7d5669fd9481bfac5d312d3911acb9ef03bc21c",
+        "attempts": 1
+      },
+      {
+        "file": "projects/lehh/index.html",
+        "local_sha256": "043862aaa12d54d2cb60a7bec5f545fb25d3c909b08088157a2f4a4a21fae8b7",
+        "ok": true,
+        "status": 200,
+        "bytes": 10747,
+        "remote_sha256": "043862aaa12d54d2cb60a7bec5f545fb25d3c909b08088157a2f4a4a21fae8b7",
+        "attempts": 1
+      },
+      {
+        "file": "projects/little-pause/index.html",
+        "local_sha256": "a4ff438704274251230d664c048bc52b21015863e11d32be178c073509742b0c",
+        "ok": true,
+        "status": 200,
+        "bytes": 11151,
+        "remote_sha256": "a4ff438704274251230d664c048bc52b21015863e11d32be178c073509742b0c",
+        "attempts": 1
+      },
+      {
+        "file": "projects/pocket-ged/index.html",
+        "local_sha256": "3620a107182ff7b40be3447524735aa885617b16e003ce0dfdbbaabc11ba3cc6",
+        "ok": true,
+        "status": 200,
+        "bytes": 10839,
+        "remote_sha256": "3620a107182ff7b40be3447524735aa885617b16e003ce0dfdbbaabc11ba3cc6",
+        "attempts": 1
+      },
+      {
+        "file": "projects/pocofocus/index.html",
+        "local_sha256": "958b41f0a651b80f45ff45221f32b3f25af34f220fcfa7241faf09468e016401",
+        "ok": true,
+        "status": 200,
+        "bytes": 10549,
+        "remote_sha256": "958b41f0a651b80f45ff45221f32b3f25af34f220fcfa7241faf09468e016401",
+        "attempts": 1
+      },
+      {
+        "file": "projects/qiya-herbarium/index.html",
+        "local_sha256": "d7cb444cb7c0e79efeed7b21b79db82abc8043c3b0ba1259abac6bced8aac1f2",
+        "ok": true,
+        "status": 200,
+        "bytes": 10851,
+        "remote_sha256": "d7cb444cb7c0e79efeed7b21b79db82abc8043c3b0ba1259abac6bced8aac1f2",
+        "attempts": 1
+      },
+      {
+        "file": "projects/school-secret-lab/index.html",
+        "local_sha256": "773df6200411f9470f6465ea4259e464dee797ec67df916021ae9450d83415a3",
+        "ok": true,
+        "status": 200,
+        "bytes": 21424,
+        "remote_sha256": "773df6200411f9470f6465ea4259e464dee797ec67df916021ae9450d83415a3",
+        "attempts": 1
+      },
+      {
+        "file": "projects/snow-duel/index.html",
+        "local_sha256": "a738503cddee40f3f63bcbc0328c6bcbb81f1b898b235b355fe1bebc32ecbf7b",
+        "ok": true,
+        "status": 200,
+        "bytes": 10772,
+        "remote_sha256": "a738503cddee40f3f63bcbc0328c6bcbb81f1b898b235b355fe1bebc32ecbf7b",
+        "attempts": 1
+      },
+      {
+        "file": "projects/taste/index.html",
+        "local_sha256": "ab65c779b0e5a98cd182f3e8f7e2c548e4d7b395b371b5b422f573e6674f3835",
+        "ok": true,
+        "status": 200,
+        "bytes": 11791,
+        "remote_sha256": "ab65c779b0e5a98cd182f3e8f7e2c548e4d7b395b371b5b422f573e6674f3835",
+        "attempts": 1
+      },
+      {
+        "file": "projects/the-perfect-run/index.html",
+        "local_sha256": "394bbfd903fc92980f6579f85bced534d7bef206e50eeffc565ebd2566369247",
+        "ok": true,
+        "status": 200,
+        "bytes": 11346,
+        "remote_sha256": "394bbfd903fc92980f6579f85bced534d7bef206e50eeffc565ebd2566369247",
+        "attempts": 1
+      },
+      {
+        "file": "projects/wbw/index.html",
+        "local_sha256": "fc3dfc85184a65d5ca2a41ae0aa7679fd4e0d45a8c1742cfd05519bf73f0aa43",
+        "ok": true,
+        "status": 200,
+        "bytes": 11000,
+        "remote_sha256": "fc3dfc85184a65d5ca2a41ae0aa7679fd4e0d45a8c1742cfd05519bf73f0aa43",
+        "attempts": 1
+      },
+      {
+        "file": "projects/yuzu-island/index.html",
+        "local_sha256": "bfc32204727fef0d39dd6be04ff478a596eae6f867936803dc3dc6a89df9f7b3",
+        "ok": true,
+        "status": 200,
+        "bytes": 10315,
+        "remote_sha256": "bfc32204727fef0d39dd6be04ff478a596eae6f867936803dc3dc6a89df9f7b3",
+        "attempts": 1
+      },
+      {
+        "file": "release.json",
+        "local_sha256": "8e554e4bc453ca39ffe1ed09b897546bda8bd63673a4bc04d6da4b5c7731fe34",
+        "ok": true,
+        "status": 200,
+        "bytes": 91,
+        "remote_sha256": "8e554e4bc453ca39ffe1ed09b897546bda8bd63673a4bc04d6da4b5c7731fe34",
+        "attempts": 1
+      },
+      {
+        "file": "sitemap-0.xml",
+        "local_sha256": "76db589e8de66267bfc73827e84ba47a0a2b5b086a9ffb12b358e953f4950f5e",
+        "ok": true,
+        "status": 200,
+        "bytes": 1487,
+        "remote_sha256": "76db589e8de66267bfc73827e84ba47a0a2b5b086a9ffb12b358e953f4950f5e",
+        "attempts": 1
+      },
+      {
+        "file": "sitemap-index.xml",
+        "local_sha256": "f69b1720b93494076dc40483db3ab16f4eba9c14d84dd739f95de5e8f44a6261",
+        "ok": true,
+        "status": 200,
+        "bytes": 182,
+        "remote_sha256": "f69b1720b93494076dc40483db3ab16f4eba9c14d84dd739f95de5e8f44a6261",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/aiedu-promo-2026-10-01-credits.html",
+        "local_sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23",
+        "ok": true,
+        "status": 200,
+        "bytes": 1177,
+        "remote_sha256": "f1e4e0e87a93980371bd7d2e49f7240087aedf6d27ec023f3c01ee68d3f37c23",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/dankoe-promo-2026-10-01-credits.html",
+        "local_sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84",
+        "ok": true,
+        "status": 200,
+        "bytes": 1282,
+        "remote_sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/hyrule-promo-20261001-credits.html",
+        "local_sha256": "e903c378ebe114df2607a1faff8ca648b14c90ed3789d8f952eb8d3844848971",
+        "ok": true,
+        "status": 200,
+        "bytes": 2048,
+        "remote_sha256": "e903c378ebe114df2607a1faff8ca648b14c90ed3789d8f952eb8d3844848971",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/lehh-promo-2026-10-01-credits.html",
+        "local_sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2",
+        "ok": true,
+        "status": 200,
+        "bytes": 991,
+        "remote_sha256": "8f38f229f164e41a2cf82f820f52dc0134ee8b71582c88ca7bc52ff81f9361f2",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/little-pause-promo-2026-10-01-credits.html",
+        "local_sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3",
+        "ok": true,
+        "status": 200,
+        "bytes": 1086,
+        "remote_sha256": "305145937bbaf4b2cf2b801b5964ef68470be9bea69b4d0dbcef99085f09a5c3",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/qiya-herbarium-promo-2026-10-01-credits.html",
+        "local_sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef",
+        "ok": true,
+        "status": 200,
+        "bytes": 1233,
+        "remote_sha256": "ecc748980669fbf11551d00607fdec4425c4da58abebdee470b426f576e3d5ef",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/school-secret-lab/credits.txt",
+        "local_sha256": "3a32903924c152be051b57a71629ff36b32e93ed1d68f047bc8fdf0afadeaa7f",
+        "ok": true,
+        "status": 200,
+        "bytes": 1363,
+        "remote_sha256": "3a32903924c152be051b57a71629ff36b32e93ed1d68f047bc8fdf0afadeaa7f",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/school-secret-lab/ep05-purple-glass-dimension.mp4",
+        "local_sha256": "0d43d243a6673604a1fdbfae0e8c4b2ae8dce62f17862af8b74c67d634e81707",
+        "ok": true,
+        "status": 200,
+        "bytes": 31041995,
+        "remote_sha256": "0d43d243a6673604a1fdbfae0e8c4b2ae8dce62f17862af8b74c67d634e81707",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/snow-duel-promo-2026-10-01-credits.html",
+        "local_sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d",
+        "ok": true,
+        "status": 200,
+        "bytes": 1582,
+        "remote_sha256": "923298d5252b9cce93e8acfa305b7ae28271ae82c5aef44afe8699c4bd51186d",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/taste-promo-2026-10-01-credits.html",
+        "local_sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91",
+        "ok": true,
+        "status": 200,
+        "bytes": 1089,
+        "remote_sha256": "18870a98a20173538ab5d3a72a9fd30447abcce0eb697747eabe93e1a5bf3f91",
+        "attempts": 1
+      },
+      {
+        "file": "videos/projects/wbw-promo-2026-10-01-credits.html",
+        "local_sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94",
+        "ok": true,
+        "status": 200,
+        "bytes": 1181,
+        "remote_sha256": "477ee8b0cafb40a593347ae0714fc49249454834341443d69ffcee49e38f8a94",
+        "attempts": 1
+      }
+    ]
+  },
+  "browser": {
+    "passed": true,
+    "environments": [
+      {
+        "name": "desktop",
+        "clips": 7,
+        "details": 18,
+        "passed": true
+      },
+      {
+        "name": "phone",
+        "clips": 7,
+        "details": 18,
+        "passed": true
+      },
+      {
+        "name": "narrow-dark",
+        "clips": 7,
+        "details": 18,
+        "passed": true
+      }
+    ],
+    "no_javascript": "gallery and native players available",
+    "fifth_full_playback": {
+      "ended": true,
+      "duration": 57.5,
+      "error": null,
+      "width": 720,
+      "height": 1280
+    },
+    "phone_no_overflow": true
+  },
+  "deployment": {
+    "build": "deploy.sh produced the verified static tree from clean source.",
+    "transport": "Git HTTPS push stalled twice before transmission; stopped task processes, re-read remote refs, then published the exact same tree with GitHub Git Database API and a non-force ref update.",
+    "tree": "f1fd7f08154062b3c1106b25c24fe8cc899d20e7",
+    "prior_pages": "1f7696cba01fc216242512c427d51de7e7a833c6"
+  },
+  "limits": [
+    "Chromium synthetic viewports; not a physical phone test.",
+    "Media playback and seeking verified; no subjective audio-quality claim.",
+    "Remote media byte identity is checked separately."
+  ],
+  "records": "Later documentation commits are not a new deployed source. Side deployment bookkeeping is separate."
+}

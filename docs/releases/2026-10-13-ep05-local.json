@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-13",
+  "episode": "05 · 紫玻璃菇和蘑菇维度",
+  "version": "v8",
+  "build": {
+    "pages": 19,
+    "cjk_characters": 928,
+    "passed": true
+  },
+  "old_film_entries_unchanged": 6,
+  "old_video_sha256_verified": true,
+  "old_posters_unchanged": true,
+  "browser": {
+    "passed": true,
+    "environments": [
+      {
+        "name": "desktop",
+        "clips": 7,
+        "details": 18,
+        "passed": true
+      },
+      {
+        "name": "phone",
+        "clips": 7,
+        "details": 18,
+        "passed": true
+      },
+      {
+        "name": "narrow-dark",
+        "clips": 7,
+        "details": 18,
+        "passed": true
+      }
+    ],
+    "noJavaScript": "gallery and native players available",
+    "fifth_full_playback": {
+      "ended": true,
+      "duration": 57.5,
+      "error": null,
+      "width": 720,
+      "height": 1280
+    },
+    "phone_no_overflow": true
+  },
+  "visual": "One bounded desktop/390px contact sheet inspected: full vertical frame, title, duration, description and native controls readable without clipping.",
+  "limits": [
+    "Chromium synthetic viewports; not a physical phone test.",
+    "Media playback and seeking verified; no subjective audio-quality claim.",
+    "Remote media byte identity is checked separately."
+  ]
+}
