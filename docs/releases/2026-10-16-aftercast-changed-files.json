@@ -1,0 +1,32 @@
+{
+  "baseline": "e3b4c4a4b01c5df32444447b20eccce103340e34",
+  "published": "b233a2069b7197b6adf0465968a584417917d8ac",
+  "files": [
+    "_astro/index.DeLKU5_y.css",
+    "fonts/hi-sans.woff2",
+    "fonts/hi-song.woff2",
+    "images/projects/aftercast.webp",
+    "index.html",
+    "projects/aftercast/index.html",
+    "projects/aiedu/index.html",
+    "projects/chenchen-atelier/index.html",
+    "projects/dankoe/index.html",
+    "projects/hyrule/index.html",
+    "projects/junlugu/index.html",
+    "projects/junxia-comic/index.html",
+    "projects/junxia-travels/index.html",
+    "projects/lehh/index.html",
+    "projects/little-pause/index.html",
+    "projects/pocket-ged/index.html",
+    "projects/pocofocus/index.html",
+    "projects/qiya-herbarium/index.html",
+    "projects/school-secret-lab/index.html",
+    "projects/snow-duel/index.html",
+    "projects/taste/index.html",
+    "projects/the-perfect-run/index.html",
+    "projects/wbw/index.html",
+    "projects/yuzu-island/index.html",
+    "release.json",
+    "sitemap-0.xml"
+  ]
+}
