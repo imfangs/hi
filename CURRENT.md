@@ -1,5 +1,9 @@
 # 当前状态
 
+## Omarchy 字标与旧日字光（2026-10-17，本地验收完成，待正式发布）
+
+首页采用三词同列字符动效；完整37种屏保在 `/omarchy/`，旧六种Shader保留到 `/experiments/wordlight/`。21个Astro页面、111段录制哈希/解压兼容检查、TypeScript、桌面/390px/深色/减少动态、19详情和搜索返回通过。来源、取舍与验证见 [设计记录](docs/design/2026-10-17-omarchy/README.md)。正式状态待发布后回读。
+
 ## 余音入口（2026-10-16，已发布并回读）
 
 [余音详情](https://hi.fangs.cc/projects/aftercast/)已进入阅读分类与搜索，链接到[aftercast.fangs.cc](https://aftercast.fangs.cc/)及专题包。正式首页截图为1200×750封面，并附图片hash版本；20页构建、合并后941字字体覆盖通过，字体URL附内容hash版本。源码`9d5c206`、Pages`0e63fd2`，GitHub built、普通release.json一致。首轮26/26变更文件匹配，正式封面修订6/6匹配；正式搜索/详情封面/Hi→余音跨站点击通过，本地390px、深色、返回保留查询通过。见[发布回执](docs/releases/2026-10-16-aftercast-publication.json)。

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import Slogan from '../components/Slogan.astro';
+import IdleSlogan from '../components/IdleSlogan.astro';
 import ProjectRow from '../components/ProjectRow.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
@@ -13,7 +13,7 @@ const featured = arrangeExhibition(sortProjects(await getCollection('projects', 
   <SiteHeader />
   <main id="main" class="portfolio shell">
     <header class="intro">
-      <Slogan />
+      <IdleSlogan />
     </header>
     <section id="works" aria-labelledby="works-title">
       <h2 id="works-title" class="sr-only">作品</h2>

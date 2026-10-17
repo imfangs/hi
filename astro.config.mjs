@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://hi.fangs.cc',
-  integrations: [mdx(), sitemap()],
+  integrations: [mdx(), sitemap({ customPages: ['https://hi.fangs.cc/omarchy/'] })],
   vite: {
     plugins: [tailwindcss()],
   },

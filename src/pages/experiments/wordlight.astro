@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+const modes=[['taste','墨色'],['build','成形'],['sell','回响'],['aurora','极光'],['silk','熔彩'],['prism','棱镜']];
+---
+<Base title="旧日字光 · fangs" description="曾在 Hi 首页流动的六种文字材质。墨色、成形、回响、极光、熔彩与棱镜，留在这里慢慢玩。">
+  <SiteHeader />
+  <main id="main" class="shell wordlight">
+    <div class="wordlight-heading"><div><p>文字实验 · 2026.10</p><h2>旧日字光</h2></div><a href="/omarchy/">去看 Omarchy 字符屏保 ↗</a></div>
+    <nav class="wordlight-modes" aria-label="选择文字材质">{modes.map(([id,label])=><button type="button" data-mode={id} aria-pressed={id==='taste'}>{label}</button>)}</nav>
+    <section class="intro">
+      <div class="slogan-stage" data-slogan tabindex="0" aria-label="Taste. Build. Sell. 互动口号">
+        <h1 class="intro-slogan" lang="en"><span class="slogan-word">Taste.</span> <span class="slogan-word">Build.</span> <span class="slogan-word">Sell.</span></h1>
+        <canvas aria-hidden="true" style="width:100%;height:100%"></canvas>
+      </div>
+    </section>
+    <div class="wordlight-controls"><p data-mode-description>在字上慢慢划过，让朱砂融入墨色。</p><button data-pause type="button">暂停动态</button></div>
+    <label class="wordlight-progress" data-progress-label hidden>成形 <input data-progress type="range" min="0" max="100" value="100"/><output data-amount>100%</output></label>
+    <p class="wordlight-note">这些光曾在首页停留。换了新的表达，也给旧的喜欢留个地方。<br/><a href="https://github.com/shader-effects-inc/shaders" target="_blank" rel="noreferrer">Made with Shaders ↗</a></p>
+    <p class="wordlight-status" role="status" data-status>正在准备…</p>
+  </main>
+  <SiteFooter />
+</Base>
+<script>
+  import {attachSlogan,effects,names} from '../../scripts/slogan-effects.js';
+  const stage=document.querySelector('[data-slogan]') as HTMLElement;
+  const pause=document.querySelector('[data-pause]') as HTMLButtonElement;
+  const progress=document.querySelector('[data-progress]') as HTMLInputElement;
+  const description=document.querySelector('[data-mode-description]')!;
+  const status=document.querySelector('[data-status]')!;
+  const descriptions={taste:'在字上慢慢划过，让朱砂融入墨色。',build:'颗粒缓缓散开、聚拢。也可以拖动进度，停在喜欢的形状。',sell:'点击文字，或聚焦后按 Enter，让回响穿过整句话。',aurora:'青绿、紫与蓝，一点光在字里缓缓流过。',silk:'色彩像液体交融，让想法自由流动。',prism:'点击不同的位置，看光线在字里折射。'};
+  let control:Awaited<ReturnType<typeof attachSlogan>>|undefined,token=0,paused=matchMedia('(prefers-reduced-motion:reduce)').matches,current='taste';
+  async function select(mode:string){
+    current=mode;const ticket=++token;control?.destroy();control=undefined;
+    document.querySelectorAll<HTMLElement>('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));
+    description.textContent=descriptions[mode as keyof typeof descriptions];
+    (document.querySelector('[data-progress-label]') as HTMLElement).hidden=mode!=='build';
+    const url=new URL(location.href);url.searchParams.set('effect',mode);history.replaceState(null,'',url);
+    const next=await attachSlogan(stage,{mode,onProgress(value:number){if(ticket!==token)return;progress.value=String(value);document.querySelector('[data-amount]')!.textContent=Math.round(value)+'%';},onState(state:string){if(ticket===token)status.textContent=state==='ready'?`${names[mode as keyof typeof names]} · 可以互动`:'静态文字 · 当前设备或动态偏好';}});
+    if(ticket!==token){next.destroy();return;}control=next;control.pause(paused);pause.textContent=paused?'继续动态':'暂停动态';
+  }
+  document.querySelectorAll<HTMLElement>('[data-mode]').forEach(b=>b.onclick=()=>select(b.dataset.mode!));
+  pause.onclick=()=>{paused=!paused;control?.pause(paused);pause.textContent=paused?'继续动态':'暂停动态';};
+  progress.oninput=()=>control?.progress(Number(progress.value));
+  const initial=new URLSearchParams(location.search).get('effect');select(initial&&effects.includes(initial)?initial:'taste');
+  addEventListener('pagehide',()=>{token++;control?.destroy();});addEventListener('pageshow',e=>{if(e.persisted)select(current);});
+</script>
+<style>
+.wordlight{padding-top:55px;padding-bottom:90px;min-height:70vh}.wordlight-heading{display:flex;justify-content:space-between;align-items:end;gap:20px}.wordlight-heading p{font:12px/1.6 var(--font-sans);color:var(--color-ink-muted);margin-bottom:14px}.wordlight-heading h2{font-size:36px}.wordlight-heading>a{font:12px/1.6 var(--font-sans);min-height:44px;display:flex;align-items:center}.wordlight-modes{display:flex;gap:26px;flex-wrap:wrap;margin-top:45px;padding-bottom:12px;border-bottom:1px solid var(--color-rule)}.wordlight-modes button{border:0;background:none;min-height:44px;padding:0;color:var(--color-ink-muted);font-size:14px}.wordlight-modes button[aria-pressed=true]{color:var(--color-accent)}.wordlight .intro{padding:90px 0}.wordlight-controls{display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:14px;color:var(--color-ink-muted)}.wordlight-controls button{border:1px solid var(--color-rule);background:none;padding:10px 18px;min-height:44px;flex-shrink:0}.wordlight-progress{display:flex;gap:15px;align-items:center;margin-top:24px;font-size:12px}.wordlight-progress input{width:min(320px,55vw);accent-color:var(--color-accent)}.wordlight-note{font-size:13px;line-height:2;color:var(--color-ink-muted);margin-top:55px}.wordlight-note a{display:inline-flex;min-height:44px;align-items:center}.wordlight-status{font-size:11px;color:var(--color-ink-muted);margin-top:15px}@media(max-width:700px){.wordlight{padding-top:30px}.wordlight-heading{align-items:start;flex-direction:column}.wordlight-heading h2{font-size:30px}.wordlight-modes{gap:22px;margin-top:24px}.wordlight .intro{padding:65px 0}.wordlight-controls{font-size:12px;align-items:start}}
+</style>
