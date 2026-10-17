@@ -1,6 +1,8 @@
+import {effects} from '../../public/omarchy/manifest.json';
+
 export function attachIdleHero(stage) {
   const words=['TASTE','BUILD','SELL'];
-  const effects=['beams','decrypt','waves','scattered','rain','laseretch','synthgrid','colorshift'];
+  stage.dataset.effectCount=String(effects.length);
   const canvases=[...stage.querySelectorAll('canvas')],button=stage.querySelector('[data-idle-pause]');
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
   let engine,recordings=[],effectIndex=0,elapsed=0,last=0,raf=0,frames=[-1,-1,-1],visible=true,paused=false,controller,version=0,loading=false,suspended=false;

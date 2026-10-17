@@ -1,5 +1,9 @@
 # 当前状态
 
+## 首页完整轮播（2026-10-17，本地验证完成，待发布）
+
+按方帅要求将首页从八种筛选改为全部37种，直接读取录制manifest；每种结束停留4秒，播完从头循环。111录制核验、构建、TypeScript和浏览器实际进入新增binarypath、暂停/继续通过。
+
 ## Omarchy 字标与旧日字光（2026-10-17，已发布并回读）
 
 [首页](https://hi.fangs.cc/)采用三词同列字符动画；[Omarchy致敬页](https://hi.fangs.cc/omarchy/)提供37种效果×三字标；原六种Shader完整保留到[旧日字光](https://hi.fangs.cc/experiments/wordlight/)，原引擎字节未改。
