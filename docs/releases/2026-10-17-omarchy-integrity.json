@@ -1,0 +1,1297 @@
+{
+  "date": "2026-10-17",
+  "source": "613e5ab3f705e6604514b2557fab43c89ed038b1",
+  "pages": "5b654bb7cf7448b9a5698145f9334eadd6ca0223",
+  "matched": 143,
+  "total": 143,
+  "results": [
+    {
+      "path": "_astro/wordlight.astro_astro_type_script_index_0_lang.UeSiQS1e.js",
+      "sha256": "f4c75216267dec4f725c77b3865b33700bfb11da0220a4fd6f8f8ac71f509a9b",
+      "bytes": 8308,
+      "url": "https://hi.fangs.cc/_astro/wordlight.astro_astro_type_script_index_0_lang.UeSiQS1e.js",
+      "status": 200,
+      "actual_sha256": "f4c75216267dec4f725c77b3865b33700bfb11da0220a4fd6f8f8ac71f509a9b",
+      "ok": true
+    },
+    {
+      "path": "experiments/wordlight/index.html",
+      "sha256": "31b1cd196eb4365b4ec2d04de0738ab91e5b8f4fc251977732c33311ce811f54",
+      "bytes": 10965,
+      "url": "https://hi.fangs.cc/experiments/wordlight/index.html",
+      "status": 200,
+      "actual_sha256": "31b1cd196eb4365b4ec2d04de0738ab91e5b8f4fc251977732c33311ce811f54",
+      "ok": true
+    },
+    {
+      "path": "fonts/hi-sans.woff2",
+      "sha256": "b7fffc8da5dfff5823ef17e37f93d6e60c2c113f3c985a4a041c93b075ad9c9b",
+      "bytes": 284152,
+      "url": "https://hi.fangs.cc/fonts/hi-sans.woff2",
+      "status": 200,
+      "actual_sha256": "b7fffc8da5dfff5823ef17e37f93d6e60c2c113f3c985a4a041c93b075ad9c9b",
+      "ok": true
+    },
+    {
+      "path": "fonts/hi-song.woff2",
+      "sha256": "ae7dc44c576f642158ef5a0a048571fa65413d2d676a27ff7461e4f805081b91",
+      "bytes": 369016,
+      "url": "https://hi.fangs.cc/fonts/hi-song.woff2",
+      "status": 200,
+      "actual_sha256": "ae7dc44c576f642158ef5a0a048571fa65413d2d676a27ff7461e4f805081b91",
+      "ok": true
+    },
+    {
+      "path": "index.html",
+      "sha256": "bc234da1b4d59dbc2a7cd7f6b25c19d52377f9f6292619d82892d79bcffd6424",
+      "bytes": 40804,
+      "url": "https://hi.fangs.cc/index.html",
+      "status": 200,
+      "actual_sha256": "bc234da1b4d59dbc2a7cd7f6b25c19d52377f9f6292619d82892d79bcffd6424",
+      "ok": true
+    },
+    {
+      "path": "omarchy/TTE-LICENSE.txt",
+      "sha256": "3fcebf231b8ef157211a2f334431563e7227984f5f7187baa98d227246bab5c4",
+      "bytes": 1072,
+      "url": "https://hi.fangs.cc/omarchy/TTE-LICENSE.txt",
+      "status": 200,
+      "actual_sha256": "3fcebf231b8ef157211a2f334431563e7227984f5f7187baa98d227246bab5c4",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-beams.json.gz",
+      "sha256": "5b8259a6788d6201b8c2812ae452fa494c74178b2c34fd0b45e56b77e5766c52",
+      "bytes": 156767,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-beams.json.gz",
+      "status": 200,
+      "actual_sha256": "5b8259a6788d6201b8c2812ae452fa494c74178b2c34fd0b45e56b77e5766c52",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-binarypath.json.gz",
+      "sha256": "5c41a75c83342f81940ff8078cddb8fcf394fc391b61f379c5e74b7d1e92dc05",
+      "bytes": 130615,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-binarypath.json.gz",
+      "status": 200,
+      "actual_sha256": "5c41a75c83342f81940ff8078cddb8fcf394fc391b61f379c5e74b7d1e92dc05",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-blackhole.json.gz",
+      "sha256": "000b4bde1a068f67eba9c43b598ffe9c559c42c34794c22c720aee6a0864156f",
+      "bytes": 97131,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-blackhole.json.gz",
+      "status": 200,
+      "actual_sha256": "000b4bde1a068f67eba9c43b598ffe9c559c42c34794c22c720aee6a0864156f",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-bouncyballs.json.gz",
+      "sha256": "28dc1c9e09e9c2ac03f121093448fae549f3538b04c4b0cbfa8db023ee1e14bc",
+      "bytes": 49454,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-bouncyballs.json.gz",
+      "status": 200,
+      "actual_sha256": "28dc1c9e09e9c2ac03f121093448fae549f3538b04c4b0cbfa8db023ee1e14bc",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-bubbles.json.gz",
+      "sha256": "0636f7bdca395ae6b3553b1d58c388903fb5d27a35a11b1c0abcbe8aa94bb76c",
+      "bytes": 54085,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-bubbles.json.gz",
+      "status": 200,
+      "actual_sha256": "0636f7bdca395ae6b3553b1d58c388903fb5d27a35a11b1c0abcbe8aa94bb76c",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-burn.json.gz",
+      "sha256": "5efae46b2436aae835c3c41b47ad5d6b680ecd5387b5dea07973da8bf2ce70d6",
+      "bytes": 55268,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-burn.json.gz",
+      "status": 200,
+      "actual_sha256": "5efae46b2436aae835c3c41b47ad5d6b680ecd5387b5dea07973da8bf2ce70d6",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-colorshift.json.gz",
+      "sha256": "46ab32e218ad706948347617de9f9820d0d9e76e24f0a78402ae40ebdf346ba1",
+      "bytes": 97293,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-colorshift.json.gz",
+      "status": 200,
+      "actual_sha256": "46ab32e218ad706948347617de9f9820d0d9e76e24f0a78402ae40ebdf346ba1",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-crumble.json.gz",
+      "sha256": "0b0440145cd4c09ebd3f3864f5e01783fec7a18acd9d5bd713c52bc7612b5450",
+      "bytes": 49367,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-crumble.json.gz",
+      "status": 200,
+      "actual_sha256": "0b0440145cd4c09ebd3f3864f5e01783fec7a18acd9d5bd713c52bc7612b5450",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-decrypt.json.gz",
+      "sha256": "07d24643cca358dd91d5cabc5614e79eed8556cd521452aed9408202c61c9032",
+      "bytes": 120749,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-decrypt.json.gz",
+      "status": 200,
+      "actual_sha256": "07d24643cca358dd91d5cabc5614e79eed8556cd521452aed9408202c61c9032",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-errorcorrect.json.gz",
+      "sha256": "6ccd6d4fb68c24086164ea501a75cbba099645c3585bec31cb127c12037b6843",
+      "bytes": 34451,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-errorcorrect.json.gz",
+      "status": 200,
+      "actual_sha256": "6ccd6d4fb68c24086164ea501a75cbba099645c3585bec31cb127c12037b6843",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-expand.json.gz",
+      "sha256": "1535084c88b124b90fc6bc16e3e1c243134de1ca1c6c1600f3af38e5a12edc3f",
+      "bytes": 7543,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-expand.json.gz",
+      "status": 200,
+      "actual_sha256": "1535084c88b124b90fc6bc16e3e1c243134de1ca1c6c1600f3af38e5a12edc3f",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-fireworks.json.gz",
+      "sha256": "62cc90f5bace567bb0195ea968f19690b100c7b6b467b547b7dacf85741640ce",
+      "bytes": 111233,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-fireworks.json.gz",
+      "status": 200,
+      "actual_sha256": "62cc90f5bace567bb0195ea968f19690b100c7b6b467b547b7dacf85741640ce",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-highlight.json.gz",
+      "sha256": "fd1fada5898f9466f8bb3cbedaa7af529b8086c95813fa23966205765745fd1d",
+      "bytes": 11586,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-highlight.json.gz",
+      "status": 200,
+      "actual_sha256": "fd1fada5898f9466f8bb3cbedaa7af529b8086c95813fa23966205765745fd1d",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-laseretch.json.gz",
+      "sha256": "8c897e09766155f64ca4c2c91a12ad08975a51ad4cebf3bec94ddfccb0fe80fd",
+      "bytes": 99856,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-laseretch.json.gz",
+      "status": 200,
+      "actual_sha256": "8c897e09766155f64ca4c2c91a12ad08975a51ad4cebf3bec94ddfccb0fe80fd",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-matrix.json.gz",
+      "sha256": "fc6e512909f865dd1713025db9aba44f2b24b6406b78a9008fdc1f9723136929",
+      "bytes": 1741026,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-matrix.json.gz",
+      "status": 200,
+      "actual_sha256": "fc6e512909f865dd1713025db9aba44f2b24b6406b78a9008fdc1f9723136929",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-middleout.json.gz",
+      "sha256": "526c6c2108995572132387b945b76ccac595757314cb37ff3cdbd423291c5449",
+      "bytes": 5837,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-middleout.json.gz",
+      "status": 200,
+      "actual_sha256": "526c6c2108995572132387b945b76ccac595757314cb37ff3cdbd423291c5449",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-orbittingvolley.json.gz",
+      "sha256": "1bb477bda4cc525dfffa4dced4acc9daa434c69baa7a9dadad9c0da667c4a3f5",
+      "bytes": 92954,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-orbittingvolley.json.gz",
+      "status": 200,
+      "actual_sha256": "1bb477bda4cc525dfffa4dced4acc9daa434c69baa7a9dadad9c0da667c4a3f5",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-overflow.json.gz",
+      "sha256": "f5198b5e7e7e4a864cc9b0bb57aa17b00221d3291bf6b69a103d4b720cfeedb2",
+      "bytes": 12253,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-overflow.json.gz",
+      "status": 200,
+      "actual_sha256": "f5198b5e7e7e4a864cc9b0bb57aa17b00221d3291bf6b69a103d4b720cfeedb2",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-pour.json.gz",
+      "sha256": "f19705b458619e86c1bea8c230ac86b92b51cf30c696d7d2d12d20336d15aa08",
+      "bytes": 26217,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-pour.json.gz",
+      "status": 200,
+      "actual_sha256": "f19705b458619e86c1bea8c230ac86b92b51cf30c696d7d2d12d20336d15aa08",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-print.json.gz",
+      "sha256": "898a1a1e762753fb931f26e9425da8321ab46ae34d4b0a5a131ca4e5e5520763",
+      "bytes": 49396,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-print.json.gz",
+      "ok": true,
+      "first_attempt_error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>",
+      "status": 200,
+      "actual_sha256": "898a1a1e762753fb931f26e9425da8321ab46ae34d4b0a5a131ca4e5e5520763"
+    },
+    {
+      "path": "omarchy/animations/build-rain.json.gz",
+      "sha256": "804eb83d1fa0685b05f926b335e989088ddb036beb57f12facdbfccc9f24d2aa",
+      "bytes": 29549,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-rain.json.gz",
+      "status": 200,
+      "actual_sha256": "804eb83d1fa0685b05f926b335e989088ddb036beb57f12facdbfccc9f24d2aa",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-randomsequence.json.gz",
+      "sha256": "be52804045b33e6c2cb8eb34f11be65eb463040471813418799e045505637b86",
+      "bytes": 21722,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-randomsequence.json.gz",
+      "status": 200,
+      "actual_sha256": "be52804045b33e6c2cb8eb34f11be65eb463040471813418799e045505637b86",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-rings.json.gz",
+      "sha256": "0f06809dd366bd053c0910755fc2c1b2e2e4c5ed35819548086d54174babc206",
+      "bytes": 227624,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-rings.json.gz",
+      "status": 200,
+      "actual_sha256": "0f06809dd366bd053c0910755fc2c1b2e2e4c5ed35819548086d54174babc206",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-scattered.json.gz",
+      "sha256": "608dbc2c90718fe98464e3f3bf35f083d227db199ed95efb2ae6a556b13569b0",
+      "bytes": 25783,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-scattered.json.gz",
+      "status": 200,
+      "actual_sha256": "608dbc2c90718fe98464e3f3bf35f083d227db199ed95efb2ae6a556b13569b0",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-slice.json.gz",
+      "sha256": "153cd8e7d53858d1571306863340b22323444ebd68cac1560ea4e43b324330e0",
+      "bytes": 8158,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-slice.json.gz",
+      "status": 200,
+      "actual_sha256": "153cd8e7d53858d1571306863340b22323444ebd68cac1560ea4e43b324330e0",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-slide.json.gz",
+      "sha256": "79040a02dad926e40de5cefba8e73458c7f352e46081cd517023cf115f307106",
+      "bytes": 9808,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-slide.json.gz",
+      "status": 200,
+      "actual_sha256": "79040a02dad926e40de5cefba8e73458c7f352e46081cd517023cf115f307106",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-smoke.json.gz",
+      "sha256": "3ce3f1d49a1bbb507d005779be7af90ff7969619b1d078509e9dc6c5230129fd",
+      "bytes": 80027,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-smoke.json.gz",
+      "status": 200,
+      "actual_sha256": "3ce3f1d49a1bbb507d005779be7af90ff7969619b1d078509e9dc6c5230129fd",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-spotlights.json.gz",
+      "sha256": "ee03b25ef0a0df6da4a05cde99863b45e1b25cbcc1ef894ed71af008d0e1f697",
+      "bytes": 82088,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-spotlights.json.gz",
+      "status": 200,
+      "actual_sha256": "ee03b25ef0a0df6da4a05cde99863b45e1b25cbcc1ef894ed71af008d0e1f697",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-spray.json.gz",
+      "sha256": "16b88245263cdecf1a727239242ab6936bd848d5770e4e623d07b5365d693ebe",
+      "bytes": 40956,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-spray.json.gz",
+      "status": 200,
+      "actual_sha256": "16b88245263cdecf1a727239242ab6936bd848d5770e4e623d07b5365d693ebe",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-swarm.json.gz",
+      "sha256": "c901535b4591edae25244724ec2a207c7c27443555c2f5212c187519ce4385db",
+      "bytes": 175079,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-swarm.json.gz",
+      "status": 200,
+      "actual_sha256": "c901535b4591edae25244724ec2a207c7c27443555c2f5212c187519ce4385db",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-sweep.json.gz",
+      "sha256": "e9a6971931d6d57340bfee7af3aba70263355f80644195d0fe8d4263e8412943",
+      "bytes": 110611,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-sweep.json.gz",
+      "status": 200,
+      "actual_sha256": "e9a6971931d6d57340bfee7af3aba70263355f80644195d0fe8d4263e8412943",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-synthgrid.json.gz",
+      "sha256": "ec433a82328297fa39cf76ee553ab8c408c43cbc2563a12293de9936068b91c0",
+      "bytes": 209417,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-synthgrid.json.gz",
+      "status": 200,
+      "actual_sha256": "ec433a82328297fa39cf76ee553ab8c408c43cbc2563a12293de9936068b91c0",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-thunderstorm.json.gz",
+      "sha256": "83788a6b1a1310fbfa0ee5242e63a1c97c23d42bab9490625055e90dfa68ed27",
+      "bytes": 133976,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-thunderstorm.json.gz",
+      "status": 200,
+      "actual_sha256": "83788a6b1a1310fbfa0ee5242e63a1c97c23d42bab9490625055e90dfa68ed27",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-unstable.json.gz",
+      "sha256": "08bfde427cf12e050bf8fdaf2500f1380bf85562ca1eb2bde3881aaf8c80b4d7",
+      "bytes": 27348,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-unstable.json.gz",
+      "status": 200,
+      "actual_sha256": "08bfde427cf12e050bf8fdaf2500f1380bf85562ca1eb2bde3881aaf8c80b4d7",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-vhstape.json.gz",
+      "sha256": "981213dda9859a543f6e0a53e583b3224e6e35525f3fe06ef8e01860ba10d21f",
+      "bytes": 74486,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-vhstape.json.gz",
+      "status": 200,
+      "actual_sha256": "981213dda9859a543f6e0a53e583b3224e6e35525f3fe06ef8e01860ba10d21f",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-waves.json.gz",
+      "sha256": "6f64832aa138ac073191291c4be267efcd13f74a051d05e58c870d9a22ed8114",
+      "bytes": 43085,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-waves.json.gz",
+      "status": 200,
+      "actual_sha256": "6f64832aa138ac073191291c4be267efcd13f74a051d05e58c870d9a22ed8114",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/build-wipe.json.gz",
+      "sha256": "0d47bf05c668f915101ed7a1dea499f51f3a4ddb894ddca2fc0c2a18de271c00",
+      "bytes": 11466,
+      "url": "https://hi.fangs.cc/omarchy/animations/build-wipe.json.gz",
+      "status": 200,
+      "actual_sha256": "0d47bf05c668f915101ed7a1dea499f51f3a4ddb894ddca2fc0c2a18de271c00",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-beams.json.gz",
+      "sha256": "84d1fc38905605ffd267c1096693e405f6831ee4c19ee63c3adffeeb33f10541",
+      "bytes": 152696,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-beams.json.gz",
+      "status": 200,
+      "actual_sha256": "84d1fc38905605ffd267c1096693e405f6831ee4c19ee63c3adffeeb33f10541",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-binarypath.json.gz",
+      "sha256": "90a2ab9a35b47d375ce3376d0527727e51fe1bfe7153963e9ee15e6c32a343db",
+      "bytes": 91453,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-binarypath.json.gz",
+      "status": 200,
+      "actual_sha256": "90a2ab9a35b47d375ce3376d0527727e51fe1bfe7153963e9ee15e6c32a343db",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-blackhole.json.gz",
+      "sha256": "81c0edca59dafa71b57838ca866ecf628ad132183b6eb07c6bb384e11f085a3c",
+      "bytes": 68258,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-blackhole.json.gz",
+      "status": 200,
+      "actual_sha256": "81c0edca59dafa71b57838ca866ecf628ad132183b6eb07c6bb384e11f085a3c",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-bouncyballs.json.gz",
+      "sha256": "750fba9dc00471f246fd7dbeafab2d67d7aaccdae855cbf13855b8c8a0466940",
+      "bytes": 27989,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-bouncyballs.json.gz",
+      "status": 200,
+      "actual_sha256": "750fba9dc00471f246fd7dbeafab2d67d7aaccdae855cbf13855b8c8a0466940",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-bubbles.json.gz",
+      "sha256": "1f121d44e4193c0b0e8f893c8fc8434265bacc79469bfce2140372cc1c665a6d",
+      "bytes": 36749,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-bubbles.json.gz",
+      "status": 200,
+      "actual_sha256": "1f121d44e4193c0b0e8f893c8fc8434265bacc79469bfce2140372cc1c665a6d",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-burn.json.gz",
+      "sha256": "52d58447c118d9a0806ec5cd069b3e02f59bc41de446154adbc13e09a46f5087",
+      "bytes": 35406,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-burn.json.gz",
+      "status": 200,
+      "actual_sha256": "52d58447c118d9a0806ec5cd069b3e02f59bc41de446154adbc13e09a46f5087",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-colorshift.json.gz",
+      "sha256": "40f8d6cf9316027d5fb9a018d4645ffc1adbd620a6c6854b941c3a38e78bb9e4",
+      "bytes": 74694,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-colorshift.json.gz",
+      "status": 200,
+      "actual_sha256": "40f8d6cf9316027d5fb9a018d4645ffc1adbd620a6c6854b941c3a38e78bb9e4",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-crumble.json.gz",
+      "sha256": "e162b01369351ec612202ffdcd8f94f001d20bab15b618a78a755919d9325ea1",
+      "bytes": 32370,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-crumble.json.gz",
+      "status": 200,
+      "actual_sha256": "e162b01369351ec612202ffdcd8f94f001d20bab15b618a78a755919d9325ea1",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-decrypt.json.gz",
+      "sha256": "f122f33c1a829f91fc2ba6688f8c8a18756c5896dc901ac782850dd21dcfda86",
+      "bytes": 78769,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-decrypt.json.gz",
+      "status": 200,
+      "actual_sha256": "f122f33c1a829f91fc2ba6688f8c8a18756c5896dc901ac782850dd21dcfda86",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-errorcorrect.json.gz",
+      "sha256": "0c140a90e15e43c3060497fac7fd283c8bab78f4c828a5a9c1bf8b4092e9da1c",
+      "bytes": 19875,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-errorcorrect.json.gz",
+      "status": 200,
+      "actual_sha256": "0c140a90e15e43c3060497fac7fd283c8bab78f4c828a5a9c1bf8b4092e9da1c",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-expand.json.gz",
+      "sha256": "c2ab470c61551a69e68eb5fea393eb51442853fc9b265000f3718371e4608fe7",
+      "bytes": 4795,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-expand.json.gz",
+      "status": 200,
+      "actual_sha256": "c2ab470c61551a69e68eb5fea393eb51442853fc9b265000f3718371e4608fe7",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-fireworks.json.gz",
+      "sha256": "1f35f8794252c1801969799c963e97af30a43edcd0935073fbd8da56974dcb57",
+      "bytes": 76567,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-fireworks.json.gz",
+      "status": 200,
+      "actual_sha256": "1f35f8794252c1801969799c963e97af30a43edcd0935073fbd8da56974dcb57",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-highlight.json.gz",
+      "sha256": "c5af12984f189880591807ea99da20fa00083593830306d677c7a1eaa32d6007",
+      "bytes": 8322,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-highlight.json.gz",
+      "status": 200,
+      "actual_sha256": "c5af12984f189880591807ea99da20fa00083593830306d677c7a1eaa32d6007",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-laseretch.json.gz",
+      "sha256": "26c1b3f0a373a1c9d018fa3e9fd8c851b7bdbd5fd9098761c70028551810fc54",
+      "bytes": 63706,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-laseretch.json.gz",
+      "status": 200,
+      "actual_sha256": "26c1b3f0a373a1c9d018fa3e9fd8c851b7bdbd5fd9098761c70028551810fc54",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-matrix.json.gz",
+      "sha256": "9efd53a4830ee3dc7e61106aa501f69ffa9e6db8345b4fe9cf43830989221c0c",
+      "bytes": 2141551,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-matrix.json.gz",
+      "status": 200,
+      "actual_sha256": "9efd53a4830ee3dc7e61106aa501f69ffa9e6db8345b4fe9cf43830989221c0c",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-middleout.json.gz",
+      "sha256": "732b6e7dc28d86a38a356cf4416d730eee006cda9fdf3c014e8b389ab68c0136",
+      "bytes": 4519,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-middleout.json.gz",
+      "status": 200,
+      "actual_sha256": "732b6e7dc28d86a38a356cf4416d730eee006cda9fdf3c014e8b389ab68c0136",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-orbittingvolley.json.gz",
+      "sha256": "9dceafe2a6f8081f6fd92c41b2e8d9618faf151b0512037d59ba9a1c28badf64",
+      "bytes": 52607,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-orbittingvolley.json.gz",
+      "status": 200,
+      "actual_sha256": "9dceafe2a6f8081f6fd92c41b2e8d9618faf151b0512037d59ba9a1c28badf64",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-overflow.json.gz",
+      "sha256": "3d5779ccd57c8651f61169919953b0107bee72d99f195b90b90be73fb2892782",
+      "bytes": 11433,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-overflow.json.gz",
+      "status": 200,
+      "actual_sha256": "3d5779ccd57c8651f61169919953b0107bee72d99f195b90b90be73fb2892782",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-pour.json.gz",
+      "sha256": "095bae2b83270b96ba2dde366f240b9e701820f75f88472c66a7e24ff4966215",
+      "bytes": 15764,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-pour.json.gz",
+      "status": 200,
+      "actual_sha256": "095bae2b83270b96ba2dde366f240b9e701820f75f88472c66a7e24ff4966215",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-print.json.gz",
+      "sha256": "e9779256dd59e02d99f611e13ea3015e055d964ae1cf1dcea30e9e4903daf730",
+      "bytes": 26687,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-print.json.gz",
+      "status": 200,
+      "actual_sha256": "e9779256dd59e02d99f611e13ea3015e055d964ae1cf1dcea30e9e4903daf730",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-rain.json.gz",
+      "sha256": "c4a0ce074e1e1556c912d6d7ec8004f45b2ccbb73d087cf05de2229852c90034",
+      "bytes": 18284,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-rain.json.gz",
+      "status": 200,
+      "actual_sha256": "c4a0ce074e1e1556c912d6d7ec8004f45b2ccbb73d087cf05de2229852c90034",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-randomsequence.json.gz",
+      "sha256": "abcde9fc84b153b0a35992e0bf438b689aecdcaca3b4f4e772dd630feee83904",
+      "bytes": 12194,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-randomsequence.json.gz",
+      "status": 200,
+      "actual_sha256": "abcde9fc84b153b0a35992e0bf438b689aecdcaca3b4f4e772dd630feee83904",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-rings.json.gz",
+      "sha256": "5a675dc523ce9856b0a05de980c387cc9d3abed9401da2313203399df516647e",
+      "bytes": 154881,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-rings.json.gz",
+      "status": 200,
+      "actual_sha256": "5a675dc523ce9856b0a05de980c387cc9d3abed9401da2313203399df516647e",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-scattered.json.gz",
+      "sha256": "d900f59079cffba5b578a874f5ab577e3793287b526bb0c056086ec5284c8596",
+      "bytes": 17481,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-scattered.json.gz",
+      "status": 200,
+      "actual_sha256": "d900f59079cffba5b578a874f5ab577e3793287b526bb0c056086ec5284c8596",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-slice.json.gz",
+      "sha256": "4a7f718eb5d0d4413f4a8fd30585e0ef8c7595dceed59562ca4ad586f692228b",
+      "bytes": 5929,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-slice.json.gz",
+      "status": 200,
+      "actual_sha256": "4a7f718eb5d0d4413f4a8fd30585e0ef8c7595dceed59562ca4ad586f692228b",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-slide.json.gz",
+      "sha256": "d1e309c3347a34d14c0ed19f4edde2af502047012ceb02aada25ef9e013ef3ed",
+      "bytes": 7581,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-slide.json.gz",
+      "status": 200,
+      "actual_sha256": "d1e309c3347a34d14c0ed19f4edde2af502047012ceb02aada25ef9e013ef3ed",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-smoke.json.gz",
+      "sha256": "96cf637ed05422a26a9eb31097d599115b8592f571fb0d365fb2f3a359287122",
+      "bytes": 58410,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-smoke.json.gz",
+      "status": 200,
+      "actual_sha256": "96cf637ed05422a26a9eb31097d599115b8592f571fb0d365fb2f3a359287122",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-spotlights.json.gz",
+      "sha256": "1cf927689c3b15e0235c5f7fc179a0b8fed2fdea0c10e07a1b7e1740faeaadfd",
+      "bytes": 62072,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-spotlights.json.gz",
+      "status": 200,
+      "actual_sha256": "1cf927689c3b15e0235c5f7fc179a0b8fed2fdea0c10e07a1b7e1740faeaadfd",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-spray.json.gz",
+      "sha256": "4ee2af2d1c2cd6f8537aadf634a3364f368edd5b8f0e05484eee2c8e11f78088",
+      "bytes": 24811,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-spray.json.gz",
+      "status": 200,
+      "actual_sha256": "4ee2af2d1c2cd6f8537aadf634a3364f368edd5b8f0e05484eee2c8e11f78088",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-swarm.json.gz",
+      "sha256": "6dcdb9cdc64858590c1f13573afe2c529dec9e40f89c3a250525b348ff7d175d",
+      "bytes": 156064,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-swarm.json.gz",
+      "status": 200,
+      "actual_sha256": "6dcdb9cdc64858590c1f13573afe2c529dec9e40f89c3a250525b348ff7d175d",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-sweep.json.gz",
+      "sha256": "c3991aad426139c19f0877148392ad461285c855eae4e25df47bab67bee0548c",
+      "bytes": 107727,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-sweep.json.gz",
+      "status": 200,
+      "actual_sha256": "c3991aad426139c19f0877148392ad461285c855eae4e25df47bab67bee0548c",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-synthgrid.json.gz",
+      "sha256": "4db1e569cdfc3514d42512803bec0c269bdc63c14bb2c51bdd0e41740b088cef",
+      "bytes": 211711,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-synthgrid.json.gz",
+      "status": 200,
+      "actual_sha256": "4db1e569cdfc3514d42512803bec0c269bdc63c14bb2c51bdd0e41740b088cef",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-thunderstorm.json.gz",
+      "sha256": "17ee1a9a4ceb81dc811c5874e35a004a60122dc4bfdc8ad654562aedf58ccdf2",
+      "bytes": 139287,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-thunderstorm.json.gz",
+      "status": 200,
+      "actual_sha256": "17ee1a9a4ceb81dc811c5874e35a004a60122dc4bfdc8ad654562aedf58ccdf2",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-unstable.json.gz",
+      "sha256": "4ffb9ee729b7ba8f4d2152b30639177a89528dd24a4cf408cdd2c8927e529fbd",
+      "bytes": 19962,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-unstable.json.gz",
+      "status": 200,
+      "actual_sha256": "4ffb9ee729b7ba8f4d2152b30639177a89528dd24a4cf408cdd2c8927e529fbd",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-vhstape.json.gz",
+      "sha256": "653faa1902f22d5b77fdace656c4639274a34928573f9ab4795f5bf861bad941",
+      "bytes": 56603,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-vhstape.json.gz",
+      "status": 200,
+      "actual_sha256": "653faa1902f22d5b77fdace656c4639274a34928573f9ab4795f5bf861bad941",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-waves.json.gz",
+      "sha256": "0871acc483b37c2d77f9e16c1b4d4586cb0f1a8ba014c6d2322b313e90f157a8",
+      "bytes": 33327,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-waves.json.gz",
+      "status": 200,
+      "actual_sha256": "0871acc483b37c2d77f9e16c1b4d4586cb0f1a8ba014c6d2322b313e90f157a8",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/sell-wipe.json.gz",
+      "sha256": "5a467b93d2ac30cc687bb7a3c166ad0aa994b69c6b23df7f1335d4ec10d6da98",
+      "bytes": 8312,
+      "url": "https://hi.fangs.cc/omarchy/animations/sell-wipe.json.gz",
+      "status": 200,
+      "actual_sha256": "5a467b93d2ac30cc687bb7a3c166ad0aa994b69c6b23df7f1335d4ec10d6da98",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-beams.json.gz",
+      "sha256": "c33008d6be1bdc3f349331214a8d7049b1cc185efdd04eb1d8f6da7d24a39c27",
+      "bytes": 147676,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-beams.json.gz",
+      "status": 200,
+      "actual_sha256": "c33008d6be1bdc3f349331214a8d7049b1cc185efdd04eb1d8f6da7d24a39c27",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-binarypath.json.gz",
+      "sha256": "607ae1cb6ef66d8baabe9c7bd42d5607e5ad941a0a711d60d7175c0f718d8497",
+      "bytes": 110531,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-binarypath.json.gz",
+      "status": 200,
+      "actual_sha256": "607ae1cb6ef66d8baabe9c7bd42d5607e5ad941a0a711d60d7175c0f718d8497",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-blackhole.json.gz",
+      "sha256": "9d81f0e9b0d1abd6c4565de822c4e21e4c09fed59b1d013a3598654384640d90",
+      "bytes": 81728,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-blackhole.json.gz",
+      "status": 200,
+      "actual_sha256": "9d81f0e9b0d1abd6c4565de822c4e21e4c09fed59b1d013a3598654384640d90",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-bouncyballs.json.gz",
+      "sha256": "6f140a18c4842ff983a96f52933d0ee2543575de49716bb6227d925102576a6b",
+      "bytes": 37693,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-bouncyballs.json.gz",
+      "status": 200,
+      "actual_sha256": "6f140a18c4842ff983a96f52933d0ee2543575de49716bb6227d925102576a6b",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-bubbles.json.gz",
+      "sha256": "97bb8b23eb5967689527d0b9ddba996c29230846b5fac6fe1348f9abb8d5f285",
+      "bytes": 40602,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-bubbles.json.gz",
+      "status": 200,
+      "actual_sha256": "97bb8b23eb5967689527d0b9ddba996c29230846b5fac6fe1348f9abb8d5f285",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-burn.json.gz",
+      "sha256": "25e22227e2963eb42bd056cf4bbd6c39da78fddc3d0c7f787790af39ffa7a33c",
+      "bytes": 44664,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-burn.json.gz",
+      "status": 200,
+      "actual_sha256": "25e22227e2963eb42bd056cf4bbd6c39da78fddc3d0c7f787790af39ffa7a33c",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-colorshift.json.gz",
+      "sha256": "782431b8ebfd93e115eac5e380c2547f58e8ae649fd621a5cf00721d901619d1",
+      "bytes": 85312,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-colorshift.json.gz",
+      "status": 200,
+      "actual_sha256": "782431b8ebfd93e115eac5e380c2547f58e8ae649fd621a5cf00721d901619d1",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-crumble.json.gz",
+      "sha256": "383721a6686da2fc6cedb270ef50eb9d29de1da6715c3da16d3e733121a07236",
+      "bytes": 38855,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-crumble.json.gz",
+      "status": 200,
+      "actual_sha256": "383721a6686da2fc6cedb270ef50eb9d29de1da6715c3da16d3e733121a07236",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-decrypt.json.gz",
+      "sha256": "a44cc5506fd1cbf6d8e265d284428c468988dfc62f21d13e265b061fd1452dd2",
+      "bytes": 96825,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-decrypt.json.gz",
+      "status": 200,
+      "actual_sha256": "a44cc5506fd1cbf6d8e265d284428c468988dfc62f21d13e265b061fd1452dd2",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-errorcorrect.json.gz",
+      "sha256": "3599bf75285a59ae3e2150a244cdc74846c6fb571d49be698677a77c804d24bc",
+      "bytes": 24442,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-errorcorrect.json.gz",
+      "status": 200,
+      "actual_sha256": "3599bf75285a59ae3e2150a244cdc74846c6fb571d49be698677a77c804d24bc",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-expand.json.gz",
+      "sha256": "c14ccbb53c3011bdcc6fdd72c77f8f598269ea42401caf11c55434dd5cc08760",
+      "bytes": 6668,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-expand.json.gz",
+      "status": 200,
+      "actual_sha256": "c14ccbb53c3011bdcc6fdd72c77f8f598269ea42401caf11c55434dd5cc08760",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-fireworks.json.gz",
+      "sha256": "c523844d6b3a4b443b1691f1fdd87dc606c8dceeac998c9ff7cf25d05f7f4570",
+      "bytes": 100634,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-fireworks.json.gz",
+      "status": 200,
+      "actual_sha256": "c523844d6b3a4b443b1691f1fdd87dc606c8dceeac998c9ff7cf25d05f7f4570",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-highlight.json.gz",
+      "sha256": "9ca62a5e8c55ba83315a3914378165113062b7b612a271b9b942bc646314956b",
+      "bytes": 9717,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-highlight.json.gz",
+      "status": 200,
+      "actual_sha256": "9ca62a5e8c55ba83315a3914378165113062b7b612a271b9b942bc646314956b",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-laseretch.json.gz",
+      "sha256": "9f06933d9f83f785d3695e292b846e89596509c9bb68edc7c08c25f0805219d3",
+      "bytes": 77395,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-laseretch.json.gz",
+      "status": 200,
+      "actual_sha256": "9f06933d9f83f785d3695e292b846e89596509c9bb68edc7c08c25f0805219d3",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-matrix.json.gz",
+      "sha256": "38e585133ba073d2c6616ab085d7b310e21e5f6f127422cc008fdb0ac2dc4b05",
+      "bytes": 2076532,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-matrix.json.gz",
+      "status": 200,
+      "actual_sha256": "38e585133ba073d2c6616ab085d7b310e21e5f6f127422cc008fdb0ac2dc4b05",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-middleout.json.gz",
+      "sha256": "44dfdd654eb56169694fac76cbd63011d37f821e22eb943d122e3c50b2a8aee9",
+      "bytes": 5251,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-middleout.json.gz",
+      "status": 200,
+      "actual_sha256": "44dfdd654eb56169694fac76cbd63011d37f821e22eb943d122e3c50b2a8aee9",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-orbittingvolley.json.gz",
+      "sha256": "913278d113ad0bb3a07777541c8c7137155d37eee395c68521322082b849c2d6",
+      "bytes": 71271,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-orbittingvolley.json.gz",
+      "status": 200,
+      "actual_sha256": "913278d113ad0bb3a07777541c8c7137155d37eee395c68521322082b849c2d6",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-overflow.json.gz",
+      "sha256": "6261514771fc70104d1de9f96df000a4149828ed972591183dad9258b894bd36",
+      "bytes": 12932,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-overflow.json.gz",
+      "status": 200,
+      "actual_sha256": "6261514771fc70104d1de9f96df000a4149828ed972591183dad9258b894bd36",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-pour.json.gz",
+      "sha256": "0e32f91b9d561cbbc12da016373d2119475feb967e74183c11e541d02cf8b2b7",
+      "bytes": 19487,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-pour.json.gz",
+      "status": 200,
+      "actual_sha256": "0e32f91b9d561cbbc12da016373d2119475feb967e74183c11e541d02cf8b2b7",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-print.json.gz",
+      "sha256": "e808e7942e4d3a766949873114af75190891b0c93843a539b2c18078775b3cb8",
+      "bytes": 37868,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-print.json.gz",
+      "status": 200,
+      "actual_sha256": "e808e7942e4d3a766949873114af75190891b0c93843a539b2c18078775b3cb8",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-rain.json.gz",
+      "sha256": "f6b5f983391e7a3b3ebfe8c7bdf5d78be7fe144a1847713ea446ad8387763924",
+      "bytes": 23158,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-rain.json.gz",
+      "status": 200,
+      "actual_sha256": "f6b5f983391e7a3b3ebfe8c7bdf5d78be7fe144a1847713ea446ad8387763924",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-randomsequence.json.gz",
+      "sha256": "131f5924b0d07714656f68312105c55e7c2c8772e843dcc1e6576724b4590758",
+      "bytes": 15824,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-randomsequence.json.gz",
+      "status": 200,
+      "actual_sha256": "131f5924b0d07714656f68312105c55e7c2c8772e843dcc1e6576724b4590758",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-rings.json.gz",
+      "sha256": "e0c44278d5cd54352f4f4fd6bd659d50c5966a46723f5432796295bff7ebeb09",
+      "bytes": 184091,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-rings.json.gz",
+      "status": 200,
+      "actual_sha256": "e0c44278d5cd54352f4f4fd6bd659d50c5966a46723f5432796295bff7ebeb09",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-scattered.json.gz",
+      "sha256": "8c72e261b9a171bd0b26e0e45b5f9f4d92c4bbca9360c7aa844acc246cde4312",
+      "bytes": 20424,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-scattered.json.gz",
+      "status": 200,
+      "actual_sha256": "8c72e261b9a171bd0b26e0e45b5f9f4d92c4bbca9360c7aa844acc246cde4312",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-slice.json.gz",
+      "sha256": "1e745ce0e3a9195d752e844024c4c3ae2b90d3ca61d90f1103e733a10d2a5b33",
+      "bytes": 7284,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-slice.json.gz",
+      "status": 200,
+      "actual_sha256": "1e745ce0e3a9195d752e844024c4c3ae2b90d3ca61d90f1103e733a10d2a5b33",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-slide.json.gz",
+      "sha256": "a44a398d9f16b5dbdad556b478a5a70a0f20510c6724d9e205a33c4bd3d33cc7",
+      "bytes": 8133,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-slide.json.gz",
+      "status": 200,
+      "actual_sha256": "a44a398d9f16b5dbdad556b478a5a70a0f20510c6724d9e205a33c4bd3d33cc7",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-smoke.json.gz",
+      "sha256": "8b562cf888458ca8df02343f10b7dbd6da251ec2d6e1413252e10302cae9bbe9",
+      "bytes": 69042,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-smoke.json.gz",
+      "status": 200,
+      "actual_sha256": "8b562cf888458ca8df02343f10b7dbd6da251ec2d6e1413252e10302cae9bbe9",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-spotlights.json.gz",
+      "sha256": "2176e3545ae6c1ebbce26972f21c2880ca6b68f7164f6299189255084da61513",
+      "bytes": 71350,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-spotlights.json.gz",
+      "status": 200,
+      "actual_sha256": "2176e3545ae6c1ebbce26972f21c2880ca6b68f7164f6299189255084da61513",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-spray.json.gz",
+      "sha256": "cf08f9f56d1cef4ff3170ad53d79d97815ae11e60e0a91a997a1afa88a0c9e81",
+      "bytes": 30967,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-spray.json.gz",
+      "status": 200,
+      "actual_sha256": "cf08f9f56d1cef4ff3170ad53d79d97815ae11e60e0a91a997a1afa88a0c9e81",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-swarm.json.gz",
+      "sha256": "5d3085bfc9dc97072f3cb2b39ce7508edcb3f4e21817d8ef2e1a5ccf16c45afd",
+      "bytes": 186539,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-swarm.json.gz",
+      "status": 200,
+      "actual_sha256": "5d3085bfc9dc97072f3cb2b39ce7508edcb3f4e21817d8ef2e1a5ccf16c45afd",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-sweep.json.gz",
+      "sha256": "14e6a06183136eeba3f6d1a17a33edd2540162e62c647d86c541fbc84d34b773",
+      "bytes": 111139,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-sweep.json.gz",
+      "status": 200,
+      "actual_sha256": "14e6a06183136eeba3f6d1a17a33edd2540162e62c647d86c541fbc84d34b773",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-synthgrid.json.gz",
+      "sha256": "ef4a556b76ae9f76bab691f9eecf1ec5a4c08f8e9e715ad134e77cc0359eebf7",
+      "bytes": 202983,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-synthgrid.json.gz",
+      "status": 200,
+      "actual_sha256": "ef4a556b76ae9f76bab691f9eecf1ec5a4c08f8e9e715ad134e77cc0359eebf7",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-thunderstorm.json.gz",
+      "sha256": "4110288c84628fa68037a1e27c3393808fef3ad273a3849c9c63489996751857",
+      "bytes": 140377,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-thunderstorm.json.gz",
+      "status": 200,
+      "actual_sha256": "4110288c84628fa68037a1e27c3393808fef3ad273a3849c9c63489996751857",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-unstable.json.gz",
+      "sha256": "5dbebc4ddf4bbfc85107978fe58c3778a01ab2d1dfd20be96faadb44d4d516d6",
+      "bytes": 23488,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-unstable.json.gz",
+      "status": 200,
+      "actual_sha256": "5dbebc4ddf4bbfc85107978fe58c3778a01ab2d1dfd20be96faadb44d4d516d6",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-vhstape.json.gz",
+      "sha256": "9647991d74aa727251dd8565302d0d1b0afd80299f33a252582d9516e0039834",
+      "bytes": 61617,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-vhstape.json.gz",
+      "status": 200,
+      "actual_sha256": "9647991d74aa727251dd8565302d0d1b0afd80299f33a252582d9516e0039834",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-waves.json.gz",
+      "sha256": "9bf77b813f3aa37a8927455c4550411694e1de277398cdd920e552af92393723",
+      "bytes": 41800,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-waves.json.gz",
+      "status": 200,
+      "actual_sha256": "9bf77b813f3aa37a8927455c4550411694e1de277398cdd920e552af92393723",
+      "ok": true
+    },
+    {
+      "path": "omarchy/animations/taste-wipe.json.gz",
+      "sha256": "2e25905ff851c599f7456eee59a85bd46e0acc4e7b3631b98b6879f08c02cc6b",
+      "bytes": 9605,
+      "url": "https://hi.fangs.cc/omarchy/animations/taste-wipe.json.gz",
+      "status": 200,
+      "actual_sha256": "2e25905ff851c599f7456eee59a85bd46e0acc4e7b3631b98b6879f08c02cc6b",
+      "ok": true
+    },
+    {
+      "path": "omarchy/app.js",
+      "sha256": "2397a0ed5dd1493fc0ab94292c2ee4d27b26b1074ce9ad1586db1a367c1cb25c",
+      "bytes": 6232,
+      "url": "https://hi.fangs.cc/omarchy/app.js",
+      "status": 200,
+      "actual_sha256": "2397a0ed5dd1493fc0ab94292c2ee4d27b26b1074ce9ad1586db1a367c1cb25c",
+      "ok": true
+    },
+    {
+      "path": "omarchy/index.html",
+      "sha256": "1a36e8a490e9fe904f555c141260812e0f115d50b5f59af714eb05de3c8f6389",
+      "bytes": 2753,
+      "url": "https://hi.fangs.cc/omarchy/index.html",
+      "status": 200,
+      "actual_sha256": "1a36e8a490e9fe904f555c141260812e0f115d50b5f59af714eb05de3c8f6389",
+      "ok": true
+    },
+    {
+      "path": "omarchy/manifest.json",
+      "sha256": "24e9e78ffd25769038621ea14aaf842353ce0187c65bae688a8cecd516879ea4",
+      "bytes": 21259,
+      "url": "https://hi.fangs.cc/omarchy/manifest.json",
+      "status": 200,
+      "actual_sha256": "24e9e78ffd25769038621ea14aaf842353ce0187c65bae688a8cecd516879ea4",
+      "ok": true
+    },
+    {
+      "path": "omarchy/player.js",
+      "sha256": "3f2c6103ac504f2fa0fcd5e3a35be1edb1bb7cc6ccf9dc7313f9ebdc3f7a8385",
+      "bytes": 2161,
+      "url": "https://hi.fangs.cc/omarchy/player.js",
+      "status": 200,
+      "actual_sha256": "3f2c6103ac504f2fa0fcd5e3a35be1edb1bb7cc6ccf9dc7313f9ebdc3f7a8385",
+      "ok": true
+    },
+    {
+      "path": "omarchy/style.css",
+      "sha256": "596b4d4a5cc58e4974f8462a05f4dfc454e9e41982f42c9eff50b7d12120f9b8",
+      "bytes": 4750,
+      "url": "https://hi.fangs.cc/omarchy/style.css",
+      "status": 200,
+      "actual_sha256": "596b4d4a5cc58e4974f8462a05f4dfc454e9e41982f42c9eff50b7d12120f9b8",
+      "ok": true
+    },
+    {
+      "path": "projects/aftercast/index.html",
+      "sha256": "57a822826243851013a27378770dae1ea2e03aaa7facaf783de3bf6e6e40303c",
+      "bytes": 11105,
+      "url": "https://hi.fangs.cc/projects/aftercast/index.html",
+      "status": 200,
+      "actual_sha256": "57a822826243851013a27378770dae1ea2e03aaa7facaf783de3bf6e6e40303c",
+      "ok": true
+    },
+    {
+      "path": "projects/aiedu/index.html",
+      "sha256": "692168bb6f70c8da08bca455ad5523addcde0e2b1f42d46e32366310a3baa050",
+      "bytes": 11407,
+      "url": "https://hi.fangs.cc/projects/aiedu/index.html",
+      "status": 200,
+      "actual_sha256": "692168bb6f70c8da08bca455ad5523addcde0e2b1f42d46e32366310a3baa050",
+      "ok": true
+    },
+    {
+      "path": "projects/chenchen-atelier/index.html",
+      "sha256": "83658bc62e6622b03d84cefeec3575ce6328bb48b4e226af1b784b4a123639dc",
+      "bytes": 10100,
+      "url": "https://hi.fangs.cc/projects/chenchen-atelier/index.html",
+      "status": 200,
+      "actual_sha256": "83658bc62e6622b03d84cefeec3575ce6328bb48b4e226af1b784b4a123639dc",
+      "ok": true
+    },
+    {
+      "path": "projects/dankoe/index.html",
+      "sha256": "51db04610d2fd218de02ec8e7beee5de4f868ff10ec613908379cd2cad1704ef",
+      "bytes": 11359,
+      "url": "https://hi.fangs.cc/projects/dankoe/index.html",
+      "status": 200,
+      "actual_sha256": "51db04610d2fd218de02ec8e7beee5de4f868ff10ec613908379cd2cad1704ef",
+      "ok": true
+    },
+    {
+      "path": "projects/hyrule/index.html",
+      "sha256": "e1ff8f68164d049c91645b5b227c7ff569c871bbecbbbbd30b572b76d6763afd",
+      "bytes": 11348,
+      "url": "https://hi.fangs.cc/projects/hyrule/index.html",
+      "status": 200,
+      "actual_sha256": "e1ff8f68164d049c91645b5b227c7ff569c871bbecbbbbd30b572b76d6763afd",
+      "ok": true
+    },
+    {
+      "path": "projects/junlugu/index.html",
+      "sha256": "8f604603fe7f0010f7071999a1ae03322b12474b7e2624301b58dcd72129965a",
+      "bytes": 10714,
+      "url": "https://hi.fangs.cc/projects/junlugu/index.html",
+      "status": 200,
+      "actual_sha256": "8f604603fe7f0010f7071999a1ae03322b12474b7e2624301b58dcd72129965a",
+      "ok": true
+    },
+    {
+      "path": "projects/junxia-comic/index.html",
+      "sha256": "ab0cf8c2ca7a216021b39b40b26b3f6e93901f15215a66dd2ead8e90882bf908",
+      "bytes": 22606,
+      "url": "https://hi.fangs.cc/projects/junxia-comic/index.html",
+      "status": 200,
+      "actual_sha256": "ab0cf8c2ca7a216021b39b40b26b3f6e93901f15215a66dd2ead8e90882bf908",
+      "ok": true
+    },
+    {
+      "path": "projects/junxia-travels/index.html",
+      "sha256": "f2f62df536a56cdaac0004d7965eaefb688def95c344a48c5d80d790f67ef8b8",
+      "bytes": 10666,
+      "url": "https://hi.fangs.cc/projects/junxia-travels/index.html",
+      "status": 200,
+      "actual_sha256": "f2f62df536a56cdaac0004d7965eaefb688def95c344a48c5d80d790f67ef8b8",
+      "ok": true
+    },
+    {
+      "path": "projects/lehh/index.html",
+      "sha256": "cd90cb0c3205ac22ad1fa806fe96156108358bff5c2f5e6486a37baaf8de7b86",
+      "bytes": 10751,
+      "url": "https://hi.fangs.cc/projects/lehh/index.html",
+      "status": 200,
+      "actual_sha256": "cd90cb0c3205ac22ad1fa806fe96156108358bff5c2f5e6486a37baaf8de7b86",
+      "ok": true
+    },
+    {
+      "path": "projects/little-pause/index.html",
+      "sha256": "1b3a3a4ad2d01d2d723fb4968e9ab2dcc1c13ca372550b61131c8e2cbcad89c7",
+      "bytes": 11155,
+      "url": "https://hi.fangs.cc/projects/little-pause/index.html",
+      "status": 200,
+      "actual_sha256": "1b3a3a4ad2d01d2d723fb4968e9ab2dcc1c13ca372550b61131c8e2cbcad89c7",
+      "ok": true
+    },
+    {
+      "path": "projects/pocket-ged/index.html",
+      "sha256": "22510a927cf6baa983d0e3e8865d26ecc94815e1f5cdc8c2a003c90dc057a76a",
+      "bytes": 10843,
+      "url": "https://hi.fangs.cc/projects/pocket-ged/index.html",
+      "status": 200,
+      "actual_sha256": "22510a927cf6baa983d0e3e8865d26ecc94815e1f5cdc8c2a003c90dc057a76a",
+      "ok": true
+    },
+    {
+      "path": "projects/pocofocus/index.html",
+      "sha256": "4106d03d46dea8362aa44faa858ca216fd53cd08aaa04b4bd17b49fdb5894237",
+      "bytes": 10553,
+      "url": "https://hi.fangs.cc/projects/pocofocus/index.html",
+      "status": 200,
+      "actual_sha256": "4106d03d46dea8362aa44faa858ca216fd53cd08aaa04b4bd17b49fdb5894237",
+      "ok": true
+    },
+    {
+      "path": "projects/qiya-herbarium/index.html",
+      "sha256": "d400bf5bbf4ff70e9e142753a93f1caf12467fe6134c735cbfa4097b068eaf74",
+      "bytes": 10855,
+      "url": "https://hi.fangs.cc/projects/qiya-herbarium/index.html",
+      "status": 200,
+      "actual_sha256": "d400bf5bbf4ff70e9e142753a93f1caf12467fe6134c735cbfa4097b068eaf74",
+      "ok": true
+    },
+    {
+      "path": "projects/school-secret-lab/index.html",
+      "sha256": "349b7df71b51cb37ecebb227369c3b124871d284394cce8cced242f78314f6a8",
+      "bytes": 21428,
+      "url": "https://hi.fangs.cc/projects/school-secret-lab/index.html",
+      "status": 200,
+      "actual_sha256": "349b7df71b51cb37ecebb227369c3b124871d284394cce8cced242f78314f6a8",
+      "ok": true
+    },
+    {
+      "path": "projects/snow-duel/index.html",
+      "sha256": "d081d48b2fbe53f3591c5b2f0b1b3fc7112c9b259fc3201c5f8c202c966f8d3f",
+      "bytes": 10776,
+      "url": "https://hi.fangs.cc/projects/snow-duel/index.html",
+      "status": 200,
+      "actual_sha256": "d081d48b2fbe53f3591c5b2f0b1b3fc7112c9b259fc3201c5f8c202c966f8d3f",
+      "ok": true
+    },
+    {
+      "path": "projects/taste/index.html",
+      "sha256": "d36b8c3650e4d8b576fcb387d9e0d219e2dcbe52992f8adcecb4777932c11faf",
+      "bytes": 11795,
+      "url": "https://hi.fangs.cc/projects/taste/index.html",
+      "status": 200,
+      "actual_sha256": "d36b8c3650e4d8b576fcb387d9e0d219e2dcbe52992f8adcecb4777932c11faf",
+      "ok": true
+    },
+    {
+      "path": "projects/the-perfect-run/index.html",
+      "sha256": "43186da3991d6a2f8745e7d0ed2798d9d53704b9ca64fbb82d59c601492beba6",
+      "bytes": 11379,
+      "url": "https://hi.fangs.cc/projects/the-perfect-run/index.html",
+      "status": 200,
+      "actual_sha256": "43186da3991d6a2f8745e7d0ed2798d9d53704b9ca64fbb82d59c601492beba6",
+      "ok": true
+    },
+    {
+      "path": "projects/wbw/index.html",
+      "sha256": "db75fcf4ed499009def1d20aa3ac58627985f7e265b91b5b4d401d5af682b6de",
+      "bytes": 11004,
+      "url": "https://hi.fangs.cc/projects/wbw/index.html",
+      "status": 200,
+      "actual_sha256": "db75fcf4ed499009def1d20aa3ac58627985f7e265b91b5b4d401d5af682b6de",
+      "ok": true
+    },
+    {
+      "path": "projects/yuzu-island/index.html",
+      "sha256": "f22b71e21e20be7e081345a7c3c94d45ed100d54871173c66ddade095faf14c2",
+      "bytes": 10319,
+      "url": "https://hi.fangs.cc/projects/yuzu-island/index.html",
+      "status": 200,
+      "actual_sha256": "f22b71e21e20be7e081345a7c3c94d45ed100d54871173c66ddade095faf14c2",
+      "ok": true
+    },
+    {
+      "path": "release.json",
+      "sha256": "b81c20ec3efa813ed115af79aa77e8a4ed456bcb7861bc5dbc23416a93e691c8",
+      "bytes": 91,
+      "url": "https://hi.fangs.cc/release.json",
+      "status": 200,
+      "actual_sha256": "b81c20ec3efa813ed115af79aa77e8a4ed456bcb7861bc5dbc23416a93e691c8",
+      "ok": true
+    },
+    {
+      "path": "sitemap-0.xml",
+      "sha256": "fde50e2fe60c86158a1a0132b9a2a52dd476074e2c0973987cd9d769d0f56bd2",
+      "bytes": 1662,
+      "url": "https://hi.fangs.cc/sitemap-0.xml",
+      "status": 200,
+      "actual_sha256": "fde50e2fe60c86158a1a0132b9a2a52dd476074e2c0973987cd9d769d0f56bd2",
+      "ok": true
+    }
+  ]
+}

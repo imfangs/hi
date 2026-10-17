@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-17",
+  "source": "613e5ab3f705e6604514b2557fab43c89ed038b1",
+  "pages": "5b654bb7cf7448b9a5698145f9334eadd6ca0223",
+  "github_pages_status": "built",
+  "release_json_matched": true,
+  "public_hashes": {
+    "matched": 143,
+    "total": 143
+  },
+  "routes": {
+    "home": "https://hi.fangs.cc/",
+    "tribute": "https://hi.fangs.cc/omarchy/",
+    "legacy": "https://hi.fangs.cc/experiments/wordlight/"
+  },
+  "browser_checks": [
+    "home three canvases ready",
+    "home to tribute through real link",
+    "SELL / Matrix loaded, 960x672 canvas and empty error status",
+    "tribute to legacy through real link",
+    "legacy Aurora GPU ready",
+    "legacy to home through real link"
+  ],
+  "original_shader_unchanged": true,
+  "limits": [
+    "Native browser fullscreen not independently accepted",
+    "No physical iPhone/Safari check",
+    "Prior videos not rewatched in full"
+  ]
+}

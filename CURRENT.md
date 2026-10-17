@@ -1,8 +1,12 @@
 # 当前状态
 
-## Omarchy 字标与旧日字光（2026-10-17，本地验收完成，待正式发布）
+## Omarchy 字标与旧日字光（2026-10-17，已发布并回读）
 
-首页采用三词同列字符动效；完整37种屏保在 `/omarchy/`，旧六种Shader保留到 `/experiments/wordlight/`。21个Astro页面、111段录制哈希/解压兼容检查、TypeScript、桌面/390px/深色/减少动态、19详情和搜索返回通过。来源、取舍与验证见 [设计记录](docs/design/2026-10-17-omarchy/README.md)。正式状态待发布后回读。
+[首页](https://hi.fangs.cc/)采用三词同列字符动画；[Omarchy致敬页](https://hi.fangs.cc/omarchy/)提供37种效果×三字标；原六种Shader完整保留到[旧日字光](https://hi.fangs.cc/experiments/wordlight/)，原引擎字节未改。
+
+源 `613e5ab`、Pages `5b654bb`；GitHub built、普通release.json一致，143/143变更公开文件哈希匹配（单项TLS中断重读后匹配）。正式首页三画布、致敬页SELL/Matrix加载、旧页Aurora GPU ready及三页往返通过。本地21个Astro页、111录制完整性/双解压响应、TypeScript、桌面/390px/深色/减少动态、无JS的19作品、19详情和搜索返回通过。原生全屏、实体Safari与真人品味验收仍有边界。
+
+[设计与来源](docs/design/2026-10-17-omarchy/README.md) · [发布回执](docs/releases/2026-10-17-omarchy-publication.json) · [文件核验](docs/releases/2026-10-17-omarchy-integrity.json)。后续记录提交不代表再次部署。
 
 ## 余音入口（2026-10-16，已发布并回读）
 

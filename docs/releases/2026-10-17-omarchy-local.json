@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-17",
+  "browser": "Codex IAB",
+  "legacy": [
+    {
+      "astroCidLqnz53ry": "",
+      "effect": "taste",
+      "gpu": "ready",
+      "paused": "false",
+      "slogan": ""
+    },
+    {
+      "astroCidLqnz53ry": "",
+      "effect": "build",
+      "gpu": "ready",
+      "paused": "false",
+      "slogan": ""
+    },
+    {
+      "astroCidLqnz53ry": "",
+      "effect": "sell",
+      "gpu": "ready",
+      "paused": "false",
+      "slogan": ""
+    },
+    {
+      "astroCidLqnz53ry": "",
+      "effect": "aurora",
+      "gpu": "ready",
+      "paused": "false",
+      "slogan": ""
+    },
+    {
+      "astroCidLqnz53ry": "",
+      "effect": "silk",
+      "gpu": "ready",
+      "paused": "false",
+      "slogan": ""
+    },
+    {
+      "astroCidLqnz53ry": "",
+      "effect": "prism",
+      "gpu": "ready",
+      "paused": "false",
+      "slogan": ""
+    }
+  ],
+  "details": [
+    {
+      "slug": "chenchen-atelier",
+      "h1": "晨间花园",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "junxia-comic",
+      "h1": "菌侠 · 手绘漫画",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "yuzu-island",
+      "h1": "柚子的小岛",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "pocket-ged",
+      "h1": "Pocket & Ged",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "taste",
+      "h1": "你品 · 艺术与思想",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "school-secret-lab",
+      "h1": "爱养蘑菇的小学生",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "little-pause",
+      "h1": "歇会鸭",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "lehh",
+      "h1": "单词合合乐",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "pocofocus",
+      "h1": "PocoFocus",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "junlugu",
+      "h1": "菌露谷物语",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "snow-duel",
+      "h1": "雪仗／夜雪俱乐部",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "qiya-herbarium",
+      "h1": "奇芽药草铺",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "junxia-travels",
+      "h1": "旅行菌侠",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "hyrule",
+      "h1": "海拉鲁 · 蓝焰余响",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "the-perfect-run",
+      "h1": "完美通关",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "aiedu",
+      "h1": "AI 教育 · 中英双语",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "wbw",
+      "h1": "Wait But Why 中译",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "dankoe",
+      "h1": "Dan Koe 中文阅读站",
+      "overflow": false,
+      "returnLink": true
+    },
+    {
+      "slug": "aftercast",
+      "h1": "余音 · 播客精读",
+      "overflow": false,
+      "returnLink": true
+    }
+  ],
+  "checks": {
+    "homeCanvasDimensions": [
+      960,
+      672
+    ],
+    "words": 3,
+    "homePause": true,
+    "homeAutomaticNext": true,
+    "tributeWordAndEffectSwitch": true,
+    "reducedMotionStaticWord": true,
+    "themeDark": true,
+    "phoneWidth": 390,
+    "horizontalOverflow": false,
+    "searchAndReturnFocus": true
+  },
+  "limits": [
+    "No physical phone acceptance",
+    "Existing project videos not replayed in full",
+    "Native fullscreen not independently confirmed"
+  ]
+}
