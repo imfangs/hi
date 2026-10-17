@@ -11,6 +11,8 @@
 - `featured: true` 的项目在主列表展示，必须有真实封面；未精选且非 draft 的条目仅生成详情；增删记录与当前主列表见 CURRENT。
 - 公开文案按产品事实源核对：App 公开版本看 Apple 商店与项目发布记录；网页看正式 URL 与项目 CURRENT。截图、模拟器通过、目录存在不证明学习效果或用户增长。
 
+- 小小世界正式试玩副本在 `public/little-world/`，代码权威源为 `../little-world/`。更新从该项目干净源码运行 `npm run publish:prepare`；Hi只持构建、离线ZIP及版本清单，随后按本仓库流程统一发布。对应作品条目为 `src/content/projects/little-world.mdx`。
+
 ## 内容与图片
 
 - 图片放 `public/images/projects/`，来源与加工方式见 `docs/ASSETS.md`。默认用真实产品界面截图；截图可排版和压缩，不伪造功能或效果。

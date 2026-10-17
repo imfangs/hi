@@ -98,3 +98,9 @@ Pages 设置为 `gh-pages` / root。域名 `hi.fangs.cc` CNAME 指向 `imfangs.g
 ## 中文字体维护
 
 中文采用宋体标题与黑体说明/正文，依据与对照见 [字体研究](docs/design/2026-10-09-chinese-type/README.md)。`pnpm build`自动检查源码汉字覆盖与字体哈希。新增缺字后运行 `pnpm fonts:build`（uv、fontTools、Brotli；源版本固定），再构建和浏览器验证。字体重建不应更改正文内容。
+
+## 小小世界试玩页
+
+`/little-world/` 的实现由相邻 `little-world` 项目持有；从该项目提交后的源码运行 `npm run publish:prepare`，同步到本仓库 `public/little-world/`。该目录仅含静态构建、离线ZIP和版本清单，不手工修改副本。作品介绍在 `src/content/projects/little-world.mdx`。
+
+本地或线上验收：`node scripts/verify-little-world.mjs --url <HTTP(S)根地址> --out <仓库外目录> --playwright-root ../little-world`，覆盖搜索/返回、桌面/手机、子路径资源、编辑保存、PNG和离线ZIP实际下载；不检查系统壁纸安装。

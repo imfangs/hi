@@ -171,3 +171,10 @@
 - MP4原样复制到public/videos/projects/school-secret-lab/ep05-purple-glass-dimension.mp4，31,041,995 bytes，SHA-256 `0d43d243a6673604a1fdbfae0e8c4b2ae8dce62f17862af8b74c67d634e81707`。岩浆菇与原紫玻璃菇均为柚子确认的v8画面，没有重新压缩或改片。
 - 封面从同一MP4的42秒提取，完整720×1280，WebP quality88，SHA-256 `aa7bc4bc8168962a172239a38f210d7c74a194a16b14a4b97cfcbe70ee18ca9e`。原首页三联封面保留；故事片集桌面保持双列、手机单列，两个镜头实验单列为另一组。
 - 制作署名和Minecraft音效来源同步写入公开credits.txt；完整生产过程、私有回执、聊天与本机路径不公开。
+
+## 2026-10-17 · 我们的小小世界
+
+- `public/images/projects/little-world.webp` 来自 `../little-world/evidence/final-day-desktop.jpg`，是小小世界最终日光模式的真实浏览器界面截图，原始尺寸1440×1000。图中包含漫游/锁屏切换、完整创作群岛与下方控制栏；没有用生成源图替代界面截图，也没有改写截图中的文字。
+- 原画面完整等比缩至1080×750，居中放入1200×750画布，两侧各留60px纸白边（`#f5f2e9`），未裁切。WebP quality90，嵌入sRGB配置；149,808 bytes，SHA-256 `511ad584338f75a7db0d1694dbe1b4a87a38484475b5bc68f299829c0d9b447d`。
+- 源截图SHA-256 `77a85b93225d7ca63ec5a3145226310b1f8c8f50894a703e80a7327b0c6caadf`。场景原创插画、豌豆/Ged参考与菌侠原角色的来源、创作边界见小小世界 `docs/SOURCES.md`；作品入口为 `https://hi.fangs.cc/little-world/`，离线版为同路径下的 `download/little-world.html`。
+- 受控预览已检查：日光海面、群岛、居民及全部原界面均保留，两侧留边对称。画面代表本次可玩网页，导出图片与系统壁纸自动更新的区别在作品正文说明。

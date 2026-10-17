@@ -1,0 +1,28 @@
+{
+  "project": "little-world",
+  "source": "c43390a81bbbffcdce1097d7a55bac473daa55f4",
+  "builtAt": "2026-10-17T03:36:32.991Z",
+  "url": "https://hi.fangs.cc/little-world/",
+  "files": [
+    {
+      "path": "assets/index-BK04LGP5.css",
+      "bytes": 14309,
+      "sha256": "0c01ffda58620e4bdecc86a45f47bc9b921e17e6987027f3181e1d68ae98a1c5"
+    },
+    {
+      "path": "assets/index-DK43CYlX.js",
+      "bytes": 3730381,
+      "sha256": "1880d675bfe93b6339996ca5eb7ae69bdedf91c8ecfdf80abec9a60b94bc5e6b"
+    },
+    {
+      "path": "download/little-world.zip",
+      "bytes": 2818778,
+      "sha256": "34b84ddfe5b743788d65447361de8f6901842b452815cd780746d9c126710e95"
+    },
+    {
+      "path": "index.html",
+      "bytes": 805,
+      "sha256": "25cb5b87e54ebdbec1122f2705b07d8416a911029c4ef00db86b404f71fbcbf2"
+    }
+  ]
+}
