@@ -18,5 +18,16 @@
     "index.html": "89b2aa5ac74490ec5ac8ff0c2f6c4720a85af3bc3c00b295766b92f46d4c8de8",
     "release.json": "4b99ad61a42ac44fa13515bac76793aac22dd3cb482e56800d25fd63b1074e66"
   },
-  "public_verified": false
+  "public_verified": true,
+  "public_hashes": {
+    "index.html": true,
+    "release.json": true
+  },
+  "public_browser": {
+    "effectCount": 37,
+    "ready": true,
+    "paused": false
+  },
+  "github_pages_status": "built",
+  "verification_note": "Initial urllib TLS EOF; native curl read-back succeeded."
 }
