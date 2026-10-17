@@ -1,8 +1,12 @@
 # 当前状态
 
-## Omarchy设计风格图鉴（2026-10-17，本地验收，待发布）
+## Omarchy设计风格图鉴（2026-10-17，已发布并回读）
 
-23风格列表和23详情，daisyUI 5.7.50真实组件、保留输入的跨主题比较、原桌面图/97壁纸、CSS/JSON与最小Vite启动项目。45页构建、类型检查、23主题实际样式、23详情/390px、165图片哈希、交互与独立starter构建通过。来源与复验入口见 [设计记录](docs/design/2026-10-17-themes/README.md)。
+[23种设计风格](https://hi.fangs.cc/omarchy/themes/)已上线：23详情、daisyUI 5.7.50真实组件、跨主题保留输入、原桌面图/97壁纸、CSS/JSON和最小Vite启动项目。颜色取自Omarchy，字体/圆角/间距为我们的网页延伸。
+
+源`ce2182b`、Pages`97289fd`；built、普通release.json一致，268/268变更文件哈希匹配。正式列表→详情→切换主题保留输入→添加条目→复制CSS→原作大图→返回已实走。45页构建、类型检查、23主题实际样式、23详情/390px、320px窄屏修复、165图片哈希与独立starter安装/构建通过。未在实际消费项目迁移，未做实体手机或完整WCAG审计。
+
+[设计与维护入口](docs/design/2026-10-17-themes/README.md) · [发布回执](docs/releases/2026-10-17-theme-atlas-publication.json) · [文件核验](docs/releases/2026-10-17-theme-atlas-integrity.json)。后续记录性提交不代表再次发布。
 
 ## 首页完整轮播（2026-10-17，已发布并回读）
 

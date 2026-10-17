@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-17",
+  "source": "ce2182b9e5e3950c7a5e85beb655fd7c3f000e88",
+  "pages": "97289fdf386346f197fba33b72f0db1bc250d3af",
+  "github_status": "built",
+  "release_matched": true,
+  "public_files_matched": 268,
+  "public_files_total": 268,
+  "list": "https://hi.fangs.cc/omarchy/themes/",
+  "themes": 23,
+  "wallpapers": 97,
+  "component_library": "daisyUI 5.7.50 + Tailwind 4",
+  "public_browser": [
+    "23 visible theme entries",
+    "Catppuccin detail opened from list",
+    "switch to Flexoki Light preserves input",
+    "new item inserted into example",
+    "copy CSS reports success",
+    "official preview dialog opens with loaded image",
+    "return to list"
+  ],
+  "starter": "ZIP extracted in isolated directory; declared dependencies installed and production build passed",
+  "limits": [
+    "Typography, spacing and radii are our adaptations, not official Omarchy specifications",
+    "Not migrated into a real consumer project yet",
+    "No physical-device or complete WCAG audit"
+  ]
+}
