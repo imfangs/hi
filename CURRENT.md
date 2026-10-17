@@ -1,5 +1,13 @@
 # 当前状态
 
+## 我们的小小世界（2026-10-17，已发布并回读）
+
+[试玩页](https://hi.fangs.cc/little-world/)与[作品详情](https://hi.fangs.cc/projects/little-world/)已上线，首页创作分类与搜索可达，共20件作品，原19件保留；[离线ZIP](https://hi.fangs.cc/little-world/download/little-world.zip)可下载。真实日光界面作封面，展陈位于柚子小岛后。
+
+Hi源 `df1803c`、Pages `05cdb3d`；小世界源 `c43390a`。GitHub built、普通release.json及57/57变更文件哈希匹配。46页构建、TypeScript、1084字字体覆盖通过；正式1440/390与无JS首页、搜索→详情→返回焦点、封面、子路径加载、编辑刷新、两种PNG与ZIP实际下载通过，无页面/控制台错误。主线程另用IAB实走正式首页搜索→详情→试玩。
+
+小世界源码由 `../little-world/` 维护，Hi持静态发布副本，不读取私人文件或跨设备同步；PNG为静态快照，未接系统锁屏。[发布回执](docs/releases/2026-10-17-little-world-publication.json) · [浏览器](docs/releases/2026-10-17-little-world-public-browser.json) · [文件核验](docs/releases/2026-10-17-little-world-integrity.json)。后续记录提交不代表再次部署。
+
 ## Omarchy设计风格图鉴（2026-10-17，已发布并回读）
 
 [23种设计风格](https://hi.fangs.cc/omarchy/themes/)已上线：23详情、daisyUI 5.7.50真实组件、跨主题保留输入、原桌面图/97壁纸、CSS/JSON和最小Vite启动项目。颜色取自Omarchy，字体/圆角/间距为我们的网页延伸。

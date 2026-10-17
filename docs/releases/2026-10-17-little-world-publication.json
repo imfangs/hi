@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-17",
+  "source": "df1803c171eb53008ba555e7f03f6465e0fa844c",
+  "pages": "05cdb3d58280996e261486584769c9b8ff741514",
+  "applicationSource": "c43390a81bbbffcdce1097d7a55bac473daa55f4",
+  "github_status": "built",
+  "release_matched": true,
+  "public_files_matched": 57,
+  "public_files_total": 57,
+  "app": "https://hi.fangs.cc/little-world/",
+  "entry": "https://hi.fangs.cc/projects/little-world/",
+  "offline": "https://hi.fangs.cc/little-world/download/little-world.zip",
+  "browser": {
+    "passed": true,
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "featuredWorks": 20,
+    "previousWorksPreserved": 19,
+    "checks": [
+      "search to detail and return with query/focus",
+      "new cover and canonical CTA",
+      "subpath resources",
+      "edit and reload",
+      "3840x2400 PNG actual download",
+      "1920x1200 lockscreen PNG actual download",
+      "offline ZIP actual download",
+      "no-JavaScript index"
+    ]
+  },
+  "limits": [
+    "Browser viewports, not physical devices.",
+    "PNG is a snapshot; system wallpaper integration is not implemented.",
+    "Edits stay in the browser; cross-origin migration uses JSON backup."
+  ],
+  "evidence": [
+    "2026-10-17-little-world-local.json",
+    "2026-10-17-little-world-public-browser.json",
+    "2026-10-17-little-world-integrity.json"
+  ]
+}
