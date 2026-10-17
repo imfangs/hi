@@ -1,0 +1,35 @@
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-ristretto"] {
+  color-scheme: dark;
+  --color-base-100: #2c2525;
+  --color-base-200: #211b1b;
+  --color-base-300: #3d2f2a;
+  --color-base-content: #e6d9db;
+  --color-primary: #f38d70;
+  --color-secondary: #a8a9eb;
+  --color-accent: #85dacc;
+  --color-neutral: #403e41;
+  --color-neutral-content: #ffffff;
+  --color-info: #f38d70;
+  --color-success: #adda78;
+  --color-warning: #f9cc6c;
+  --color-error: #fd6883;
+  --radius-selector: 8px;
+  --radius-field: 8px;
+  --radius-box: 8px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: Georgia, 'Noto Serif SC', serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 30px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}

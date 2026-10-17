@@ -1,0 +1,827 @@
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-catppuccin"] {
+  color-scheme: dark;
+  --color-base-100: #1e1e2e;
+  --color-base-200: #161622;
+  --color-base-300: #313244;
+  --color-base-content: #cdd6f4;
+  --color-primary: #89b4fa;
+  --color-secondary: #f5c2e7;
+  --color-accent: #94e2d5;
+  --color-neutral: #45475a;
+  --color-neutral-content: #ffffff;
+  --color-info: #89b4fa;
+  --color-success: #a6e3a1;
+  --color-warning: #f9e2af;
+  --color-error: #f38ba8;
+  --radius-selector: 16px;
+  --radius-field: 8px;
+  --radius-box: 16px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 28px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-catppuccin-latte"] {
+  color-scheme: light;
+  --color-base-100: #eff1f5;
+  --color-base-200: #e3e4e8;
+  --color-base-300: #dce0e8;
+  --color-base-content: #4c4f69;
+  --color-primary: #1e66f5;
+  --color-secondary: #ea76cb;
+  --color-accent: #179299;
+  --color-neutral: #ccd0da;
+  --color-neutral-content: #000000;
+  --color-info: #1e66f5;
+  --color-success: #40a02b;
+  --color-warning: #df8e1d;
+  --color-error: #d20f39;
+  --radius-selector: 14px;
+  --radius-field: 8px;
+  --radius-box: 14px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 28px;
+  --color-primary-content: #ffffff;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #ffffff;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #ffffff;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-ethereal"] {
+  color-scheme: dark;
+  --color-base-100: #060B1E;
+  --color-base-200: #040816;
+  --color-base-300: #131a3a;
+  --color-base-content: #ffcead;
+  --color-primary: #7d82d9;
+  --color-secondary: #c89dc1;
+  --color-accent: #a3bfd1;
+  --color-neutral: #252e56;
+  --color-neutral-content: #ffffff;
+  --color-info: #7d82d9;
+  --color-success: #92a593;
+  --color-warning: #E9BB4F;
+  --color-error: #ED5B5A;
+  --radius-selector: 12px;
+  --radius-field: 8px;
+  --radius-box: 12px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 30px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-everforest"] {
+  color-scheme: dark;
+  --color-base-100: #2d353b;
+  --color-base-200: #21272c;
+  --color-base-300: #343f44;
+  --color-base-content: #d3c6aa;
+  --color-primary: #7fbbb3;
+  --color-secondary: #d699b6;
+  --color-accent: #83c092;
+  --color-neutral: #3d484d;
+  --color-neutral-content: #ffffff;
+  --color-info: #7fbbb3;
+  --color-success: #a7c080;
+  --color-warning: #dbbc7f;
+  --color-error: #e67e80;
+  --radius-selector: 10px;
+  --radius-field: 8px;
+  --radius-box: 10px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 28px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-flexoki-light"] {
+  color-scheme: light;
+  --color-base-100: #FFFCF0;
+  --color-base-200: #f2efe4;
+  --color-base-300: #E6E4D9;
+  --color-base-content: #100F0F;
+  --color-primary: #205EA6;
+  --color-secondary: #CE5D97;
+  --color-accent: #3AA99F;
+  --color-neutral: #CECDC3;
+  --color-neutral-content: #000000;
+  --color-info: #205EA6;
+  --color-success: #879A39;
+  --color-warning: #D0A215;
+  --color-error: #D14D41;
+  --radius-selector: 3px;
+  --radius-field: 3px;
+  --radius-box: 3px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: Georgia, 'Noto Serif SC', serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 32px;
+  --color-primary-content: #ffffff;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #ffffff;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-gruvbox"] {
+  color-scheme: dark;
+  --color-base-100: #282828;
+  --color-base-200: #1e1e1e;
+  --color-base-300: #3c3836;
+  --color-base-content: #d4be98;
+  --color-primary: #7daea3;
+  --color-secondary: #d3869b;
+  --color-accent: #89b482;
+  --color-neutral: #504945;
+  --color-neutral-content: #ffffff;
+  --color-info: #7daea3;
+  --color-success: #a9b665;
+  --color-warning: #d8a657;
+  --color-error: #ea6962;
+  --radius-selector: 4px;
+  --radius-field: 4px;
+  --radius-box: 4px;
+  --size-selector: 0.22rem;
+  --size-field: 0.22rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: Georgia, 'Noto Serif SC', serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 24px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-hackerman"] {
+  color-scheme: dark;
+  --color-base-100: #0B0C16;
+  --color-base-200: #080910;
+  --color-base-300: #151828;
+  --color-base-content: #ddf7ff;
+  --color-primary: #82FB9C;
+  --color-secondary: #86a7df;
+  --color-accent: #7cf8f7;
+  --color-neutral: #1f253a;
+  --color-neutral-content: #ffffff;
+  --color-info: #829dd4;
+  --color-success: #4fe88f;
+  --color-warning: #50f7d4;
+  --color-error: #50f872;
+  --radius-selector: 0px;
+  --radius-field: 0px;
+  --radius-box: 0px;
+  --size-selector: 0.22rem;
+  --size-field: 0.22rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: ui-monospace, 'SFMono-Regular', monospace;
+  --style-body-font: ui-monospace, 'SFMono-Regular', monospace;
+  --style-space: 22px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-kanagawa"] {
+  color-scheme: dark;
+  --color-base-100: #1f1f28;
+  --color-base-200: #17171e;
+  --color-base-300: #223249;
+  --color-base-content: #dcd7ba;
+  --color-primary: #dcd7ba;
+  --color-secondary: #957fb8;
+  --color-accent: #6a9589;
+  --color-neutral: #363646;
+  --color-neutral-content: #ffffff;
+  --color-info: #7e9cd8;
+  --color-success: #76946a;
+  --color-warning: #c0a36e;
+  --color-error: #c34043;
+  --radius-selector: 4px;
+  --radius-field: 4px;
+  --radius-box: 4px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: Georgia, 'Noto Serif SC', serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 30px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #ffffff;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-last-horizon"] {
+  color-scheme: dark;
+  --color-base-100: #0c0b0c;
+  --color-base-200: #090809;
+  --color-base-300: #0c0b0c;
+  --color-base-content: #FAFCFB;
+  --color-primary: #b59790;
+  --color-secondary: #c4d8e2;
+  --color-accent: #a5a0b6;
+  --color-neutral: #584e51;
+  --color-neutral-content: #ffffff;
+  --color-info: #b59790;
+  --color-success: #87a9b0;
+  --color-warning: #6B5E73;
+  --color-error: #c38b7b;
+  --radius-selector: 8px;
+  --radius-field: 8px;
+  --radius-box: 8px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: Georgia, 'Noto Serif SC', serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 32px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #ffffff;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-lumon"] {
+  color-scheme: dark;
+  --color-base-100: #16242d;
+  --color-base-200: #101b21;
+  --color-base-300: #1b2d40;
+  --color-base-content: #d6e2ee;
+  --color-primary: #8bc9eb;
+  --color-secondary: #8bc9eb;
+  --color-accent: #b4e4f6;
+  --color-neutral: #243d56;
+  --color-neutral-content: #ffffff;
+  --color-info: #6fb8e3;
+  --color-success: #5e95bc;
+  --color-warning: #6fa4c9;
+  --color-error: #4d86b0;
+  --radius-selector: 4px;
+  --radius-field: 4px;
+  --radius-box: 4px;
+  --size-selector: 0.22rem;
+  --size-field: 0.22rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 24px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-lupine"] {
+  color-scheme: light;
+  --color-base-100: #fafafa;
+  --color-base-200: #ececec;
+  --color-base-300: #f5f5f5;
+  --color-base-content: #212121;
+  --color-primary: #3264eb;
+  --color-secondary: #8a4ad7;
+  --color-accent: #0c67de;
+  --color-neutral: #d0d0d0;
+  --color-neutral-content: #000000;
+  --color-info: #3264eb;
+  --color-success: #4a2fd0;
+  --color-warning: #026fde;
+  --color-error: #c900c4;
+  --radius-selector: 12px;
+  --radius-field: 8px;
+  --radius-box: 12px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 30px;
+  --color-primary-content: #ffffff;
+  --color-secondary-content: #ffffff;
+  --color-accent-content: #ffffff;
+  --color-info-content: #ffffff;
+  --color-success-content: #ffffff;
+  --color-warning-content: #ffffff;
+  --color-error-content: #ffffff;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-matte-black"] {
+  color-scheme: dark;
+  --color-base-100: #121212;
+  --color-base-200: #0d0d0d;
+  --color-base-300: #1e1e1e;
+  --color-base-content: #bebebe;
+  --color-primary: #e68e0d;
+  --color-secondary: #D35F5F;
+  --color-accent: #bebebe;
+  --color-neutral: #2a2a2a;
+  --color-neutral-content: #ffffff;
+  --color-info: #e68e0d;
+  --color-success: #FFC107;
+  --color-warning: #b91c1c;
+  --color-error: #D35F5F;
+  --radius-selector: 5px;
+  --radius-field: 5px;
+  --radius-box: 5px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 26px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #ffffff;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-miasma"] {
+  color-scheme: dark;
+  --color-base-100: #222222;
+  --color-base-200: #191919;
+  --color-base-300: #2c2c2c;
+  --color-base-content: #c2c2b0;
+  --color-primary: #78824b;
+  --color-secondary: #bb7744;
+  --color-accent: #c9a554;
+  --color-neutral: #383838;
+  --color-neutral-content: #ffffff;
+  --color-info: #78824b;
+  --color-success: #5f875f;
+  --color-warning: #b36d43;
+  --color-error: #685742;
+  --radius-selector: 6px;
+  --radius-field: 6px;
+  --radius-box: 6px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: Georgia, 'Noto Serif SC', serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 28px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #ffffff;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-nord"] {
+  color-scheme: dark;
+  --color-base-100: #2e3440;
+  --color-base-200: #222730;
+  --color-base-300: #3b4252;
+  --color-base-content: #d8dee9;
+  --color-primary: #81a1c1;
+  --color-secondary: #b48ead;
+  --color-accent: #88c0d0;
+  --color-neutral: #434c5e;
+  --color-neutral-content: #ffffff;
+  --color-info: #81a1c1;
+  --color-success: #a3be8c;
+  --color-warning: #ebcb8b;
+  --color-error: #bf616a;
+  --radius-selector: 8px;
+  --radius-field: 8px;
+  --radius-box: 8px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 26px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-osaka-jade"] {
+  color-scheme: dark;
+  --color-base-100: #111c18;
+  --color-base-200: #0c1512;
+  --color-base-300: #23372B;
+  --color-base-content: #C1C497;
+  --color-primary: #509475;
+  --color-secondary: #D2689C;
+  --color-accent: #2DD5B7;
+  --color-neutral: #32473B;
+  --color-neutral-content: #ffffff;
+  --color-info: #509475;
+  --color-success: #549e6a;
+  --color-warning: #459451;
+  --color-error: #FF5345;
+  --radius-selector: 3px;
+  --radius-field: 3px;
+  --radius-box: 3px;
+  --size-selector: 0.22rem;
+  --size-field: 0.22rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: ui-monospace, 'SFMono-Regular', monospace;
+  --style-body-font: ui-monospace, 'SFMono-Regular', monospace;
+  --style-space: 24px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-retro-82"] {
+  color-scheme: dark;
+  --color-base-100: #05182e;
+  --color-base-200: #031222;
+  --color-base-300: #0a2540;
+  --color-base-content: #f6dcac;
+  --color-primary: #faa968;
+  --color-secondary: #3f8f8a;
+  --color-accent: #8cbfb8;
+  --color-neutral: #134e5a;
+  --color-neutral-content: #ffffff;
+  --color-info: #3f8f8a;
+  --color-success: #028391;
+  --color-warning: #e97b3c;
+  --color-error: #f85525;
+  --radius-selector: 2px;
+  --radius-field: 2px;
+  --radius-box: 2px;
+  --size-selector: 0.22rem;
+  --size-field: 0.22rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: ui-monospace, 'SFMono-Regular', monospace;
+  --style-body-font: ui-monospace, 'SFMono-Regular', monospace;
+  --style-space: 24px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-ristretto"] {
+  color-scheme: dark;
+  --color-base-100: #2c2525;
+  --color-base-200: #211b1b;
+  --color-base-300: #3d2f2a;
+  --color-base-content: #e6d9db;
+  --color-primary: #f38d70;
+  --color-secondary: #a8a9eb;
+  --color-accent: #85dacc;
+  --color-neutral: #403e41;
+  --color-neutral-content: #ffffff;
+  --color-info: #f38d70;
+  --color-success: #adda78;
+  --color-warning: #f9cc6c;
+  --color-error: #fd6883;
+  --radius-selector: 8px;
+  --radius-field: 8px;
+  --radius-box: 8px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: Georgia, 'Noto Serif SC', serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 30px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-rose-pine"] {
+  color-scheme: light;
+  --color-base-100: #faf4ed;
+  --color-base-200: #ede7e1;
+  --color-base-300: #f2e9e1;
+  --color-base-content: #575279;
+  --color-primary: #56949f;
+  --color-secondary: #907aa9;
+  --color-accent: #d7827e;
+  --color-neutral: #dfdad9;
+  --color-neutral-content: #000000;
+  --color-info: #56949f;
+  --color-success: #286983;
+  --color-warning: #ea9d34;
+  --color-error: #b4637a;
+  --radius-selector: 12px;
+  --radius-field: 8px;
+  --radius-box: 12px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: Georgia, 'Noto Serif SC', serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 32px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #ffffff;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-solitude"] {
+  color-scheme: dark;
+  --color-base-100: #101315;
+  --color-base-200: #0c0e10;
+  --color-base-300: #101315;
+  --color-base-content: #cacccc;
+  --color-primary: #798186;
+  --color-secondary: #aeaeae;
+  --color-accent: #707070;
+  --color-neutral: #343d41;
+  --color-neutral-content: #ffffff;
+  --color-info: #798186;
+  --color-success: #9fa5a9;
+  --color-warning: #d9dbdc;
+  --color-error: #565d60;
+  --radius-selector: 2px;
+  --radius-field: 2px;
+  --radius-box: 2px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 30px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #ffffff;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #ffffff;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-starship"] {
+  color-scheme: dark;
+  --color-base-100: #1c1c1e;
+  --color-base-200: #161618;
+  --color-base-300: #2c2c2e;
+  --color-base-content: #f5f5f7;
+  --color-primary: #ff9f0a;
+  --color-secondary: #ff8fa3;
+  --color-accent: #a6dcef;
+  --color-neutral: #3a3a3c;
+  --color-neutral-content: #ffffff;
+  --color-info: #8fb8de;
+  --color-success: #ff9f0a;
+  --color-warning: #ffc27a;
+  --color-error: #ff5f4a;
+  --radius-selector: 10px;
+  --radius-field: 8px;
+  --radius-box: 10px;
+  --size-selector: 0.22rem;
+  --size-field: 0.22rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 24px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-tokyo-night"] {
+  color-scheme: dark;
+  --color-base-100: #1a1b26;
+  --color-base-200: #13141c;
+  --color-base-300: #24283b;
+  --color-base-content: #a9b1d6;
+  --color-primary: #7aa2f7;
+  --color-secondary: #ad8ee6;
+  --color-accent: #449dab;
+  --color-neutral: #292e42;
+  --color-neutral-content: #ffffff;
+  --color-info: #7aa2f7;
+  --color-success: #9ece6a;
+  --color-warning: #e0af68;
+  --color-error: #f7768e;
+  --radius-selector: 10px;
+  --radius-field: 8px;
+  --radius-box: 10px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 26px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-vantablack"] {
+  color-scheme: dark;
+  --color-base-100: #000000;
+  --color-base-200: #090909;
+  --color-base-300: #1a1a1a;
+  --color-base-content: #ffffff;
+  --color-primary: #8d8d8d;
+  --color-secondary: #9b9b9b;
+  --color-accent: #b0b0b0;
+  --color-neutral: #1a1a1a;
+  --color-neutral-content: #ffffff;
+  --color-info: #8d8d8d;
+  --color-success: #b6b6b6;
+  --color-warning: #cecece;
+  --color-error: #a4a4a4;
+  --radius-selector: 0px;
+  --radius-field: 0px;
+  --radius-box: 0px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 32px;
+  --color-primary-content: #000000;
+  --color-secondary-content: #000000;
+  --color-accent-content: #000000;
+  --color-info-content: #000000;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #000000;
+}
+
+/* Omarchy palette; webpage typography, radius and spacing adapted by fangs. */
+[data-theme="omarchy-white"] {
+  color-scheme: light;
+  --color-base-100: #ffffff;
+  --color-base-200: #f5f5f5;
+  --color-base-300: #c0c0c0;
+  --color-base-content: #000000;
+  --color-primary: #6e6e6e;
+  --color-secondary: #2e2e2e;
+  --color-accent: #3e3e3e;
+  --color-neutral: #c0c0c0;
+  --color-neutral-content: #000000;
+  --color-info: #1a1a1a;
+  --color-success: #3a3a3a;
+  --color-warning: #4a4a4a;
+  --color-error: #2a2a2a;
+  --radius-selector: 0px;
+  --radius-field: 0px;
+  --radius-box: 0px;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+  --style-heading-font: system-ui, sans-serif;
+  --style-body-font: system-ui, sans-serif;
+  --style-space: 32px;
+  --color-primary-content: #ffffff;
+  --color-secondary-content: #ffffff;
+  --color-accent-content: #ffffff;
+  --color-info-content: #ffffff;
+  --color-success-content: #ffffff;
+  --color-warning-content: #ffffff;
+  --color-error-content: #ffffff;
+}
