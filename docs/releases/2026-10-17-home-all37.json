@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-17",
+  "source": "49ed3831626a6dc4fab9a4085976f004ab203465",
+  "pages": "ec341a5f9348530ffa486b9ca0b1a2d8c737b5a4",
+  "effects": 37,
+  "records": 111,
+  "full_cycle_seconds_without_load_latency": 537.6,
+  "hold_seconds": 4,
+  "local_checks": [
+    "111 recording hashes and gzip response handling passed",
+    "Astro build and TypeScript passed",
+    "browser effectCount=37",
+    "automatic advance to binarypath, formerly excluded",
+    "pause and resume passed"
+  ],
+  "scope": "Homepage playlist only; legacy shader page unchanged",
+  "expected_public": {
+    "index.html": "89b2aa5ac74490ec5ac8ff0c2f6c4720a85af3bc3c00b295766b92f46d4c8de8",
+    "release.json": "4b99ad61a42ac44fa13515bac76793aac22dd3cb482e56800d25fd63b1074e66"
+  },
+  "public_verified": false
+}
