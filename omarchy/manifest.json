@@ -1,0 +1,826 @@
+{
+  "engine": "TerminalTextEffects 0.15.0",
+  "effects": [
+    "beams",
+    "binarypath",
+    "blackhole",
+    "bouncyballs",
+    "bubbles",
+    "burn",
+    "colorshift",
+    "crumble",
+    "decrypt",
+    "errorcorrect",
+    "expand",
+    "fireworks",
+    "highlight",
+    "laseretch",
+    "matrix",
+    "middleout",
+    "orbittingvolley",
+    "overflow",
+    "pour",
+    "print",
+    "rain",
+    "randomsequence",
+    "rings",
+    "scattered",
+    "slice",
+    "slide",
+    "smoke",
+    "spotlights",
+    "spray",
+    "swarm",
+    "sweep",
+    "synthgrid",
+    "thunderstorm",
+    "unstable",
+    "vhstape",
+    "waves",
+    "wipe"
+  ],
+  "words": [
+    "TASTE",
+    "BUILD",
+    "SELL"
+  ],
+  "renders": [
+    {
+      "id": "beams",
+      "word": "TASTE",
+      "frames": 182,
+      "bytes": 147676,
+      "sha256": "c33008d6be1bdc3f349331214a8d7049b1cc185efdd04eb1d8f6da7d24a39c27"
+    },
+    {
+      "id": "binarypath",
+      "word": "TASTE",
+      "frames": 494,
+      "bytes": 110531,
+      "sha256": "607ae1cb6ef66d8baabe9c7bd42d5607e5ad941a0a711d60d7175c0f718d8497"
+    },
+    {
+      "id": "blackhole",
+      "word": "TASTE",
+      "frames": 500,
+      "bytes": 81728,
+      "sha256": "9d81f0e9b0d1abd6c4565de822c4e21e4c09fed59b1d013a3598654384640d90"
+    },
+    {
+      "id": "bouncyballs",
+      "word": "TASTE",
+      "frames": 206,
+      "bytes": 37693,
+      "sha256": "6f140a18c4842ff983a96f52933d0ee2543575de49716bb6227d925102576a6b"
+    },
+    {
+      "id": "bubbles",
+      "word": "TASTE",
+      "frames": 256,
+      "bytes": 40602,
+      "sha256": "97bb8b23eb5967689527d0b9ddba996c29230846b5fac6fe1348f9abb8d5f285"
+    },
+    {
+      "id": "burn",
+      "word": "TASTE",
+      "frames": 199,
+      "bytes": 44664,
+      "sha256": "25e22227e2963eb42bd056cf4bbd6c39da78fddc3d0c7f787790af39ffa7a33c"
+    },
+    {
+      "id": "colorshift",
+      "word": "TASTE",
+      "frames": 264,
+      "bytes": 85312,
+      "sha256": "782431b8ebfd93e115eac5e380c2547f58e8ae649fd621a5cf00721d901619d1"
+    },
+    {
+      "id": "crumble",
+      "word": "TASTE",
+      "frames": 194,
+      "bytes": 38855,
+      "sha256": "383721a6686da2fc6cedb270ef50eb9d29de1da6715c3da16d3e733121a07236"
+    },
+    {
+      "id": "decrypt",
+      "word": "TASTE",
+      "frames": 365,
+      "bytes": 96825,
+      "sha256": "a44cc5506fd1cbf6d8e265d284428c468988dfc62f21d13e265b061fd1452dd2"
+    },
+    {
+      "id": "errorcorrect",
+      "word": "TASTE",
+      "frames": 140,
+      "bytes": 24442,
+      "sha256": "3599bf75285a59ae3e2150a244cdc74846c6fb571d49be698677a77c804d24bc"
+    },
+    {
+      "id": "expand",
+      "word": "TASTE",
+      "frames": 43,
+      "bytes": 6668,
+      "sha256": "c14ccbb53c3011bdcc6fdd72c77f8f598269ea42401caf11c55434dd5cc08760"
+    },
+    {
+      "id": "fireworks",
+      "word": "TASTE",
+      "frames": 688,
+      "bytes": 100634,
+      "sha256": "c523844d6b3a4b443b1691f1fdd87dc606c8dceeac998c9ff7cf25d05f7f4570"
+    },
+    {
+      "id": "highlight",
+      "word": "TASTE",
+      "frames": 65,
+      "bytes": 9717,
+      "sha256": "9ca62a5e8c55ba83315a3914378165113062b7b612a271b9b942bc646314956b"
+    },
+    {
+      "id": "laseretch",
+      "word": "TASTE",
+      "frames": 255,
+      "bytes": 77395,
+      "sha256": "9f06933d9f83f785d3695e292b846e89596509c9bb68edc7c08c25f0805219d3"
+    },
+    {
+      "id": "matrix",
+      "word": "TASTE",
+      "frames": 851,
+      "bytes": 2076532,
+      "sha256": "38e585133ba073d2c6616ab085d7b310e21e5f6f127422cc008fdb0ac2dc4b05"
+    },
+    {
+      "id": "middleout",
+      "word": "TASTE",
+      "frames": 57,
+      "bytes": 5251,
+      "sha256": "44dfdd654eb56169694fac76cbd63011d37f821e22eb943d122e3c50b2a8aee9"
+    },
+    {
+      "id": "orbittingvolley",
+      "word": "TASTE",
+      "frames": 722,
+      "bytes": 71271,
+      "sha256": "913278d113ad0bb3a07777541c8c7137155d37eee395c68521322082b849c2d6"
+    },
+    {
+      "id": "overflow",
+      "word": "TASTE",
+      "frames": 27,
+      "bytes": 12932,
+      "sha256": "6261514771fc70104d1de9f96df000a4149828ed972591183dad9258b894bd36"
+    },
+    {
+      "id": "pour",
+      "word": "TASTE",
+      "frames": 129,
+      "bytes": 19487,
+      "sha256": "0e32f91b9d561cbbc12da016373d2119475feb967e74183c11e541d02cf8b2b7"
+    },
+    {
+      "id": "print",
+      "word": "TASTE",
+      "frames": 240,
+      "bytes": 37868,
+      "sha256": "e808e7942e4d3a766949873114af75190891b0c93843a539b2c18078775b3cb8"
+    },
+    {
+      "id": "rain",
+      "word": "TASTE",
+      "frames": 103,
+      "bytes": 23158,
+      "sha256": "f6b5f983391e7a3b3ebfe8c7bdf5d78be7fe144a1847713ea446ad8387763924"
+    },
+    {
+      "id": "randomsequence",
+      "word": "TASTE",
+      "frames": 123,
+      "bytes": 15824,
+      "sha256": "131f5924b0d07714656f68312105c55e7c2c8772e843dcc1e6576724b4590758"
+    },
+    {
+      "id": "rings",
+      "word": "TASTE",
+      "frames": 699,
+      "bytes": 184091,
+      "sha256": "e0c44278d5cd54352f4f4fd6bd659d50c5966a46723f5432796295bff7ebeb09"
+    },
+    {
+      "id": "scattered",
+      "word": "TASTE",
+      "frames": 76,
+      "bytes": 20424,
+      "sha256": "8c72e261b9a171bd0b26e0e45b5f9f4d92c4bbca9360c7aa844acc246cde4312"
+    },
+    {
+      "id": "slice",
+      "word": "TASTE",
+      "frames": 72,
+      "bytes": 7284,
+      "sha256": "1e745ce0e3a9195d752e844024c4c3ae2b90d3ca61d90f1103e733a10d2a5b33"
+    },
+    {
+      "id": "slide",
+      "word": "TASTE",
+      "frames": 58,
+      "bytes": 8133,
+      "sha256": "a44a398d9f16b5dbdad556b478a5a70a0f20510c6724d9e205a33c4bd3d33cc7"
+    },
+    {
+      "id": "smoke",
+      "word": "TASTE",
+      "frames": 95,
+      "bytes": 69042,
+      "sha256": "8b562cf888458ca8df02343f10b7dbd6da251ec2d6e1413252e10302cae9bbe9"
+    },
+    {
+      "id": "spotlights",
+      "word": "TASTE",
+      "frames": 328,
+      "bytes": 71350,
+      "sha256": "2176e3545ae6c1ebbce26972f21c2880ca6b68f7164f6299189255084da61513"
+    },
+    {
+      "id": "spray",
+      "word": "TASTE",
+      "frames": 171,
+      "bytes": 30967,
+      "sha256": "cf08f9f56d1cef4ff3170ad53d79d97815ae11e60e0a91a997a1afa88a0c9e81"
+    },
+    {
+      "id": "swarm",
+      "word": "TASTE",
+      "frames": 1715,
+      "bytes": 186539,
+      "sha256": "5d3085bfc9dc97072f3cb2b39ce7508edcb3f4e21817d8ef2e1a5ccf16c45afd"
+    },
+    {
+      "id": "sweep",
+      "word": "TASTE",
+      "frames": 111,
+      "bytes": 111139,
+      "sha256": "14e6a06183136eeba3f6d1a17a33edd2540162e62c647d86c541fbc84d34b773"
+    },
+    {
+      "id": "synthgrid",
+      "word": "TASTE",
+      "frames": 274,
+      "bytes": 202983,
+      "sha256": "ef4a556b76ae9f76bab691f9eecf1ec5a4c08f8e9e715ad134e77cc0359eebf7"
+    },
+    {
+      "id": "thunderstorm",
+      "word": "TASTE",
+      "frames": 563,
+      "bytes": 140377,
+      "sha256": "4110288c84628fa68037a1e27c3393808fef3ad273a3849c9c63489996751857"
+    },
+    {
+      "id": "unstable",
+      "word": "TASTE",
+      "frames": 142,
+      "bytes": 23488,
+      "sha256": "5dbebc4ddf4bbfc85107978fe58c3778a01ab2d1dfd20be96faadb44d4d516d6"
+    },
+    {
+      "id": "vhstape",
+      "word": "TASTE",
+      "frames": 344,
+      "bytes": 61617,
+      "sha256": "9647991d74aa727251dd8565302d0d1b0afd80299f33a252582d9516e0039834"
+    },
+    {
+      "id": "waves",
+      "word": "TASTE",
+      "frames": 265,
+      "bytes": 41800,
+      "sha256": "9bf77b813f3aa37a8927455c4550411694e1de277398cdd920e552af92393723"
+    },
+    {
+      "id": "wipe",
+      "word": "TASTE",
+      "frames": 69,
+      "bytes": 9605,
+      "sha256": "2e25905ff851c599f7456eee59a85bd46e0acc4e7b3631b98b6879f08c02cc6b"
+    },
+    {
+      "id": "beams",
+      "word": "BUILD",
+      "frames": 181,
+      "bytes": 156767,
+      "sha256": "5b8259a6788d6201b8c2812ae452fa494c74178b2c34fd0b45e56b77e5766c52"
+    },
+    {
+      "id": "binarypath",
+      "word": "BUILD",
+      "frames": 491,
+      "bytes": 130615,
+      "sha256": "5c41a75c83342f81940ff8078cddb8fcf394fc391b61f379c5e74b7d1e92dc05"
+    },
+    {
+      "id": "blackhole",
+      "word": "BUILD",
+      "frames": 498,
+      "bytes": 97131,
+      "sha256": "000b4bde1a068f67eba9c43b598ffe9c559c42c34794c22c720aee6a0864156f"
+    },
+    {
+      "id": "bouncyballs",
+      "word": "BUILD",
+      "frames": 227,
+      "bytes": 49454,
+      "sha256": "28dc1c9e09e9c2ac03f121093448fae549f3538b04c4b0cbfa8db023ee1e14bc"
+    },
+    {
+      "id": "bubbles",
+      "word": "BUILD",
+      "frames": 311,
+      "bytes": 54085,
+      "sha256": "0636f7bdca395ae6b3553b1d58c388903fb5d27a35a11b1c0abcbe8aa94bb76c"
+    },
+    {
+      "id": "burn",
+      "word": "BUILD",
+      "frames": 201,
+      "bytes": 55268,
+      "sha256": "5efae46b2436aae835c3c41b47ad5d6b680ecd5387b5dea07973da8bf2ce70d6"
+    },
+    {
+      "id": "colorshift",
+      "word": "BUILD",
+      "frames": 264,
+      "bytes": 97293,
+      "sha256": "46ab32e218ad706948347617de9f9820d0d9e76e24f0a78402ae40ebdf346ba1"
+    },
+    {
+      "id": "crumble",
+      "word": "BUILD",
+      "frames": 220,
+      "bytes": 49367,
+      "sha256": "0b0440145cd4c09ebd3f3864f5e01783fec7a18acd9d5bd713c52bc7612b5450"
+    },
+    {
+      "id": "decrypt",
+      "word": "BUILD",
+      "frames": 397,
+      "bytes": 120749,
+      "sha256": "07d24643cca358dd91d5cabc5614e79eed8556cd521452aed9408202c61c9032"
+    },
+    {
+      "id": "errorcorrect",
+      "word": "BUILD",
+      "frames": 172,
+      "bytes": 34451,
+      "sha256": "6ccd6d4fb68c24086164ea501a75cbba099645c3585bec31cb127c12037b6843"
+    },
+    {
+      "id": "expand",
+      "word": "BUILD",
+      "frames": 43,
+      "bytes": 7543,
+      "sha256": "1535084c88b124b90fc6bc16e3e1c243134de1ca1c6c1600f3af38e5a12edc3f"
+    },
+    {
+      "id": "fireworks",
+      "word": "BUILD",
+      "frames": 628,
+      "bytes": 111233,
+      "sha256": "62cc90f5bace567bb0195ea968f19690b100c7b6b467b547b7dacf85741640ce"
+    },
+    {
+      "id": "highlight",
+      "word": "BUILD",
+      "frames": 65,
+      "bytes": 11586,
+      "sha256": "fd1fada5898f9466f8bb3cbedaa7af529b8086c95813fa23966205765745fd1d"
+    },
+    {
+      "id": "laseretch",
+      "word": "BUILD",
+      "frames": 301,
+      "bytes": 99856,
+      "sha256": "8c897e09766155f64ca4c2c91a12ad08975a51ad4cebf3bec94ddfccb0fe80fd"
+    },
+    {
+      "id": "matrix",
+      "word": "BUILD",
+      "frames": 819,
+      "bytes": 1741026,
+      "sha256": "fc6e512909f865dd1713025db9aba44f2b24b6406b78a9008fdc1f9723136929"
+    },
+    {
+      "id": "middleout",
+      "word": "BUILD",
+      "frames": 57,
+      "bytes": 5837,
+      "sha256": "526c6c2108995572132387b945b76ccac595757314cb37ff3cdbd423291c5449"
+    },
+    {
+      "id": "orbittingvolley",
+      "word": "BUILD",
+      "frames": 892,
+      "bytes": 92954,
+      "sha256": "1bb477bda4cc525dfffa4dced4acc9daa434c69baa7a9dadad9c0da667c4a3f5"
+    },
+    {
+      "id": "overflow",
+      "word": "BUILD",
+      "frames": 28,
+      "bytes": 12253,
+      "sha256": "f5198b5e7e7e4a864cc9b0bb57aa17b00221d3291bf6b69a103d4b720cfeedb2"
+    },
+    {
+      "id": "pour",
+      "word": "BUILD",
+      "frames": 153,
+      "bytes": 26217,
+      "sha256": "f19705b458619e86c1bea8c230ac86b92b51cf30c696d7d2d12d20336d15aa08"
+    },
+    {
+      "id": "print",
+      "word": "BUILD",
+      "frames": 268,
+      "bytes": 49396,
+      "sha256": "898a1a1e762753fb931f26e9425da8321ab46ae34d4b0a5a131ca4e5e5520763"
+    },
+    {
+      "id": "rain",
+      "word": "BUILD",
+      "frames": 113,
+      "bytes": 29549,
+      "sha256": "804eb83d1fa0685b05f926b335e989088ddb036beb57f12facdbfccc9f24d2aa"
+    },
+    {
+      "id": "randomsequence",
+      "word": "BUILD",
+      "frames": 147,
+      "bytes": 21722,
+      "sha256": "be52804045b33e6c2cb8eb34f11be65eb463040471813418799e045505637b86"
+    },
+    {
+      "id": "rings",
+      "word": "BUILD",
+      "frames": 699,
+      "bytes": 227624,
+      "sha256": "0f06809dd366bd053c0910755fc2c1b2e2e4c5ed35819548086d54174babc206"
+    },
+    {
+      "id": "scattered",
+      "word": "BUILD",
+      "frames": 79,
+      "bytes": 25783,
+      "sha256": "608dbc2c90718fe98464e3f3bf35f083d227db199ed95efb2ae6a556b13569b0"
+    },
+    {
+      "id": "slice",
+      "word": "BUILD",
+      "frames": 72,
+      "bytes": 8158,
+      "sha256": "153cd8e7d53858d1571306863340b22323444ebd68cac1560ea4e43b324330e0"
+    },
+    {
+      "id": "slide",
+      "word": "BUILD",
+      "frames": 64,
+      "bytes": 9808,
+      "sha256": "79040a02dad926e40de5cefba8e73458c7f352e46081cd517023cf115f307106"
+    },
+    {
+      "id": "smoke",
+      "word": "BUILD",
+      "frames": 110,
+      "bytes": 80027,
+      "sha256": "3ce3f1d49a1bbb507d005779be7af90ff7969619b1d078509e9dc6c5230129fd"
+    },
+    {
+      "id": "spotlights",
+      "word": "BUILD",
+      "frames": 328,
+      "bytes": 82088,
+      "sha256": "ee03b25ef0a0df6da4a05cde99863b45e1b25cbcc1ef894ed71af008d0e1f697"
+    },
+    {
+      "id": "spray",
+      "word": "BUILD",
+      "frames": 195,
+      "bytes": 40956,
+      "sha256": "16b88245263cdecf1a727239242ab6936bd848d5770e4e623d07b5365d693ebe"
+    },
+    {
+      "id": "swarm",
+      "word": "BUILD",
+      "frames": 1437,
+      "bytes": 175079,
+      "sha256": "c901535b4591edae25244724ec2a207c7c27443555c2f5212c187519ce4385db"
+    },
+    {
+      "id": "sweep",
+      "word": "BUILD",
+      "frames": 111,
+      "bytes": 110611,
+      "sha256": "e9a6971931d6d57340bfee7af3aba70263355f80644195d0fe8d4263e8412943"
+    },
+    {
+      "id": "synthgrid",
+      "word": "BUILD",
+      "frames": 274,
+      "bytes": 209417,
+      "sha256": "ec433a82328297fa39cf76ee553ab8c408c43cbc2563a12293de9936068b91c0"
+    },
+    {
+      "id": "thunderstorm",
+      "word": "BUILD",
+      "frames": 584,
+      "bytes": 133976,
+      "sha256": "83788a6b1a1310fbfa0ee5242e63a1c97c23d42bab9490625055e90dfa68ed27"
+    },
+    {
+      "id": "unstable",
+      "word": "BUILD",
+      "frames": 143,
+      "bytes": 27348,
+      "sha256": "08bfde427cf12e050bf8fdaf2500f1380bf85562ca1eb2bde3881aaf8c80b4d7"
+    },
+    {
+      "id": "vhstape",
+      "word": "BUILD",
+      "frames": 348,
+      "bytes": 74486,
+      "sha256": "981213dda9859a543f6e0a53e583b3224e6e35525f3fe06ef8e01860ba10d21f"
+    },
+    {
+      "id": "waves",
+      "word": "BUILD",
+      "frames": 265,
+      "bytes": 43085,
+      "sha256": "6f64832aa138ac073191291c4be267efcd13f74a051d05e58c870d9a22ed8114"
+    },
+    {
+      "id": "wipe",
+      "word": "BUILD",
+      "frames": 69,
+      "bytes": 11466,
+      "sha256": "0d47bf05c668f915101ed7a1dea499f51f3a4ddb894ddca2fc0c2a18de271c00"
+    },
+    {
+      "id": "beams",
+      "word": "SELL",
+      "frames": 191,
+      "bytes": 152696,
+      "sha256": "84d1fc38905605ffd267c1096693e405f6831ee4c19ee63c3adffeeb33f10541"
+    },
+    {
+      "id": "binarypath",
+      "word": "SELL",
+      "frames": 487,
+      "bytes": 91453,
+      "sha256": "90a2ab9a35b47d375ce3376d0527727e51fe1bfe7153963e9ee15e6c32a343db"
+    },
+    {
+      "id": "blackhole",
+      "word": "SELL",
+      "frames": 490,
+      "bytes": 68258,
+      "sha256": "81c0edca59dafa71b57838ca866ecf628ad132183b6eb07c6bb384e11f085a3c"
+    },
+    {
+      "id": "bouncyballs",
+      "word": "SELL",
+      "frames": 167,
+      "bytes": 27989,
+      "sha256": "750fba9dc00471f246fd7dbeafab2d67d7aaccdae855cbf13855b8c8a0466940"
+    },
+    {
+      "id": "bubbles",
+      "word": "SELL",
+      "frames": 262,
+      "bytes": 36749,
+      "sha256": "1f121d44e4193c0b0e8f893c8fc8434265bacc79469bfce2140372cc1c665a6d"
+    },
+    {
+      "id": "burn",
+      "word": "SELL",
+      "frames": 186,
+      "bytes": 35406,
+      "sha256": "52d58447c118d9a0806ec5cd069b3e02f59bc41de446154adbc13e09a46f5087"
+    },
+    {
+      "id": "colorshift",
+      "word": "SELL",
+      "frames": 264,
+      "bytes": 74694,
+      "sha256": "40f8d6cf9316027d5fb9a018d4645ffc1adbd620a6c6854b941c3a38e78bb9e4"
+    },
+    {
+      "id": "crumble",
+      "word": "SELL",
+      "frames": 192,
+      "bytes": 32370,
+      "sha256": "e162b01369351ec612202ffdcd8f94f001d20bab15b618a78a755919d9325ea1"
+    },
+    {
+      "id": "decrypt",
+      "word": "SELL",
+      "frames": 347,
+      "bytes": 78769,
+      "sha256": "f122f33c1a829f91fc2ba6688f8c8a18756c5896dc901ac782850dd21dcfda86"
+    },
+    {
+      "id": "errorcorrect",
+      "word": "SELL",
+      "frames": 139,
+      "bytes": 19875,
+      "sha256": "0c140a90e15e43c3060497fac7fd283c8bab78f4c828a5a9c1bf8b4092e9da1c"
+    },
+    {
+      "id": "expand",
+      "word": "SELL",
+      "frames": 34,
+      "bytes": 4795,
+      "sha256": "c2ab470c61551a69e68eb5fea393eb51442853fc9b265000f3718371e4608fe7"
+    },
+    {
+      "id": "fireworks",
+      "word": "SELL",
+      "frames": 593,
+      "bytes": 76567,
+      "sha256": "1f35f8794252c1801969799c963e97af30a43edcd0935073fbd8da56974dcb57"
+    },
+    {
+      "id": "highlight",
+      "word": "SELL",
+      "frames": 65,
+      "bytes": 8322,
+      "sha256": "c5af12984f189880591807ea99da20fa00083593830306d677c7a1eaa32d6007"
+    },
+    {
+      "id": "laseretch",
+      "word": "SELL",
+      "frames": 228,
+      "bytes": 63706,
+      "sha256": "26c1b3f0a373a1c9d018fa3e9fd8c851b7bdbd5fd9098761c70028551810fc54"
+    },
+    {
+      "id": "matrix",
+      "word": "SELL",
+      "frames": 843,
+      "bytes": 2141551,
+      "sha256": "9efd53a4830ee3dc7e61106aa501f69ffa9e6db8345b4fe9cf43830989221c0c"
+    },
+    {
+      "id": "middleout",
+      "word": "SELL",
+      "frames": 52,
+      "bytes": 4519,
+      "sha256": "732b6e7dc28d86a38a356cf4416d730eee006cda9fdf3c014e8b389ab68c0136"
+    },
+    {
+      "id": "orbittingvolley",
+      "word": "SELL",
+      "frames": 587,
+      "bytes": 52607,
+      "sha256": "9dceafe2a6f8081f6fd92c41b2e8d9618faf151b0512037d59ba9a1c28badf64"
+    },
+    {
+      "id": "overflow",
+      "word": "SELL",
+      "frames": 32,
+      "bytes": 11433,
+      "sha256": "3d5779ccd57c8651f61169919953b0107bee72d99f195b90b90be73fb2892782"
+    },
+    {
+      "id": "pour",
+      "word": "SELL",
+      "frames": 113,
+      "bytes": 15764,
+      "sha256": "095bae2b83270b96ba2dde366f240b9e701820f75f88472c66a7e24ff4966215"
+    },
+    {
+      "id": "print",
+      "word": "SELL",
+      "frames": 196,
+      "bytes": 26687,
+      "sha256": "e9779256dd59e02d99f611e13ea3015e055d964ae1cf1dcea30e9e4903daf730"
+    },
+    {
+      "id": "rain",
+      "word": "SELL",
+      "frames": 91,
+      "bytes": 18284,
+      "sha256": "c4a0ce074e1e1556c912d6d7ec8004f45b2ccbb73d087cf05de2229852c90034"
+    },
+    {
+      "id": "randomsequence",
+      "word": "SELL",
+      "frames": 107,
+      "bytes": 12194,
+      "sha256": "abcde9fc84b153b0a35992e0bf438b689aecdcaca3b4f4e772dd630feee83904"
+    },
+    {
+      "id": "rings",
+      "word": "SELL",
+      "frames": 699,
+      "bytes": 154881,
+      "sha256": "5a675dc523ce9856b0a05de980c387cc9d3abed9401da2313203399df516647e"
+    },
+    {
+      "id": "scattered",
+      "word": "SELL",
+      "frames": 74,
+      "bytes": 17481,
+      "sha256": "d900f59079cffba5b578a874f5ab577e3793287b526bb0c056086ec5284c8596"
+    },
+    {
+      "id": "slice",
+      "word": "SELL",
+      "frames": 72,
+      "bytes": 5929,
+      "sha256": "4a7f718eb5d0d4413f4a8fd30585e0ef8c7595dceed59562ca4ad586f692228b"
+    },
+    {
+      "id": "slide",
+      "word": "SELL",
+      "frames": 62,
+      "bytes": 7581,
+      "sha256": "d1e309c3347a34d14c0ed19f4edde2af502047012ceb02aada25ef9e013ef3ed"
+    },
+    {
+      "id": "smoke",
+      "word": "SELL",
+      "frames": 90,
+      "bytes": 58410,
+      "sha256": "96cf637ed05422a26a9eb31097d599115b8592f571fb0d365fb2f3a359287122"
+    },
+    {
+      "id": "spotlights",
+      "word": "SELL",
+      "frames": 338,
+      "bytes": 62072,
+      "sha256": "1cf927689c3b15e0235c5f7fc179a0b8fed2fdea0c10e07a1b7e1740faeaadfd"
+    },
+    {
+      "id": "spray",
+      "word": "SELL",
+      "frames": 155,
+      "bytes": 24811,
+      "sha256": "4ee2af2d1c2cd6f8537aadf634a3364f368edd5b8f0e05484eee2c8e11f78088"
+    },
+    {
+      "id": "swarm",
+      "word": "SELL",
+      "frames": 1749,
+      "bytes": 156064,
+      "sha256": "6dcdb9cdc64858590c1f13573afe2c529dec9e40f89c3a250525b348ff7d175d"
+    },
+    {
+      "id": "sweep",
+      "word": "SELL",
+      "frames": 111,
+      "bytes": 107727,
+      "sha256": "c3991aad426139c19f0877148392ad461285c855eae4e25df47bab67bee0548c"
+    },
+    {
+      "id": "synthgrid",
+      "word": "SELL",
+      "frames": 274,
+      "bytes": 211711,
+      "sha256": "4db1e569cdfc3514d42512803bec0c269bdc63c14bb2c51bdd0e41740b088cef"
+    },
+    {
+      "id": "thunderstorm",
+      "word": "SELL",
+      "frames": 565,
+      "bytes": 139287,
+      "sha256": "17ee1a9a4ceb81dc811c5874e35a004a60122dc4bfdc8ad654562aedf58ccdf2"
+    },
+    {
+      "id": "unstable",
+      "word": "SELL",
+      "frames": 138,
+      "bytes": 19962,
+      "sha256": "4ffb9ee729b7ba8f4d2152b30639177a89528dd24a4cf408cdd2c8927e529fbd"
+    },
+    {
+      "id": "vhstape",
+      "word": "SELL",
+      "frames": 344,
+      "bytes": 56603,
+      "sha256": "653faa1902f22d5b77fdace656c4639274a34928573f9ab4795f5bf861bad941"
+    },
+    {
+      "id": "waves",
+      "word": "SELL",
+      "frames": 260,
+      "bytes": 33327,
+      "sha256": "0871acc483b37c2d77f9e16c1b4d4586cb0f1a8ba014c6d2322b313e90f157a8"
+    },
+    {
+      "id": "wipe",
+      "word": "SELL",
+      "frames": 69,
+      "bytes": 8312,
+      "sha256": "5a467b93d2ac30cc687bb7a3c166ad0aa994b69c6b23df7f1335d4ec10d6da98"
+    }
+  ]
+}
