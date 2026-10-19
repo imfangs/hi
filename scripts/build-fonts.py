@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Rebuild local CJK subsets: uv run --with fonttools --with brotli scripts/build-fonts.py"""
 from pathlib import Path
-import hashlib, json, urllib.request
+import hashlib, json, re, urllib.request
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
 from fontTools import subset
@@ -39,4 +39,11 @@ for family, local, filename in [('notoserifsc','Hi Song','hi-song.woff2'),('noto
     records.append(dict(family=local,upstream=upstream,url=url,license_url=license_url,source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),file='public/fonts/'+filename,bytes=output.stat().st_size,sha256=hashlib.sha256(output.read_bytes()).hexdigest(),weights=[400,600]))
 manifest={'source_revision':REV,'characters':''.join(sorted(chars)),'cjk_count':sum('\u3400'<=c<='\u9fff' for c in chars),'fonts':records}
 (ROOT/'scripts/font-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+stylesheet=ROOT/'src/styles/global.css'
+css=stylesheet.read_text()
+for record in records:
+    filename=Path(record['file']).name
+    css,count=re.subn(r"(/fonts/"+re.escape(filename)+r"\?v=)[a-f0-9]+",lambda match:match.group(1)+record['sha256'][:12],css)
+    if count!=1: raise RuntimeError(f'Expected one versioned font URL for {filename}, found {count}')
+stylesheet.write_text(css)
 print(json.dumps({'cjk_count':manifest['cjk_count'],'fonts':records},ensure_ascii=False,indent=2))

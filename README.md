@@ -97,7 +97,7 @@ Pages 设置为 `gh-pages` / root。域名 `hi.fangs.cc` CNAME 指向 `imfangs.g
 
 ## 中文字体维护
 
-中文采用宋体标题与黑体说明/正文，依据与对照见 [字体研究](docs/design/2026-10-09-chinese-type/README.md)。`pnpm build`自动检查源码汉字覆盖与字体哈希。新增缺字后运行 `pnpm fonts:build`（uv、fontTools、Brotli；源版本固定），再构建和浏览器验证。字体重建不应更改正文内容。
+中文采用宋体标题与黑体说明/正文，依据与对照见 [字体研究](docs/design/2026-10-09-chinese-type/README.md)。`pnpm build`自动检查源码汉字覆盖、字体哈希与CSS字体URL版本。新增缺字后运行 `pnpm fonts:build`（uv、fontTools、Brotli；源版本固定），会同步字体与缓存版本，再构建和浏览器验证。字体重建不应更改正文内容。
 
 ## 小小世界试玩页
 

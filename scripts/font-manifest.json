@@ -10,8 +10,8 @@
       "license_url": "https://raw.githubusercontent.com/google/fonts/2eb0b48d5f760f62e286216f0859a8c540dbc1bd/ofl/notoserifsc/OFL.txt",
       "source_sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
       "file": "public/fonts/hi-song.woff2",
-      "bytes": 410308,
-      "sha256": "59426dc3d060e04f4e9ab4a65ebbf3e63be0a2709711c8c922f15ef394041bb4",
+      "bytes": 410652,
+      "sha256": "67f7802cb09d349b0f74cb1da27068ca331dc590adc85a5d246d618d4b226d8e",
       "weights": [
         400,
         600
@@ -24,8 +24,8 @@
       "license_url": "https://raw.githubusercontent.com/google/fonts/2eb0b48d5f760f62e286216f0859a8c540dbc1bd/ofl/notosanssc/OFL.txt",
       "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
       "file": "public/fonts/hi-sans.woff2",
-      "bytes": 315468,
-      "sha256": "13dca8f79926c6092cff9af19fd30ea190f294dcd63ac0c853bf2438b6e402f8",
+      "bytes": 315748,
+      "sha256": "1f6666f6e77e1bc0637bd8e6b7a03322f649539355c6cd18423a0685c9bf75f4",
       "weights": [
         400,
         600
