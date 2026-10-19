@@ -4,9 +4,9 @@
 
 [Today 作品详情](https://hi.fangs.cc/projects/today/)已加入首页与阅读分类，[搜索入口](https://hi.fangs.cc/?view=reading&q=Today)可直接找到并打开 [Today](https://today.fangs.cc/)。共21件作品，原20件保留；封面为正式匿名登录页，口令框为空，公开文案仅说明生活发现、提案与作品的阅读入口及家庭口令要求。
 
-源 `443fbce`、Pages `03ab063`；GitHub built、普通release.json匹配，53/53变更公开文件哈希一致。47页构建、TypeScript、1088字字体覆盖通过；本地及正式1440/390、深色、无JS，全部21详情返回、Today搜索/焦点恢复与真实Hi→Today登录页点击通过，无页面或控制台错误。仅检查匿名入口，没有读取家庭正文。
+**当前封面版本**：Today温馨版上线后，同步带爸爸、妈妈、柚子三枚象征插画的真实登录页封面。Hi源 `7b5e6a3`、Pages `2fe6ce9`；GitHub built、普通release.json匹配，6/6变更公开文件哈希一致。47页构建及1088字字体/URL版本检查通过，正式1440/390封面加载、图片哈希、详情返回与Hi→Today匿名登录页点击通过。只更换图片与缓存版本，文案、21件作品与字体原样保留。[温馨版封面回执](docs/releases/2026-10-19-today-warm-cover-publication.json) · [文件核验](docs/releases/2026-10-19-today-warm-cover-integrity.json)。
 
-此次补齐字体生成后CSS缓存版本的同步，并加入构建校验；旧版本隔离样本被拒绝，桌面/手机实测请求新字体。真实手机/Safari及Today登录后的业务体验不属于Hi这次验收。[发布回执](docs/releases/2026-10-19-today-publication.json) · [浏览器](docs/releases/2026-10-19-today-public-browser.json) · [文件核验](docs/releases/2026-10-19-today-integrity.json)。后续记录提交不代表再次部署。
+首次入口发布源 `443fbce`、Pages `03ab063`，53/53文件一致；当时完成TypeScript、本地及正式1440/390、深色、无JS、全部21详情返回、Today搜索/焦点恢复与跨站点击，无页面或控制台错误；并补齐字体生成的CSS缓存版本同步与构建校验，旧版本隔离样本被拒绝。[首次发布回执](docs/releases/2026-10-19-today-publication.json)。此次封面更新未重复全面回归。真实手机/Safari、Today登录后业务及其动效不属于Hi本次验收；没有读取家庭正文。后续记录提交不代表再次部署。
 
 ## 我们的小小世界（2026-10-17，已发布并回读）
 

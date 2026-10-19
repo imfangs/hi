@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-19",
+  "source": "7b5e6a377d349b694983c70c0553008fbb40508b",
+  "pages": "2fe6ce9aee24b0be280921c5ca246be0ca9bb07c",
+  "github_status": "built",
+  "release_matched": true,
+  "public_files_matched": 6,
+  "public_files_total": 6,
+  "entry": "https://hi.fangs.cc/projects/today/",
+  "scope": "Only the public Today cover, its cache version and supporting records changed. Existing 21 works, text and fonts were preserved.",
+  "asset": {
+    "source": "https://today.fangs.cc/",
+    "applicationSource": "7b6c4bff1b3b62052b8fd0a427f3c89e7ba75920",
+    "sourceDimensions": [
+      1200,
+      833
+    ],
+    "fitDimensions": [
+      1080,
+      750
+    ],
+    "outputDimensions": [
+      1200,
+      750
+    ],
+    "borderColor": [
+      247,
+      245,
+      238
+    ],
+    "bytes": 28918,
+    "sha256": "f8658152056a187e7c79a2f52f2f64408d1d02891df3ac552e8e3e28df5ed08b",
+    "sourceSha256": "dac12bd3ce8ec565945e50b763dc2c8df6446ab2e6905827f927537430c7401b"
+  },
+  "visual_readback": "三枚家庭象征插画、字标、欢迎回家与空口令框完整保留；1200×750补边对称，390px详情图完整无裁切。",
+  "local_browser": {
+    "base": "http://127.0.0.1:4229/",
+    "mode": "local",
+    "coverHash": "f8658152056a187e7c79a2f52f2f64408d1d02891df3ac552e8e3e28df5ed08b",
+    "checks": [
+      {
+        "width": 1440,
+        "height": 844,
+        "coverLoaded": true,
+        "hashMatched": true,
+        "detailReturn": true,
+        "anonymousUpdatedLogin": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "coverLoaded": true,
+        "hashMatched": true,
+        "detailReturn": true,
+        "anonymousUpdatedLogin": false
+      }
+    ],
+    "errors": [],
+    "scope": "Today cover and existing entry links only; anonymous browser context.",
+    "passed": true
+  },
+  "public_browser": {
+    "base": "https://hi.fangs.cc/",
+    "mode": "public",
+    "coverHash": "f8658152056a187e7c79a2f52f2f64408d1d02891df3ac552e8e3e28df5ed08b",
+    "checks": [
+      {
+        "width": 1440,
+        "height": 844,
+        "coverLoaded": true,
+        "hashMatched": true,
+        "detailReturn": true,
+        "anonymousUpdatedLogin": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "coverLoaded": true,
+        "hashMatched": true,
+        "detailReturn": true,
+        "anonymousUpdatedLogin": false
+      }
+    ],
+    "errors": [],
+    "scope": "Today cover and existing entry links only; anonymous browser context.",
+    "passed": true
+  },
+  "privacy": "Only the anonymous public login page was captured. The passphrase input remained empty. No family content or credentials were accessed.",
+  "limits": [
+    "Screenshots are a static representation; Today animation behavior was not retested here.",
+    "Chromium viewports, not physical phone or Safari.",
+    "Unchanged projects were not re-audited in this cover-only update."
+  ],
+  "integrity": "2026-10-19-today-warm-cover-integrity.json"
+}
