@@ -1,5 +1,13 @@
 # 当前状态
 
+## Today 家庭每日报纸入口（2026-10-19，已发布并回读）
+
+[Today 作品详情](https://hi.fangs.cc/projects/today/)已加入首页与阅读分类，[搜索入口](https://hi.fangs.cc/?view=reading&q=Today)可直接找到并打开 [Today](https://today.fangs.cc/)。共21件作品，原20件保留；封面为正式匿名登录页，口令框为空，公开文案仅说明生活发现、提案与作品的阅读入口及家庭口令要求。
+
+源 `443fbce`、Pages `03ab063`；GitHub built、普通release.json匹配，53/53变更公开文件哈希一致。47页构建、TypeScript、1088字字体覆盖通过；本地及正式1440/390、深色、无JS，全部21详情返回、Today搜索/焦点恢复与真实Hi→Today登录页点击通过，无页面或控制台错误。仅检查匿名入口，没有读取家庭正文。
+
+此次补齐字体生成后CSS缓存版本的同步，并加入构建校验；旧版本隔离样本被拒绝，桌面/手机实测请求新字体。真实手机/Safari及Today登录后的业务体验不属于Hi这次验收。[发布回执](docs/releases/2026-10-19-today-publication.json) · [浏览器](docs/releases/2026-10-19-today-public-browser.json) · [文件核验](docs/releases/2026-10-19-today-integrity.json)。后续记录提交不代表再次部署。
+
 ## 我们的小小世界（2026-10-17，已发布并回读）
 
 [试玩页](https://hi.fangs.cc/little-world/)与[作品详情](https://hi.fangs.cc/projects/little-world/)已上线，首页创作分类与搜索可达，共20件作品，原19件保留；[离线ZIP](https://hi.fangs.cc/little-world/download/little-world.zip)可下载。真实日光界面作封面，展陈位于柚子小岛后。

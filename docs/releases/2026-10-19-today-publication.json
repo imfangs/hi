@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-19",
+  "source": "443fbcee9004d1679e369702f8b268bc1f908a9d",
+  "pages": "03ab0632d5ed33e4af87030e6dbe72c1fbee083d",
+  "github_status": "built",
+  "release_matched": true,
+  "public_files_matched": 53,
+  "public_files_total": 53,
+  "entry": "https://hi.fangs.cc/projects/today/",
+  "filtered_entry": "https://hi.fangs.cc/?view=reading&q=Today",
+  "application": "https://today.fangs.cc/",
+  "browser": {
+    "passed": true,
+    "featuredWorks": 21,
+    "previousWorksPreserved": 20,
+    "readingWorks": 7,
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "checks": [
+      "search to Today detail and return with query/focus",
+      "all 21 project detail return paths on desktop and mobile",
+      "reading category includes Today",
+      "anonymous cross-site click reaches empty passphrase input",
+      "mobile light and dark layouts",
+      "no JavaScript index and detail"
+    ]
+  },
+  "font_refresh": {
+    "reason": "Generated font URLs retained old hashes after subset updates",
+    "generator_updates_url_versions": true,
+    "build_guard_checks_url_versions": true,
+    "stale_version_fixture_rejected": true,
+    "actual_updated_font_requests_verified": [
+      "desktop",
+      "phone"
+    ],
+    "cjk_count": 1088
+  },
+  "privacy": "Public content and cover contain only the anonymous login interface and general project description; no passphrase, tokens or family articles.",
+  "limits": [
+    "Chromium viewports, not physical phone or Safari.",
+    "Only the anonymous Today login page is checked."
+  ],
+  "evidence": [
+    "2026-10-19-today-local.json",
+    "2026-10-19-today-public-browser.json",
+    "2026-10-19-today-integrity.json"
+  ]
+}
