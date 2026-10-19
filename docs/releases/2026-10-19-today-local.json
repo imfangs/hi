@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-19",
+  "base": "http://127.0.0.1:4229/",
+  "mode": "local",
+  "results": [
+    {
+      "view": "desktop",
+      "geometry": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440
+      },
+      "featured": 21,
+      "previousWorksPreserved": 20,
+      "readingCount": 7,
+      "searchDetailReturn": true,
+      "externalLoginReached": true,
+      "detailReturnChecks": 21
+    },
+    {
+      "view": "phone",
+      "geometry": {
+        "width": 390,
+        "document": 390,
+        "body": 390
+      },
+      "featured": 21,
+      "previousWorksPreserved": 20,
+      "readingCount": 7,
+      "searchDetailReturn": true,
+      "externalLoginReached": false,
+      "detailReturnChecks": 21
+    },
+    {
+      "view": "dark",
+      "geometry": {
+        "width": 390,
+        "document": 390,
+        "body": 390
+      },
+      "featured": 21,
+      "previousWorksPreserved": 20,
+      "readingCount": 7,
+      "searchDetailReturn": true,
+      "externalLoginReached": false,
+      "detailReturnChecks": 1
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Chromium viewports, not physical phone or Safari.",
+    "Only the anonymous Today login page is checked."
+  ],
+  "passed": true,
+  "visual_readback": "桌面搜索只显示 Today 卡片；390px 标题自然换行、按钮与完整登录页封面无裁切，深色模式文字对比清楚。截图联系表只用于布局判断；正文由 DOM 核对。"
+}
