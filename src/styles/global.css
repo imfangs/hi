@@ -28,13 +28,13 @@
 }
 @font-face {
   font-family: 'Hi Song';
-  src: url('/fonts/hi-song.woff2?v=67f7802cb09d') format('woff2');
+  src: url('/fonts/hi-song.woff2?v=c3fefb20dc59') format('woff2');
   font-weight: 400 600;
   font-display: swap;
 }
 @font-face {
   font-family: 'Hi Sans';
-  src: url('/fonts/hi-sans.woff2?v=1f6666f6e77e') format('woff2');
+  src: url('/fonts/hi-sans.woff2?v=c34c831e8e5d') format('woff2');
   font-weight: 400 600;
   font-display: swap;
 }
