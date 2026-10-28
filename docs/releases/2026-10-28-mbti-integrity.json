@@ -1,0 +1,454 @@
+{
+  "date": "2026-10-28",
+  "source": "0b8d75366549a96b380752f3e1cbdc0ccf32bf20",
+  "pages": "c2b9481e79a7b853d9ec77f1893636572f433868",
+  "baselinePages": "2fe6ce9aee24b0be280921c5ca246be0ca9bb07c",
+  "files": [
+    {
+      "path": "_astro/wordlight.d4PSwW4Q.css",
+      "status": 200,
+      "bytes": 66394,
+      "sha256": "c8aa3be75f2aa5b6a1b6265b18e18e5caacf5801053dca9b8ee444b71deb2c8e",
+      "expected": "c8aa3be75f2aa5b6a1b6265b18e18e5caacf5801053dca9b8ee444b71deb2c8e",
+      "matched": true
+    },
+    {
+      "path": "experiments/wordlight/index.html",
+      "status": 200,
+      "bytes": 10970,
+      "sha256": "6c77e19f0bfd8e39c83e3061ca85b3887d4ce118f5fa52a2a0f14389daeee7da",
+      "expected": "6c77e19f0bfd8e39c83e3061ca85b3887d4ce118f5fa52a2a0f14389daeee7da",
+      "matched": true
+    },
+    {
+      "path": "fonts/hi-sans.woff2",
+      "status": 200,
+      "bytes": 316140,
+      "sha256": "c34c831e8e5de9b1991d70074d9d14eda8db7c08fa317734aec5fdb989443f08",
+      "expected": "c34c831e8e5de9b1991d70074d9d14eda8db7c08fa317734aec5fdb989443f08",
+      "matched": true
+    },
+    {
+      "path": "fonts/hi-song.woff2",
+      "status": 200,
+      "bytes": 410736,
+      "sha256": "c3fefb20dc590ec0b6a4ee3d1034be9c013d3f41c95d5a2c71a14e345c8a9848",
+      "expected": "c3fefb20dc590ec0b6a4ee3d1034be9c013d3f41c95d5a2c71a14e345c8a9848",
+      "matched": true
+    },
+    {
+      "path": "images/projects/mbti.webp",
+      "status": 200,
+      "bytes": 36636,
+      "sha256": "f39c83c6296f81f7cdf13fabe8db10a8d1eef5f5e083e6e25442a6d2ba79cffc",
+      "expected": "f39c83c6296f81f7cdf13fabe8db10a8d1eef5f5e083e6e25442a6d2ba79cffc",
+      "matched": true
+    },
+    {
+      "path": "index.html",
+      "matched": true,
+      "status": 200,
+      "bytes": 45569,
+      "sha256": "82040ad78a0becb435bcb52ae8ac7081b00f5ad1ac01cc160feae34a3b82db57",
+      "expected": "82040ad78a0becb435bcb52ae8ac7081b00f5ad1ac01cc160feae34a3b82db57"
+    },
+    {
+      "path": "omarchy/themes/catppuccin-latte/index.html",
+      "status": 200,
+      "bytes": 74003,
+      "sha256": "b0b0ec9f9ba8bcf594cfc92a7337d021c54a99cc32bc49ff2d2ea20bcd082766",
+      "expected": "b0b0ec9f9ba8bcf594cfc92a7337d021c54a99cc32bc49ff2d2ea20bcd082766",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/catppuccin/index.html",
+      "status": 200,
+      "bytes": 74727,
+      "sha256": "2111145eae2d3490f1d23da27554f5c99b99b2f8ff78c0b114181b1406e64e59",
+      "expected": "2111145eae2d3490f1d23da27554f5c99b99b2f8ff78c0b114181b1406e64e59",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/ethereal/index.html",
+      "status": 200,
+      "bytes": 74184,
+      "sha256": "e5bb29e1e7a99ccf580a1c3a2383565a8a886c391407d434e590e9afdeaaa80b",
+      "expected": "e5bb29e1e7a99ccf580a1c3a2383565a8a886c391407d434e590e9afdeaaa80b",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/everforest/index.html",
+      "status": 200,
+      "bytes": 73800,
+      "sha256": "7f30befdf682507dd41efa6311d42d438b94290b8fa0d3fdde1772e92996f3a0",
+      "expected": "7f30befdf682507dd41efa6311d42d438b94290b8fa0d3fdde1772e92996f3a0",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/flexoki-light/index.html",
+      "status": 200,
+      "bytes": 73886,
+      "sha256": "19a5256fcd85622ded5d1c76af4c3bc08e92bb5f63e52e05a7c7f44b767e21c5",
+      "expected": "19a5256fcd85622ded5d1c76af4c3bc08e92bb5f63e52e05a7c7f44b767e21c5",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/gruvbox/index.html",
+      "status": 200,
+      "bytes": 75500,
+      "sha256": "ebd0ed86a12ac53ec70bfef3d524c6cd69f0b2cf6479bd0a2638b42728e950cf",
+      "expected": "ebd0ed86a12ac53ec70bfef3d524c6cd69f0b2cf6479bd0a2638b42728e950cf",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/hackerman/index.html",
+      "status": 200,
+      "bytes": 74185,
+      "sha256": "c28f1fe60dab0435fca5afc7ed5e9b8fbecd9ac4a4463248e2c75dba45a97d5b",
+      "expected": "c28f1fe60dab0435fca5afc7ed5e9b8fbecd9ac4a4463248e2c75dba45a97d5b",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/index.html",
+      "status": 200,
+      "bytes": 59048,
+      "sha256": "015b3e29ab898ef41e03678532ca03cff1330563b7337d65574a448d9e723cfb",
+      "expected": "015b3e29ab898ef41e03678532ca03cff1330563b7337d65574a448d9e723cfb",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/kanagawa/index.html",
+      "status": 200,
+      "bytes": 73737,
+      "sha256": "fea6247f10c7c76387cc2b32f5ba2a04c2d74b28b9f1b8a8df07906852894398",
+      "expected": "fea6247f10c7c76387cc2b32f5ba2a04c2d74b28b9f1b8a8df07906852894398",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/last-horizon/index.html",
+      "status": 200,
+      "bytes": 74741,
+      "sha256": "d0c505db9ee839fb98c1bd67f35eb5190e6ec1e6c105c943ac6af71daac19e01",
+      "expected": "d0c505db9ee839fb98c1bd67f35eb5190e6ec1e6c105c943ac6af71daac19e01",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/lumon/index.html",
+      "status": 200,
+      "bytes": 74088,
+      "sha256": "f0f47a56ad34af8870be1f5558ea155dc1bc17f079e1796235285b43f156c570",
+      "expected": "f0f47a56ad34af8870be1f5558ea155dc1bc17f079e1796235285b43f156c570",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/lupine/index.html",
+      "status": 200,
+      "bytes": 75565,
+      "sha256": "53b55208196ba26c2a9515e7731cf8b161f32302b650d103929a097e4c7c4767",
+      "expected": "53b55208196ba26c2a9515e7731cf8b161f32302b650d103929a097e4c7c4767",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/matte-black/index.html",
+      "status": 200,
+      "bytes": 74714,
+      "sha256": "3e744b9f3d348a0453303fdf5cd0e34da471e37fc986346dee9e30975375d75f",
+      "expected": "3e744b9f3d348a0453303fdf5cd0e34da471e37fc986346dee9e30975375d75f",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/miasma/index.html",
+      "status": 200,
+      "bytes": 74078,
+      "sha256": "53fb124e932748a2eb4d72db97bf4985aef9064f69949e04e8480c0aff169f44",
+      "expected": "53fb124e932748a2eb4d72db97bf4985aef9064f69949e04e8480c0aff169f44",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/nord/index.html",
+      "status": 200,
+      "bytes": 74445,
+      "sha256": "7a9d243c0311bc3e6c4856e6af934d7312829aa3e6674b7cb8dda4a1ee74fefe",
+      "expected": "7a9d243c0311bc3e6c4856e6af934d7312829aa3e6674b7cb8dda4a1ee74fefe",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/osaka-jade/index.html",
+      "status": 200,
+      "bytes": 74727,
+      "sha256": "4f0d8a1dcabbfd5ac6e595aa58c2f51ef9cd43b1fa3e824a28be71f79a20bc2f",
+      "expected": "4f0d8a1dcabbfd5ac6e595aa58c2f51ef9cd43b1fa3e824a28be71f79a20bc2f",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/retro-82/index.html",
+      "status": 200,
+      "bytes": 76924,
+      "sha256": "4904f371d9a2404e0d4f25124387f6e5e952cf65bd7bd1dc8c87a1d03c819bc8",
+      "expected": "4904f371d9a2404e0d4f25124387f6e5e952cf65bd7bd1dc8c87a1d03c819bc8",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/ristretto/index.html",
+      "status": 200,
+      "bytes": 75087,
+      "sha256": "7bc7ce3b4e3256a669dad0b7b53ab32bb023105f74e15bf4d78491b27e6283af",
+      "expected": "7bc7ce3b4e3256a669dad0b7b53ab32bb023105f74e15bf4d78491b27e6283af",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/rose-pine/index.html",
+      "status": 200,
+      "bytes": 74694,
+      "sha256": "c915af404796bcb1709d83f18fa8cd3d99da32df3c3f45251cea84ebc33722bb",
+      "expected": "c915af404796bcb1709d83f18fa8cd3d99da32df3c3f45251cea84ebc33722bb",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/solitude/index.html",
+      "status": 200,
+      "bytes": 75018,
+      "sha256": "d86307f5264f1e1f3f27cd6c180607460a3a7ebdda571a58b0938aff62a1b381",
+      "expected": "d86307f5264f1e1f3f27cd6c180607460a3a7ebdda571a58b0938aff62a1b381",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/starship/index.html",
+      "status": 200,
+      "bytes": 74190,
+      "sha256": "429020ae3b4549930ebd51ce0b60be53d22c3978049c626b70f3933042197819",
+      "expected": "429020ae3b4549930ebd51ce0b60be53d22c3978049c626b70f3933042197819",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/tokyo-night/index.html",
+      "status": 200,
+      "bytes": 77006,
+      "sha256": "768abac5215b1fc43bfa96eaf1d71a7a5da91c692c62b76e848f5a26cdf2c775",
+      "expected": "768abac5215b1fc43bfa96eaf1d71a7a5da91c692c62b76e848f5a26cdf2c775",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/vantablack/index.html",
+      "status": 200,
+      "bytes": 75126,
+      "sha256": "4721de8574bb4ffa503754bae260d9b74d4f85ea999267ae810cfc28fa0000e3",
+      "expected": "4721de8574bb4ffa503754bae260d9b74d4f85ea999267ae810cfc28fa0000e3",
+      "matched": true
+    },
+    {
+      "path": "omarchy/themes/white/index.html",
+      "status": 200,
+      "bytes": 74450,
+      "sha256": "e6f6662486f0e77bd199ea83ca1f9bc67d48426378d7a976693d05a185087ef7",
+      "expected": "e6f6662486f0e77bd199ea83ca1f9bc67d48426378d7a976693d05a185087ef7",
+      "matched": true
+    },
+    {
+      "path": "projects/aftercast/index.html",
+      "status": 200,
+      "bytes": 11153,
+      "sha256": "110f21f3c1b4fdbf63b6229bcefc66236dfa190a900867aa7762f73b61afd59d",
+      "expected": "110f21f3c1b4fdbf63b6229bcefc66236dfa190a900867aa7762f73b61afd59d",
+      "matched": true
+    },
+    {
+      "path": "projects/aiedu/index.html",
+      "status": 200,
+      "bytes": 11407,
+      "sha256": "6d944255b82942d01849b6899ee73e8522ff3ee120be199b9519dbd0ee95601a",
+      "expected": "6d944255b82942d01849b6899ee73e8522ff3ee120be199b9519dbd0ee95601a",
+      "matched": true
+    },
+    {
+      "path": "projects/chenchen-atelier/index.html",
+      "status": 200,
+      "bytes": 10146,
+      "sha256": "24e73d6fdf991096e3bd3f1e1b54ed9a7b38827476a8fd4b207911586aa120aa",
+      "expected": "24e73d6fdf991096e3bd3f1e1b54ed9a7b38827476a8fd4b207911586aa120aa",
+      "matched": true
+    },
+    {
+      "path": "projects/dankoe/index.html",
+      "status": 200,
+      "bytes": 11359,
+      "sha256": "ffaf7d03fb705eeb5a8d0bfb6c500eb5369bec3dd6d1bbe782a984feb4a88491",
+      "expected": "ffaf7d03fb705eeb5a8d0bfb6c500eb5369bec3dd6d1bbe782a984feb4a88491",
+      "matched": true
+    },
+    {
+      "path": "projects/hyrule/index.html",
+      "status": 200,
+      "bytes": 11348,
+      "sha256": "0773c5fa76a0f48fb05a907e42192465ffe6ea8be8fcd13b24b88aa53116a584",
+      "expected": "0773c5fa76a0f48fb05a907e42192465ffe6ea8be8fcd13b24b88aa53116a584",
+      "matched": true
+    },
+    {
+      "path": "projects/junlugu/index.html",
+      "status": 200,
+      "bytes": 10714,
+      "sha256": "82dfd65523380082884223129f25538c44c23198cd0220423dca5573e7f84ad3",
+      "expected": "82dfd65523380082884223129f25538c44c23198cd0220423dca5573e7f84ad3",
+      "matched": true
+    },
+    {
+      "path": "projects/junxia-comic/index.html",
+      "status": 200,
+      "bytes": 22606,
+      "sha256": "39e5021e9e2139a59b62a7890145428936892b23f3d4a12ae7aa3f1e568c7c75",
+      "expected": "39e5021e9e2139a59b62a7890145428936892b23f3d4a12ae7aa3f1e568c7c75",
+      "matched": true
+    },
+    {
+      "path": "projects/junxia-travels/index.html",
+      "status": 200,
+      "bytes": 10666,
+      "sha256": "e37bd8cc8e5fdf9bdadcf05f77b7cb1e70f8fc46114afc022a38adf48c8df34b",
+      "expected": "e37bd8cc8e5fdf9bdadcf05f77b7cb1e70f8fc46114afc022a38adf48c8df34b",
+      "matched": true
+    },
+    {
+      "path": "projects/lehh/index.html",
+      "status": 200,
+      "bytes": 10751,
+      "sha256": "3562e90cfd91c14109b4c3e824c79e21d83e13673661d6b36f7be6c0170540ab",
+      "expected": "3562e90cfd91c14109b4c3e824c79e21d83e13673661d6b36f7be6c0170540ab",
+      "matched": true
+    },
+    {
+      "path": "projects/little-pause/index.html",
+      "status": 200,
+      "bytes": 11155,
+      "sha256": "636e06db5b8a2894372314a77dee0752f31a567828aef93b1ef5a64176aab97d",
+      "expected": "636e06db5b8a2894372314a77dee0752f31a567828aef93b1ef5a64176aab97d",
+      "matched": true
+    },
+    {
+      "path": "projects/little-world/index.html",
+      "status": 200,
+      "bytes": 11142,
+      "sha256": "6aad4e345b3871da50e6789dd0976bf5a87dc6a1b48df19825577e41bf8d17af",
+      "expected": "6aad4e345b3871da50e6789dd0976bf5a87dc6a1b48df19825577e41bf8d17af",
+      "matched": true
+    },
+    {
+      "path": "projects/mbti/index.html",
+      "status": 200,
+      "bytes": 10498,
+      "sha256": "97fa5f13c5ad4dbe5ccd82381e5a0d6b442d4d44aa78e74638f5e8d51e78d1b2",
+      "expected": "97fa5f13c5ad4dbe5ccd82381e5a0d6b442d4d44aa78e74638f5e8d51e78d1b2",
+      "matched": true
+    },
+    {
+      "path": "projects/pocket-ged/index.html",
+      "status": 200,
+      "bytes": 10949,
+      "sha256": "ede01ced571a1773b16177bb4d1e58f8eefb50f44277ad3c4eee2f8ea5238f46",
+      "expected": "ede01ced571a1773b16177bb4d1e58f8eefb50f44277ad3c4eee2f8ea5238f46",
+      "matched": true
+    },
+    {
+      "path": "projects/pocofocus/index.html",
+      "status": 200,
+      "bytes": 10664,
+      "sha256": "694047517d677b7413ab2d371f884e2890697827d9f2020d6c7c6b4df2d7d602",
+      "expected": "694047517d677b7413ab2d371f884e2890697827d9f2020d6c7c6b4df2d7d602",
+      "matched": true
+    },
+    {
+      "path": "projects/qiya-herbarium/index.html",
+      "status": 200,
+      "bytes": 10855,
+      "sha256": "1cc902d20bbb6c50d2bdf3b58b31fd2c31fa5d443fbb048cd300625566eb013d",
+      "expected": "1cc902d20bbb6c50d2bdf3b58b31fd2c31fa5d443fbb048cd300625566eb013d",
+      "matched": true
+    },
+    {
+      "path": "projects/school-secret-lab/index.html",
+      "status": 200,
+      "bytes": 21428,
+      "sha256": "d6dac56f723982db285bdd4e5b7a139ee25932ae965531b83f93a4aa44758cb8",
+      "expected": "d6dac56f723982db285bdd4e5b7a139ee25932ae965531b83f93a4aa44758cb8",
+      "matched": true
+    },
+    {
+      "path": "projects/snow-duel/index.html",
+      "status": 200,
+      "bytes": 10776,
+      "sha256": "382ee7bf1dd62180a58499ecd0ab2a2ec39ec504c7d1cbce5c4d0871a4f96352",
+      "expected": "382ee7bf1dd62180a58499ecd0ab2a2ec39ec504c7d1cbce5c4d0871a4f96352",
+      "matched": true
+    },
+    {
+      "path": "projects/taste/index.html",
+      "status": 200,
+      "bytes": 11795,
+      "sha256": "d14ca9c9e0fdfcd04c25d51fb2d89582bfe112c8c04ea1b9743473e50f74a4fd",
+      "expected": "d14ca9c9e0fdfcd04c25d51fb2d89582bfe112c8c04ea1b9743473e50f74a4fd",
+      "matched": true
+    },
+    {
+      "path": "projects/the-perfect-run/index.html",
+      "status": 200,
+      "bytes": 11421,
+      "sha256": "3e330950e5ab2390b7d77c436d236f13db19b5a21b045a314b46344c978afdfd",
+      "expected": "3e330950e5ab2390b7d77c436d236f13db19b5a21b045a314b46344c978afdfd",
+      "matched": true
+    },
+    {
+      "path": "projects/today/index.html",
+      "status": 200,
+      "bytes": 9889,
+      "sha256": "91c78e94ea57a7f1b6de36e4b83db1ff92c4c6f6d371db85002334443756c553",
+      "expected": "91c78e94ea57a7f1b6de36e4b83db1ff92c4c6f6d371db85002334443756c553",
+      "matched": true
+    },
+    {
+      "path": "projects/wbw/index.html",
+      "status": 200,
+      "bytes": 11004,
+      "sha256": "9ced6f23433b00d39f53d268242fb987c32a4df4461826309269e52764bf776d",
+      "expected": "9ced6f23433b00d39f53d268242fb987c32a4df4461826309269e52764bf776d",
+      "matched": true
+    },
+    {
+      "path": "projects/yuzu-island/index.html",
+      "status": 200,
+      "bytes": 10319,
+      "sha256": "537809f28577f31f2424d743afde179a1658cebcd0d038e2c74558601a85f42f",
+      "expected": "537809f28577f31f2424d743afde179a1658cebcd0d038e2c74558601a85f42f",
+      "matched": true
+    },
+    {
+      "path": "release.json",
+      "status": 200,
+      "bytes": 91,
+      "sha256": "f8dec6d50ccf9155da7e0740a33a31301d7a124b5329ba2244b70b2f5704e5e2",
+      "expected": "f8dec6d50ccf9155da7e0740a33a31301d7a124b5329ba2244b70b2f5704e5e2",
+      "matched": true
+    },
+    {
+      "path": "sitemap-0.xml",
+      "matched": true,
+      "status": 200,
+      "bytes": 3433,
+      "sha256": "914dd2c0bb4c3952513b2fb769c7eb59e1df74f97be76069f840277fcc14cb82",
+      "expected": "914dd2c0bb4c3952513b2fb769c7eb59e1df74f97be76069f840277fcc14cb82"
+    }
+  ],
+  "matched": 54,
+  "total": 54,
+  "transientReadErrors": [
+    {
+      "path": "index.html",
+      "matched": false,
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    },
+    {
+      "path": "sitemap-0.xml",
+      "matched": false,
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    }
+  ]
+}

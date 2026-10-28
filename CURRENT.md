@@ -1,5 +1,13 @@
 # 当前状态
 
+## 认知偏好 · MBTI 中文测试入口（2026-10-28，已发布并回读）
+
+[作品详情](https://hi.fangs.cc/projects/mbti/)已加入首页与应用分类，[搜索MBTI](https://hi.fangs.cc/?view=apps&q=MBTI)可直接找到并打开[中文测试](https://mbti.fangs.cc/)。共22件作品，原21件保留。封面为正式站匿名首屏，正文保留Michael Caloz署名、原版入口与中文译本说明。
+
+源 `0b8d753`、Pages `c2b9481`；GitHub built、release.json及54/54变更公开文件哈希一致（两项TLS瞬断重读后匹配）。48页构建、TypeScript与1089字字体覆盖通过；本地1440/390px全部22详情往返、正式1440/390px与深色、无JS、搜索→详情→返回焦点、封面加载和Hi→MBTI跨站点击通过，无页面或控制台错误。真实手机/Safari与MBTI题目计分未在本轮重验。
+
+[发布回执](docs/releases/2026-10-28-mbti-publication.json) · [文件核验](docs/releases/2026-10-28-mbti-integrity.json)。后续记录提交不代表再次部署。
+
 ## Today 家庭每日报纸入口（2026-10-19，已发布并回读）
 
 [Today 作品详情](https://hi.fangs.cc/projects/today/)已加入首页与阅读分类，[搜索入口](https://hi.fangs.cc/?view=reading&q=Today)可直接找到并打开 [Today](https://today.fangs.cc/)。共21件作品，原20件保留；封面为正式匿名登录页，口令框为空，公开文案仅说明生活发现、提案与作品的阅读入口及家庭口令要求。

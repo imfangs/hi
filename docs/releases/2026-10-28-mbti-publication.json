@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-28",
+  "source": "0b8d75366549a96b380752f3e1cbdc0ccf32bf20",
+  "pages": "c2b9481e79a7b853d9ec77f1893636572f433868",
+  "github_status": "built",
+  "release_matched": true,
+  "public_files_matched": 54,
+  "public_files_total": 54,
+  "entry": "https://hi.fangs.cc/projects/mbti/",
+  "search": "https://hi.fangs.cc/?view=apps&q=MBTI",
+  "scope": "Added the cognitive preferences test to the apps gallery, with a real public homepage cover, description, source attribution and launch link. Preserved all 21 prior works.",
+  "asset": {
+    "source": "https://mbti.fangs.cc/",
+    "sourceDimensions": [
+      1200,
+      750
+    ],
+    "outputDimensions": [
+      1200,
+      750
+    ],
+    "sourceSha256": "1ae445c47e835911fbd247d8a0b22d527eea1c98df2f560e38912bf0d93e9dbc",
+    "sha256": "f39c83c6296f81f7cdf13fabe8db10a8d1eef5f5e083e6e25442a6d2ba79cffc",
+    "bytes": 36636
+  },
+  "validation": {
+    "build": "48 pages",
+    "typescript": "passed",
+    "fontCoverage": 1089,
+    "sourceFilesMatchValidatedCheckout": true
+  },
+  "local_browser": {
+    "date": "2026-10-28",
+    "base": "http://127.0.0.1:4238/",
+    "mode": "local",
+    "browser": "Playwright / isolated Chrome; Browser plugin not available",
+    "checks": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "colorScheme": "light",
+        "works": 22,
+        "apps": 5,
+        "search": true,
+        "cover": true,
+        "detail": true,
+        "queryAndFocusRestored": true,
+        "externalClick": true,
+        "detailsChecked": 22
+      },
+      {
+        "name": "phone",
+        "width": 390,
+        "height": 844,
+        "colorScheme": "light",
+        "works": 22,
+        "apps": 5,
+        "search": true,
+        "cover": true,
+        "detail": true,
+        "queryAndFocusRestored": true,
+        "externalClick": false,
+        "detailsChecked": 22
+      },
+      {
+        "name": "dark",
+        "width": 390,
+        "height": 844,
+        "colorScheme": "dark",
+        "works": 22,
+        "apps": 5,
+        "search": true,
+        "cover": true,
+        "detail": true,
+        "queryAndFocusRestored": true,
+        "externalClick": false,
+        "detailsChecked": 0
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Browser viewports, not physical phones or Safari.",
+      "MBTI questionnaire logic was not changed or re-audited."
+    ],
+    "noJavaScript": true,
+    "passed": true,
+    "visualReadback": "Desktop and 390px cards show the complete real homepage cover; the title, CTA and source link remain legible. The detail title wraps within its column, both action buttons fit, and dark mode retains contrast with no clipping."
+  },
+  "public_browser": {
+    "date": "2026-10-28",
+    "base": "https://hi.fangs.cc/",
+    "mode": "public",
+    "browser": "Playwright / isolated Chrome; Browser plugin not available",
+    "checks": [
+      {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "colorScheme": "light",
+        "works": 22,
+        "apps": 5,
+        "search": true,
+        "cover": true,
+        "detail": true,
+        "queryAndFocusRestored": true,
+        "externalClick": true,
+        "detailsChecked": 0
+      },
+      {
+        "name": "phone",
+        "width": 390,
+        "height": 844,
+        "colorScheme": "light",
+        "works": 22,
+        "apps": 5,
+        "search": true,
+        "cover": true,
+        "detail": true,
+        "queryAndFocusRestored": true,
+        "externalClick": false,
+        "detailsChecked": 0
+      },
+      {
+        "name": "dark",
+        "width": 390,
+        "height": 844,
+        "colorScheme": "dark",
+        "works": 22,
+        "apps": 5,
+        "search": true,
+        "cover": true,
+        "detail": true,
+        "queryAndFocusRestored": true,
+        "externalClick": false,
+        "detailsChecked": 0
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Browser viewports, not physical phones or Safari.",
+      "MBTI questionnaire logic was not changed or re-audited."
+    ],
+    "noJavaScript": true,
+    "passed": true
+  },
+  "integrity": "2026-10-28-mbti-integrity.json",
+  "limits": [
+    "Browser viewports, not physical phones or Safari.",
+    "MBTI scoring and questionnaire were not changed or re-audited."
+  ]
+}
